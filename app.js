@@ -47,6 +47,7 @@
     const [reveal, setReveal] = useState(false);
     const [paused, setPaused] = useState(false);
     const [timeLeft, setTimeLeft] = useState(questionTime);
+    const [gotoValue, setGotoValue] = useState("");
 
     // Players
     const [players, setPlayers] = useState([]);
@@ -122,6 +123,18 @@
       setIndex(i => i + 1); setReveal(false); setPaused(false); setTimeLeft(questionTime); S.start();
     }
     function resetTimer(){ setTimeLeft(questionTime); }
+    function gotoQuestion(){
+      const n = parseInt(gotoValue, 10);
+      if(!isNaN(n) && n >= 1 && n <= Math.min(rounds, order.length)){
+        setIndex(n - 1);
+        setReveal(false);
+        setPaused(false);
+        setTimeLeft(questionTime);
+        setStarted(true);
+        setGotoValue("");
+        S.start();
+      }
+    }
     function goHome(){ setStarted(false); setReveal(false); setPaused(false); }
 
     // Players
@@ -204,14 +217,14 @@
           ),
           React.createElement("div", { className: "flex gap-2 mb-3" },
             React.createElement("input", { value: newPlayerName, onChange: (e)=>setNewPlayerName(e.target.value), placeholder: "Player name",
-              className: "w-28 sm:w-32 px-3 py-2 rounded-xl bg-white/80 text-black flex-none" }),
+              className: "w-[92px] sm:w-[108px] px-3 py-2 rounded-xl bg-white/80 text-black flex-none" }),
             React.createElement("button", { onClick: addPlayer, className: "px-3 py-2 rounded-xl bg-emerald-400 text-black font-bold" }, "Add")
           ),
           React.createElement("div", { className: "flex-1 min-h-0 overflow-auto pr-1" },
             [...players].sort((a,b)=>b.score-a.score).map(p =>
               React.createElement("div", { key: p.id, className: "mb-2 p-2 rounded-xl bg-black/25 flex items-center gap-2" },
                 React.createElement("input", { value: p.name, onChange:(e)=>rename(p.id, e.target.value),
-                  className: "w-28 sm:w-32 px-2 py-1 rounded bg-white/80 text-black flex-none text-sm" }),
+                  className: "w-[92px] sm:w-[108px] px-2 py-1 rounded bg-white/80 text-black flex-none text-sm" }),
                 React.createElement("div", { className: "w-12 text-center text-2xl font-black" }, p.score),
                 React.createElement("div", { className: "flex gap-1" },
                   React.createElement("button", { onClick: ()=>bump(p.id,+1), className: "px-2 py-1 rounded bg-emerald-400 text-black font-bold" }, "+1"),
@@ -237,7 +250,9 @@
               React.createElement("button", { onClick: resetTimer, className: "px-3 py-2 rounded-xl bg-white/20 hover:bg-white/30" }, "Reset"),
               !started
                 ? React.createElement("button", { onClick: startGame, className: "px-4 py-2 rounded-xl bg-black/70 hover:bg-black/80 font-bold" }, "▶ Start")
-                : React.createElement("button", { onClick: nextQuestion, className: "px-4 py-2 rounded-xl bg-black/70 hover:bg-black/80 font-bold" }, "Next Question")
+                : React.createElement("button", { onClick: nextQuestion, className: "px-4 py-2 rounded-xl bg-black/70 hover:bg-black/80 font-bold" }, "Next Question"),
+              React.createElement("input", { type: "number", min: 1, max: rounds, value: gotoValue, onChange: (e)=>setGotoValue(e.target.value), placeholder: "#", className: "w-16 px-2 py-1 rounded bg-white/80 text-black text-sm" }),
+              React.createElement("button", { onClick: gotoQuestion, className: "px-3 py-2 rounded-xl bg-white/20 hover:bg-white/30 font-bold" }, "Go")
             )
           ),
           // Question card
@@ -269,7 +284,8 @@
               React.createElement("select", { value: activeSetIdx, onChange: (e)=>setActiveSetIdx(Number(e.target.value)), className: "px-2 py-1 rounded bg-white/80 text-black" },
                 sets.map((s, i) => React.createElement("option", { key: i, value: i }, `${s.name} (${s.problems.length})`))
               ),
-              React.createElement("button", { onClick: ()=>setOrder(shuffle([...Array(bank.length).keys()])), className: "px-3 py-1 rounded bg-white/20 hover:bg-white/30" }, "Shuffle")
+              React.createElement("button", { onClick: ()=>setOrder(shuffle([...Array(bank.length).keys()])), className: "px-3 py-1 rounded bg-white/20 hover:bg-white/30" }, "Shuffle"),
+              React.createElement("button", { onClick: ()=>setOrder([...Array(bank.length).keys()]), className: "px-3 py-1 rounded bg-white/20 hover:bg-white/30" }, "In Order")
             ),
             React.createElement("p", { className: "text-xs opacity-80" },
               "This page auto-loads ", React.createElement("code", null, "question_bank.json"), " from the same folder. ",
