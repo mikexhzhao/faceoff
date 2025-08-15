@@ -59,6 +59,8 @@
     const [bgVol, setBgVol] = useState(0.3);
     const [bgPlaying, setBgPlaying] = useState(false);
     const audioRef = useRef(null);
+    const questionRef = useRef(null);
+    const answerRef = useRef(null);
 
     // Fetch question bank on mount
     useEffect(() => {
@@ -164,6 +166,22 @@
       } catch { return img; }
     }
 
+    useEffect(() => {
+      if (window.renderMathInElement) {
+        const opts = {
+          delimiters: [
+            { left: "$$", right: "$$", display: true },
+            { left: "$", right: "$", display: false },
+            { left: "\\(", right: "\\)", display: false },
+            { left: "\\[", right: "\\]", display: true }
+          ],
+          throwOnError: false
+        };
+        if (questionRef.current) window.renderMathInElement(questionRef.current, opts);
+        if (answerRef.current) window.renderMathInElement(answerRef.current, opts);
+      }
+    }, [currentProblem, reveal]);
+
     return React.createElement("div", { className: "min-h-screen flex flex-col w-full text-white overflow-hidden" },
       // Header
       React.createElement("div", { className: "shrink-0 flex flex-wrap items-center justify-between gap-3 p-3 backdrop-blur-md bg-white/10 border-b border-white/20" },
@@ -262,7 +280,10 @@
               React.createElement("button", { onClick: ()=>setReveal(r=>!r), className: "px-3 py-1 rounded-full text-xs bg-emerald-400 text-black font-bold border border-emerald-900/20 shadow" },
                 reveal ? "Hide Answer" : "Reveal Answer")
             ),
-            React.createElement("div", { className: `${started ? "text-2xl md:text-4xl" : "text-xl md:text-2xl"} font-bold leading-snug drop-shadow-sm` },
+            React.createElement("div", {
+              className: `${started ? "text-2xl md:text-4xl" : "text-xl md:text-2xl"} font-bold leading-snug drop-shadow-sm`,
+              ref: questionRef
+            },
               currentProblem?.q ?? "Load question_bank.json to begin."
             ),
             currentProblem?.image && React.createElement("div", { className: "mt-4" },
@@ -270,7 +291,7 @@
             ),
             reveal && React.createElement("div", { className: "mt-4 p-3 rounded-2xl bg-emerald-400/20 border border-emerald-300/40" },
               React.createElement("div", { className: "text-sm opacity-80" }, "Answer"),
-              React.createElement("div", { className: "text-2xl font-extrabold text-emerald-200" }, String(currentProblem?.answer ?? ""))
+              React.createElement("div", { className: "text-2xl font-extrabold text-emerald-200", ref: answerRef }, String(currentProblem?.answer ?? ""))
             ),
             started && React.createElement("div", { className: "mt-6 w-full flex justify-center" },
               React.createElement("button", { onClick: goHome, className: "px-5 py-2 rounded-2xl bg-white/20 hover:bg-white/30 border border-white/30" }, "⟵ Home")

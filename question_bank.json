@@ -5,247 +5,247 @@
       "problems": [
         {
           "q": "The first term of an arithmetic sequence is 0.4, and the common difference is 0.4. What is the 7th term?",
-          "answer": 2.8,
+          "answer": "$2.8$",
           "image": ""
         },
         {
           "q": "The first term of a geometric sequence is 0.5, and the second term is 1.0. What is the 6th term?",
-          "answer": 16,
+          "answer": "$16$",
           "image": ""
         },
         {
           "q": "What is the height of a cone which has the same base and the same volume as a cylinder of height 12 cm?",
-          "answer": 36,
+          "answer": "$36$",
           "image": ""
         },
         {
-          "q": "Compute 12+23+34+45+56+67+78+89.",
-          "answer": 404,
+          "q": "Compute $12+23+34+45+56+67+78+89$.",
+          "answer": "$404$",
           "image": ""
         },
         {
-          "q": "Marcus bought 3 two-inch binders at $4.80 each and 5 one-inch binders at $2.90 each. What was his average cost, in dollars, per binder? Round to the nearest cent.",
-          "answer": 3.61,
+          "q": "Marcus bought 3 two-inch binders at 4.80 each and 5 one-inch binders at 2.90 each. What was his average cost, in dollars, per binder? Round to the nearest cent.",
+          "answer": "$3.61$",
           "image": ""
         },
         {
           "q": "If 4x + 7y = 330 and 7x + 4y = 297, what is x + y?",
-          "answer": 57,
+          "answer": "$57$",
           "image": ""
         },
         {
           "q": "What is the sum of all the positive integers that are perfect cubes and less than 200?",
-          "answer": 225,
+          "answer": "$225$",
           "image": ""
         },
         {
           "q": "A machine fills 30 bags of rice in 3 hours. At this rate, how many bags can it fill in 18 minutes?",
-          "answer": 3,
+          "answer": "$3$",
           "image": ""
         },
         {
           "q": "In a right triangle, the hypotenuse has length 25 and one leg has length 7. What is the area of the triangle?",
-          "answer": 84,
+          "answer": "$84$",
           "image": ""
         },
         {
           "q": "In an election, Alice got 55% of the votes and Bob got the rest. If Alice got 150 more votes than Bob, how many people voted?",
-          "answer": 1500,
+          "answer": "$1500$",
           "image": ""
         },
         {
-          "q": "What is the sum of the decimal digits of 10^7 − 9?",
-          "answer": 64,
+          "q": "What is the sum of the decimal digits of 10^7 - 9?",
+          "answer": "$64$",
           "image": ""
         },
         {
           "q": "The sum of all the positive integers from 1 to n (inclusive) is greater than 300. What is the smallest possible value of n?",
-          "answer": 25,
+          "answer": "$25$",
           "image": ""
         },
         {
-          "q": "How many positive factors of 2^6 × 5^4 × 7^3 are perfect squares?",
-          "answer": 24,
+          "q": "How many positive factors of 2^6 \\times 5^4 \\times 7^3 are perfect squares?",
+          "answer": "$24$",
           "image": ""
         },
         {
-          "q": "If x ⋄ y = x^2 + 2xy + y^2, what is the value of 4 ⋄ 9?",
-          "answer": 169,
+          "q": "If x \u22c4 y = x^2 + 2xy + y^2, what is the value of 4 \u22c4 9?",
+          "answer": "$169$",
           "image": ""
         },
         {
           "q": "A machine produces one part every 24 hours. How many parts will it produce in 10 weeks?",
-          "answer": 70,
+          "answer": "$70$",
           "image": ""
         },
         {
           "q": "A rectangular patio is 12 metres by 18 metres. How many cubic metres of concrete are needed to cover it with a 7 cm thick layer?",
-          "answer": 15.12,
+          "answer": "$15.12$",
           "image": ""
         },
         {
           "q": "The sum of two different positive integers is 18. What is the smallest possible value of the sum of their squares?",
-          "answer": 164,
+          "answer": "$164$",
           "image": ""
         },
         {
-          "q": "The volume of a sphere is 288π cubic cm. What is the radius, in cm?",
-          "answer": 6,
+          "q": "The volume of a sphere is 288\u03c0 cubic cm. What is the radius, in cm?",
+          "answer": "$6$",
           "image": ""
         },
         {
           "q": "A team played 60 games and lost 18 more games than it won. How many games did it win?",
-          "answer": 21,
+          "answer": "$21$",
           "image": ""
         },
         {
-          "q": "The daily rainfall (in mm) for one week was: 14, 9, 13, 18, 11, 16, 12. What was the average daily rainfall (in mm)?",
-          "answer": 13.3,
+          "q": "The daily rainfall (in mm) for one week was: $14, 9, 13, 18, 11, 16, 12$. What was the average daily rainfall (in mm)?",
+          "answer": "$13.3$",
           "image": ""
         },
         {
           "q": "What number is halfway between 1325 and 2011?",
-          "answer": 1668,
+          "answer": "$1668$",
           "image": ""
         },
         {
           "q": "In old British coinage, a 1 shilling coin was worth 12 pence, and a 1 pound coin was worth 20 shillings. What was the value, in pence, of 2 pounds, 7 shillings, and 8 pence?",
-          "answer": 572,
+          "answer": "$572$",
           "image": ""
         },
         {
-          "q": "FruitCo sells mangos at 6 for $5.00. PriceMax sells mangos at 4 for $4.80. How many more dollars does it cost to buy 24 mangos at PriceMax than at FruitCo?",
-          "answer": 8.8,
+          "q": "FruitCo sells mangos at 6 for 5.00. PriceMax sells mangos at 4 for 4.80. How many more dollars does it cost to buy 24 mangos at PriceMax than at FruitCo?",
+          "answer": "$8.8$",
           "image": ""
         },
         {
           "q": "What is the smallest positive integer that does not divide 720?",
-          "answer": 7,
+          "answer": "$7$",
           "image": ""
         },
         {
-          "q": "Evaluate 1 + 1/(1 + 1/(1 + 1/1)). Express your answer as a common fraction.",
-          "answer": "5/3",
+          "q": "Evaluate $1 + 1/(1 + 1/(1 + \\frac{1}{1}))$. Express your answer as a common fraction.",
+          "answer": "$\\frac{5}{3}$",
           "image": ""
         },
         {
           "q": "The numbers 1, 2, 3, ..., 14, 15 can be divided into three groups so that the sum S of the numbers in any group is the same. What is S?",
-          "answer": 40,
+          "answer": "$40$",
           "image": ""
         },
         {
-          "q": "Alicia picks an integer at random from 1 to 8. Beth independently picks an integer from 1 to 8. What is the probability that Alicia’s number is greater than Beth’s? Express as a common fraction.",
-          "answer": "7/16",
+          "q": "Alicia picks an integer at random from 1 to 8. Beth independently picks an integer from 1 to 8. What is the probability that Alicia\u2019s number is greater than Beth\u2019s? Express as a common fraction.",
+          "answer": "$\\frac{7}{16}$",
           "image": ""
         },
         {
-          "q": "The price of a jacket increased by 15% to $92.00. What was the original price, in dollars?",
-          "answer": 80,
+          "q": "The price of a jacket increased by 15% to 92.00. What was the original price, in dollars?",
+          "answer": "$80$",
           "image": ""
         },
         {
           "q": "A car travels at a constant speed of 60 km/h for 90 minutes. How many kilometres does it travel?",
-          "answer": 90,
+          "answer": "$90$",
           "image": ""
         },
         {
           "q": "What is the least common multiple of 84 and 60?",
-          "answer": 420,
+          "answer": "$420$",
           "image": ""
         },
         {
           "q": "What is the sum of the digits of 2^10?",
-          "answer": 7,
+          "answer": "$7$",
           "image": ""
         },
         {
           "q": "A rectangle has perimeter 94 cm and length 30 cm. What is its area in square centimetres?",
-          "answer": 510,
+          "answer": "$510$",
           "image": ""
         },
         {
           "q": "Convert the binary number 101101 to decimal.",
-          "answer": 45,
+          "answer": "$45$",
           "image": ""
         },
         {
           "q": "A student's first three test scores are 78, 84, and 92. What score is needed on the fourth test to have an average of 85?",
-          "answer": 86,
+          "answer": "$86$",
           "image": ""
         },
         {
           "q": "How many positive divisors does 360 have?",
-          "answer": 24,
+          "answer": "$24$",
           "image": ""
         },
         {
           "q": "What is the remainder when 12345 is divided by 9?",
-          "answer": 6,
+          "answer": "$6$",
           "image": ""
         },
         {
           "q": "What is the sum of the interior angles of a 12-sided polygon, in degrees?",
-          "answer": 1800,
+          "answer": "$1800$",
           "image": ""
         },
         {
           "q": "A circle has circumference 31.4. What is its area? Round to one decimal place.",
-          "answer": 78.5,
+          "answer": "$78.5$",
           "image": ""
         },
         {
           "q": "One painter can paint a room in 6 hours and another in 8 hours. Working together, how many hours will it take? Round to the nearest tenth.",
-          "answer": 3.4,
+          "answer": "$3.4$",
           "image": ""
         },
         {
           "q": "A standard deck has 52 cards. What is the probability of drawing a heart? Express as a common fraction.",
-          "answer": "1/4",
+          "answer": "$\\frac{1}{4}$",
           "image": ""
         },
         {
           "q": "For the data set 2, 3, 3, 4, 5, 5, 5, 6, what is the mode?",
-          "answer": 5,
+          "answer": "$5$",
           "image": ""
         },
         {
-          "q": "Evaluate 3^2 × 3^4.",
-          "answer": 729,
+          "q": "Evaluate $3^2 \\times 3^4$.",
+          "answer": "$729$",
           "image": ""
         },
         {
-          "q": "Solve for x: 5x + 7 = 42.",
-          "answer": 7,
+          "q": "Solve for x: $5x + 7 = 42$",
+          "answer": "$7$",
           "image": ""
         },
         {
           "q": "What is the distance between (3, 4) and (10, 12)? Express your answer in simplest radical form.",
-          "answer": "sqrt(113)",
+          "answer": "$sqrt(113)$",
           "image": ""
         },
         {
           "q": "How many distinct arrangements are there of the letters in the word LEVEL?",
-          "answer": 30,
+          "answer": "$30$",
           "image": ""
         },
         {
-          "q": "An item priced at $80 is discounted by 25%. What is the sale price?",
-          "answer": 60,
+          "q": "An item priced at 80 is discounted by 25%. What is the sale price?",
+          "answer": "$60$",
           "image": ""
         },
         {
-          "q": "Split $84 between Alice and Bob in the ratio 3:4. How many dollars does Bob receive?",
-          "answer": 48,
+          "q": "Split 84 between Alice and Bob in the ratio 3: $4$. How many dollars does Bob receive?",
+          "answer": "$48$",
           "image": ""
         },
         {
-          "q": "If 2x + 3y = 31 and 3x + 2y = 29, what is x − y?",
-          "answer": -2,
+          "q": "If 2x + 3y = 31 and 3x + 2y = 29, what is x - y?",
+          "answer": "$-2$",
           "image": ""
         },
         {
           "q": "A car travels 60 km at 30 km/h and then 60 km at 60 km/h. What is the average speed for the entire trip, in km/h?",
-          "answer": 40,
+          "answer": "$40$",
           "image": ""
         }
       ]
@@ -254,103 +254,103 @@
       "name": "Systems of Linear Equations",
       "problems": [
         {
-          "q": "Solve the system: 4x + y = 17; 3x − y = 4. Express your answer as an ordered pair (x, y).",
-          "answer": "(3, 5)",
+          "q": "Solve the system: $4x + y = 17; 3x - y = 4$. Express your answer as an ordered pair (x, y).",
+          "answer": "$(3, 5)$",
           "image": ""
         },
         {
-          "q": "Solve the system: x + y = 1; 3x − 2y = 8. Express your answer as an ordered pair (x, y).",
-          "answer": "(2, -1)",
+          "q": "Solve the system: $x + y = 1; 3x - 2y = 8$. Express your answer as an ordered pair (x, y).",
+          "answer": "$(2, -1)$",
           "image": ""
         },
         {
-          "q": "Solve the system: 2x + y = 15; x − y = −3. Express your answer as an ordered pair (x, y).",
-          "answer": "(4, 7)",
+          "q": "Solve the system: $2x + y = 15; x - y = -3$. Express your answer as an ordered pair (x, y).",
+          "answer": "$(4, 7)$",
           "image": ""
         },
         {
-          "q": "Solve the system: x + 2y = 10; 3x − y = −12. Express your answer as an ordered pair (x, y).",
-          "answer": "(-2, 6)",
+          "q": "Solve the system: $x + 2y = 10; 3x - y = -12$. Express your answer as an ordered pair (x, y).",
+          "answer": "$(-2, 6)$",
           "image": ""
         },
         {
-          "q": "Solve the system: 2x − y = 13; x + 4y = −7. Express your answer as an ordered pair (x, y).",
-          "answer": "(5, -3)",
+          "q": "Solve the system: $2x - y = 13; x + 4y = -7$. Express your answer as an ordered pair (x, y).",
+          "answer": "$(5, -3)$",
           "image": ""
         },
         {
-          "q": "Solve the system: 2x + 2y = 7; 4x − y = −1. Express your answer as an ordered pair (x, y).",
-          "answer": "(1/2, 3)",
+          "q": "Solve the system: $2x + 2y = 7; 4x - y = -1$. Express your answer as an ordered pair (x, y).",
+          "answer": "$(\\frac{1}{2}, 3)$",
           "image": ""
         },
         {
-          "q": "Solve the system: 2x + 4y = −11; x − y = 1/2. Express your answer as an ordered pair (x, y).",
-          "answer": "(-3/2, -2)",
+          "q": "Solve the system: $2x + 4y = -11; x - y = \\frac{1}{2}$. Express your answer as an ordered pair (x, y).",
+          "answer": "$(-\\frac{3}{2}, -2)$",
           "image": ""
         },
         {
-          "q": "Solve the system: x + y = 8; 5x − y = −8. Express your answer as an ordered pair (x, y).",
-          "answer": "(0, 8)",
+          "q": "Solve the system: $x + y = 8; 5x - y = -8$. Express your answer as an ordered pair (x, y).",
+          "answer": "$(0, 8)$",
           "image": ""
         },
         {
-          "q": "Solve the system: x − 2y = 7; 3x + y = 28. Express your answer as an ordered pair (x, y).",
-          "answer": "(9, 1)",
+          "q": "Solve the system: $x - 2y = 7; 3x + y = 28$. Express your answer as an ordered pair (x, y).",
+          "answer": "$(9, 1)$",
           "image": ""
         },
         {
-          "q": "Solve the system: 2x + y = −13; x − 3y = 11. Express your answer as an ordered pair (x, y).",
-          "answer": "(-4, -5)",
+          "q": "Solve the system: $2x + y = -13; x - 3y = 11$. Express your answer as an ordered pair (x, y).",
+          "answer": "$(-4, -5)$",
           "image": ""
         },
         {
-          "q": "Solve the system: 3x + y = 16; x − 4y = 14. Express your answer as an ordered pair (x, y).",
-          "answer": "(6, -2)",
+          "q": "Solve the system: $3x + y = 16; x - 4y = 14$. Express your answer as an ordered pair (x, y).",
+          "answer": "$(6, -2)$",
           "image": ""
         },
         {
-          "q": "Solve the system: x + y = 11; 2x − y = 10. Express your answer as an ordered pair (x, y).",
-          "answer": "(7, 4)",
+          "q": "Solve the system: $x + y = 11; 2x - y = 10$. Express your answer as an ordered pair (x, y).",
+          "answer": "$(7, 4)$",
           "image": ""
         },
         {
-          "q": "Solve the system: 5x + 2y = 9; 3x − y = 1. Express your answer as an ordered pair (x, y).",
-          "answer": "(1, 2)",
+          "q": "Solve the system: $5x + 2y = 9; 3x - y = 1$. Express your answer as an ordered pair (x, y).",
+          "answer": "$(1, 2)$",
           "image": ""
         },
         {
-          "q": "Solve the system: 2x + y = 8; 4x − y = −14. Express your answer as an ordered pair (x, y).",
-          "answer": "(-1, 10)",
+          "q": "Solve the system: $2x + y = 8; 4x - y = -14$. Express your answer as an ordered pair (x, y).",
+          "answer": "$(-1, 10)$",
           "image": ""
         },
         {
-          "q": "Solve the system: x + 2y = 9; 5x − 3y = 58. Express your answer as an ordered pair (x, y).",
-          "answer": "(11, -1)",
+          "q": "Solve the system: $x + 2y = 9; 5x - 3y = 58$. Express your answer as an ordered pair (x, y).",
+          "answer": "$(11, -1)$",
           "image": ""
         },
         {
-          "q": "Solve the system: 4x − 8y = 7; 2x + y = 1. Express your answer as an ordered pair (x, y).",
-          "answer": "(3/4, -1/2)",
+          "q": "Solve the system: $4x - 8y = 7; 2x + y = 1$. Express your answer as an ordered pair (x, y).",
+          "answer": "$(\\frac{3}{4}, -\\frac{1}{2})$",
           "image": ""
         },
         {
-          "q": "Solve the system: 3x + 5y = −3; 5x − 5y = −13. Express your answer as an ordered pair (x, y).",
-          "answer": "(-2, 3/5)",
+          "q": "Solve the system: $3x + 5y = -3; 5x - 5y = -13$. Express your answer as an ordered pair (x, y).",
+          "answer": "$(-2, \\frac{3}{5})$",
           "image": ""
         },
         {
-          "q": "Solve the system: x − 3y = 7; 6x + 3y = −7. Express your answer as an ordered pair (x, y).",
-          "answer": "(0, -7/3)",
+          "q": "Solve the system: $x - 3y = 7; 6x + 3y = -7$. Express your answer as an ordered pair (x, y).",
+          "answer": "$(0, -\\frac{7}{3})$",
           "image": ""
         },
         {
-          "q": "Solve the system: 2x + 3y = 13; x − y = −1. Express your answer as an ordered pair (x, y).",
-          "answer": "(2, 3)",
+          "q": "Solve the system: $2x + 3y = 13; x - y = -1$. Express your answer as an ordered pair (x, y).",
+          "answer": "$(2, 3)$",
           "image": ""
         },
         {
-          "q": "Solve the system: 3x + 2y = 9; 4x − y = −32. Express your answer as an ordered pair (x, y).",
-          "answer": "(-5, 12)",
+          "q": "Solve the system: $3x + 2y = 9; 4x - y = -32$. Express your answer as an ordered pair (x, y).",
+          "answer": "$(-5, 12)$",
           "image": ""
         }
       ]
@@ -359,253 +359,253 @@
       "name": "Fractions",
       "problems": [
         {
-          "q": "Multiply and simplify: (18/35) × (14/27).",
-          "answer": "4/15",
+          "q": "Multiply and simplify: $(\\frac{18}{35}) \\times (\\frac{14}{27})$",
+          "answer": "$\\frac{4}{15}$",
           "image": ""
         },
         {
-          "q": "Compute 3 5/8 + 2 3/4. Express your answer as a mixed number in simplest form.",
-          "answer": "6 3/8",
+          "q": "Compute $3\\frac{5}{8} + 2\\frac{3}{4}$. Express your answer as a mixed number in simplest form.",
+          "answer": "$6\\frac{3}{8}$",
           "image": ""
         },
         {
-          "q": "Compute: 5 7/8 − 2 3/4. Express your answer as an improper fraction in simplest form.",
-          "answer": "25/8",
+          "q": "Compute: $5\\frac{7}{8} - 2\\frac{3}{4}$. Express your answer as an improper fraction in simplest form.",
+          "answer": "$\\frac{25}{8}$",
           "image": ""
         },
         {
-          "q": "Multiply: 1 2/3 × 3/5. Express as a common fraction.",
-          "answer": "1/1",
+          "q": "Multiply: $1\\frac{2}{3} \\times \\frac{3}{5}$. Express as a common fraction.",
+          "answer": "$1$",
           "image": ""
         },
         {
-          "q": "Long form: \\nEvaluate \\n\\n(1 2/5 + ((3/4 − 1/6) ÷ (5/8))) − [ (2/3) × (1 1/2 − 3/10) ].\\n\\nFollow order of operations carefully and simplify your final answer as a mixed number.",
-          "answer": "1 8/15",
+          "q": "Long form: $\\nEvaluate \\n\\n(1\\frac{2}{5} + ((\\frac{3}{4} - \\frac{1}{6}) \\div (\\frac{5}{8}))) - [ (\\frac{2}{3}) \\times (1\\frac{1}{2} - \\frac{3}{10}) ].\\n\\nFollow order of operations carefully and simplify your final answer as a mixed number$",
+          "answer": "$1\\frac{8}{15}$",
           "image": ""
         },
         {
-          "q": "Compute: (7/10) ÷ (14/25). Express as a common fraction.",
-          "answer": "5/4",
+          "q": "Compute: $(\\frac{7}{10}) \\div (\\frac{14}{25})$. Express as a common fraction.",
+          "answer": "$\\frac{5}{4}$",
           "image": ""
         },
         {
-          "q": "Divide and simplify: (21/25) ÷ (7/10).",
-          "answer": "6/5",
+          "q": "Divide and simplify: $(\\frac{21}{25}) \\div (\\frac{7}{10})$",
+          "answer": "$\\frac{6}{5}$",
           "image": ""
         },
         {
-          "q": "Compute 7 1/5 − 3 7/10. Express your answer as a mixed number in simplest form.",
-          "answer": "3 1/2",
+          "q": "Compute $7\\frac{1}{5} - 3\\frac{7}{10}$. Express your answer as a mixed number in simplest form.",
+          "answer": "$3\\frac{1}{2}$",
           "image": ""
         },
         {
-          "q": "What fraction of 5/6 is 1/3? Express as a common fraction.",
-          "answer": "2/5",
+          "q": "What fraction of \\frac{5}{6} is \\frac{1}{3}? Express as a common fraction.",
+          "answer": "$\\frac{2}{5}$",
           "image": ""
         },
         {
-          "q": "Simplify: 11/6 + 13/4. Express as an improper fraction.",
-          "answer": "41/12",
+          "q": "Simplify: $\\frac{11}{6} + \\frac{13}{4}$. Express as an improper fraction.",
+          "answer": "$\\frac{61}{12}$",
           "image": ""
         },
         {
-          "q": "Compute: 1 2/3 + 2 3/4 + 3 1/6. Express as an improper fraction.",
-          "answer": "65/6",
+          "q": "Compute: $1\\frac{2}{3} + 2\\frac{3}{4} + 3\\frac{1}{6}$. Express as an improper fraction.",
+          "answer": "$\\frac{91}{12}$",
           "image": ""
         },
         {
-          "q": "Find the numerator n so that n/63 is equivalent to 7/9.",
-          "answer": 49,
+          "q": "Find the numerator n so that n/63 is equivalent to \\frac{7}{9}.",
+          "answer": "$49$",
           "image": ""
         },
         {
-          "q": "Compute 2 5/12 + (3/5 ÷ 1 1/4). Express your answer as a mixed number in simplest form.",
-          "answer": "2 269/300",
+          "q": "Compute $2\\frac{5}{12} + (\\frac{3}{5} \\div 1\\frac{1}{4})$. Express your answer as a mixed number in simplest form.",
+          "answer": "$2\\frac{269}{300}$",
           "image": ""
         },
         {
-          "q": "Divide: 4 1/2 ÷ 1 1/3. Express as a common fraction.",
-          "answer": "27/8",
+          "q": "Divide: $4\\frac{1}{2} \\div 1\\frac{1}{3}$. Express as a common fraction.",
+          "answer": "$\\frac{27}{8}$",
           "image": ""
         },
         {
-          "q": "Find the average of 2/5 and 7/10. Express as a common fraction.",
-          "answer": "11/20",
+          "q": "Find the average of \\frac{2}{5} and \\frac{7}{10}. Express as a common fraction.",
+          "answer": "$\\frac{11}{20}$",
           "image": ""
         },
         {
-          "q": "What is the reciprocal of 7/9? Express as a common fraction.",
-          "answer": "9/7",
+          "q": "What is the reciprocal of \\frac{7}{9}? Express as a common fraction.",
+          "answer": "$\\frac{9}{7}$",
           "image": ""
         },
         {
-          "q": "Compute: 1/4 + 2/3 + 5/6. Express as a common fraction.",
-          "answer": "23/12",
+          "q": "Compute: $\\frac{1}{4} + \\frac{2}{3} + \\frac{5}{6}$. Express as a common fraction.",
+          "answer": "$\\frac{7}{4}$",
           "image": ""
         },
         {
-          "q": "Evaluate (2 1/4 + 3 5/6) ÷ (7/8). Express your answer as a mixed number in simplest form.",
-          "answer": "6 20/21",
+          "q": "Evaluate $(2\\frac{1}{4} + 3\\frac{5}{6}) \\div (\\frac{7}{8})$. Express your answer as a mixed number in simplest form.",
+          "answer": "$6\\frac{20}{21}$",
           "image": ""
         },
         {
-          "q": "Simplify: 7/9 - 2/15. Express your answer as a common fraction.",
-          "answer": "29/45",
+          "q": "Simplify: $\\frac{7}{9} - \\frac{2}{15}$. Express your answer as a common fraction.",
+          "answer": "$\\frac{29}{45}$",
           "image": ""
         },
         {
-          "q": "In a class, 5/8 of the students are boys. What fraction are girls?",
-          "answer": "3/8",
+          "q": "In a class, \\frac{5}{8} of the students are boys. What fraction are girls?",
+          "answer": "$\\frac{3}{8}$",
           "image": ""
         },
         {
-          "q": "Compute: 5/6 − 1/2 − 1/3. Express as a common fraction.",
-          "answer": 0,
+          "q": "Compute: $\\frac{5}{6} - \\frac{1}{2} - \\frac{1}{3}$. Express as a common fraction.",
+          "answer": "$0$",
           "image": ""
         },
         {
-          "q": "Simplify: 5/12 + 7/18 - 1/6. Express your answer as a common fraction.",
-          "answer": "23/36",
+          "q": "Simplify: $\\frac{5}{12} + \\frac{7}{18} - \\frac{1}{6}$. Express your answer as a common fraction.",
+          "answer": "$\\frac{23}{36}$",
           "image": ""
         },
         {
-          "q": "Evaluate: (5/8 + 3/10) ÷ (7/20). Express as a common fraction.",
-          "answer": "29/7",
+          "q": "Evaluate: $(\\frac{5}{8} + \\frac{3}{10}) \\div (\\frac{7}{20})$. Express as a common fraction.",
+          "answer": "$\\frac{37}{14}$",
           "image": ""
         },
         {
-          "q": "Divide: 2 1/2 ÷ 5/8. Express as a common fraction.",
-          "answer": "4",
+          "q": "Divide: $2\\frac{1}{2} \\div \\frac{5}{8}$. Express as a common fraction.",
+          "answer": "$4$",
           "image": ""
         },
         {
-          "q": "Compute: 3/8 − 5/6. Express as a common fraction.",
-          "answer": "-11/24",
+          "q": "Compute: $\\frac{3}{8} - \\frac{5}{6}$. Express as a common fraction.",
+          "answer": "$-\\frac{11}{24}$",
           "image": ""
         },
         {
-          "q": "Multiply and simplify: (9/4) × (8/9).",
-          "answer": 2,
+          "q": "Multiply and simplify: $(\\frac{9}{4}) \\times (\\frac{8}{9})$",
+          "answer": "$2$",
           "image": ""
         },
         {
-          "q": "Compute: 4 1/6 − 2 5/9. Express as an improper fraction.",
-          "answer": "7/18",
+          "q": "Compute: $4\\frac{1}{6} - 2\\frac{5}{9}$. Express as an improper fraction.",
+          "answer": "$\\frac{29}{18}$",
           "image": ""
         },
         {
-          "q": "Evaluate 1 3/8 + 2/3 × 3 3/4 (obey order of operations). Express your answer as a mixed number.",
-          "answer": "3 7/8",
+          "q": "Evaluate $1\\frac{3}{8} + \\frac{2}{3} \\times 3\\frac{3}{4} (obey order of operations)$. Express your answer as a mixed number.",
+          "answer": "$3\\frac{7}{8}$",
           "image": ""
         },
         {
-          "q": "Multiply: 3 1/2 × 4/7. Express as a common fraction.",
-          "answer": "2",
+          "q": "Multiply: $3\\frac{1}{2} \\times \\frac{4}{7}$. Express as a common fraction.",
+          "answer": "$2$",
           "image": ""
         },
         {
-          "q": "Find the numerator n so that n/84 is equivalent to 3/7.",
-          "answer": 36,
+          "q": "Find the numerator n so that n/84 is equivalent to \\frac{3}{7}.",
+          "answer": "$36$",
           "image": ""
         },
         {
-          "q": "Multiply and simplify: (14/15) × (9/28).",
-          "answer": "3/10",
+          "q": "Multiply and simplify: $(\\frac{14}{15}) \\times (\\frac{9}{28})$",
+          "answer": "$\\frac{3}{10}$",
           "image": ""
         },
         {
-          "q": "Simplify: (4/9 + 5/12) − 1/6. Express as a common fraction.",
-          "answer": "7/18",
+          "q": "Simplify: $(\\frac{4}{9} + \\frac{5}{12}) - \\frac{1}{6}$. Express as a common fraction.",
+          "answer": "$\\frac{25}{36}$",
           "image": ""
         },
         {
-          "q": "A tank is 3/5 full. After using 1/4 of the tank’s total capacity, what fraction of the tank is filled?",
-          "answer": "7/20",
+          "q": "A tank is \\frac{3}{5} full. After using \\frac{1}{4} of the tank\u2019s total capacity, what fraction of the tank is filled?",
+          "answer": "$\\frac{7}{20}$",
           "image": ""
         },
         {
-          "q": "Compute: (5/12) ÷ (25/18). Express as a common fraction.",
-          "answer": "3/10",
+          "q": "Compute: $(\\frac{5}{12}) \\div (\\frac{25}{18})$. Express as a common fraction.",
+          "answer": "$\\frac{3}{10}$",
           "image": ""
         },
         {
-          "q": "Compute: 2 1/3 + 4 5/6. Express your answer as an improper fraction.",
-          "answer": "37/6",
+          "q": "Compute: $2\\frac{1}{3} + 4\\frac{5}{6}$. Express your answer as an improper fraction.",
+          "answer": "$\\frac{43}{6}$",
           "image": ""
         },
         {
-          "q": "Find 2/3 of 45.",
-          "answer": 30,
+          "q": "Find \\frac{2}{3} of 45.",
+          "answer": "$30$",
           "image": ""
         },
         {
-          "q": "Simplify: (3/5) ÷ (9/25). Express as a common fraction.",
-          "answer": "5/3",
+          "q": "Simplify: $(\\frac{3}{5}) \\div (\\frac{9}{25})$. Express as a common fraction.",
+          "answer": "$\\frac{5}{3}$",
           "image": ""
         },
         {
-          "q": "Divide 5 1/2 ÷ 1 1/3. Express your answer as a mixed number in simplest form.",
-          "answer": "4 1/8",
+          "q": "Divide $5\\frac{1}{2} \\div 1\\frac{1}{3}$. Express your answer as a mixed number in simplest form.",
+          "answer": "$4\\frac{1}{8}$",
           "image": ""
         },
         {
-          "q": "Which is greater: 5/12 or 7/18? Answer with the fraction.",
-          "answer": "5/12",
+          "q": "Which is greater: $\\frac{5}{12} or \\frac{7}{18}? Answer with the fraction$",
+          "answer": "$\\frac{5}{12}$",
           "image": ""
         },
         {
-          "q": "Find x so that x/15 = 3/5.",
-          "answer": 9,
+          "q": "Find x so that x/15 = \\frac{3}{5}.",
+          "answer": "$9$",
           "image": ""
         },
         {
-          "q": "Simplify: 3/4 + 5/6. Express your answer as a common fraction.",
-          "answer": "19/12",
+          "q": "Simplify: $\\frac{3}{4} + \\frac{5}{6}$. Express your answer as a common fraction.",
+          "answer": "$\\frac{19}{12}$",
           "image": ""
         },
         {
-          "q": "Simplify: 11/18 + 7/12. Express as a common fraction.",
-          "answer": "25/18",
+          "q": "Simplify: $\\frac{11}{18} + \\frac{7}{12}$. Express as a common fraction.",
+          "answer": "$\\frac{43}{36}$",
           "image": ""
         },
         {
-          "q": "Evaluate (3 1/2 − 5/6) ÷ 3/4. Express your answer as a mixed number in simplest form.",
-          "answer": "3 5/9",
+          "q": "Evaluate $(3\\frac{1}{2} - \\frac{5}{6}) \\div \\frac{3}{4}$. Express your answer as a mixed number in simplest form.",
+          "answer": "$3\\frac{5}{9}$",
           "image": ""
         },
         {
-          "q": "Evaluate: (7/12) ÷ (14/9). Express as a common fraction.",
-          "answer": "3/8",
+          "q": "Evaluate: $(\\frac{7}{12}) \\div (\\frac{14}{9})$. Express as a common fraction.",
+          "answer": "$\\frac{3}{8}$",
           "image": ""
         },
         {
-          "q": "A recipe uses 3/4 cup of sugar per batch. How much sugar is needed for 2 1/2 batches? Express as a common fraction of a cup.",
-          "answer": "15/8",
+          "q": "A recipe uses \\frac{3}{4} cup of sugar per batch. How much sugar is needed for 2\\frac{1}{2} batches? Express as a common fraction of a cup.",
+          "answer": "$\\frac{15}{8}$",
           "image": ""
         },
         {
-          "q": "Compute 3/4 of 2/5 of 60.",
-          "answer": 18,
+          "q": "Compute $\\frac{3}{4} of \\frac{2}{5} of 60$.",
+          "answer": "$18$",
           "image": ""
         },
         {
-          "q": "Evaluate 6 2/3 − (5/6 × 4/9). Express your answer as a mixed number in simplest form.",
-          "answer": "6 8/27",
+          "q": "Evaluate $6\\frac{2}{3} - (\\frac{5}{6} \\times \\frac{4}{9})$. Express your answer as a mixed number in simplest form.",
+          "answer": "$6\\frac{8}{27}$",
           "image": ""
         },
         {
-          "q": "Multiply 4 2/3 × 1 3/4. Express your answer as a mixed number in simplest form.",
-          "answer": "8 1/6",
+          "q": "Multiply $4\\frac{2}{3} \\times 1\\frac{3}{4}$. Express your answer as a mixed number in simplest form.",
+          "answer": "$8\\frac{1}{6}$",
           "image": ""
         },
         {
-          "q": "Evaluate: (3/5) × (4/9 + 1/3). Express as a common fraction.",
-          "answer": "7/15",
+          "q": "Evaluate: $(\\frac{3}{5}) \\times (\\frac{4}{9} + \\frac{1}{3})$. Express as a common fraction.",
+          "answer": "$\\frac{7}{15}$",
           "image": ""
         },
         {
-          "q": "Evaluate: (1 1/4 − 2/5) × 3/7. Express as a common fraction.",
-          "answer": "3/28",
+          "q": "Evaluate: $(1\\frac{1}{4} - \\frac{2}{5}) \\times \\frac{3}{7}$. Express as a common fraction.",
+          "answer": "$\\frac{51}{140}$",
           "image": ""
         }
       ]
