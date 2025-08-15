@@ -405,12 +405,12 @@
         },
         {
           "q": "Simplify: 11/6 + 13/4. Express as an improper fraction.",
-          "answer": "61/12",
+          "answer": "41/12",
           "image": ""
         },
         {
           "q": "Compute: 1 2/3 + 2 3/4 + 3 1/6. Express as an improper fraction.",
-          "answer": "91/12",
+          "answer": "65/6",
           "image": ""
         },
         {
