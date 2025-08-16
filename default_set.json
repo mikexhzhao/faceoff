@@ -1,0 +1,250 @@
+{
+  "name": "Default Set",
+  "problems": [
+    {
+      "q": "The first term of an arithmetic sequence is 0.4, and the common difference is 0.4. What is the 7th term?",
+      "answer": "$2.8$",
+      "image": ""
+    },
+    {
+      "q": "The first term of a geometric sequence is 0.5, and the second term is 1.0. What is the 6th term?",
+      "answer": "$16$",
+      "image": ""
+    },
+    {
+      "q": "What is the height of a cone which has the same base and the same volume as a cylinder of height 12 cm?",
+      "answer": "$36$",
+      "image": ""
+    },
+    {
+      "q": "Compute $12+23+34+45+56+67+78+89$.",
+      "answer": "$404$",
+      "image": ""
+    },
+    {
+      "q": "Marcus bought 3 two-inch binders at 4.80 each and 5 one-inch binders at 2.90 each. What was his average cost, in dollars, per binder? Round to the nearest cent.",
+      "answer": "$3.61$",
+      "image": ""
+    },
+    {
+      "q": "If 4x + 7y = 330 and 7x + 4y = 297, what is x + y?",
+      "answer": "$57$",
+      "image": ""
+    },
+    {
+      "q": "What is the sum of all the positive integers that are perfect cubes and less than 200?",
+      "answer": "$225$",
+      "image": ""
+    },
+    {
+      "q": "A machine fills 30 bags of rice in 3 hours. At this rate, how many bags can it fill in 18 minutes?",
+      "answer": "$3$",
+      "image": ""
+    },
+    {
+      "q": "In a right triangle, the hypotenuse has length 25 and one leg has length 7. What is the area of the triangle?",
+      "answer": "$84$",
+      "image": ""
+    },
+    {
+      "q": "In an election, Alice got 55% of the votes and Bob got the rest. If Alice got 150 more votes than Bob, how many people voted?",
+      "answer": "$1500$",
+      "image": ""
+    },
+    {
+      "q": "What is the sum of the decimal digits of $10^7-9$?",
+      "answer": "$64$",
+      "image": ""
+    },
+    {
+      "q": "The sum of all the positive integers from 1 to n (inclusive) is greater than 300. What is the smallest possible value of n?",
+      "answer": "$25$",
+      "image": ""
+    },
+    {
+      "q": "How many positive factors of $2^6 \\times 5^4 \\times 7^3$ are perfect squares?",
+      "answer": "$24$",
+      "image": ""
+    },
+    {
+      "q": "If $x\\diamond y = x^2 + 2xy + y^2$, what is the value of $4\\diamond 9$?",
+      "answer": "$169$",
+      "image": ""
+    },
+    {
+      "q": "A machine produces one part every 24 hours. How many parts will it produce in 10 weeks?",
+      "answer": "$70$",
+      "image": ""
+    },
+    {
+      "q": "A rectangular patio is 12 metres by 18 metres. How many cubic metres of concrete are needed to cover it with a 7 cm thick layer?",
+      "answer": "$15.12$",
+      "image": ""
+    },
+    {
+      "q": "The sum of two different positive integers is 18. What is the smallest possible value of the sum of their squares?",
+      "answer": "$164$",
+      "image": ""
+    },
+    {
+      "q": "The volume of a sphere is $288\\pi$ cubic cm. What is the radius, in cm?",
+      "answer": "$6$",
+      "image": ""
+    },
+    {
+      "q": "A team played 60 games and lost 18 more games than it won. How many games did it win?",
+      "answer": "$21$",
+      "image": ""
+    },
+    {
+      "q": "The daily rainfall (in mm) for one week was: $14, 9, 13, 18, 11, 16, 12$. What was the average daily rainfall (in mm)?",
+      "answer": "$13.3$",
+      "image": ""
+    },
+    {
+      "q": "What number is halfway between 1325 and 2011?",
+      "answer": "$1668$",
+      "image": ""
+    },
+    {
+      "q": "In old British coinage, a 1 shilling coin was worth 12 pence, and a 1 pound coin was worth 20 shillings. What was the value, in pence, of 2 pounds, 7 shillings, and 8 pence?",
+      "answer": "$572$",
+      "image": ""
+    },
+    {
+      "q": "FruitCo sells mangos at 6 for 5.00. PriceMax sells mangos at 4 for 4.80. How many more dollars does it cost to buy 24 mangos at PriceMax than at FruitCo?",
+      "answer": "$8.8$",
+      "image": ""
+    },
+    {
+      "q": "What is the smallest positive integer that does not divide 720?",
+      "answer": "$7$",
+      "image": ""
+    },
+    {
+      "q": "Evaluate $1 + 1/(1 + 1/(1 + \\frac{1}{1}))$. Express your answer as a common fraction.",
+      "answer": "$\\frac{5}{3}$",
+      "image": ""
+    },
+    {
+      "q": "The numbers 1, 2, 3, ..., 14, 15 can be divided into three groups so that the sum S of the numbers in any group is the same. What is S?",
+      "answer": "$40$",
+      "image": ""
+    },
+    {
+      "q": "Alicia picks an integer at random from 1 to 8. Beth independently picks an integer from 1 to 8. What is the probability that Alicia’s number is greater than Beth’s? Express as a common fraction.",
+      "answer": "$\\frac{7}{16}$",
+      "image": ""
+    },
+    {
+      "q": "The price of a jacket increased by 15% to 92.00. What was the original price, in dollars?",
+      "answer": "$80$",
+      "image": ""
+    },
+    {
+      "q": "A car travels at a constant speed of 60 km/h for 90 minutes. How many kilometres does it travel?",
+      "answer": "$90$",
+      "image": ""
+    },
+    {
+      "q": "What is the least common multiple of 84 and 60?",
+      "answer": "$420$",
+      "image": ""
+    },
+    {
+      "q": "What is the sum of the digits of $2^{10}$?",
+      "answer": "$7$",
+      "image": ""
+    },
+    {
+      "q": "A rectangle has perimeter 94 cm and length 30 cm. What is its area in square centimetres?",
+      "answer": "$510$",
+      "image": ""
+    },
+    {
+      "q": "Convert the binary number 101101 to decimal.",
+      "answer": "$45$",
+      "image": ""
+    },
+    {
+      "q": "A student's first three test scores are 78, 84, and 92. What score is needed on the fourth test to have an average of 85?",
+      "answer": "$86$",
+      "image": ""
+    },
+    {
+      "q": "How many positive divisors does 360 have?",
+      "answer": "$24$",
+      "image": ""
+    },
+    {
+      "q": "What is the remainder when 12345 is divided by 9?",
+      "answer": "$6$",
+      "image": ""
+    },
+    {
+      "q": "What is the sum of the interior angles of a 12-sided polygon, in degrees?",
+      "answer": "$1800$",
+      "image": ""
+    },
+    {
+      "q": "A circle has circumference 31.4. What is its area? Round to one decimal place.",
+      "answer": "$78.5$",
+      "image": ""
+    },
+    {
+      "q": "One painter can paint a room in 6 hours and another in 8 hours. Working together, how many hours will it take? Round to the nearest tenth.",
+      "answer": "$3.4$",
+      "image": ""
+    },
+    {
+      "q": "A standard deck has 52 cards. What is the probability of drawing a heart? Express as a common fraction.",
+      "answer": "$\\frac{1}{4}$",
+      "image": ""
+    },
+    {
+      "q": "For the data set 2, 3, 3, 4, 5, 5, 5, 6, what is the mode?",
+      "answer": "$5$",
+      "image": ""
+    },
+    {
+      "q": "Evaluate $3^2 \\times 3^4$.",
+      "answer": "$729$",
+      "image": ""
+    },
+    {
+      "q": "Solve for x: $5x + 7 = 42$",
+      "answer": "$7$",
+      "image": ""
+    },
+    {
+      "q": "What is the distance between (3, 4) and (10, 12)? Express your answer in simplest radical form.",
+      "answer": "$\\sqrt{113}$",
+      "image": ""
+    },
+    {
+      "q": "How many distinct arrangements are there of the letters in the word LEVEL?",
+      "answer": "$30$",
+      "image": ""
+    },
+    {
+      "q": "An item priced at 80 is discounted by 25%. What is the sale price?",
+      "answer": "$60$",
+      "image": ""
+    },
+    {
+      "q": "Split $84$ between Alice and Bob in the ratio $3:4$. How many dollars does Bob receive?",
+      "answer": "$48$",
+      "image": ""
+    },
+    {
+      "q": "If 2x + 3y = 31 and 3x + 2y = 29, what is x - y?",
+      "answer": "$-2$",
+      "image": ""
+    },
+    {
+      "q": "A car travels 60 km at 30 km/h and then 60 km at 60 km/h. What is the average speed for the entire trip, in km/h?",
+      "answer": "$40$",
+      "image": ""
+    }
+  ]
+}

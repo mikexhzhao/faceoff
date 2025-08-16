@@ -1,0 +1,105 @@
+{
+  "name": "Systems of Linear Equations",
+  "problems": [
+    {
+      "q": "Solve the system: $4x + y = 17; 3x - y = 4$. Express your answer as an ordered pair (x, y).",
+      "answer": "$(3, 5)$",
+      "image": ""
+    },
+    {
+      "q": "Solve the system: $x + y = 1; 3x - 2y = 8$. Express your answer as an ordered pair (x, y).",
+      "answer": "$(2, -1)$",
+      "image": ""
+    },
+    {
+      "q": "Solve the system: $2x + y = 15; x - y = -3$. Express your answer as an ordered pair (x, y).",
+      "answer": "$(4, 7)$",
+      "image": ""
+    },
+    {
+      "q": "Solve the system: $x + 2y = 10; 3x - y = -12$. Express your answer as an ordered pair (x, y).",
+      "answer": "$(-2, 6)$",
+      "image": ""
+    },
+    {
+      "q": "Solve the system: $2x - y = 13; x + 4y = -7$. Express your answer as an ordered pair (x, y).",
+      "answer": "$(5, -3)$",
+      "image": ""
+    },
+    {
+      "q": "Solve the system: $2x + 2y = 7; 4x - y = -1$. Express your answer as an ordered pair (x, y).",
+      "answer": "$(\\frac{1}{2}, 3)$",
+      "image": ""
+    },
+    {
+      "q": "Solve the system: $2x + 4y = -11; x - y = \\frac{1}{2}$. Express your answer as an ordered pair (x, y).",
+      "answer": "$(-\\frac{3}{2}, -2)$",
+      "image": ""
+    },
+    {
+      "q": "Solve the system: $x + y = 8; 5x - y = -8$. Express your answer as an ordered pair (x, y).",
+      "answer": "$(0, 8)$",
+      "image": ""
+    },
+    {
+      "q": "Solve the system: $x - 2y = 7; 3x + y = 28$. Express your answer as an ordered pair (x, y).",
+      "answer": "$(9, 1)$",
+      "image": ""
+    },
+    {
+      "q": "Solve the system: $2x + y = -13; x - 3y = 11$. Express your answer as an ordered pair (x, y).",
+      "answer": "$(-4, -5)$",
+      "image": ""
+    },
+    {
+      "q": "Solve the system: $3x + y = 16; x - 4y = 14$. Express your answer as an ordered pair (x, y).",
+      "answer": "$(6, -2)$",
+      "image": ""
+    },
+    {
+      "q": "Solve the system: $x + y = 11; 2x - y = 10$. Express your answer as an ordered pair (x, y).",
+      "answer": "$(7, 4)$",
+      "image": ""
+    },
+    {
+      "q": "Solve the system: $5x + 2y = 9; 3x - y = 1$. Express your answer as an ordered pair (x, y).",
+      "answer": "$(1, 2)$",
+      "image": ""
+    },
+    {
+      "q": "Solve the system: $2x + y = 8; 4x - y = -14$. Express your answer as an ordered pair (x, y).",
+      "answer": "$(-1, 10)$",
+      "image": ""
+    },
+    {
+      "q": "Solve the system: $x + 2y = 9; 5x - 3y = 58$. Express your answer as an ordered pair (x, y).",
+      "answer": "$(11, -1)$",
+      "image": ""
+    },
+    {
+      "q": "Solve the system: $4x - 8y = 7; 2x + y = 1$. Express your answer as an ordered pair (x, y).",
+      "answer": "$(\\frac{3}{4}, -\\frac{1}{2})$",
+      "image": ""
+    },
+    {
+      "q": "Solve the system: $3x + 5y = -3; 5x - 5y = -13$. Express your answer as an ordered pair (x, y).",
+      "answer": "$(-2, \\frac{3}{5})$",
+      "image": ""
+    },
+    {
+      "q": "Solve the system: $x - 3y = 7; 6x + 3y = -7$. Express your answer as an ordered pair (x, y).",
+      "answer": "$(0, -\\frac{7}{3})$",
+      "image": ""
+    },
+    {
+      "q": "Solve the system: $2x + 3y = 13; x - y = -1$. Express your answer as an ordered pair (x, y).",
+      "answer": "$(2, 3)$",
+      "image": ""
+    },
+    {
+      "q": "Solve the system: $3x + 2y = 9; 4x - y = -32$. Express your answer as an ordered pair (x, y).",
+      "answer": "$(-5, 12)$",
+      "image": ""
+    }
+  ]
+}
