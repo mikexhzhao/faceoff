@@ -48,6 +48,7 @@
     const [paused, setPaused] = useState(false);
     const [timeLeft, setTimeLeft] = useState(questionTime);
     const [gotoValue, setGotoValue] = useState("");
+    const [fontSize, setFontSize] = useState(36);
 
     // Players
     const [players, setPlayers] = useState([]);
@@ -167,19 +168,27 @@
     }
 
     useEffect(() => {
-      if (window.renderMathInElement) {
-        const opts = {
-          delimiters: [
-            { left: "$$", right: "$$", display: true },
-            { left: "$", right: "$", display: false },
-            { left: "\\(", right: "\\)", display: false },
-            { left: "\\[", right: "\\]", display: true }
-          ],
-          throwOnError: false
-        };
-        if (questionRef.current) window.renderMathInElement(questionRef.current, opts);
-        if (answerRef.current) window.renderMathInElement(answerRef.current, opts);
+      let canceled = false;
+      const opts = {
+        delimiters: [
+          { left: "$$", right: "$$", display: true },
+          { left: "$", right: "$", display: false },
+          { left: "\\(", right: "\\)", display: false },
+          { left: "\\[", right: "\\]", display: true }
+        ],
+        throwOnError: false
+      };
+      function typeset() {
+        if (canceled) return;
+        if (window.renderMathInElement) {
+          if (questionRef.current) window.renderMathInElement(questionRef.current, opts);
+          if (answerRef.current) window.renderMathInElement(answerRef.current, opts);
+        } else {
+          setTimeout(typeset, 50);
+        }
       }
+      typeset();
+      return () => { canceled = true; };
     }, [currentProblem, reveal]);
 
     return React.createElement("div", { className: "min-h-screen flex flex-col w-full text-white overflow-hidden" },
@@ -270,28 +279,31 @@
                 ? React.createElement("button", { onClick: startGame, className: "px-4 py-2 rounded-xl bg-black/70 hover:bg-black/80 font-bold" }, "▶ Start")
                 : React.createElement("button", { onClick: nextQuestion, className: "px-4 py-2 rounded-xl bg-black/70 hover:bg-black/80 font-bold" }, "Next Question"),
               React.createElement("input", { type: "number", min: 1, max: rounds, value: gotoValue, onChange: (e)=>setGotoValue(e.target.value), placeholder: "#", className: "w-16 px-2 py-1 rounded bg-white/80 text-black text-sm" }),
-              React.createElement("button", { onClick: gotoQuestion, className: "px-3 py-2 rounded-xl bg-white/20 hover:bg-white/30 font-bold" }, "Go")
+              React.createElement("button", { onClick: gotoQuestion, className: "px-3 py-2 rounded-xl bg-white/20 hover:bg-white/30 font-bold" }, "Go"),
+              React.createElement("label", { className: "text-sm opacity-80" }, "Font"),
+              React.createElement("input", { type: "number", min: 16, max: 72, value: fontSize, onChange: (e)=>setFontSize(Number(e.target.value)), className: "w-16 px-2 py-1 rounded bg-white/80 text-black text-sm" })
             )
           ),
           // Question card
           React.createElement("div", { className: "relative bg-white/15 rounded-3xl p-6 pt-9 shadow-2xl border border-white/20 overflow-auto" },
-            React.createElement("div", { className: "absolute top-2 left-4 px-3 py-1 rounded-full text-xs bg-black/50" }, "Question #", currentProblem?.id ?? "—"),
-            React.createElement("div", { className: "absolute top-2 right-4" },
+            React.createElement("div", { className: "absolute top-2 left-4 px-3 py-1 rounded-full text-xs bg-black/50" }, "Question #", started ? (currentProblem?.id ?? "—") : "—"),
+            started && React.createElement("div", { className: "absolute top-2 right-4" },
               React.createElement("button", { onClick: ()=>setReveal(r=>!r), className: "px-3 py-1 rounded-full text-xs bg-emerald-400 text-black font-bold border border-emerald-900/20 shadow" },
                 reveal ? "Hide Answer" : "Reveal Answer")
             ),
             React.createElement("div", {
-              className: `${started ? "text-2xl md:text-4xl" : "text-xl md:text-2xl"} font-bold leading-snug drop-shadow-sm`,
+              className: "font-bold leading-snug drop-shadow-sm",
+              style: { fontSize: fontSize + "px" },
               ref: questionRef
             },
-              currentProblem?.q ?? "Load question_bank.json to begin."
+              started ? (currentProblem?.q ?? "Load question_bank.json to begin.") : "Press Start to reveal question."
             ),
-            currentProblem?.image && React.createElement("div", { className: "mt-4" },
+            started && currentProblem?.image && React.createElement("div", { className: "mt-4" },
               React.createElement("img", { src: problemImageUrl(currentProblem.image), alt: "diagram", className: "max-w-full rounded-xl border border-white/30" })
             ),
-            reveal && React.createElement("div", { className: "mt-4 p-3 rounded-2xl bg-emerald-400/20 border border-emerald-300/40" },
+            started && reveal && React.createElement("div", { className: "mt-4 p-3 rounded-2xl bg-emerald-400/20 border border-emerald-300/40" },
               React.createElement("div", { className: "text-sm opacity-80" }, "Answer"),
-              React.createElement("div", { className: "text-2xl font-extrabold text-emerald-200", ref: answerRef }, String(currentProblem?.answer ?? ""))
+              React.createElement("div", { className: "font-extrabold text-emerald-200", style: { fontSize: Math.round(fontSize * 0.66) + "px" }, ref: answerRef }, String(currentProblem?.answer ?? ""))
             ),
             started && React.createElement("div", { className: "mt-6 w-full flex justify-center" },
               React.createElement("button", { onClick: goHome, className: "px-5 py-2 rounded-2xl bg-white/20 hover:bg-white/30 border border-white/30" }, "⟵ Home")
