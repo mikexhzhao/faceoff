@@ -1,0 +1,205 @@
+{
+  "name": "Original Contest Set 3",
+  "problems": [
+    {
+      "q": "How many perfect squares are there between 1 and 1000 (inclusive)?",
+      "answer": "31",
+      "image": ""
+    },
+    {
+      "q": "Simplify: $\\frac{1}{2} - \\Big(\\frac{1}{3} - \\frac{1}{4}\\Big)$. Express your answer as a common fraction.",
+      "answer": "$\\frac{5}{12}$",
+      "image": ""
+    },
+    {
+      "q": "Pipe A can fill a pool in 6 hours, and pipe B can fill the same pool in 12 hours. If both pipes are opened together, how many hours will it take to fill the pool?",
+      "answer": "4",
+      "image": ""
+    },
+    {
+      "q": "What is the largest prime number less than 50?",
+      "answer": "47",
+      "image": ""
+    },
+    {
+      "q": "If $4x - 3 = 5$, what is the value of $8x - 3$?",
+      "answer": "13",
+      "image": ""
+    },
+    {
+      "q": "In a school, $\\frac{1}{2}$ of the students play basketball and $\\frac{1}{3}$ play soccer, and the remaining 6 students play neither. (No student plays both sports.) How many students are in the school?",
+      "answer": "36",
+      "image": ""
+    },
+    {
+      "q": "In how many distinct ways can the letters of the word “FACE” be rearranged?",
+      "answer": "24",
+      "image": ""
+    },
+    {
+      "q": "What is the measure, in degrees, of each interior angle of a regular pentagon?",
+      "answer": "108",
+      "image": ""
+    },
+    {
+      "q": "The sequence $2, 5, 8, 11, \\dots$ continues by adding 3 to get the next term. What is the 20th term of this sequence?",
+      "answer": "59",
+      "image": ""
+    },
+    {
+      "q": "A single card is drawn from a standard 52-card deck. What is the probability that the card drawn is a spade or a heart? Express your answer as a common fraction.",
+      "answer": "$\\frac{1}{2}$",
+      "image": ""
+    },
+    {
+      "q": "What is 15% of 80?",
+      "answer": "12",
+      "image": ""
+    },
+    {
+      "q": "A cube has a surface area of 150 square inches. How many cubic inches is its volume?",
+      "answer": "125",
+      "image": ""
+    },
+    {
+      "q": "In the United States, Thanksgiving falls on the fourth Thursday of November. What is the earliest possible calendar date in November on which Thanksgiving can occur?",
+      "answer": "22",
+      "image": ""
+    },
+    {
+      "q": "What is the minimum number of coins needed to make 65 cents using only quarters, dimes, and nickels?",
+      "answer": "4",
+      "image": ""
+    },
+    {
+      "q": "A 100 mL solution is 30% alcohol by volume. If 50 mL of water is added to the solution, what is the percent alcohol in the new solution?",
+      "answer": "20%",
+      "image": ""
+    },
+    {
+      "q": "In an election with 300 total votes between candidates A and B, candidate A received 60% of the votes. How many votes did candidate B receive?",
+      "answer": "120",
+      "image": ""
+    },
+    {
+      "q": "Let $f(1) = 1$, and for every integer $N > 1$, define $f(N) = f(N - 1) + N$. What is the value of $f(5)$?",
+      "answer": "15",
+      "image": ""
+    },
+    {
+      "q": "A runner runs 5 km in 25 minutes. What is the runner’s average speed in kilometers per hour?",
+      "answer": "12",
+      "image": ""
+    },
+    {
+      "q": "In a survey of 100 people, 60 said they liked tea and 70 said they liked coffee. Each person likes at least one of tea or coffee. How many people like both tea and coffee?",
+      "answer": "30",
+      "image": ""
+    },
+    {
+      "q": "There are 6 points in a plane, with no three of them collinear. How many distinct lines can be drawn through pairs of these points?",
+      "answer": "15",
+      "image": ""
+    },
+    {
+      "q": "What is the sum of all distinct prime factors of 84?",
+      "answer": "12",
+      "image": ""
+    },
+    {
+      "q": "A widget costs $50 if bought individually, or $180 for a pack of 4. How many dollars per widget are saved by buying the pack of 4 instead of four individual purchases?",
+      "answer": "5",
+      "image": ""
+    },
+    {
+      "q": "How many integers are between $\\sqrt[4]{50}$ and $\\sqrt[4]{50000}$?",
+      "answer": "12",
+      "image": ""
+    },
+    {
+      "q": "Evaluate $(1 \\times 1!) + (2 \\times 2!) + (3 \\times 3!) + (4 \\times 4!)$.",
+      "answer": "119",
+      "image": ""
+    },
+    {
+      "q": "If $x + y = 8$ and $x - y = 2$, what is the value of $x$?",
+      "answer": "5",
+      "image": ""
+    },
+    {
+      "q": "If a two-digit number is subtracted from the number obtained by reversing its digits, the result is 36. What is the positive difference between the two digits of this number?",
+      "answer": "4",
+      "image": ""
+    },
+    {
+      "q": "If $x^2 = 5$, what is the value of $x^4 + x^2$?",
+      "answer": "30",
+      "image": ""
+    },
+    {
+      "q": "The legs of a right triangle are 5 units and 12 units in length. How many units long is the hypotenuse of the triangle?",
+      "answer": "13",
+      "image": ""
+    },
+    {
+      "q": "If $a:b = 3:4$ and $b:c = 5:6$, what is $a:c$?",
+      "answer": "$5:8$",
+      "image": ""
+    },
+    {
+      "q": "Two fair six-sided dice are rolled. What is the probability that both dice show the same number? Express your answer as a common fraction.",
+      "answer": "$\\frac{1}{6}$",
+      "image": ""
+    },
+    {
+      "q": "What is the smallest perfect square greater than 1 that can be expressed as the sum of two other perfect squares?",
+      "answer": "25",
+      "image": ""
+    },
+    {
+      "q": "If $3^{3^2} = 27^n$, what is the value of $n$?",
+      "answer": "3",
+      "image": ""
+    },
+    {
+      "q": "In an arithmetic sequence, the third term is 15 and the seventh term is 27. What is the common difference of the sequence?",
+      "answer": "3",
+      "image": ""
+    },
+    {
+      "q": "A worker’s salary is increased by 10%, and later it is increased by another 10%. By what percentage has the salary increased overall from the original salary?",
+      "answer": "21%",
+      "image": ""
+    },
+    {
+      "q": "How many integers $n$ satisfy $-2 < n < 5$?",
+      "answer": "6",
+      "image": ""
+    },
+    {
+      "q": "In a geometric sequence, the second term is 6 and the fifth term is 162. What is the common ratio of this sequence?",
+      "answer": "3",
+      "image": ""
+    },
+    {
+      "q": "What is the product of the greatest common divisor and the least common multiple of 18 and 24?",
+      "answer": "432",
+      "image": ""
+    },
+    {
+      "q": "Alice and Bob share a prize of $100 in the ratio $2:3$. How many dollars does Bob receive?",
+      "answer": "60",
+      "image": ""
+    },
+    {
+      "q": "What is the median of the numbers $7, 2, 9,$ and $4$?",
+      "answer": "5.5",
+      "image": ""
+    },
+    {
+      "q": "Define $a \\oplus b = \\frac{a}{b} + \\frac{b}{a}$. What is the value of $2 \\oplus 8$? Express your answer as a common fraction.",
+      "answer": "$\\frac{17}{4}$",
+      "image": ""
+    }
+  ]
+}

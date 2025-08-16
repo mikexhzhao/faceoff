@@ -1,0 +1,205 @@
+{
+  "name": "Original Contest Set 1",
+  "problems": [
+    {
+      "q": "How many integers from 1 to 2025 (inclusive) are divisible by 9?",
+      "answer": "225",
+      "image": ""
+    },
+    {
+      "q": "Express $\\frac{1}{2} - \\frac{1}{5}$ divided by $\\frac{1}{2} + \\frac{1}{5}$ as a common fraction.",
+      "answer": "$\\frac{3}{7}$",
+      "image": ""
+    },
+    {
+      "q": "It takes 5 workers 8 hours to build a wall. How many hours would it take 4 workers, working at the same rate, to build the same wall?",
+      "answer": "10",
+      "image": ""
+    },
+    {
+      "q": "What is the smallest prime number greater than 200?",
+      "answer": "211",
+      "image": ""
+    },
+    {
+      "q": "If $5x + 8 = 54$, what is the value of $10x + 8$?",
+      "answer": "100",
+      "image": ""
+    },
+    {
+      "q": "In a bag of candies, $\\frac{1}{5}$ are cherry, $\\frac{1}{5}$ are lemon, $\\frac{1}{4}$ are apple, $\\frac{1}{4}$ are grape, and the remaining 10 candies are orange. How many grape candies are in the bag?",
+      "answer": "25",
+      "image": ""
+    },
+    {
+      "q": "How many ordered pairs $(a, b)$ of positive integers satisfy $a + b \\le 6$?",
+      "answer": "15",
+      "image": ""
+    },
+    {
+      "q": "The acute angles of a right triangle are in the ratio $4:5$. What is the degree measure of the smaller acute angle?",
+      "answer": "40",
+      "image": ""
+    },
+    {
+      "q": "The sequence $1, 3, 5, 7, 9, 1, 3, 5, 7, 9, \\dots$ repeats every 5 terms. What is the sum of the 20th term and the 21st term of this sequence?",
+      "answer": "10",
+      "image": ""
+    },
+    {
+      "q": "Three standard six-sided dice are tossed. What is the probability that the sum of the dice is less than 5? Express your answer as a common fraction.",
+      "answer": "$\\frac{1}{54}$",
+      "image": ""
+    },
+    {
+      "q": "The number $\\frac{3}{4}$ is how many percent of $\\frac{5}{6}$?",
+      "answer": "90%",
+      "image": ""
+    },
+    {
+      "q": "Two similar triangles have areas $9$ square units and $16$ square units. If the perimeter of the smaller triangle is $12$ units, what is the perimeter of the larger triangle?",
+      "answer": "16",
+      "image": ""
+    },
+    {
+      "q": "On a distant planet, a year is 360 days long and a week is 7 days long, with the usual day names. If New Year’s Day this year fell on a Sunday, on what day of the week will New Year’s Day fall next year?",
+      "answer": "Wednesday",
+      "image": ""
+    },
+    {
+      "q": "A voice recorder can hold up to 15 minutes of messages. Each message uses at least 20 seconds. What is the greatest number of messages it can hold?",
+      "answer": "45",
+      "image": ""
+    },
+    {
+      "q": "A bowl of trail mix is 48% peanuts, 16% almonds, 16% walnuts, and 20% cashews by weight. If all the cashews are removed, what percent of the remaining mix is peanuts?",
+      "answer": "60%",
+      "image": ""
+    },
+    {
+      "q": "In a school election with 1500 students voting for either A or B, candidate A received 800 votes. How many more votes did A receive than B?",
+      "answer": "100",
+      "image": ""
+    },
+    {
+      "q": "Let $H(x, y) = \\frac{2xy}{x + y}$. What is the value of $H(4, 12)$?",
+      "answer": "6",
+      "image": ""
+    },
+    {
+      "q": "A runner ran $5$ kilometers in $20$ minutes. What was the runner’s average speed in kilometers per hour?",
+      "answer": "15",
+      "image": ""
+    },
+    {
+      "q": "In a school, $\\frac{2}{3}$ of the students study Spanish and $\\frac{1}{4}$ study French, and the remaining 30 students study neither language. No student studies both Spanish and French. How many students study a language?",
+      "answer": "330",
+      "image": ""
+    },
+    {
+      "q": "How many diagonals does a regular octagon have?",
+      "answer": "20",
+      "image": ""
+    },
+    {
+      "q": "What is the largest prime number that divides 8888?",
+      "answer": "101",
+      "image": ""
+    },
+    {
+      "q": "A 12-pack of soda costs $9.00, plus 5% sales tax, plus a $0.10 deposit per can. How much does one 12-pack cost in total, in dollars, to the nearest cent?",
+      "answer": "$10.65$",
+      "image": ""
+    },
+    {
+      "q": "How many whole numbers are there between $\\sqrt{50}$ and $\\sqrt{500}$?",
+      "answer": "15",
+      "image": ""
+    },
+    {
+      "q": "What is the value of $\\frac{5! \\times 7!}{6!}$?",
+      "answer": "840",
+      "image": ""
+    },
+    {
+      "q": "Given that $(x - y)^2 = 55$ and $xy = 36$, what is the value of $(x + y)^2$?",
+      "answer": "199",
+      "image": ""
+    },
+    {
+      "q": "What is the smallest positive integer that is divisible by 7 and whose decimal representation consists of only the digits 0 and 1?",
+      "answer": "1001",
+      "image": ""
+    },
+    {
+      "q": "Given that $\\sqrt{4 + \\sqrt{16 + x}} = 4$, what is the value of $x$?",
+      "answer": "128",
+      "image": ""
+    },
+    {
+      "q": "What is the area, in square cm, of an isosceles triangle with side lengths $7$ cm, $7$ cm, and $2$ cm? Express your answer in simplest radical form.",
+      "answer": "$4\\sqrt{3}$",
+      "image": ""
+    },
+    {
+      "q": "The side lengths of a triangle are in the ratio $3:7:8$. If its perimeter is $180$ cm, how many cm long is the longest side?",
+      "answer": "80",
+      "image": ""
+    },
+    {
+      "q": "Five fair coins are tossed. What is the probability of getting at least one head and at least one tail? Express your answer as a common fraction.",
+      "answer": "$\\frac{15}{16}$",
+      "image": ""
+    },
+    {
+      "q": "What is the units digit of $7^{2025}$?",
+      "answer": "7",
+      "image": ""
+    },
+    {
+      "q": "If $2^{2^6} = 4^n$, what is the value of $n$?",
+      "answer": "32",
+      "image": ""
+    },
+    {
+      "q": "The first term of an arithmetic sequence is 3, and the sum of the first 4 terms is 60. What is the sum of the first 5 terms of the sequence?",
+      "answer": "95",
+      "image": ""
+    },
+    {
+      "q": "A basketball team has 5 wins and 15 losses so far. The team will play 20 more games this season. To finish with at least a 50% win record, what is the greatest number of these remaining games the team can lose?",
+      "answer": "5",
+      "image": ""
+    },
+    {
+      "q": "How many integer values of $n$ are there such that $\\frac{5}{n} > \\frac{4}{3}$?",
+      "answer": "3",
+      "image": ""
+    },
+    {
+      "q": "The first term of a geometric sequence is 2, and the second term is 6. What is the fifth term?",
+      "answer": "162",
+      "image": ""
+    },
+    {
+      "q": "What is the smallest positive integer $n$ such that $\\text{LCM}(6, 15, n) = 60$?",
+      "answer": "4",
+      "image": ""
+    },
+    {
+      "q": "Alphonse has $\\frac{5}{8}$ as much money as Bettina, and together they have $400. How many dollars does Bettina have?",
+      "answer": "280",
+      "image": ""
+    },
+    {
+      "q": "For what value of $x$ is the average of $10$, $21$, $x$, and $2x$ equal to $35$?",
+      "answer": "33",
+      "image": ""
+    },
+    {
+      "q": "Define $a \\star b = a^2 - b^2$. What is the value of $10 \\star 3$?",
+      "answer": "91",
+      "image": ""
+    }
+  ]
+}

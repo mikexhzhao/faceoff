@@ -1,0 +1,205 @@
+{
+  "name": "Original Contest Set 2",
+  "problems": [
+    {
+      "q": "How many integers between 10 and 250 (inclusive) are multiples of 4?",
+      "answer": "60",
+      "image": ""
+    },
+    {
+      "q": "Compute $\\frac{1}{2} + \\frac{1}{4} + \\frac{1}{8}$. Express your answer as a common fraction.",
+      "answer": "$\\frac{7}{8}$",
+      "image": ""
+    },
+    {
+      "q": "Three people can build a shed in 12 days. How many days would it take 4 people, working at the same rate, to build the same shed?",
+      "answer": "9",
+      "image": ""
+    },
+    {
+      "q": "How many prime numbers are there between 10 and 30 (inclusive)?",
+      "answer": "6",
+      "image": ""
+    },
+    {
+      "q": "If $7x - 5 = 16$, what is the value of $14x - 5$?",
+      "answer": "37",
+      "image": ""
+    },
+    {
+      "q": "In a class, $\\frac{1}{3}$ of the students are in the choir and $\\frac{1}{2}$ are in the band, and the remaining 6 students are in neither group. No student is in both choir and band. How many students are in the class?",
+      "answer": "36",
+      "image": ""
+    },
+    {
+      "q": "How many 3-digit positive integers have all of their digits even?",
+      "answer": "100",
+      "image": ""
+    },
+    {
+      "q": "The three angles of a triangle are in the ratio $2:3:4$. What is the degree measure of the largest angle?",
+      "answer": "80",
+      "image": ""
+    },
+    {
+      "q": "The sequence $1, 2, 3, \\dots, 10, 1, 2, 3, \\dots, 10, \\dots$ repeats the numbers 1 through 10 in order. What is the 68th term of this sequence?",
+      "answer": "8",
+      "image": ""
+    },
+    {
+      "q": "Two fair six-sided dice are rolled. What is the probability that the sum of the two dice is at least 10? Express your answer as a common fraction.",
+      "answer": "$\\frac{1}{6}$",
+      "image": ""
+    },
+    {
+      "q": "The number $\\frac{5}{8}$ is what percent of $\\frac{1}{2}$?",
+      "answer": "125%",
+      "image": ""
+    },
+    {
+      "q": "A rectangle has side lengths 3 cm and 5 cm. A second, larger rectangle is similar to the first and has its longer side length equal to 15 cm. What is the area of the larger rectangle?",
+      "answer": "135",
+      "image": ""
+    },
+    {
+      "q": "If today is Tuesday, what day of the week will it be 100 days from now?",
+      "answer": "Thursday",
+      "image": ""
+    },
+    {
+      "q": "An elevator can carry at most 1000 kilograms. If each person on the elevator weighs at least 65 kilograms, what is the maximum number of people that can safely ride the elevator at one time?",
+      "answer": "15",
+      "image": ""
+    },
+    {
+      "q": "A bag of trail mix is 30% peanuts, 20% almonds, and 50% raisins by weight. If all the raisins are removed, what percent of the remaining mix is peanuts?",
+      "answer": "60%",
+      "image": ""
+    },
+    {
+      "q": "In a school election, there were 1200 total votes cast for either candidate A or candidate B. If candidate A received 700 votes, how many more votes did A receive than B?",
+      "answer": "200",
+      "image": ""
+    },
+    {
+      "q": "Let $F(a, b) = a^2 + a b + b^2$. What is the value of $F(2, 3)$?",
+      "answer": "19",
+      "image": ""
+    },
+    {
+      "q": "A car travels 150 miles in 3 hours. What is its average speed in miles per hour?",
+      "answer": "50",
+      "image": ""
+    },
+    {
+      "q": "In a company, $\\frac{1}{3}$ of the employees work in marketing and $\\frac{1}{4}$ work in sales. The remaining 10 employees work in other departments. (No employee works in both marketing and sales.) How many employees does the company have in total?",
+      "answer": "24",
+      "image": ""
+    },
+    {
+      "q": "How many distinct triangles can be formed by choosing any 3 vertices of a regular octagon?",
+      "answer": "56",
+      "image": ""
+    },
+    {
+      "q": "What is the largest prime factor of 187?",
+      "answer": "17",
+      "image": ""
+    },
+    {
+      "q": "A computer has a list price of $800. During a sale, it is sold at a 15% discount off the list price. If a sales tax of 8% is applied to the discounted price, what is the final price of the computer, in dollars, to the nearest cent?",
+      "answer": "$734.40$",
+      "image": ""
+    },
+    {
+      "q": "How many whole numbers are there between $\\sqrt[3]{100}$ and $\\sqrt[3]{1000}$?",
+      "answer": "5",
+      "image": ""
+    },
+    {
+      "q": "What is the value of $\\frac{8!}{5! \\times 3!}$?",
+      "answer": "56",
+      "image": ""
+    },
+    {
+      "q": "If $x + y = 10$ and $xy = 21$, what is the value of $x^2 + y^2$?",
+      "answer": "58",
+      "image": ""
+    },
+    {
+      "q": "What is the smallest positive integer whose decimal representation consists of only the digit 5 and that is divisible by 3?",
+      "answer": "555",
+      "image": ""
+    },
+    {
+      "q": "Solve for $x$: $\\sqrt{5 + \\sqrt{25 + x}} = 6.$",
+      "answer": "936",
+      "image": ""
+    },
+    {
+      "q": "What is the area of the triangle with vertices at $(0, 0)$, $(6, 0)$, and $(0, 7)$?",
+      "answer": "21",
+      "image": ""
+    },
+    {
+      "q": "The circumference of a circle is $18\\pi$ units. What is the area of the circle?",
+      "answer": "$81\\pi$",
+      "image": ""
+    },
+    {
+      "q": "Four fair coins are tossed. What is the probability of getting exactly two heads? Express your answer as a common fraction.",
+      "answer": "$\\frac{3}{8}$",
+      "image": ""
+    },
+    {
+      "q": "What is the largest perfect cube less than 1000?",
+      "answer": "729",
+      "image": ""
+    },
+    {
+      "q": "If $8^{2^3} = 16^n$, what is $n$?",
+      "answer": "6",
+      "image": ""
+    },
+    {
+      "q": "The first term of an arithmetic sequence is 4, and the sum of the first 5 terms is 100. What is the sum of the first 6 terms?",
+      "answer": "144",
+      "image": ""
+    },
+    {
+      "q": "A student took the same test three times. Each time he retook the test, he answered 25% more questions correctly than in his previous attempt. If he answered 25 questions correctly on his third attempt, how many questions did he answer correctly on his first attempt?",
+      "answer": "16",
+      "image": ""
+    },
+    {
+      "q": "How many integer values of $n$ satisfy the inequality $|n - 5| < 4$?",
+      "answer": "7",
+      "image": ""
+    },
+    {
+      "q": "The first term of a geometric sequence is 10, and the second term is 5. What is the fourth term?",
+      "answer": "$\\frac{5}{4}$",
+      "image": ""
+    },
+    {
+      "q": "What is the greatest common divisor of 84 and 126?",
+      "answer": "42",
+      "image": ""
+    },
+    {
+      "q": "Alphonse has $20 more than Bettina, and Bettina has $30 more than Charlie. Together they have $200. How many dollars does Bettina have?",
+      "answer": "70",
+      "image": ""
+    },
+    {
+      "q": "A list of five numbers has an average of 12. If four of the numbers are 10, 15, 7, and 14, what is the fifth number?",
+      "answer": "14",
+      "image": ""
+    },
+    {
+      "q": "Define $a \\clubsuit b = \\frac{a + b}{a - b}$. What is the value of $8 \\clubsuit 6$?",
+      "answer": "7",
+      "image": ""
+    }
+  ]
+}
