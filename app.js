@@ -168,19 +168,27 @@
     }
 
     useEffect(() => {
-      if (window.renderMathInElement) {
-        const opts = {
-          delimiters: [
-            { left: "$$", right: "$$", display: true },
-            { left: "$", right: "$", display: false },
-            { left: "\\(", right: "\\)", display: false },
-            { left: "\\[", right: "\\]", display: true }
-          ],
-          throwOnError: false
-        };
-        if (questionRef.current) window.renderMathInElement(questionRef.current, opts);
-        if (answerRef.current) window.renderMathInElement(answerRef.current, opts);
+      let canceled = false;
+      const opts = {
+        delimiters: [
+          { left: "$$", right: "$$", display: true },
+          { left: "$", right: "$", display: false },
+          { left: "\\(", right: "\\)", display: false },
+          { left: "\\[", right: "\\]", display: true }
+        ],
+        throwOnError: false
+      };
+      function typeset() {
+        if (canceled) return;
+        if (window.renderMathInElement) {
+          if (questionRef.current) window.renderMathInElement(questionRef.current, opts);
+          if (answerRef.current) window.renderMathInElement(answerRef.current, opts);
+        } else {
+          setTimeout(typeset, 50);
+        }
       }
+      typeset();
+      return () => { canceled = true; };
     }, [currentProblem, reveal]);
 
     return React.createElement("div", { className: "min-h-screen flex flex-col w-full text-white overflow-hidden" },
