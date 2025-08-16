@@ -1,0 +1,205 @@
+{
+  "name": "Original Contest Set 2 (Harder)",
+  "problems": [
+    {
+      "q": "How many integers between $12$ and $250$ (inclusive) are multiples of $4$?",
+      "answer": "60",
+      "image": ""
+    },
+    {
+      "q": "Compute $\\tfrac{1}{2}+\\tfrac{1}{4}+\\tfrac{1}{8}+\\tfrac{1}{16}$. Express your answer as a common fraction.",
+      "answer": "$\\frac{15}{16}$",
+      "image": ""
+    },
+    {
+      "q": "Three people can build a shed in $12$ days. After they work together for $6$ days, two more people join them. How many additional days are needed to finish the shed, assuming constant rates?",
+      "answer": "$\\frac{18}{5}$",
+      "image": ""
+    },
+    {
+      "q": "How many prime numbers are there between $10$ and $40$ (inclusive)?",
+      "answer": "8",
+      "image": ""
+    },
+    {
+      "q": "If $9x-7=20$, what is the value of $27x-7$?",
+      "answer": "74",
+      "image": ""
+    },
+    {
+      "q": "In a class, $\\tfrac{1}{3}$ of the students are in the choir and $\\tfrac{1}{2}$ are in the band; the remaining $8$ students are in neither group. No student is in both. How many students are in the class?",
+      "answer": "48",
+      "image": ""
+    },
+    {
+      "q": "How many 3-digit positive integers have all three digits odd?",
+      "answer": "125",
+      "image": ""
+    },
+    {
+      "q": "The angles of a triangle are in the ratio $3:4:5$. What is the degree measure of the largest angle?",
+      "answer": "75",
+      "image": ""
+    },
+    {
+      "q": "The sequence $1,2,3,\\dots,12,1,2,3,\\dots$ repeats the numbers $1$ through $12$ in order. What is the $100^{\\text{th}}$ term of this sequence?",
+      "answer": "4",
+      "image": ""
+    },
+    {
+      "q": "Two fair six-sided dice are rolled. What is the probability that the sum is at least $11$? Express your answer as a common fraction.",
+      "answer": "$\\frac{1}{12}$",
+      "image": ""
+    },
+    {
+      "q": "The number $\\tfrac{7}{9}$ is what percent of $\\tfrac{5}{6}$? (Give a percentage.)",
+      "answer": "93.3333333\\%",
+      "image": ""
+    },
+    {
+      "q": "A rectangle has side lengths $4$ cm and $7$ cm. A similar rectangle has its longer side $21$ cm. What is the area of the larger rectangle?",
+      "answer": "252",
+      "image": ""
+    },
+    {
+      "q": "If today is Wednesday, what day of the week will it be $1000$ days from now?",
+      "answer": "Tuesday",
+      "image": ""
+    },
+    {
+      "q": "An elevator can carry at most $1200$ kilograms. If each person weighs at least $68$ kilograms, what is the maximum number of people that can safely ride at once?",
+      "answer": "17",
+      "image": ""
+    },
+    {
+      "q": "A snack mix is $35\\%$ peanuts, $25\\%$ almonds, and $40\\%$ raisins by weight. If all the almonds are removed, what percent of the remaining mix is peanuts?",
+      "answer": "46.6666667\\%",
+      "image": ""
+    },
+    {
+      "q": "In an election with $1500$ total votes between candidates A and B, candidate A received $820$ votes. How many more votes did A receive than B?",
+      "answer": "140",
+      "image": ""
+    },
+    {
+      "q": "Let $F(a,b)=a^2+ab+b^2$. Compute $F(4,5)$.",
+      "answer": "61",
+      "image": ""
+    },
+    {
+      "q": "A car travels $210$ miles in $3.5$ hours. What is its average speed in miles per hour?",
+      "answer": "60",
+      "image": ""
+    },
+    {
+      "q": "In a company, $\\tfrac{1}{3}$ of employees work in marketing and $\\tfrac{1}{4}$ work in sales. The remaining $10$ employees work in other departments. No employee works in both marketing and sales. How many employees are in the company?",
+      "answer": "24",
+      "image": ""
+    },
+    {
+      "q": "How many distinct triangles can be formed by choosing any $3$ vertices of a regular nonagon?",
+      "answer": "84",
+      "image": ""
+    },
+    {
+      "q": "What is the largest prime factor of $221$?",
+      "answer": "17",
+      "image": ""
+    },
+    {
+      "q": "A laptop has a list price of $\\$950$. During a sale, it is discounted by $20\\%$, then a $13\\%$ tax is applied. What is the final price, in dollars, to the nearest cent?",
+      "answer": "$858.80$",
+      "image": ""
+    },
+    {
+      "q": "How many integers $k$ satisfy $200<k^3<5000$?",
+      "answer": "12",
+      "image": ""
+    },
+    {
+      "q": "Evaluate $\\dfrac{9!}{4!\\,5!}$.",
+      "answer": "126",
+      "image": ""
+    },
+    {
+      "q": "If $x+y=12$ and $xy=27$, compute $x^2+y^2$.",
+      "answer": "90",
+      "image": ""
+    },
+    {
+      "q": "What is the smallest positive integer composed only of the digit $7$ that is divisible by $9$?",
+      "answer": "777777777",
+      "image": ""
+    },
+    {
+      "q": "Solve for $x$: $\\sqrt{7+\\sqrt{49+x}}=10.$",
+      "answer": "8600",
+      "image": ""
+    },
+    {
+      "q": "Find the area of the triangle with vertices $(0,0)$, $(8,0)$, and $(0,11)$.",
+      "answer": "44",
+      "image": ""
+    },
+    {
+      "q": "A circle has circumference $20\\pi$ units. What is its area (in square units)?",
+      "answer": "$100\\pi$",
+      "image": ""
+    },
+    {
+      "q": "Four fair coins are tossed. What is the probability of getting exactly three heads? Express your answer as a common fraction.",
+      "answer": "$\\frac{1}{4}$",
+      "image": ""
+    },
+    {
+      "q": "What is the largest perfect fourth power less than $2000$?",
+      "answer": "1296",
+      "image": ""
+    },
+    {
+      "q": "If $9^{2^3}=81^n$, find $n$.",
+      "answer": "4",
+      "image": ""
+    },
+    {
+      "q": "In an arithmetic sequence, the third term is $18$ and the seventh term is $34$. What is the common difference?",
+      "answer": "4",
+      "image": ""
+    },
+    {
+      "q": "A price is increased by $20\\%$, and later increased by another $10\\%$. By what percentage has the price increased overall?",
+      "answer": "32\\%",
+      "image": ""
+    },
+    {
+      "q": "How many integers $n$ satisfy $-3 < n \\le 6$?",
+      "answer": "9",
+      "image": ""
+    },
+    {
+      "q": "In a geometric sequence, the second term is $12$ and the fifth term is $96$. What is the common ratio?",
+      "answer": "2",
+      "image": ""
+    },
+    {
+      "q": "What is the product of the greatest common divisor and the least common multiple of $30$ and $84$?",
+      "answer": "2520",
+      "image": ""
+    },
+    {
+      "q": "Alice and Bob share $\\$180$ in the ratio $3:5$. How many dollars does Bob receive?",
+      "answer": "112.5",
+      "image": ""
+    },
+    {
+      "q": "What is the median of the numbers $1,4,5,7,9,12$?",
+      "answer": "6",
+      "image": ""
+    },
+    {
+      "q": "Define $a\\,\\clubsuit\\,b = \\dfrac{a+b}{a-b}$. Compute $9\\,\\clubsuit\\,3$.",
+      "answer": "2",
+      "image": ""
+    }
+  ]
+}
