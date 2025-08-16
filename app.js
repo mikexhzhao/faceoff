@@ -189,7 +189,7 @@
       }
       typeset();
       return () => { canceled = true; };
-    }, [currentProblem, reveal]);
+    }, [currentProblem, reveal, started]);
 
     return React.createElement("div", { className: "min-h-screen flex flex-col w-full text-white overflow-hidden" },
       // Header
