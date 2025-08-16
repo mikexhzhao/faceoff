@@ -1,0 +1,255 @@
+{
+  "name": "Fractions",
+  "problems": [
+    {
+      "q": "Multiply and simplify: $(\\frac{18}{35}) \\times (\\frac{14}{27})$",
+      "answer": "$\\frac{4}{15}$",
+      "image": ""
+    },
+    {
+      "q": "Compute $3\\frac{5}{8} + 2\\frac{3}{4}$. Express your answer as a mixed number in simplest form.",
+      "answer": "$6\\frac{3}{8}$",
+      "image": ""
+    },
+    {
+      "q": "Compute: $5\\frac{7}{8} - 2\\frac{3}{4}$. Express your answer as an improper fraction in simplest form.",
+      "answer": "$\\frac{25}{8}$",
+      "image": ""
+    },
+    {
+      "q": "Multiply: $1\\frac{2}{3} \\times \\frac{3}{5}$. Express as a common fraction.",
+      "answer": "$1$",
+      "image": ""
+    },
+    {
+      "q": "Long form:\nEvaluate\n\n$\\left(1\\tfrac{2}{5} + \\left(\\tfrac{3}{4} - \\tfrac{1}{6}\\right) \\div \\tfrac{5}{8}\\right) - \\left( \\tfrac{2}{3} \\left(1\\tfrac{1}{2} - \\tfrac{3}{10}\\right) \\right).$\n\nFollow order of operations carefully and simplify your final answer as a mixed number.",
+      "answer": "$1\\frac{8}{15}$",
+      "image": ""
+    },
+    {
+      "q": "Compute: $(\\frac{7}{10}) \\div (\\frac{14}{25})$. Express as a common fraction.",
+      "answer": "$\\frac{5}{4}$",
+      "image": ""
+    },
+    {
+      "q": "Divide and simplify: $(\\frac{21}{25}) \\div (\\frac{7}{10})$",
+      "answer": "$\\frac{6}{5}$",
+      "image": ""
+    },
+    {
+      "q": "Compute $7\\frac{1}{5} - 3\\frac{7}{10}$. Express your answer as a mixed number in simplest form.",
+      "answer": "$3\\frac{1}{2}$",
+      "image": ""
+    },
+    {
+      "q": "What fraction of $\\frac{5}{6}$ is $\\frac{1}{3}$? Express as a common fraction.",
+      "answer": "$\\frac{2}{5}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify: $\\frac{11}{6} + \\frac{13}{4}$. Express as an improper fraction.",
+      "answer": "$\\frac{61}{12}$",
+      "image": ""
+    },
+    {
+      "q": "Compute: $1\\frac{2}{3} + 2\\frac{3}{4} + 3\\frac{1}{6}$. Express as an improper fraction.",
+      "answer": "$\\frac{91}{12}$",
+      "image": ""
+    },
+    {
+      "q": "Find the numerator $n$ so that $\\frac{n}{63}$ is equivalent to $\\frac{7}{9}$.",
+      "answer": "$49$",
+      "image": ""
+    },
+    {
+      "q": "Compute $2\\frac{5}{12} + (\\frac{3}{5} \\div 1\\frac{1}{4})$. Express your answer as a mixed number in simplest form.",
+      "answer": "$2\\frac{269}{300}$",
+      "image": ""
+    },
+    {
+      "q": "Divide: $4\\frac{1}{2} \\div 1\\frac{1}{3}$. Express as a common fraction.",
+      "answer": "$\\frac{27}{8}$",
+      "image": ""
+    },
+    {
+      "q": "Find the average of $\\frac{2}{5}$ and $\\frac{7}{10}$. Express as a common fraction.",
+      "answer": "$\\frac{11}{20}$",
+      "image": ""
+    },
+    {
+      "q": "What is the reciprocal of $\\frac{7}{9}$? Express as a common fraction.",
+      "answer": "$\\frac{9}{7}$",
+      "image": ""
+    },
+    {
+      "q": "Compute: $\\frac{1}{4} + \\frac{2}{3} + \\frac{5}{6}$. Express as a common fraction.",
+      "answer": "$\\frac{7}{4}$",
+      "image": ""
+    },
+    {
+      "q": "Evaluate $(2\\frac{1}{4} + 3\\frac{5}{6}) \\div (\\frac{7}{8})$. Express your answer as a mixed number in simplest form.",
+      "answer": "$6\\frac{20}{21}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify: $\\frac{7}{9} - \\frac{2}{15}$. Express your answer as a common fraction.",
+      "answer": "$\\frac{29}{45}$",
+      "image": ""
+    },
+    {
+      "q": "In a class, $\\frac{5}{8}$ of the students are boys. What fraction are girls?",
+      "answer": "$\\frac{3}{8}$",
+      "image": ""
+    },
+    {
+      "q": "Compute: $\\frac{5}{6} - \\frac{1}{2} - \\frac{1}{3}$. Express as a common fraction.",
+      "answer": "$0$",
+      "image": ""
+    },
+    {
+      "q": "Simplify: $\\frac{5}{12} + \\frac{7}{18} - \\frac{1}{6}$. Express your answer as a common fraction.",
+      "answer": "$\\frac{23}{36}$",
+      "image": ""
+    },
+    {
+      "q": "Evaluate: $(\\frac{5}{8} + \\frac{3}{10}) \\div (\\frac{7}{20})$. Express as a common fraction.",
+      "answer": "$\\frac{37}{14}$",
+      "image": ""
+    },
+    {
+      "q": "Divide: $2\\frac{1}{2} \\div \\frac{5}{8}$. Express as a common fraction.",
+      "answer": "$4$",
+      "image": ""
+    },
+    {
+      "q": "Compute: $\\frac{3}{8} - \\frac{5}{6}$. Express as a common fraction.",
+      "answer": "$-\\frac{11}{24}$",
+      "image": ""
+    },
+    {
+      "q": "Multiply and simplify: $(\\frac{9}{4}) \\times (\\frac{8}{9})$",
+      "answer": "$2$",
+      "image": ""
+    },
+    {
+      "q": "Compute: $4\\frac{1}{6} - 2\\frac{5}{9}$. Express as an improper fraction.",
+      "answer": "$\\frac{29}{18}$",
+      "image": ""
+    },
+    {
+      "q": "Evaluate $1\\tfrac{3}{8} + \\tfrac{2}{3} \\times 3\\tfrac{3}{4}$ (obey order of operations). Express your answer as a mixed number.",
+      "answer": "$3\\frac{7}{8}$",
+      "image": ""
+    },
+    {
+      "q": "Multiply: $3\\frac{1}{2} \\times \\frac{4}{7}$. Express as a common fraction.",
+      "answer": "$2$",
+      "image": ""
+    },
+    {
+      "q": "Find the numerator n so that n/84 is equivalent to \\frac{3}{7}.",
+      "answer": "$36$",
+      "image": ""
+    },
+    {
+      "q": "Multiply and simplify: $(\\frac{14}{15}) \\times (\\frac{9}{28})$",
+      "answer": "$\\frac{3}{10}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify: $(\\frac{4}{9} + \\frac{5}{12}) - \\frac{1}{6}$. Express as a common fraction.",
+      "answer": "$\\frac{25}{36}$",
+      "image": ""
+    },
+    {
+      "q": "A tank is $\\frac{3}{5}$ full. After using $\\frac{1}{4}$ of the tank’s total capacity, what fraction of the tank is filled?",
+      "answer": "$\\frac{7}{20}$",
+      "image": ""
+    },
+    {
+      "q": "Compute: $(\\frac{5}{12}) \\div (\\frac{25}{18})$. Express as a common fraction.",
+      "answer": "$\\frac{3}{10}$",
+      "image": ""
+    },
+    {
+      "q": "Compute: $2\\frac{1}{3} + 4\\frac{5}{6}$. Express your answer as an improper fraction.",
+      "answer": "$\\frac{43}{6}$",
+      "image": ""
+    },
+    {
+      "q": "Find $\\frac{2}{3}$ of $45$.",
+      "answer": "$30$",
+      "image": ""
+    },
+    {
+      "q": "Simplify: $(\\frac{3}{5}) \\div (\\frac{9}{25})$. Express as a common fraction.",
+      "answer": "$\\frac{5}{3}$",
+      "image": ""
+    },
+    {
+      "q": "Divide $5\\frac{1}{2} \\div 1\\frac{1}{3}$. Express your answer as a mixed number in simplest form.",
+      "answer": "$4\\frac{1}{8}$",
+      "image": ""
+    },
+    {
+      "q": "Which is greater: $\\frac{5}{12}$ or $\\frac{7}{18}$? Answer with the fraction.",
+      "answer": "$\\frac{5}{12}$",
+      "image": ""
+    },
+    {
+      "q": "Find $x$ so that $\\frac{x}{15} = \\frac{3}{5}$.",
+      "answer": "$9$",
+      "image": ""
+    },
+    {
+      "q": "Simplify: $\\frac{3}{4} + \\frac{5}{6}$. Express your answer as a common fraction.",
+      "answer": "$\\frac{19}{12}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify: $\\frac{11}{18} + \\frac{7}{12}$. Express as a common fraction.",
+      "answer": "$\\frac{43}{36}$",
+      "image": ""
+    },
+    {
+      "q": "Evaluate $(3\\frac{1}{2} - \\frac{5}{6}) \\div \\frac{3}{4}$. Express your answer as a mixed number in simplest form.",
+      "answer": "$3\\frac{5}{9}$",
+      "image": ""
+    },
+    {
+      "q": "Evaluate: $(\\frac{7}{12}) \\div (\\frac{14}{9})$. Express as a common fraction.",
+      "answer": "$\\frac{3}{8}$",
+      "image": ""
+    },
+    {
+      "q": "A recipe uses \\frac{3}{4} cup of sugar per batch. How much sugar is needed for 2\\frac{1}{2} batches? Express as a common fraction of a cup.",
+      "answer": "$\\frac{15}{8}$",
+      "image": ""
+    },
+    {
+      "q": "Compute $\\tfrac{3}{4}\\cdot\\tfrac{2}{5}\\cdot 60$.",
+      "answer": "$18$",
+      "image": ""
+    },
+    {
+      "q": "Evaluate $6\\frac{2}{3} - (\\frac{5}{6} \\times \\frac{4}{9})$. Express your answer as a mixed number in simplest form.",
+      "answer": "$6\\frac{8}{27}$",
+      "image": ""
+    },
+    {
+      "q": "Multiply $4\\frac{2}{3} \\times 1\\frac{3}{4}$. Express your answer as a mixed number in simplest form.",
+      "answer": "$8\\frac{1}{6}$",
+      "image": ""
+    },
+    {
+      "q": "Evaluate: $(\\frac{3}{5}) \\times (\\frac{4}{9} + \\frac{1}{3})$. Express as a common fraction.",
+      "answer": "$\\frac{7}{15}$",
+      "image": ""
+    },
+    {
+      "q": "Evaluate: $(1\\frac{1}{4} - \\frac{2}{5}) \\times \\frac{3}{7}$. Express as a common fraction.",
+      "answer": "$\\frac{51}{140}$",
+      "image": ""
+    }
+  ]
+}

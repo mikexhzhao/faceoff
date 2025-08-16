@@ -5,7 +5,9 @@
   // Problem: { id:number, q:string, answer:string|number, image?:string }
   // ProblemSet: { name:string, problems: Problem[] }
   // question_bank.json schema:
-  // { "sets": [ { "name": "Set Name", "problems": [ { "q": "...", "answer": "...", "image": "file.png" } ] } ] }
+  // { "sets": [ "set1.json", "set2.json" ] }
+  // Each referenced file has schema:
+  // { "name": "Set Name", "problems": [ { "q": "...", "answer": "...", "image": "file.png" } ] }
 
   // Sound effects (optional)
   class Sounder {
@@ -69,25 +71,37 @@
       setLoadedUrl(url);
       fetch(url, { cache: "no-cache" })
         .then(r => {
-          if(!r.ok) throw new Error("Failed to load question_bank.json");
+          if (!r.ok) throw new Error("Failed to load question_bank.json");
           return r.json();
         })
         .then(data => {
-          const parsedSets = Array.isArray(data.sets) ? data.sets.map(s => ({
-            name: String(s.name || "Untitled Set"),
-            problems: (Array.isArray(s.problems) ? s.problems : []).map((p, i) => ({
-              id: i + 1,
-              q: String(p.q ?? p.question ?? "").trim(),
-              answer: (p.answer ?? p.ans),
-              image: (p.image ?? p.img ?? "").trim()
-            })).filter(p => p.q && (p.answer !== undefined && String(p.answer).length > 0))
-          })) : [];
+          const files = Array.isArray(data.sets) ? data.sets : [];
+          return Promise.all(files.map(f =>
+            fetch(new URL(f, url), { cache: "no-cache" })
+              .then(r => {
+                if (!r.ok) throw new Error("Failed to load " + f);
+                return r.json();
+              })
+              .then(s => ({
+                name: String(s.name || "Untitled Set"),
+                problems: (Array.isArray(s.problems) ? s.problems : [])
+                  .map((p, i) => ({
+                    id: i + 1,
+                    q: String(p.q ?? p.question ?? "").trim(),
+                    answer: (p.answer ?? p.ans),
+                    image: (p.image ?? p.img ?? "").trim()
+                  }))
+                  .filter(p => p.q && (p.answer !== undefined && String(p.answer).length > 0))
+              }))
+          ));
+        })
+        .then(parsedSets => {
           setSets(parsedSets);
           setActiveSetIdx(0);
         })
         .catch(err => {
           console.error(err);
-          alert("Could not load question_bank.json. Ensure it exists in the same folder.");
+          alert("Could not load question_bank.json or one of its sets. Ensure all files exist in the same folder.");
         });
     }, []);
 
@@ -322,6 +336,8 @@
             ),
             React.createElement("p", { className: "text-xs opacity-80" },
               "This page auto-loads ", React.createElement("code", null, "question_bank.json"), " from the same folder. ",
+              "That file should list the JSON files for each problem set. ",
+              "Each set file provides a ", React.createElement("code", null, "name"), " and its ", React.createElement("code", null, "problems"), ". ",
               "Each problem supports an optional ", React.createElement("code", null, "image"), " field (filename relative to the JSON)."
             )
           )
