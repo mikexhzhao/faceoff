@@ -2,12 +2,6 @@
   "sets": [
     "default_set.json",
     "linear_equations.json",
-    "fractions.json",
-    "original_contest_set_1.json",
-    "original_contest_set_2.json",
-    "original_contest_set_3.json",
-    "original_contest_set_1_harder.json",
-    "original_contest_set_2_harder.json",
-    "original_contest_set_3_harder.json"
+    "fractions.json"
   ]
 }
