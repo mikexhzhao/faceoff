@@ -1,0 +1,255 @@
+{
+  "name": "Quadratic (no formula)",
+  "problems": [
+    {
+      "q": "Solve $x^2-7x+12=0$.",
+      "answer": "$x=3,4$",
+      "image": ""
+    },
+    {
+      "q": "Solve $3x^2+5x-2=0$ by factoring.",
+      "answer": "$x=-2,\\;\\tfrac{1}{3}$",
+      "image": ""
+    },
+    {
+      "q": "Factor completely: $2x^2 - x - 21$.",
+      "answer": "$(2x-7)(x+3)$",
+      "image": ""
+    },
+    {
+      "q": "Write $x^2+6x+5$ in vertex form and state the vertex.",
+      "answer": "$(x+3)^2-4$, vertex $(-3,-4)$",
+      "image": ""
+    },
+    {
+      "q": "For $f(x)=-2x^2+8x+3$, find the maximum value of $f$ and the $x$-value where it occurs.",
+      "answer": "Maximum $11$ at $x=2$",
+      "image": ""
+    },
+    {
+      "q": "State the range of $y=(x-4)^2-9$.",
+      "answer": "$[-9,\\infty)$",
+      "image": ""
+    },
+    {
+      "q": "A rectangle has perimeter $40$. What is the maximum possible area?",
+      "answer": "$100$",
+      "image": ""
+    },
+    {
+      "q": "A $20\\times30$ rectangle is enlarged by adding a uniform border of width $x$ all around so that the new area is $1200$. Find $x$.",
+      "answer": "$5$",
+      "image": ""
+    },
+    {
+      "q": "An object’s height (in metres) is $h(t)=-5t^2+20t+3$. Find the maximum height.",
+      "answer": "$23$",
+      "image": ""
+    },
+    {
+      "q": "Solve $x^2+2x+1=0$.",
+      "answer": "$x=-1$\\ (double root)",
+      "image": ""
+    },
+    {
+      "q": "Find the monic quadratic with roots $2$ and $-5$.",
+      "answer": "$x^2+3x-10=0$",
+      "image": ""
+    },
+    {
+      "q": "Find the quadratic equation with sum of roots $7$ and product $12$.",
+      "answer": "$x^2-7x+12=0$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\dfrac{x^2-9}{x^2-6x+9}$.",
+      "answer": "$\\dfrac{x+3}{x-3}$ (for $x\\ne3$)",
+      "image": ""
+    },
+    {
+      "q": "Solve the inequality $x^2-5x<14$.",
+      "answer": "$(-2,\\,7)$",
+      "image": ""
+    },
+    {
+      "q": "Find all real $k$ such that $x^2+kx+16$ has a double root.",
+      "answer": "$k=\\pm 8$",
+      "image": ""
+    },
+    {
+      "q": "Find all real $m$ so that $3x^2+mx+12=0$ has real roots.",
+      "answer": "$|m|\\ge 12$",
+      "image": ""
+    },
+    {
+      "q": "Find the intersection points of $y=x^2-4x+3$ and $y=x+3$.",
+      "answer": "$(0,3)$ and $(5,8)$",
+      "image": ""
+    },
+    {
+      "q": "Find the minimum value of $(x-3)^2+7$ and the $x$ where it occurs.",
+      "answer": "Minimum $7$ at $x=3$",
+      "image": ""
+    },
+    {
+      "q": "Let $f(x)=(x+1)(x-5)$. Find the sum and product of the zeros of $f$.",
+      "answer": "Sum $4$, product $-5$",
+      "image": ""
+    },
+    {
+      "q": "Solve $4x^2-25=0$.",
+      "answer": "$x=\\pm\\tfrac{5}{2}$",
+      "image": ""
+    },
+    {
+      "q": "Find $k$ so that the roots of $x^2+6x+k=0$ differ by $4$.",
+      "answer": "$k=5$",
+      "image": ""
+    },
+    {
+      "q": "Write $y=2x^2-12x+19$ in vertex form and give the vertex.",
+      "answer": "$y=2(x-3)^2+1$, vertex $(3,1)$",
+      "image": ""
+    },
+    {
+      "q": "A shop’s price per item is $p=50-x$ dollars when $x$ items are sold. Revenue is $R=x(50-x)$. Find the $x$ that maximizes revenue and the maximum revenue.",
+      "answer": "$x=25$, max revenue $\\$625$",
+      "image": ""
+    },
+    {
+      "q": "Find two consecutive positive integers whose squares sum to $145$.",
+      "answer": "$8$ and $9$",
+      "image": ""
+    },
+    {
+      "q": "Find the equation of the vertical parabola with vertex $(2,-3)$ that passes through $(3,0)$.",
+      "answer": "$y=3(x-2)^2-3$",
+      "image": ""
+    },
+    {
+      "q": "If $f(x)=x^2-4x+c$ and $f(5)=10$, find $c$.",
+      "answer": "$5$",
+      "image": ""
+    },
+    {
+      "q": "Factor completely: $6x^2-x-12$.",
+      "answer": "$(3x+4)(2x-3)$",
+      "image": ""
+    },
+    {
+      "q": "Solve $5x^2-13x+8=0$ by factoring.",
+      "answer": "$x=1,\\;\\tfrac{8}{5}$",
+      "image": ""
+    },
+    {
+      "q": "State the range of $y=-(x+4)^2+6$.",
+      "answer": "$(-\\infty,\\,6]$",
+      "image": ""
+    },
+    {
+      "q": "Solve $(2x+3)(x-5)\\ge0$.",
+      "answer": "$(-\\infty,-\\tfrac{3}{2}]\\,\\cup\\,[5,\\infty)$",
+      "image": ""
+    },
+    {
+      "q": "Solve $x^2-10x+21=0$.",
+      "answer": "$x=3,7$",
+      "image": ""
+    },
+    {
+      "q": "Factor completely: $2x^2-13x+15$.",
+      "answer": "$(2x-3)(x-5)$",
+      "image": ""
+    },
+    {
+      "q": "Solve $2x^2+9x+10=0$ by factoring.",
+      "answer": "$x=-\\tfrac{5}{2},\\;-2$",
+      "image": ""
+    },
+    {
+      "q": "Write $y=x^2-8x+11$ in vertex form and give the vertex.",
+      "answer": "$y=(x-4)^2-5$, vertex $(4,-5)$",
+      "image": ""
+    },
+    {
+      "q": "State the range of $y=(x+2)^2+1$.",
+      "answer": "$[1,\\infty)$",
+      "image": ""
+    },
+    {
+      "q": "Solve $(x-1)(x+4)>0$.",
+      "answer": "$(-\\infty,-4)\\,\\cup\\,(1,\\infty)$",
+      "image": ""
+    },
+    {
+      "q": "Find the minimum value of $x^2-6x+10$ and the $x$ where it occurs.",
+      "answer": "Minimum $1$ at $x=3$",
+      "image": ""
+    },
+    {
+      "q": "Find the monic quadratic with roots $4$ and $\\tfrac{1}{2}$.",
+      "answer": "$x^2-\\tfrac{9}{2}x+2=0$",
+      "image": ""
+    },
+    {
+      "q": "Find the quadratic with sum of roots $-1$ and product $-6$.",
+      "answer": "$x^2+x-6=0$",
+      "image": ""
+    },
+    {
+      "q": "For $f(x)=-x^2+6x-5$, find the maximum value and where it occurs.",
+      "answer": "Maximum $4$ at $x=3$",
+      "image": ""
+    },
+    {
+      "q": "Solve $9x^2-16\\le0$.",
+      "answer": "$\\big[-\\tfrac{4}{3},\\tfrac{4}{3}\\big]$",
+      "image": ""
+    },
+    {
+      "q": "Solve $\\dfrac{x^2-16}{x-2}\\ge0$.",
+      "answer": "$[-4,2)\\,\\cup\\,[4,\\infty)$",
+      "image": ""
+    },
+    {
+      "q": "Find the intersection points of $y=(x-1)^2$ and $y=3x-5$.",
+      "answer": "$(2,1)$ and $(3,4)$",
+      "image": ""
+    },
+    {
+      "q": "Find $k$ so that $x^2-(k+1)x+k=0$ has a double root.",
+      "answer": "$k=1$",
+      "image": ""
+    },
+    {
+      "q": "Find all real $p$ such that $2x^2+px+18=0$ has real roots.",
+      "answer": "$|p|\\ge 12$",
+      "image": ""
+    },
+    {
+      "q": "A $12\\times16$ garden is enlarged by a uniform border of width $x$ so that the new area is doubled. Find $x$.",
+      "answer": "$x=-7+\\sqrt{97}$",
+      "image": ""
+    },
+    {
+      "q": "Does there exist a vertical parabola $y=a(x-2)^2+b$ whose $x$-intercepts are $1$ and $5$?",
+      "answer": "No; such a parabola would have axis $x=2$, but intercepts $1$ and $5$ are symmetric about $x=3$.",
+      "image": ""
+    },
+    {
+      "q": "Solve $(x-2)^2\\le9$.",
+      "answer": "$[-1,5]$",
+      "image": ""
+    },
+    {
+      "q": "Find the quadratic with vertex $(2,-1)$ and $y$-intercept $3$.",
+      "answer": "$y=(x-2)^2-1= x^2-4x+3$",
+      "image": ""
+    },
+    {
+      "q": "A farmer fences three sides of a rectangular pen against a barn with $60\\,$m of fencing (the barn is the fourth side). What dimensions maximize the area, and what is the maximum area?",
+      "answer": "Width $15$ m, length $30$ m, maximum area $450\\,\\text{m}^2$",
+      "image": ""
+    }
+  ]
+}
