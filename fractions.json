@@ -147,7 +147,7 @@
       "image": ""
     },
     {
-      "q": "Find the numerator n so that n/84 is equivalent to \\frac{3}{7}.",
+      "q": "Find the numerator $n$ so that $\\fract{n}{84}$ is equivalent to $\\frac{3}{7}$.",
       "answer": "$36$",
       "image": ""
     },
