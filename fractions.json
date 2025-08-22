@@ -22,7 +22,7 @@
       "image": ""
     },
     {
-      "q": "Long form:\nEvaluate\n\n$\\left(1\\tfrac{2}{5} + \\left(\\tfrac{3}{4} - \\tfrac{1}{6}\\right) \\div \\tfrac{5}{8}\\right) - \\left( \\tfrac{2}{3} \\left(1\\tfrac{1}{2} - \\tfrac{3}{10}\\right) \\right).$\n\nFollow order of operations carefully and simplify your final answer as a mixed number.",
+      "q": "Long form:\nEvaluate\n\n$\\left(1\\tfrac{2}{5} + \\left(\\tfrac{3}{4} - \\tfrac{1}{6}\\right) \\div \\tfrac{5}{8}\\right) - \\left( \\tfrac{2}{3} \\left(1\\tfrac{1}{2} - \\tfrac{3}{10}\\right) \\right).$\n\nSimplify your final answer as a mixed number.",
       "answer": "$1\\frac{8}{15}$",
       "image": ""
     },
@@ -137,7 +137,7 @@
       "image": ""
     },
     {
-      "q": "Evaluate $1\\tfrac{3}{8} + \\tfrac{2}{3} \\times 3\\tfrac{3}{4}$ (obey order of operations). Express your answer as a mixed number.",
+      "q": "Evaluate $1\\tfrac{3}{8} + \\tfrac{2}{3} \\times 3\\tfrac{3}{4}$. Express your answer as a mixed number.",
       "answer": "$3\\frac{7}{8}$",
       "image": ""
     },
