@@ -1,0 +1,380 @@
+{
+  "name": "Exponent Laws",
+  "problems": [
+    {
+      "q": "Simplify: $\\left(\\dfrac{a^{3}b^{-2}}{a^{-1}b}\\right)^{-1}$ in positive index form.",
+      "answer": "$\\dfrac{b^{3}}{a^{4}}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\left(\\dfrac{x^{-2} y^{5}}{x^{3} y^{-1}}\\right)^{2} (x y^{-2})^{-1}$ to positive indices.",
+      "answer": "$\\dfrac{y^{14}}{x^{11}}$",
+      "image": ""
+    },
+    {
+      "q": "Compute: $(-2)^0+5^0$.",
+      "answer": "$2$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\dfrac{(m n^{-2})^{-3}(m^{-1} n)^{2}}{m^{-2} n^{-1}}$ to positive indices.",
+      "answer": "$\\dfrac{n^{9}}{m^{3}}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\left(\\dfrac{x^{3} y^{-2}}{x^{-1} y^{4}}\\right)^{-2}$ to a single fraction.",
+      "answer": "$\\dfrac{y^{12}}{x^{8}}$",
+      "image": ""
+    },
+    {
+      "q": "Solve for $x$: $9^{x}=3^{x+4}$.",
+      "answer": "$x=4$",
+      "image": ""
+    },
+    {
+      "q": "Evaluate: $(-3)^4$.",
+      "answer": "$81$",
+      "image": ""
+    },
+    {
+      "q": "Rationalize the denominator: $\\dfrac{5}{2\\sqrt{3}}$.",
+      "answer": "$\\dfrac{5\\sqrt{3}}{6}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify: $\\dfrac{a^{-2}b^{4}}{(ab^{-1})^{3}}$ in positive index form.",
+      "answer": "$\\dfrac{b^{7}}{a^{5}}$",
+      "image": ""
+    },
+    {
+      "q": "Compute and give the answer in standard form: $(3\\times10^{4})(2\\times10^{-3})$.",
+      "answer": "$6\\times10^{1}$",
+      "image": ""
+    },
+    {
+      "q": "Solve for $x$: $5^{2x}=25^{3}$.",
+      "answer": "$x=3$",
+      "image": ""
+    },
+    {
+      "q": "Simplify to a single power of $5$: $(5^3)^2\\cdot 25^{-4}$.",
+      "answer": "$5^{-2}=\\dfrac{1}{25}$",
+      "image": ""
+    },
+    {
+      "q": "Express with base $2$: $\\dfrac{8^5}{32^2}$.",
+      "answer": "$2^5$",
+      "image": ""
+    },
+    {
+      "q": "Arrange in ascending order: $6.0\\times10^{-5},\\;6.1\\times10^{-4},\\;5.9\\times10^{-3}$.",
+      "answer": "$6.0\\times10^{-5}<6.1\\times10^{-4}<5.9\\times10^{-3}$",
+      "image": ""
+    },
+    {
+      "q": "Evaluate: $(0.5)^{-4}$.",
+      "answer": "$16$",
+      "image": ""
+    },
+    {
+      "q": "Compute in standard form: $\\dfrac{8\\times10^{5}}{4\\times10^{2}}$.",
+      "answer": "$2\\times10^{3}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\sqrt[3]{216x^{3}y^{6}}$ (assume $x,y>0$).",
+      "answer": "$6xy^{2}$",
+      "image": ""
+    },
+    {
+      "q": "Evaluate: $\\left(\\dfrac{1}{9}\\right)^{-\\tfrac12}$.",
+      "answer": "$3$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\left(\\dfrac{x^{-2} y^{-3}}{x y^{-1}}\\right)^{-1}(x^{3}y^{-2})$",
+      "answer": "$x^{6}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify: $\\dfrac{(x^{2}y^{-1})^{-2}}{x^{-3}y}$.",
+      "answer": "$\\dfrac{y}{x}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify: $\\dfrac{7^0\\cdot7^{-5}}{(7^{-2})^{-1}}$.",
+      "answer": "$\\dfrac{1}{7^{7}}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\dfrac{(a^{4} b^{-5})^{2} (a b^{2})^{-3}}{a^{-2} b}$ with positive indices.",
+      "answer": "$\\dfrac{a^{7}}{b^{17}}$",
+      "image": ""
+    },
+    {
+      "q": "Express as a single index with the smallest base: $\\dfrac{27\\cdot 81}{9^4}$.",
+      "answer": "$3^{-1}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\left(\\dfrac{m^{-2} n^{4}}{m^{3} n^{-1}}\\right)^{-1} (m n^{-2})^{2}$ to positive indices.",
+      "answer": "$\\dfrac{m^{7}}{n^{9}}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify to a single power: $\\dfrac{5^3\\cdot5^{-7}}{25^{-2}}$ in positive index form.",
+      "answer": "$1$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\left(\\dfrac{x^{-1} z^{2}}{1}\\right)^{3}\\!\\Big/\\!(x y^{-2} z^{-1}) \\;\\cdot\\; x^{-2} z^{-1}$ to positive indices.",
+      "answer": "$\\dfrac{y^{2} z^{6}}{x^{6}}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\left(\\dfrac{x^{2} y^{-1} z^{0}}{x^{-1} y^{3} z^{-2}}\\right)^{2}$ to positive indices.",
+      "answer": "$\\dfrac{x^{6} z^{4}}{y^{8}}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\left(\\dfrac{p^{2} q^{-1} r^{3}}{p^{-1} q^{2} r^{-2}}\\right)^{-2}$ with positive indices.",
+      "answer": "$\\dfrac{q^{6}}{p^{6} r^{10}}$",
+      "image": ""
+    },
+    {
+      "q": "Solve for $x$: $2^{x}=\\dfrac{1}{32}$.",
+      "answer": "$x=-5$",
+      "image": ""
+    },
+    {
+      "q": "Evaluate and simplify: $\\left(\\dfrac{p^{-3} q^{2}}{p^{2} q^{-4}}\\right)^{3} (p q)^{-2}$.",
+      "answer": "$\\dfrac{q^{16}}{p^{17}}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\dfrac{(2x^{-1} y^{2} z^{-3})^{-1} (x^{2} y^{-1} z)}{(x y z^{-2})^{2}}$ to positive indices.",
+      "answer": "$\\dfrac{x z^{8}}{2 y^{5}}$",
+      "image": ""
+    },
+    {
+      "q": "Solve for $x$: $\\left(\\dfrac{2}{5}\\right)^{x}=\\left(\\dfrac{5}{2}\\right)^{-3}$.",
+      "answer": "$x=3$",
+      "image": ""
+    },
+    {
+      "q": "Simplify: $\\left(\\dfrac{(3^2)^3}{9^{-2}}\\right)^{-1}$.",
+      "answer": "$\\dfrac{1}{3^{10}}$",
+      "image": ""
+    },
+    {
+      "q": "Solve for $x$: $10^{x}\\cdot10^{3}=0.01$.",
+      "answer": "$x=-5$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\dfrac{(2a^{-3}b^{2})^{2}(3ab^{-1})^{-1}}{(6a^{-2}b)^{-1}}$ with positive indices.",
+      "answer": "$\\dfrac{8 b^{6}}{a^{9}}$",
+      "image": ""
+    },
+    {
+      "q": "Solve for $x$: $4^{x}+4^{x+1}=20$.",
+      "answer": "$x=1$",
+      "image": ""
+    },
+    {
+      "q": "Evaluate: $\\left(\\dfrac15\\right)^{-2}$.",
+      "answer": "$25$",
+      "image": ""
+    },
+    {
+      "q": "Write using positive indices only: $4^{-3}$.",
+      "answer": "$\\dfrac{1}{64}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $(a^{1/2}b^{-1/3})^{-6}$ with positive indices.",
+      "answer": "$\\dfrac{b^{2}}{a^{3}}$",
+      "image": ""
+    },
+    {
+      "q": "Solve for $x$: $\\sqrt[3]{x-1}=-3$.",
+      "answer": "$x=-26$",
+      "image": ""
+    },
+    {
+      "q": "Express in standard (scientific) form: $0.00048$.",
+      "answer": "$4.8\\times10^{-4}$",
+      "image": ""
+    },
+    {
+      "q": "Evaluate: $(-2)^5$.",
+      "answer": "$-32$",
+      "image": ""
+    },
+    {
+      "q": "Evaluate: $27^{\\tfrac{2}{3}}$.",
+      "answer": "$9$",
+      "image": ""
+    },
+    {
+      "q": "Solve for $x$: $3^{x+1}=27$.",
+      "answer": "$x=2$",
+      "image": ""
+    },
+    {
+      "q": "Evaluate: $(6a^2b^{-3})^0$ (assume $a,b\\ne0$).",
+      "answer": "$1$",
+      "image": ""
+    },
+    {
+      "q": "Simplify: $\\dfrac{(x^{-1}y^{2})^{3}}{(x^{2}y^{-1})^{2}}$ in positive index form.",
+      "answer": "$\\dfrac{y^{8}}{x^{7}}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\dfrac{a^{0} b^{-2} c^{4}}{(a^{-3} b c^{-2})^{-1}}$ to positive indices.",
+      "answer": "$\\dfrac{c^{2}}{a^{3} b}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify: $(2^{-3})^{-2}\\cdot 8^{-1}$.",
+      "answer": "$8$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\dfrac{(a^3 b^{-2} c)^{-1}\\,(a^{-2} b c^{3})}{a^{-4} b^{2} c^{-2}}$ to positive indices.",
+      "answer": "$\\dfrac{b c^{4}}{a}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify: $\\dfrac{\\big(\\tfrac{3}{2}\\big)^{-2}}{\\big(\\tfrac{6}{4}\\big)^{-1}}$.",
+      "answer": "$\\dfrac{2}{3}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\sqrt{50}+3\\sqrt{2}-2\\sqrt{8}$.",
+      "answer": "$4\\sqrt{2}$",
+      "image": ""
+    },
+    {
+      "q": "Express $\\sqrt[4]{x^{5}}$ as a single power of $x$ (positive index).",
+      "answer": "$x^{5/4}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\sqrt[4]{x^{3}}\\cdot\\sqrt{x}$ as a single power of $x$.",
+      "answer": "$x^{5/4}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\dfrac{(a^{-2} b c^{-3})^{-2} (a b^{-1} c^{2})^{3}}{a^{3} b^{-2}}$ to positive indices.",
+      "answer": "$\\dfrac{a^{4} c^{12}}{b^{3}}$",
+      "image": ""
+    },
+    {
+      "q": "Write in ordinary notation: $7.2\\times10^{-3}$.",
+      "answer": "$0.0072$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\left(\\dfrac{a^{2} b^{-3}}{a^{-1} b^{2}}\\right) (a b^{-1})^{-2}$ to positive indices.",
+      "answer": "$\\dfrac{a}{b^{3}}$",
+      "image": ""
+    },
+    {
+      "q": "Solve for $x$: $\\sqrt{x+9}=5$.",
+      "answer": "$x=16$",
+      "image": ""
+    },
+    {
+      "q": "Solve for $x$: $\\left(\\dfrac14\\right)^{x-2}=16$.",
+      "answer": "$x=0$",
+      "image": ""
+    },
+    {
+      "q": "Evaluate: $(4^3)^{\\tfrac12}\\cdot 16^{-\\tfrac34}$.",
+      "answer": "$1$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\left(\\dfrac{(m^{2} n^{-3} p)^{3}}{m^{-1} n^{2} p^{-2}}\\right)^{-1}$.",
+      "answer": "$\\dfrac{n^{11}}{m^{7} p^{5}}$",
+      "image": ""
+    },
+    {
+      "q": "Add and express in standard form: $(4.5\\times10^{-2})+(3\\times10^{-1})$.",
+      "answer": "$3.45\\times10^{-1}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\sqrt{72}$ to simplest radical form.",
+      "answer": "$6\\sqrt{2}$",
+      "image": ""
+    },
+    {
+      "q": "Solve for $x$: $\\sqrt{x+4}=x-2$ (real solutions).",
+      "answer": "$x=5$",
+      "image": ""
+    },
+    {
+      "q": "Write as a single power: $\\sqrt{a}\\,\\sqrt[3]{a^{2}}$ ($a>0$).",
+      "answer": "$a^{7/6}$",
+      "image": ""
+    },
+    {
+      "q": "Evaluate: $(0.2)^{-3}$.",
+      "answer": "$125$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\dfrac{(x^{-3} y^{2})^{-2} (x y^{-1})^{3}}{x^{-2} y}$ to positive indices.",
+      "answer": "$\\dfrac{x^{11}}{y^{8}}$",
+      "image": ""
+    },
+    {
+      "q": "Subtract and express in standard form: $(2.4\\times10^{3})-(6\\times10^{2})$.",
+      "answer": "$1.8\\times10^{3}$",
+      "image": ""
+    },
+    {
+      "q": "Evaluate $9^{3/2}$.",
+      "answer": "$27$",
+      "image": ""
+    },
+    {
+      "q": "Arrange in ascending order without evaluating decimals: $2^{5},\\;3^{3},\\;5^{2}$.",
+      "answer": "$5^{2}<3^{3}<2^{5}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\dfrac{(3a^{-2} b)^{-1}\\,(9 a b^{-3})}{(a^{-1} b^{2})^{2}}$ with positive indices.",
+      "answer": "$\\dfrac{3 a^{5}}{b^{8}}$",
+      "image": ""
+    },
+    {
+      "q": "Rationalize the denominator: $\\dfrac{1}{\\sqrt{5}-\\sqrt{2}}$.",
+      "answer": "$\\dfrac{\\sqrt{5}+\\sqrt{2}}{3}$",
+      "image": ""
+    },
+    {
+      "q": "Rewrite $(\\sqrt{a})^{5}/a$ using positive rational exponents ($a>0$).",
+      "answer": "$a^{3/2}$",
+      "image": ""
+    },
+    {
+      "q": "Express in standard (scientific) form: $5\\,600\\,000$.",
+      "answer": "$5.6\\times10^{6}$",
+      "image": ""
+    },
+    {
+      "q": "Solve for $x$: $\\sqrt{3x-1}=2\\sqrt{x-1}$.",
+      "answer": "$x=3$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\dfrac{(a^{-1} b^{2} c^{-3})^{2}}{(a^{-3} b c^{-1})^{3}}$ in positive indices.",
+      "answer": "$\\dfrac{a^{7} b}{c^{3}}$",
+      "image": ""
+    }
+  ]
+}
