@@ -1,12 +1,13 @@
 {
   "sets": [
     "default_set.json",
-    "linear_equations.json",
-    "fractions.json",
     "original_contest_set_1_harder.json",
     "original_contest_set_2_harder.json",
     "original_contest_set_3_harder.json",
-    "Quadratic (no formula).json",
-    "exponent_laws.json"
+    "fractions.json",
+    "exponent_laws.json",
+    "linear_equations.json",
+    "linear_equations_word_problems.json",
+    "Quadratic (no formula).json"
   ]
 }
