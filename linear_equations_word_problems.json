@@ -1,0 +1,105 @@
+{
+  "name": "Systems of Linear Equations Word Problems",
+  "problems": [
+    {
+      "q": "At a school play, adult tickets cost $12 and student tickets cost $8. If 120 tickets were sold for a total of $1,120, how many of each ticket were sold?",
+      "answer": "\\(40\\) adult tickets and \\(80\\) student tickets",
+      "image": ""
+    },
+    {
+      "q": "At a farmers’ market, a shopper pays $11.50 for 2 kg of apples and 3 kg of bananas. Another shopper pays $12.50 for 5 kg of apples and 1 kg of bananas. Find the price per kilogram of apples and of bananas.",
+      "answer": "Apples \\(\\$2.00/\\text{kg}\\); Bananas \\(\\$2.50/\\text{kg}\\)",
+      "image": ""
+    },
+    {
+      "q": "The sum of Mia’s and Noah’s current ages is 35. In 5 years, Mia will be twice Noah’s age. Find their current ages.",
+      "answer": "Mia is \\(25\\) years old and Noah is \\(10\\) years old",
+      "image": ""
+    },
+    {
+      "q": "A roaster blends a $12/kg coffee with an $18/kg coffee to make 10 kg of a $15/kg blend. How many kilograms of each coffee are used?",
+      "answer": "\\(5\\,\\text{kg}\\) of the \\(\\$12/\\text{kg}\\) coffee and \\(5\\,\\text{kg}\\) of the \\(\\$18/\\text{kg}\\) coffee",
+      "image": ""
+    },
+    {
+      "q": "A workout consists of running at 6 km/h and biking at 20 km/h for a total distance of 42 km in 3 hours. How long is spent on each activity?",
+      "answer": "Running time \\(= \\tfrac{9}{7}\\,\\text{h}\\) \\(\\approx 1\\,\\text{h}\\ 17\\,\\text{min}\\); Biking time \\(= \\tfrac{12}{7}\\,\\text{h}\\) \\(\\approx 1\\,\\text{h}\\ 43\\,\\text{min}\\)",
+      "image": ""
+    },
+    {
+      "q": "A rectangle has a perimeter of 26 cm and an area of 40 cm^2. Find its length and width.",
+      "answer": "Length \\(8\\,\\text{cm}\\) and width \\(5\\,\\text{cm}\\) (order interchangeable)",
+      "image": ""
+    },
+    {
+      "q": "At a snack shop, 3 candy bars and 2 packs of gum cost $6.10, while 2 candy bars and 5 packs of gum cost $7.00. Find the price of one candy bar and one pack of gum.",
+      "answer": "Candy bar \\(\\$1.50\\); Pack of gum \\(\\$0.80\\)",
+      "image": ""
+    },
+    {
+      "q": "A club sold T-shirts for $15 each and hoodies for $35 each. They sold 80 items in total and collected $2,300. How many T-shirts and how many hoodies were sold?",
+      "answer": "\\(25\\) T-shirts and \\(55\\) hoodies",
+      "image": ""
+    },
+    {
+      "q": "At a fundraiser, bracelets cost $4 and keychains cost $7. If 73 items were sold for $391, how many bracelets and how many keychains were sold?",
+      "answer": "\\(40\\) bracelets and \\(33\\) keychains",
+      "image": ""
+    },
+    {
+      "q": "On a phone plan, the bill is a fixed monthly fee plus a charge per gigabyte of data. One month with 6 GB cost $38; another month with 10 GB cost $54. Determine the fixed fee and the per-GB charge.",
+      "answer": "Fixed fee \\(\\$14\\); \\(\\$4\\) per \\(\\text{GB}\\)",
+      "image": ""
+    },
+    {
+      "q": "At a cinema snack bar, 2 large popcorns and 3 drinks cost $25.50, while 3 large popcorns and 2 drinks cost $27.00. Find the price of one large popcorn and one drink.",
+      "answer": "Large popcorn \\(\\$6.00\\); Drink \\(\\$4.50\\)",
+      "image": ""
+    },
+    {
+      "q": "A commute involves walking at 4 km/h and then taking a bus at 48 km/h. The total travel time is 1 hour and the total distance is 28 km. How long is spent walking and how long on the bus?",
+      "answer": "Walking time \\(= \\tfrac{5}{11}\\,\\text{h}\\) \\(\\approx 27\\,\\text{min}\\ 16\\,\\text{s}\\); Bus time \\(= \\tfrac{6}{11}\\,\\text{h}\\) \\(\\approx 32\\,\\text{min}\\ 44\\,\\text{s}\\)",
+      "image": ""
+    },
+    {
+      "q": "A jar contains only quarters and dimes. There are 32 coins worth $5.30 in total. How many quarters and how many dimes are there?",
+      "answer": "\\(14\\) quarters and \\(18\\) dimes",
+      "image": ""
+    },
+    {
+      "q": "A handyman charges a fixed visit fee plus an hourly rate. A 3-hour job costs $215, while a 5-hour job costs $295. Find the visit fee and the hourly rate.",
+      "answer": "Visit fee \\(\\$95\\); \\(\\$40\\) per hour",
+      "image": ""
+    },
+    {
+      "q": "A farm packs eggs in cartons of 12 and cartons of 18. In one shipment there are 23 cartons totaling 354 eggs. How many 12-egg cartons and how many 18-egg cartons are there?",
+      "answer": "\\(10\\) cartons of \\(12\\) and \\(13\\) cartons of \\(18\\)",
+      "image": ""
+    },
+    {
+      "q": "A rental shop has single bikes for $12 per hour and tandem bikes for $20 per hour. During one hour they rented out 17 bikes and collected $268. How many of each type were rented?",
+      "answer": "\\(9\\) single bikes and \\(8\\) tandem bikes",
+      "image": ""
+    },
+    {
+      "q": "A school store sold small notebooks for $2 and large notebooks for $5. If 120 notebooks were sold for a total of $420, how many small and how many large were sold?",
+      "answer": "\\(60\\) small notebooks and \\(60\\) large notebooks",
+      "image": ""
+    },
+    {
+      "q": "A chemist mixes a 30% acid solution with a 50% acid solution to make 10 L of a 36% solution. How many liters of each solution are used?",
+      "answer": "\\(7\\,\\text{L}\\) of \\(30\\%\\) solution and \\(3\\,\\text{L}\\) of \\(50\\%\\) solution",
+      "image": ""
+    },
+    {
+      "q": "A car rental charges a flat daily fee plus a per-mile charge. For a one-day rental, driving 120 miles costs $86, while 200 miles costs $118. Determine the daily fee and the per-mile charge.",
+      "answer": "Daily fee \\(\\$38\\); \\(\\$0.40\\) per mile",
+      "image": ""
+    },
+    {
+      "q": "A taxi charges a $3 flag-drop plus $1.80 per kilometer. You took two rides totaling $39.60. The longer ride was 6 km more than the shorter ride. How long was each ride?",
+      "answer": "Shorter ride \\(= \\tfrac{19}{3}\\,\\text{km}\\) \\(\\approx 6.33\\,\\text{km}\\); Longer ride \\(= \\tfrac{37}{3}\\,\\text{km}\\) \\(\\approx 12.33\\,\\text{km}\\)",
+      "image": ""
+    }
+  ]
+}
