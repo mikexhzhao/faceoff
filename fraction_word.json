@@ -1,0 +1,205 @@
+{
+  "name": "Fractions — Word Problems with Operations, Decimals & Percents", 
+  "problems": [
+    {
+      "q": "A pancake recipe uses $\\tfrac{3}{4}$ cup of milk per batch. If you make $2\\tfrac{1}{2}$ batches, how many cups of milk do you need in total?",
+      "answer": "$1\\tfrac{7}{8}$",
+      "image": ""
+    },
+    {
+      "q": "A jug contains $2\\tfrac{3}{5}$ liters of juice. If $\\tfrac{7}{8}$ liter is poured out, how much juice remains?",
+      "answer": "$1\\tfrac{29}{40}$",
+      "image": ""
+    },
+    {
+      "q": "A hiker completes $\\tfrac{5}{8}$ of a trail in the morning and $\\tfrac{1}{5}$ in the afternoon. What fraction of the trail is still not hiked by the end of the day?",
+      "answer": "$\\tfrac{7}{40}$",
+      "image": ""
+    },
+    {
+      "q": "A project requires $2\\tfrac{1}{2}$ gallons of sealant. Each can contains $\\tfrac{3}{4}$ gallon. How many whole cans must be purchased?",
+      "answer": "$4$",
+      "image": ""
+    },
+    {
+      "q": "A ribbon of length $1\\tfrac{1}{2}$ meters is cut into pieces of length $\\tfrac{3}{10}$ meter each. How many pieces are made?",
+      "answer": "$5$",
+      "image": ""
+    },
+    {
+      "q": "In a class of $30$ students, $40\\%$ brought a snack. Of the rest, $\\tfrac{1}{3}$ bought from the cafeteria. How many students brought something to eat?",
+      "answer": "$18$",
+      "image": ""
+    },
+    {
+      "q": "A soup recipe calls for $\\tfrac{2}{3}$ cup of broth. You decide to make a $\\tfrac{3}{5}$ batch. How much broth is needed?",
+      "answer": "$\\tfrac{2}{5}$",
+      "image": ""
+    },
+    {
+      "q": "Write $\\tfrac{17}{30}$ as a decimal to the thousandths place (rounded).",
+      "answer": "$0.567$",
+      "image": ""
+    },
+    {
+      "q": "A batting average is displayed as $0.\\overline{027}$. Express this as a fraction in lowest terms.",
+      "answer": "$\\tfrac{1}{37}$",
+      "image": ""
+    },
+    {
+      "q": "An item priced at $48$ is discounted by $12\\tfrac{1}{2}\\%$ and then taxed at $13\\%$. What is the final price (in dollars), to the nearest cent?",
+      "answer": "$47.46$",
+      "image": ""
+    },
+    {
+      "q": "Alice ran $0.68$ of a route, while Bob ran $\\tfrac{2}{3}$ of the same route. By what fraction of the route did the person who ran more exceed the other?",
+      "answer": "$\\tfrac{1}{75}$\\;\\text{(Alice over Bob)}",
+      "image": ""
+    },
+    {
+      "q": "A course grade is the weighted average of two terms: $\\tfrac{1}{4}$ from Term 1 (score $88\\%$) and $\\tfrac{3}{4}$ from Term 2 (score $92\\%$). What is the final percentage score?",
+      "answer": "$91\\%$",
+      "image": ""
+    },
+    {
+      "q": "Three pizzas are on the table. One is $\\tfrac{3}{8}$ eaten, another is $\\tfrac{5}{12}$ eaten, and the third is $\\tfrac{1}{4}$ eaten. Altogether, how many pizzas remain uneaten?",
+      "answer": "$1\\tfrac{23}{24}$",
+      "image": ""
+    },
+    {
+      "q": "A tank is $\\tfrac{2}{3}$ full. Then $10\\%$ of the tank’s total capacity is added. What fraction of the tank is full afterward?",
+      "answer": "$\\tfrac{23}{30}$",
+      "image": ""
+    },
+    {
+      "q": "In a club the ratio of boys to girls is $12:15$. What fraction of the club members are boys?",
+      "answer": "$\\tfrac{4}{9}$",
+      "image": ""
+    },
+    {
+      "q": "A chemist mixes $\\tfrac{1}{3}$ liter, $\\tfrac{3}{8}$ liter, and $\\tfrac{2}{5}$ liter of three solutions. How many liters are in the mixture altogether?",
+      "answer": "$1\\tfrac{13}{120}$",
+      "image": ""
+    },
+    {
+      "q": "Sam paints $\\tfrac{3}{5}$ of a fence per day. After $1.6$ days of work, what fraction of the fence remains unpainted?",
+      "answer": "$\\tfrac{1}{25}$",
+      "image": ""
+    },
+    {
+      "q": "Five friends split $\\tfrac{3}{4}$ of a pizza equally. What fraction of a pizza does each friend receive?",
+      "answer": "$\\tfrac{3}{20}$",
+      "image": ""
+    },
+    {
+      "q": "A car uses $15$ liters of fuel to travel $210$ km. Express the fuel usage in liters per kilometer as a fraction in lowest terms.",
+      "answer": "$\\tfrac{1}{14}$",
+      "image": ""
+    },
+    {
+      "q": "A rectangular garden is $\\tfrac{4}{5}$ of a unit long and $\\tfrac{5}{6}$ of a unit wide. What fraction of a square unit is its area?",
+      "answer": "$\\tfrac{2}{3}$",
+      "image": ""
+    },
+    {
+      "q": "A string is $\\tfrac{3}{4}$ meter long. If $0.29$ meter is cut off, how long is the remaining piece?",
+      "answer": "$\\tfrac{23}{50}$",
+      "image": ""
+    },
+    {
+      "q": "A baker has $1\\tfrac{3}{4}$ kilograms of flour. Each loaf requires $0.4$ kilogram. How many whole loaves can be made, and how much flour remains (in kg)?",
+      "answer": "$4$\\;\\text{loaves, }$\\tfrac{3}{20}$\\;\\text{kg left}",
+      "image": ""
+    },
+    {
+      "q": "In a survey, $37.5\\%$ of respondents prefer option A. Express this percentage as a fraction in simplest form.",
+      "answer": "$\\tfrac{3}{8}$",
+      "image": ""
+    },
+    {
+      "q": "A spinner lands on red with probability $0.375$. Express this probability as a fraction in lowest terms.",
+      "answer": "$\\tfrac{3}{8}$",
+      "image": ""
+    },
+    {
+      "q": "A quality check shows a defect rate of $0.\\overline{36}$. Express this repeating decimal as a fraction in lowest terms.",
+      "answer": "$\\tfrac{4}{11}$",
+      "image": ""
+    },
+    {
+      "q": "A length is $\\tfrac{11}{32}$ meter. Using long division, write this length as a decimal.",
+      "answer": "$0.34375$",
+      "image": ""
+    },
+    {
+      "q": "A $1$-liter bottle of juice is partially consumed. On Monday, $\\tfrac{2}{3}$ of the bottle is drunk. On Tuesday, another $\\tfrac{3}{10}$ of the original bottle is drunk. On Wednesday, $\\tfrac{1}{4}$ of what remains is drunk. What fraction of the bottle remains?",
+      "answer": "$\\tfrac{1}{40}$",
+      "image": ""
+    },
+    {
+      "q": "Find the average (arithmetic mean) of $\\tfrac{1}{2}$, $\\tfrac{3}{5}$, and $\\tfrac{3}{4}$.",
+      "answer": "$\\tfrac{37}{60}$",
+      "image": ""
+    },
+    {
+      "q": "One lap around a track takes a jogger $2.4$ minutes at a steady pace. How much of a lap does the jogger complete in $2$ minutes?",
+      "answer": "$\\tfrac{5}{6}$",
+      "image": ""
+    },
+    {
+      "q": "On Monday, $\\tfrac{1}{5}$ of a class is absent. Later, $30\\%$ of those absent return. What fraction of the entire class remains absent?",
+      "answer": "$\\tfrac{7}{50}$",
+      "image": ""
+    },
+    {
+      "q": "A bill of $45$ dollars has $13\\%$ tax added, then a $15\\%$ tip is applied to the post-tax amount. What is the total amount due (in dollars), to the nearest cent?",
+      "answer": "$58.48$",
+      "image": ""
+    },
+    {
+      "q": "A recipe uses $\\tfrac{1}{2}$ cup of sugar, $0.375$ cup of syrup, and $0.125$ cup of honey. How many cups are used in total?",
+      "answer": "$1$",
+      "image": ""
+    },
+    {
+      "q": "A cyclist rides $\\tfrac{5}{6}$ of a route, then turns back $\\tfrac{1}{4}$ of the route’s total length, then rides forward another $\\tfrac{1}{12}$. What is the cyclist’s net position from the starting point, and what total distance did the cyclist travel?",
+      "answer": "\\text{Net }=\\tfrac{2}{3}\\text{ of the route from start; Total distance }=\\tfrac{7}{6}\\text{ of the route}",
+      "image": ""
+    },
+    {
+      "q": "A rope is $9\\tfrac{3}{5}$ meters long. It is cut into equal pieces each $1\\tfrac{1}{5}$ meters long. How many pieces are there?",
+      "answer": "$8$",
+      "image": ""
+    },
+    {
+      "q": "A solution is $30\\%$ acid. After adding water to triple the total volume, what fraction of the new solution is acid?",
+      "answer": "$\\tfrac{1}{10}$",
+      "image": ""
+    },
+    {
+      "q": "A student watches $\\tfrac{5}{12}$ of a $96$-minute movie. How many minutes did the student watch?",
+      "answer": "$40$",
+      "image": ""
+    },
+    {
+      "q": "Pipe A fills a tank at $\\tfrac{1}{3}$ tank per hour and Pipe B at $\\tfrac{1}{6}$ tank per hour. If both are opened for $1.5$ hours, what fraction of the tank is filled?",
+      "answer": "$\\tfrac{3}{4}$",
+      "image": ""
+    },
+    {
+      "q": "Which is larger, $0.63$ or $\\tfrac{5}{8}$? By how much is it larger, expressed as a common fraction?",
+      "answer": "$0.63$\\;\\text{ is larger by }\\tfrac{1}{200}$",
+      "image": ""
+    },
+    {
+      "q": "A gauge reads $1.\\overline{27}$ liters. Express this amount as an improper fraction of a liter in lowest terms.",
+      "answer": "$\\tfrac{14}{11}$",
+      "image": ""
+    },
+    {
+      "q": "Write $\\tfrac{7}{15}$ as a decimal to the thousandths place (rounded).",
+      "answer": "$0.467$",
+      "image": ""
+    }
+  ]
+}
