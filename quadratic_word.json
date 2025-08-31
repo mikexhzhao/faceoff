@@ -1,5 +1,5 @@
 {
-  "name": "Quadratic Word Problems",
+  "name": "Quadratic Word Problems (no formula)",
   "problems": [
     {
       "q": "A rectangle has area $96\\,\\text{m}^2$ and perimeter $40\\,\\text{m}$. Find its dimensions.",
@@ -67,8 +67,8 @@
       "image": ""
     },
     {
-      "q": "A triangle has base $5\\,\\text{cm}$ longer than its height. If its area is $60\\,\\text{cm}^2$, find base and height.",
-      "answer": "$\\tfrac12 h(h+5)=60\\Rightarrow h^2+5h-120=0\\Rightarrow h=8$ (reject $-15$). Base $13\\,\\text{cm}$, height $8\\,\\text{cm}$.",
+      "q": "A triangle has base $5\\,\\text{cm}$ longer than its height. If its area is $52\\,\\text{cm}^2$, find base and height.",
+      "answer": "\\tfrac12 h(h+5)=52\\Rightarrow h(h+5)=104\\Rightarrow h^2+5h-104=0\\Rightarrow (h+13)(h-8)=0\\Rightarrow h=8\\text{ cm (reject }-13)\\Rightarrow\\text{base }=13\\text{ cm}.",
       "image": ""
     },
     {
