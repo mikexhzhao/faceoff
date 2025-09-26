@@ -1,0 +1,130 @@
+{
+  "name": "Original Contest Set 4",
+  "problems": [
+    {
+      "q": "A ticket machine prints the numbers from 2000 to 2999. How many times does the digit 2 get printed?",
+      "answer": "$1300$",
+      "image": ""
+    },
+    {
+      "q": "A chemist has 60 liters of a 30% acid solution. She removes some of it and replaces it with pure water, leaving a 24% acid solution. How many liters did she replace?",
+      "answer": "$12$",
+      "image": ""
+    },
+    {
+      "q": "An equilateral triangle of side length 12 cm has a small equilateral triangle of side length 2 cm cut off from each vertex. What is the area, in square centimeters, of the remaining hexagon?",
+      "answer": "$33\\sqrt{3}$",
+      "image": ""
+    },
+    {
+      "q": "Let $a_1 = 2$ and define $a_{n+1} = 3a_n + 4$ for $n \\ge 1$. What is the value of $a_5$?",
+      "answer": "$322$",
+      "image": ""
+    },
+    {
+      "q": "A student’s five test scores have an average of 88. After retaking the lowest test and earning a 94 on it, the new average of the five scores is 90. What was the original lowest score?",
+      "answer": "$84$",
+      "image": ""
+    },
+    {
+      "q": "Find the smallest positive integer $n$ that satisfies $n \\equiv 3 \\pmod{5}$, $n \\equiv 2 \\pmod{6}$, and $n \\equiv 1 \\pmod{7}$.",
+      "answer": "$8$",
+      "image": ""
+    },
+    {
+      "q": "A box contains 5 red cards, 4 blue cards, and 3 green cards. If three cards are drawn at random without replacement, what is the probability that the colors of the cards are all different? Express your answer as a common fraction.",
+      "answer": "$\\frac{3}{11}$",
+      "image": ""
+    },
+    {
+      "q": "A rectangular field measures 120 m by 90 m. A walkway of uniform width 5 m is built inside the field along all four sides. What is the area, in square meters, of the walkway?",
+      "answer": "$2000$",
+      "image": ""
+    },
+    {
+      "q": "Evaluate $(\\sqrt{5}+\\sqrt{2})^2 - (\\sqrt{5}-\\sqrt{2})^2$.",
+      "answer": "$4\\sqrt{10}$",
+      "image": ""
+    },
+    {
+      "q": "Let $f(x) = ax + b$ with $a > 0$. If $f(f(x)) = 9x + 8$, what is the value of $a + b$?",
+      "answer": "$5$",
+      "image": ""
+    },
+    {
+      "q": "Find the sum of the infinite geometric series with first term 7 and common ratio $-\\frac{2}{3}$.",
+      "answer": "$\\frac{21}{5}$",
+      "image": ""
+    },
+    {
+      "q": "A cylindrical jar has a radius of 4 cm and initially contains water to a depth of 9 cm. A solid sphere of radius 3 cm is fully submerged in the jar. By how many centimeters does the water level rise?",
+      "answer": "$\\frac{9}{4}$",
+      "image": ""
+    },
+    {
+      "q": "For which integer $n$ does $\\binom{n}{3} = 560$?",
+      "answer": "$16$",
+      "image": ""
+    },
+    {
+      "q": "How many four-digit integers have digits in strictly increasing order from left to right?",
+      "answer": "$126$",
+      "image": ""
+    },
+    {
+      "q": "In triangle $ABC$, the vertices are $A(0,0)$, $B(6,0)$, and $C(6,8)$. Point $D$ lies on $BC$ such that segment $AD$ divides the area of triangle $ABC$ into two equal parts. What is the length of segment $BD$?",
+      "answer": "$4$",
+      "image": ""
+    },
+    {
+      "q": "Solve for $x$: $\\log_2(x+4) - \\log_2(x-4) = 3$.",
+      "answer": "$\\frac{36}{7}$",
+      "image": ""
+    },
+    {
+      "q": "An arithmetic sequence has a common difference of 5, and the sum of its first 15 terms is 555. What is the first term of the sequence?",
+      "answer": "$2$",
+      "image": ""
+    },
+    {
+      "q": "Two trains start 300 kilometers apart and travel toward each other at constant speeds of 80 km/h and 70 km/h. At the same moment, a bird starts flying back and forth between the trains at 120 km/h until the trains meet. How many kilometers does the bird travel?",
+      "answer": "$240$",
+      "image": ""
+    },
+    {
+      "q": "How many positive divisors of 840 are multiples of 6?",
+      "answer": "$12$",
+      "image": ""
+    },
+    {
+      "q": "What is the radius of the circle inscribed in a triangle with side lengths 13 cm, 14 cm, and 15 cm?",
+      "answer": "$4$",
+      "image": ""
+    },
+    {
+      "q": "Compute $1^3 + 2^3 + 3^3 + \\cdots + 20^3$.",
+      "answer": "$44100$",
+      "image": ""
+    },
+    {
+      "q": "A monic cubic polynomial has roots 2, 3, and 7. If the polynomial is written as $x^3 - px^2 + qx - r$, what is the value of $q$?",
+      "answer": "$41$",
+      "image": ""
+    },
+    {
+      "q": "On a 24-hour digital clock, times are displayed from 00:00 to 23:59. How many times in a single day does the display read the same forwards and backwards?",
+      "answer": "$16$",
+      "image": ""
+    },
+    {
+      "q": "How many shortest lattice paths from $(0,0)$ to $(6,4)$ do not pass through the point $(3,2)$?",
+      "answer": "$110$",
+      "image": ""
+    },
+    {
+      "q": "What is the least positive integer $n$ for which $3^n$ ends with the digits 001?",
+      "answer": "$100$",
+      "image": ""
+    }
+  ]
+}
