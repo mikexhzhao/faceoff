@@ -27,8 +27,8 @@
       "image": ""
     },
     {
-      "q": "Find the smallest positive integer $n$ that has a remainder of 3, 2, and 1 when divided by 5, 6, and 7 respectively.",
-      "answer": "$8$",
+      "q": "Find the smallest positive integer $n > 8$ that has a remainder of 3, 2, and 1 when divided by 5, 6, and 7 respectively.",
+      "answer": "$218$",
       "image": ""
     },
     {
