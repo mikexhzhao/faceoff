@@ -27,7 +27,7 @@
       "image": ""
     },
     {
-      "q": "Find the smallest positive integer $n$ that satisfies $n \\equiv 3 \\pmod{5}$, $n \\equiv 2 \\pmod{6}$, and $n \\equiv 1 \\pmod{7}$.",
+      "q": "Find the smallest positive integer $n$ that has a remainder of 3, 2, and 1 when divided by 5, 6, and 7 respectively.",
       "answer": "$8$",
       "image": ""
     },
