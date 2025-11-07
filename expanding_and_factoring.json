@@ -7,8 +7,8 @@
       "image": ""
     },
     {
-      "q": "Factor completely: $12x^2 + 18x + 6$.",
-      "answer": "$6(2x^2 + 3x + 1)$",
+      "q": "Factor completely: $6x^2 + 12x + 6$.",
+      "answer": "$6(x+1)^2$",
       "image": ""
     },
     {
