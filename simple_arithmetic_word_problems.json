@@ -1,0 +1,505 @@
+{
+  "name": "Simple Arithmetic Word Problems",
+  "problems": [
+    {
+      "q": "Lena collects 18 stickers and gets 27 more from a friend. How many stickers does she have now?",
+      "answer": "$45$",
+      "image": ""
+    },
+    {
+      "q": "A bakery sells 32 muffins in the morning and 19 more in the afternoon. How many muffins were sold in all?",
+      "answer": "$51$",
+      "image": ""
+    },
+    {
+      "q": "A bus holds 24 kids when it leaves and 17 more board at the next stop. How many kids are on the bus?",
+      "answer": "$41$",
+      "image": ""
+    },
+    {
+      "q": "A jar has 45 marbles. After giving away 6, a friend adds 12 more. How many marbles are in the jar now?",
+      "answer": "$51$",
+      "image": ""
+    },
+    {
+      "q": "The library has 68 storybooks and orders 22 more. How many storybooks will it have total?",
+      "answer": "$90$",
+      "image": ""
+    },
+    {
+      "q": "A farmer picks 35 apples on Monday and 28 on Tuesday. How many apples did the farmer pick in all?",
+      "answer": "$63$",
+      "image": ""
+    },
+    {
+      "q": "A concert sold 74 tickets online and 18 at the door. How many tickets were sold?",
+      "answer": "$92$",
+      "image": ""
+    },
+    {
+      "q": "Hikers start with 9 water bottles and pack 15 more before leaving. How many bottles do they bring?",
+      "answer": "$24$",
+      "image": ""
+    },
+    {
+      "q": "A class plants 16 tulips and 14 daffodils. How many flowers did the class plant?",
+      "answer": "$30$",
+      "image": ""
+    },
+    {
+      "q": "A coach brings 11 cones for practice and finds 7 more in the shed. How many cones are available?",
+      "answer": "$18$",
+      "image": ""
+    },
+    {
+      "q": "Noah has 53 candies and eats 17. How many candies are left?",
+      "answer": "$36$",
+      "image": ""
+    },
+    {
+      "q": "A store had 80 notebooks and sold 29 of them. How many notebooks remain?",
+      "answer": "$51$",
+      "image": ""
+    },
+    {
+      "q": "A tank held 65 liters of water but 24 liters were used. How many liters remain?",
+      "answer": "$41$",
+      "image": ""
+    },
+    {
+      "q": "A 42-kilometer trail has 18 kilometers completed. How many kilometers are left to finish?",
+      "answer": "$24$",
+      "image": ""
+    },
+    {
+      "q": "A garden has 39 carrots, and rabbits nibble 8 of them. How many carrots are left?",
+      "answer": "$31$",
+      "image": ""
+    },
+    {
+      "q": "A box held 96 crayons, but 23 fell out. How many crayons are still in the box?",
+      "answer": "$73$",
+      "image": ""
+    },
+    {
+      "q": "A jar holds 70 coins and 34 are spent on snacks. How many coins are left?",
+      "answer": "$36$",
+      "image": ""
+    },
+    {
+      "q": "A bus has 48 seats, and 35 are filled. How many seats are empty?",
+      "answer": "$13$",
+      "image": ""
+    },
+    {
+      "q": "There are 55 swimmers in a pool. If 21 leave, how many swimmers remain?",
+      "answer": "$34$",
+      "image": ""
+    },
+    {
+      "q": "A class has 27 students, but 5 are absent today. How many students are present?",
+      "answer": "$22$",
+      "image": ""
+    },
+    {
+      "q": "There are 4 boxes with 7 oranges in each. How many oranges are there in total?",
+      "answer": "$28$",
+      "image": ""
+    },
+    {
+      "q": "Nine shelves each hold 6 books. How many books are there altogether?",
+      "answer": "$54$",
+      "image": ""
+    },
+    {
+      "q": "Twelve teams play 3 games each. How many games are played in total?",
+      "answer": "$36$",
+      "image": ""
+    },
+    {
+      "q": "For 8 weeks, there are 5 practice sessions each week. How many sessions is that?",
+      "answer": "$40$",
+      "image": ""
+    },
+    {
+      "q": "There are 11 tables with 4 chairs at each. How many chairs are there?",
+      "answer": "$44$",
+      "image": ""
+    },
+    {
+      "q": "Six trays carry 9 cupcakes each. How many cupcakes are there?",
+      "answer": "$54$",
+      "image": ""
+    },
+    {
+      "q": "Three buses each hold 12 students. How many students can the buses carry?",
+      "answer": "$36$",
+      "image": ""
+    },
+    {
+      "q": "Ten pitchers each hold 8 cups of lemonade. How many cups of lemonade is that in all?",
+      "answer": "$80$",
+      "image": ""
+    },
+    {
+      "q": "Five packs contain 11 markers each. How many markers are there total?",
+      "answer": "$55$",
+      "image": ""
+    },
+    {
+      "q": "Seven bundles each have 6 flowers. How many flowers are there altogether?",
+      "answer": "$42$",
+      "image": ""
+    },
+    {
+      "q": "Twelve bags each hold 2 bagels. How many bagels are there?",
+      "answer": "$24$",
+      "image": ""
+    },
+    {
+      "q": "Two cartons each carry 12 eggs. How many eggs are there total?",
+      "answer": "$24$",
+      "image": ""
+    },
+    {
+      "q": "Nine boxes each contain 4 puzzles. How many puzzles are there?",
+      "answer": "$36$",
+      "image": ""
+    },
+    {
+      "q": "Six shelves display 7 trophies each. How many trophies are on display?",
+      "answer": "$42$",
+      "image": ""
+    },
+    {
+      "q": "Four tables are set with 9 place settings each. How many place settings are there?",
+      "answer": "$36$",
+      "image": ""
+    },
+    {
+      "q": "Eight teams have 3 coaches each. How many coaches are there in all?",
+      "answer": "$24$",
+      "image": ""
+    },
+    {
+      "q": "Five wagons carry 10 pumpkins each. How many pumpkins are there?",
+      "answer": "$50$",
+      "image": ""
+    },
+    {
+      "q": "Eleven posters are printed with 5 copies each. How many copies are printed?",
+      "answer": "$55$",
+      "image": ""
+    },
+    {
+      "q": "Seven jars hold 8 cookies each. How many cookies are there?",
+      "answer": "$56$",
+      "image": ""
+    },
+    {
+      "q": "Three crates each hold 12 watermelons. How many watermelons is that altogether?",
+      "answer": "$36$",
+      "image": ""
+    },
+    {
+      "q": "Eighty-four balloons are split equally among 7 friends. How many balloons does each friend get?",
+      "answer": "$12$",
+      "image": ""
+    },
+    {
+      "q": "Sixty-three stickers are packed into groups of 9. How many packs can be made?",
+      "answer": "$7$",
+      "image": ""
+    },
+    {
+      "q": "Ninety-six pencils are sorted into boxes of 8. How many boxes are filled?",
+      "answer": "$12$",
+      "image": ""
+    },
+    {
+      "q": "Seventy-two meters of ribbon are cut into 6 equal pieces. How long is each piece?",
+      "answer": "$12$",
+      "image": ""
+    },
+    {
+      "q": "Fifty-five apples are packed into bags of 5. How many bags are needed?",
+      "answer": "$11$",
+      "image": ""
+    },
+    {
+      "q": "Forty-five cupcakes are shared equally among 9 classmates. How many cupcakes does each get?",
+      "answer": "$5$",
+      "image": ""
+    },
+    {
+      "q": "A reader finishes 108 pages, reading 12 pages per day. How many days did the reader spend?",
+      "answer": "$9$",
+      "image": ""
+    },
+    {
+      "q": "Sixty beads are strung into necklaces of 10 beads each. How many necklaces are made?",
+      "answer": "$6$",
+      "image": ""
+    },
+    {
+      "q": "Sixty-six chairs are arranged in 6 equal rows. How many chairs are in each row?",
+      "answer": "$11$",
+      "image": ""
+    },
+    {
+      "q": "Forty-eight trading cards are split among 4 friends equally. How many cards does each friend get?",
+      "answer": "$12$",
+      "image": ""
+    },
+    {
+      "q": "A bakery baked 14 pies, delivered 3, then baked 9 more. How many pies are there now?",
+      "answer": "$20$",
+      "image": ""
+    },
+    {
+      "q": "A jar had 41 shells, and 16 were given away. How many shells remain?",
+      "answer": "$25$",
+      "image": ""
+    },
+    {
+      "q": "A train carries 37 passengers, and 22 more board at the next station. How many passengers are on the train?",
+      "answer": "$59$",
+      "image": ""
+    },
+    {
+      "q": "Twelve singers practice 4 songs each. How many songs are practiced in total?",
+      "answer": "$48$",
+      "image": ""
+    },
+    {
+      "q": "A book has 81 pages left to read. If 9 pages are read each day, how many days will that take?",
+      "answer": "$9$",
+      "image": ""
+    },
+    {
+      "q": "An account had $120 and $45 were spent. How much money is left?",
+      "answer": "$75$",
+      "image": ""
+    },
+    {
+      "q": "Six bags hold 12 candies each. How many candies are there altogether?",
+      "answer": "$72$",
+      "image": ""
+    },
+    {
+      "q": "A café brewed 19 cups of coffee in the morning and 23 in the afternoon. How many cups is that in total?",
+      "answer": "$42$",
+      "image": ""
+    },
+    {
+      "q": "Ninety-six cupcakes are arranged on 12 trays equally. How many cupcakes are on each tray?",
+      "answer": "$8$",
+      "image": ""
+    },
+    {
+      "q": "A warehouse stored 88 boxes and shipped 57 of them. How many boxes remain?",
+      "answer": "$31$",
+      "image": ""
+    },
+    {
+      "q": "Eleven cartons hold 6 bottles each. How many bottles are there total?",
+      "answer": "$66$",
+      "image": ""
+    },
+    {
+      "q": "At an aquarium, visitors see 18 clownfish and then 27 angelfish. How many fish did they see?",
+      "answer": "$45$",
+      "image": ""
+    },
+    {
+      "q": "Fifty-four tickets are split evenly among 6 booths. How many tickets does each booth have?",
+      "answer": "$9$",
+      "image": ""
+    },
+    {
+      "q": "A tree had 64 leaves before 29 fell. How many leaves are left?",
+      "answer": "$35$",
+      "image": ""
+    },
+    {
+      "q": "Seven packages each contain 11 batteries. How many batteries are there in all?",
+      "answer": "$77$",
+      "image": ""
+    },
+    {
+      "q": "A team scored 24 points in the first half and 19 in the second. What was the total score?",
+      "answer": "$43$",
+      "image": ""
+    },
+    {
+      "q": "Ninety meters of fabric are cut into 10 equal rolls. How long is each roll?",
+      "answer": "$9$",
+      "image": ""
+    },
+    {
+      "q": "Nine classes create 8 art projects each. How many projects are there?",
+      "answer": "$72$",
+      "image": ""
+    },
+    {
+      "q": "A pool holds 250 liters of water, and 95 liters are drained. How many liters remain?",
+      "answer": "$155$",
+      "image": ""
+    },
+    {
+      "q": "A bookstore received 28 mystery books and 34 comics. How many books arrived?",
+      "answer": "$62$",
+      "image": ""
+    },
+    {
+      "q": "Sixty chocolates are shared among 5 boxes equally. How many chocolates go in each box?",
+      "answer": "$12$",
+      "image": ""
+    },
+    {
+      "q": "Ten gardeners plant 7 rows each. How many rows are planted?",
+      "answer": "$70$",
+      "image": ""
+    },
+    {
+      "q": "A shelf held 73 magazines, and 18 were removed. How many remain?",
+      "answer": "$55$",
+      "image": ""
+    },
+    {
+      "q": "A festival sold 46 cups of lemonade in the morning and 31 in the evening. How many cups were sold total?",
+      "answer": "$77$",
+      "image": ""
+    },
+    {
+      "q": "Eighty-four seeds are planted equally in 12 pots. How many seeds go in each pot?",
+      "answer": "$7$",
+      "image": ""
+    },
+    {
+      "q": "Four musicians practice 11 scales each. How many scales are practiced altogether?",
+      "answer": "$44$",
+      "image": ""
+    },
+    {
+      "q": "A garage stored 58 bikes, and 22 were rented. How many bikes are left?",
+      "answer": "$36$",
+      "image": ""
+    },
+    {
+      "q": "A chef mixed 12 berries into batter and then added 15 more. How many berries are in the batter now?",
+      "answer": "$27$",
+      "image": ""
+    },
+    {
+      "q": "Seventy-eight emails are sorted into 6 folders equally. How many emails go in each folder?",
+      "answer": "$13$",
+      "image": ""
+    },
+    {
+      "q": "Three friends buy 12 concert tickets each. How many tickets do they buy altogether?",
+      "answer": "$36$",
+      "image": ""
+    },
+    {
+      "q": "A park has 25 ducks, and 17 more arrive at the pond. How many ducks are there now?",
+      "answer": "$42$",
+      "image": ""
+    },
+    {
+      "q": "A box had 69 pieces of chalk, and 33 were used. How many pieces remain?",
+      "answer": "$36$",
+      "image": ""
+    },
+    {
+      "q": "Ninety-nine pencils are packed 9 per box. How many boxes are filled?",
+      "answer": "$11$",
+      "image": ""
+    },
+    {
+      "q": "Eight classrooms have 9 laptops each. How many laptops are there total?",
+      "answer": "$72$",
+      "image": ""
+    },
+    {
+      "q": "A water tank held 180 liters and leaked 45 liters. How many liters are left?",
+      "answer": "$135$",
+      "image": ""
+    },
+    {
+      "q": "A farmer plants 14 rows of carrots and 18 rows of beans. How many rows are planted?",
+      "answer": "$32$",
+      "image": ""
+    },
+    {
+      "q": "One hundred eight beads are split into 9 bracelets equally. How many beads are on each bracelet?",
+      "answer": "$12$",
+      "image": ""
+    },
+    {
+      "q": "Twelve bundles carry 5 newspapers each. How many newspapers are there total?",
+      "answer": "$60$",
+      "image": ""
+    },
+    {
+      "q": "A shelf held 44 plates, and 19 were removed. How many plates remain?",
+      "answer": "$25$",
+      "image": ""
+    },
+    {
+      "q": "A museum welcomed 57 visitors in the morning and 26 in the afternoon. How many visitors came that day?",
+      "answer": "$83$",
+      "image": ""
+    },
+    {
+      "q": "Forty-eight cookies are shared equally by 8 children. How many cookies does each child get?",
+      "answer": "$6$",
+      "image": ""
+    },
+    {
+      "q": "Six painters use 7 brushes each. How many brushes are being used?",
+      "answer": "$42$",
+      "image": ""
+    },
+    {
+      "q": "There were 95 pages to print, and 28 are already printed. How many pages remain?",
+      "answer": "$67$",
+      "image": ""
+    },
+    {
+      "q": "A school has 36 basketballs and buys 17 more. How many basketballs does the school have now?",
+      "answer": "$53$",
+      "image": ""
+    },
+    {
+      "q": "Seventy-two berries are sorted into 9 jars equally. How many berries go in each jar?",
+      "answer": "$8$",
+      "image": ""
+    },
+    {
+      "q": "Five stacks hold 12 books each. How many books are there altogether?",
+      "answer": "$60$",
+      "image": ""
+    },
+    {
+      "q": "A train has 130 seats, and 47 are occupied. How many seats are empty?",
+      "answer": "$83$",
+      "image": ""
+    },
+    {
+      "q": "A parade has 22 floats and 19 marching bands. How many groups are in the parade?",
+      "answer": "$41$",
+      "image": ""
+    },
+    {
+      "q": "Eighty-four pencils are shared equally by 12 artists. How many pencils does each artist receive?",
+      "answer": "$7$",
+      "image": ""
+    },
+    {
+      "q": "Nine crates each hold 6 melons. How many melons are there altogether?",
+      "answer": "$54$",
+      "image": ""
+    }
+  ]
+}
