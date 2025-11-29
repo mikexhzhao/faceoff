@@ -1,0 +1,725 @@
+{
+  "name": "Multiplication Tables up to 12",
+  "problems": [
+    {
+      "q": "What is 1 \u00d7 1?",
+      "answer": "$1$",
+      "image": ""
+    },
+    {
+      "q": "What is 1 \u00d7 2?",
+      "answer": "$2$",
+      "image": ""
+    },
+    {
+      "q": "What is 1 \u00d7 3?",
+      "answer": "$3$",
+      "image": ""
+    },
+    {
+      "q": "What is 1 \u00d7 4?",
+      "answer": "$4$",
+      "image": ""
+    },
+    {
+      "q": "What is 1 \u00d7 5?",
+      "answer": "$5$",
+      "image": ""
+    },
+    {
+      "q": "What is 1 \u00d7 6?",
+      "answer": "$6$",
+      "image": ""
+    },
+    {
+      "q": "What is 1 \u00d7 7?",
+      "answer": "$7$",
+      "image": ""
+    },
+    {
+      "q": "What is 1 \u00d7 8?",
+      "answer": "$8$",
+      "image": ""
+    },
+    {
+      "q": "What is 1 \u00d7 9?",
+      "answer": "$9$",
+      "image": ""
+    },
+    {
+      "q": "What is 1 \u00d7 10?",
+      "answer": "$10$",
+      "image": ""
+    },
+    {
+      "q": "What is 1 \u00d7 11?",
+      "answer": "$11$",
+      "image": ""
+    },
+    {
+      "q": "What is 1 \u00d7 12?",
+      "answer": "$12$",
+      "image": ""
+    },
+    {
+      "q": "What is 2 \u00d7 1?",
+      "answer": "$2$",
+      "image": ""
+    },
+    {
+      "q": "What is 2 \u00d7 2?",
+      "answer": "$4$",
+      "image": ""
+    },
+    {
+      "q": "What is 2 \u00d7 3?",
+      "answer": "$6$",
+      "image": ""
+    },
+    {
+      "q": "What is 2 \u00d7 4?",
+      "answer": "$8$",
+      "image": ""
+    },
+    {
+      "q": "What is 2 \u00d7 5?",
+      "answer": "$10$",
+      "image": ""
+    },
+    {
+      "q": "What is 2 \u00d7 6?",
+      "answer": "$12$",
+      "image": ""
+    },
+    {
+      "q": "What is 2 \u00d7 7?",
+      "answer": "$14$",
+      "image": ""
+    },
+    {
+      "q": "What is 2 \u00d7 8?",
+      "answer": "$16$",
+      "image": ""
+    },
+    {
+      "q": "What is 2 \u00d7 9?",
+      "answer": "$18$",
+      "image": ""
+    },
+    {
+      "q": "What is 2 \u00d7 10?",
+      "answer": "$20$",
+      "image": ""
+    },
+    {
+      "q": "What is 2 \u00d7 11?",
+      "answer": "$22$",
+      "image": ""
+    },
+    {
+      "q": "What is 2 \u00d7 12?",
+      "answer": "$24$",
+      "image": ""
+    },
+    {
+      "q": "What is 3 \u00d7 1?",
+      "answer": "$3$",
+      "image": ""
+    },
+    {
+      "q": "What is 3 \u00d7 2?",
+      "answer": "$6$",
+      "image": ""
+    },
+    {
+      "q": "What is 3 \u00d7 3?",
+      "answer": "$9$",
+      "image": ""
+    },
+    {
+      "q": "What is 3 \u00d7 4?",
+      "answer": "$12$",
+      "image": ""
+    },
+    {
+      "q": "What is 3 \u00d7 5?",
+      "answer": "$15$",
+      "image": ""
+    },
+    {
+      "q": "What is 3 \u00d7 6?",
+      "answer": "$18$",
+      "image": ""
+    },
+    {
+      "q": "What is 3 \u00d7 7?",
+      "answer": "$21$",
+      "image": ""
+    },
+    {
+      "q": "What is 3 \u00d7 8?",
+      "answer": "$24$",
+      "image": ""
+    },
+    {
+      "q": "What is 3 \u00d7 9?",
+      "answer": "$27$",
+      "image": ""
+    },
+    {
+      "q": "What is 3 \u00d7 10?",
+      "answer": "$30$",
+      "image": ""
+    },
+    {
+      "q": "What is 3 \u00d7 11?",
+      "answer": "$33$",
+      "image": ""
+    },
+    {
+      "q": "What is 3 \u00d7 12?",
+      "answer": "$36$",
+      "image": ""
+    },
+    {
+      "q": "What is 4 \u00d7 1?",
+      "answer": "$4$",
+      "image": ""
+    },
+    {
+      "q": "What is 4 \u00d7 2?",
+      "answer": "$8$",
+      "image": ""
+    },
+    {
+      "q": "What is 4 \u00d7 3?",
+      "answer": "$12$",
+      "image": ""
+    },
+    {
+      "q": "What is 4 \u00d7 4?",
+      "answer": "$16$",
+      "image": ""
+    },
+    {
+      "q": "What is 4 \u00d7 5?",
+      "answer": "$20$",
+      "image": ""
+    },
+    {
+      "q": "What is 4 \u00d7 6?",
+      "answer": "$24$",
+      "image": ""
+    },
+    {
+      "q": "What is 4 \u00d7 7?",
+      "answer": "$28$",
+      "image": ""
+    },
+    {
+      "q": "What is 4 \u00d7 8?",
+      "answer": "$32$",
+      "image": ""
+    },
+    {
+      "q": "What is 4 \u00d7 9?",
+      "answer": "$36$",
+      "image": ""
+    },
+    {
+      "q": "What is 4 \u00d7 10?",
+      "answer": "$40$",
+      "image": ""
+    },
+    {
+      "q": "What is 4 \u00d7 11?",
+      "answer": "$44$",
+      "image": ""
+    },
+    {
+      "q": "What is 4 \u00d7 12?",
+      "answer": "$48$",
+      "image": ""
+    },
+    {
+      "q": "What is 5 \u00d7 1?",
+      "answer": "$5$",
+      "image": ""
+    },
+    {
+      "q": "What is 5 \u00d7 2?",
+      "answer": "$10$",
+      "image": ""
+    },
+    {
+      "q": "What is 5 \u00d7 3?",
+      "answer": "$15$",
+      "image": ""
+    },
+    {
+      "q": "What is 5 \u00d7 4?",
+      "answer": "$20$",
+      "image": ""
+    },
+    {
+      "q": "What is 5 \u00d7 5?",
+      "answer": "$25$",
+      "image": ""
+    },
+    {
+      "q": "What is 5 \u00d7 6?",
+      "answer": "$30$",
+      "image": ""
+    },
+    {
+      "q": "What is 5 \u00d7 7?",
+      "answer": "$35$",
+      "image": ""
+    },
+    {
+      "q": "What is 5 \u00d7 8?",
+      "answer": "$40$",
+      "image": ""
+    },
+    {
+      "q": "What is 5 \u00d7 9?",
+      "answer": "$45$",
+      "image": ""
+    },
+    {
+      "q": "What is 5 \u00d7 10?",
+      "answer": "$50$",
+      "image": ""
+    },
+    {
+      "q": "What is 5 \u00d7 11?",
+      "answer": "$55$",
+      "image": ""
+    },
+    {
+      "q": "What is 5 \u00d7 12?",
+      "answer": "$60$",
+      "image": ""
+    },
+    {
+      "q": "What is 6 \u00d7 1?",
+      "answer": "$6$",
+      "image": ""
+    },
+    {
+      "q": "What is 6 \u00d7 2?",
+      "answer": "$12$",
+      "image": ""
+    },
+    {
+      "q": "What is 6 \u00d7 3?",
+      "answer": "$18$",
+      "image": ""
+    },
+    {
+      "q": "What is 6 \u00d7 4?",
+      "answer": "$24$",
+      "image": ""
+    },
+    {
+      "q": "What is 6 \u00d7 5?",
+      "answer": "$30$",
+      "image": ""
+    },
+    {
+      "q": "What is 6 \u00d7 6?",
+      "answer": "$36$",
+      "image": ""
+    },
+    {
+      "q": "What is 6 \u00d7 7?",
+      "answer": "$42$",
+      "image": ""
+    },
+    {
+      "q": "What is 6 \u00d7 8?",
+      "answer": "$48$",
+      "image": ""
+    },
+    {
+      "q": "What is 6 \u00d7 9?",
+      "answer": "$54$",
+      "image": ""
+    },
+    {
+      "q": "What is 6 \u00d7 10?",
+      "answer": "$60$",
+      "image": ""
+    },
+    {
+      "q": "What is 6 \u00d7 11?",
+      "answer": "$66$",
+      "image": ""
+    },
+    {
+      "q": "What is 6 \u00d7 12?",
+      "answer": "$72$",
+      "image": ""
+    },
+    {
+      "q": "What is 7 \u00d7 1?",
+      "answer": "$7$",
+      "image": ""
+    },
+    {
+      "q": "What is 7 \u00d7 2?",
+      "answer": "$14$",
+      "image": ""
+    },
+    {
+      "q": "What is 7 \u00d7 3?",
+      "answer": "$21$",
+      "image": ""
+    },
+    {
+      "q": "What is 7 \u00d7 4?",
+      "answer": "$28$",
+      "image": ""
+    },
+    {
+      "q": "What is 7 \u00d7 5?",
+      "answer": "$35$",
+      "image": ""
+    },
+    {
+      "q": "What is 7 \u00d7 6?",
+      "answer": "$42$",
+      "image": ""
+    },
+    {
+      "q": "What is 7 \u00d7 7?",
+      "answer": "$49$",
+      "image": ""
+    },
+    {
+      "q": "What is 7 \u00d7 8?",
+      "answer": "$56$",
+      "image": ""
+    },
+    {
+      "q": "What is 7 \u00d7 9?",
+      "answer": "$63$",
+      "image": ""
+    },
+    {
+      "q": "What is 7 \u00d7 10?",
+      "answer": "$70$",
+      "image": ""
+    },
+    {
+      "q": "What is 7 \u00d7 11?",
+      "answer": "$77$",
+      "image": ""
+    },
+    {
+      "q": "What is 7 \u00d7 12?",
+      "answer": "$84$",
+      "image": ""
+    },
+    {
+      "q": "What is 8 \u00d7 1?",
+      "answer": "$8$",
+      "image": ""
+    },
+    {
+      "q": "What is 8 \u00d7 2?",
+      "answer": "$16$",
+      "image": ""
+    },
+    {
+      "q": "What is 8 \u00d7 3?",
+      "answer": "$24$",
+      "image": ""
+    },
+    {
+      "q": "What is 8 \u00d7 4?",
+      "answer": "$32$",
+      "image": ""
+    },
+    {
+      "q": "What is 8 \u00d7 5?",
+      "answer": "$40$",
+      "image": ""
+    },
+    {
+      "q": "What is 8 \u00d7 6?",
+      "answer": "$48$",
+      "image": ""
+    },
+    {
+      "q": "What is 8 \u00d7 7?",
+      "answer": "$56$",
+      "image": ""
+    },
+    {
+      "q": "What is 8 \u00d7 8?",
+      "answer": "$64$",
+      "image": ""
+    },
+    {
+      "q": "What is 8 \u00d7 9?",
+      "answer": "$72$",
+      "image": ""
+    },
+    {
+      "q": "What is 8 \u00d7 10?",
+      "answer": "$80$",
+      "image": ""
+    },
+    {
+      "q": "What is 8 \u00d7 11?",
+      "answer": "$88$",
+      "image": ""
+    },
+    {
+      "q": "What is 8 \u00d7 12?",
+      "answer": "$96$",
+      "image": ""
+    },
+    {
+      "q": "What is 9 \u00d7 1?",
+      "answer": "$9$",
+      "image": ""
+    },
+    {
+      "q": "What is 9 \u00d7 2?",
+      "answer": "$18$",
+      "image": ""
+    },
+    {
+      "q": "What is 9 \u00d7 3?",
+      "answer": "$27$",
+      "image": ""
+    },
+    {
+      "q": "What is 9 \u00d7 4?",
+      "answer": "$36$",
+      "image": ""
+    },
+    {
+      "q": "What is 9 \u00d7 5?",
+      "answer": "$45$",
+      "image": ""
+    },
+    {
+      "q": "What is 9 \u00d7 6?",
+      "answer": "$54$",
+      "image": ""
+    },
+    {
+      "q": "What is 9 \u00d7 7?",
+      "answer": "$63$",
+      "image": ""
+    },
+    {
+      "q": "What is 9 \u00d7 8?",
+      "answer": "$72$",
+      "image": ""
+    },
+    {
+      "q": "What is 9 \u00d7 9?",
+      "answer": "$81$",
+      "image": ""
+    },
+    {
+      "q": "What is 9 \u00d7 10?",
+      "answer": "$90$",
+      "image": ""
+    },
+    {
+      "q": "What is 9 \u00d7 11?",
+      "answer": "$99$",
+      "image": ""
+    },
+    {
+      "q": "What is 9 \u00d7 12?",
+      "answer": "$108$",
+      "image": ""
+    },
+    {
+      "q": "What is 10 \u00d7 1?",
+      "answer": "$10$",
+      "image": ""
+    },
+    {
+      "q": "What is 10 \u00d7 2?",
+      "answer": "$20$",
+      "image": ""
+    },
+    {
+      "q": "What is 10 \u00d7 3?",
+      "answer": "$30$",
+      "image": ""
+    },
+    {
+      "q": "What is 10 \u00d7 4?",
+      "answer": "$40$",
+      "image": ""
+    },
+    {
+      "q": "What is 10 \u00d7 5?",
+      "answer": "$50$",
+      "image": ""
+    },
+    {
+      "q": "What is 10 \u00d7 6?",
+      "answer": "$60$",
+      "image": ""
+    },
+    {
+      "q": "What is 10 \u00d7 7?",
+      "answer": "$70$",
+      "image": ""
+    },
+    {
+      "q": "What is 10 \u00d7 8?",
+      "answer": "$80$",
+      "image": ""
+    },
+    {
+      "q": "What is 10 \u00d7 9?",
+      "answer": "$90$",
+      "image": ""
+    },
+    {
+      "q": "What is 10 \u00d7 10?",
+      "answer": "$100$",
+      "image": ""
+    },
+    {
+      "q": "What is 10 \u00d7 11?",
+      "answer": "$110$",
+      "image": ""
+    },
+    {
+      "q": "What is 10 \u00d7 12?",
+      "answer": "$120$",
+      "image": ""
+    },
+    {
+      "q": "What is 11 \u00d7 1?",
+      "answer": "$11$",
+      "image": ""
+    },
+    {
+      "q": "What is 11 \u00d7 2?",
+      "answer": "$22$",
+      "image": ""
+    },
+    {
+      "q": "What is 11 \u00d7 3?",
+      "answer": "$33$",
+      "image": ""
+    },
+    {
+      "q": "What is 11 \u00d7 4?",
+      "answer": "$44$",
+      "image": ""
+    },
+    {
+      "q": "What is 11 \u00d7 5?",
+      "answer": "$55$",
+      "image": ""
+    },
+    {
+      "q": "What is 11 \u00d7 6?",
+      "answer": "$66$",
+      "image": ""
+    },
+    {
+      "q": "What is 11 \u00d7 7?",
+      "answer": "$77$",
+      "image": ""
+    },
+    {
+      "q": "What is 11 \u00d7 8?",
+      "answer": "$88$",
+      "image": ""
+    },
+    {
+      "q": "What is 11 \u00d7 9?",
+      "answer": "$99$",
+      "image": ""
+    },
+    {
+      "q": "What is 11 \u00d7 10?",
+      "answer": "$110$",
+      "image": ""
+    },
+    {
+      "q": "What is 11 \u00d7 11?",
+      "answer": "$121$",
+      "image": ""
+    },
+    {
+      "q": "What is 11 \u00d7 12?",
+      "answer": "$132$",
+      "image": ""
+    },
+    {
+      "q": "What is 12 \u00d7 1?",
+      "answer": "$12$",
+      "image": ""
+    },
+    {
+      "q": "What is 12 \u00d7 2?",
+      "answer": "$24$",
+      "image": ""
+    },
+    {
+      "q": "What is 12 \u00d7 3?",
+      "answer": "$36$",
+      "image": ""
+    },
+    {
+      "q": "What is 12 \u00d7 4?",
+      "answer": "$48$",
+      "image": ""
+    },
+    {
+      "q": "What is 12 \u00d7 5?",
+      "answer": "$60$",
+      "image": ""
+    },
+    {
+      "q": "What is 12 \u00d7 6?",
+      "answer": "$72$",
+      "image": ""
+    },
+    {
+      "q": "What is 12 \u00d7 7?",
+      "answer": "$84$",
+      "image": ""
+    },
+    {
+      "q": "What is 12 \u00d7 8?",
+      "answer": "$96$",
+      "image": ""
+    },
+    {
+      "q": "What is 12 \u00d7 9?",
+      "answer": "$108$",
+      "image": ""
+    },
+    {
+      "q": "What is 12 \u00d7 10?",
+      "answer": "$120$",
+      "image": ""
+    },
+    {
+      "q": "What is 12 \u00d7 11?",
+      "answer": "$132$",
+      "image": ""
+    },
+    {
+      "q": "What is 12 \u00d7 12?",
+      "answer": "$144$",
+      "image": ""
+    }
+  ]
+}
