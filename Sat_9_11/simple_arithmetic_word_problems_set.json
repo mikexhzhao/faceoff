@@ -1,0 +1,155 @@
+{
+  "name": "Simple Arithmetic Word Problems",
+  "problems": [
+    {
+      "q": "A soccer coach has 9 cones for each practice station. There are 5 stations. How many cones are needed?",
+      "answer": "45",
+      "image": ""
+    },
+    {
+      "q": "A baker made 312 cookies. She gave 129 cookies to a school event. How many cookies are left?",
+      "answer": "183",
+      "image": ""
+    },
+    {
+      "q": "A dragon has 72 marshmallows and puts them into bags of 8. How many bags can the dragon fill?",
+      "answer": "9",
+      "image": ""
+    },
+    {
+      "q": "A dinosaur museum has 144 dinosaur stickers. It gives away 58 stickers. How many stickers are left?",
+      "answer": "86",
+      "image": ""
+    },
+    {
+      "q": "A robot has 99 bolts and uses 11 bolts to build one gadget. How many gadgets can the robot build?",
+      "answer": "9",
+      "image": ""
+    },
+    {
+      "q": "A dragon collected 235 shiny rocks. Later it collected 118 more shiny rocks. How many shiny rocks does the dragon have?",
+      "answer": "353",
+      "image": ""
+    },
+    {
+      "q": "A treasure map is cut into 9 equal pieces. If there are 63 pieces in total, how many maps were cut?",
+      "answer": "7",
+      "image": ""
+    },
+    {
+      "q": "A pet shop has 6 fish tanks. Each tank has 12 fish. How many fish are there in all the tanks?",
+      "answer": "72",
+      "image": ""
+    },
+    {
+      "q": "A farmer picked 198 apples. He sold 74 apples at the market. How many apples does he have left?",
+      "answer": "124",
+      "image": ""
+    },
+    {
+      "q": "A baker has 144 mini-muffins and puts 12 mini-muffins in each tray. How many trays can be filled?",
+      "answer": "12",
+      "image": ""
+    },
+    {
+      "q": "At the zoo, 268 visitors came in the morning and 175 visitors came in the afternoon. How many visitors came to the zoo in total?",
+      "answer": "443",
+      "image": ""
+    },
+    {
+      "q": "A zoo keeper feeds 4 bananas to each monkey. There are 12 monkeys. How many bananas are needed?",
+      "answer": "48",
+      "image": ""
+    },
+    {
+      "q": "A classroom has 126 crayons. Another class donates 79 crayons. How many crayons are there now?",
+      "answer": "205",
+      "image": ""
+    },
+    {
+      "q": "A skateboard shop has 54 wheels and each skateboard needs 4 wheels. How many complete skateboards can be made?",
+      "answer": "13",
+      "image": ""
+    },
+    {
+      "q": "A kid has 219 comic books. She donates 103 comic books. How many comic books does she have now?",
+      "answer": "116",
+      "image": ""
+    },
+    {
+      "q": "A superhero shares 84 stickers equally among 7 friends. How many stickers does each friend get?",
+      "answer": "12",
+      "image": ""
+    },
+    {
+      "q": "A toy store has 420 balloons. After a party, 287 balloons were used. How many balloons are still in the store?",
+      "answer": "133",
+      "image": ""
+    },
+    {
+      "q": "A game arcade gives 7 tickets each time you win. If you win 11 times, how many tickets do you get?",
+      "answer": "77",
+      "image": ""
+    },
+    {
+      "q": "A magician had 275 cards. During practice, 89 cards got bent and were removed. How many cards are still good?",
+      "answer": "186",
+      "image": ""
+    },
+    {
+      "q": "A movie theater has 120 seats and fills them in 10 equal rows. How many seats are in each row?",
+      "answer": "12",
+      "image": ""
+    },
+    {
+      "q": "A spaceship has 300 fuel pods. It uses 146 fuel pods on a trip. How many fuel pods are left?",
+      "answer": "154",
+      "image": ""
+    },
+    {
+      "q": "A gardener plants 66 flowers in 6 equal rows. How many flowers are in each row?",
+      "answer": "11",
+      "image": ""
+    },
+    {
+      "q": "A chef puts 10 blueberries on each pancake. If she makes 6 pancakes, how many blueberries does she use?",
+      "answer": "60",
+      "image": ""
+    },
+    {
+      "q": "A robot built 156 mini-robots on Monday and 207 mini-robots on Tuesday. How many mini-robots did it build altogether?",
+      "answer": "363",
+      "image": ""
+    },
+    {
+      "q": "A party host has 108 glow sticks and gives 9 glow sticks to each guest. How many guests can get glow sticks?",
+      "answer": "12",
+      "image": ""
+    },
+    {
+      "q": "A pirate has 147 gold coins and finds 86 more in a treasure chest. How many gold coins does the pirate have now?",
+      "answer": "233",
+      "image": ""
+    },
+    {
+      "q": "A comic artist draws 11 stars on each page. She draws 7 pages. How many stars does she draw?",
+      "answer": "77",
+      "image": ""
+    },
+    {
+      "q": "A candy machine drops 12 candies each time it is used. If it is used 8 times, how many candies drop?",
+      "answer": "96",
+      "image": ""
+    },
+    {
+      "q": "A wizard is packing spell books. There are 8 boxes and each box holds 9 books. How many spell books are packed?",
+      "answer": "72",
+      "image": ""
+    },
+    {
+      "q": "A teacher has 96 pencils and puts them into packs of 12. How many packs can she make?",
+      "answer": "8",
+      "image": ""
+    }
+  ]
+}
