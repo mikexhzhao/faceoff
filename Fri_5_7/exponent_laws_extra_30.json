@@ -1,0 +1,155 @@
+{
+  "name": "Exponent Laws",
+  "problems": [
+    {
+      "q": "Simplify $\\left(a^{-3}b^{2}\\right)^{2}(ab^{-1})^{-3}$ in positive index form.",
+      "answer": "$\\dfrac{b^{7}}{a^{9}}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\dfrac{x^{5}y^{-1}}{x^{-2}y^{4}}$ in positive index form.",
+      "answer": "$\\dfrac{x^{7}}{y^{5}}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\left(\\dfrac{m^{2}n^{-5}}{m^{-3}n^{2}}\\right)^{-1}$ in positive index form.",
+      "answer": "$\\dfrac{n^{7}}{m^{5}}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\dfrac{(p^{-1}q^{3})^{4}}{(p^{2}q^{-1})^{-2}}$.",
+      "answer": "$q^{10}$",
+      "image": ""
+    },
+    {
+      "q": "Solve for $x$: $2^{x+1}=64$.",
+      "answer": "$x=5$",
+      "image": ""
+    },
+    {
+      "q": "Solve for $x$: $3^{2x}=81$.",
+      "answer": "$x=2$",
+      "image": ""
+    },
+    {
+      "q": "Evaluate: $16^{-\\tfrac{3}{4}}$.",
+      "answer": "$\\dfrac{1}{8}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify to a single power of $7$: $\\dfrac{(7^{2})^{3}}{7^{5}}$.",
+      "answer": "$7$",
+      "image": ""
+    },
+    {
+      "q": "Express with base $3$: $\\dfrac{81^{2}}{27^{3}}$.",
+      "answer": "$3^{-1}=\\dfrac{1}{3}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\left(\\dfrac{x^{-1}y^{2}}{x^{3}y^{-4}}\\right)^{2}$ to positive indices.",
+      "answer": "$\\dfrac{y^{12}}{x^{8}}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\dfrac{(2a^{3}b^{-2})^{2}}{8a^{-1}b^{3}}$ in positive index form.",
+      "answer": "$\\dfrac{a^{7}}{2b^{7}}$",
+      "image": ""
+    },
+    {
+      "q": "Evaluate: $(0.1)^{-2}$.",
+      "answer": "$100$",
+      "image": ""
+    },
+    {
+      "q": "Compute and give the answer in standard form: $(2\\times10^{5})(3\\times10^{-2})$.",
+      "answer": "$6\\times10^{3}$",
+      "image": ""
+    },
+    {
+      "q": "Compute in standard form: $\\dfrac{8\\times10^{6}}{2\\times10^{-3}}$.",
+      "answer": "$4\\times10^{9}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\sqrt[3]{64x^{6}y^{3}}$ (assume $x,y>0$).",
+      "answer": "$4x^{2}y$",
+      "image": ""
+    },
+    {
+      "q": "Express as a single power of $t$: $\\dfrac{1}{t^{3}}$ ($t\\neq 0$).",
+      "answer": "$t^{-3}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\dfrac{a^{1/2}b^{-1}}{a^{-3/2}b^{2}}$ in positive index form.",
+      "answer": "$\\dfrac{a^{2}}{b^{3}}$",
+      "image": ""
+    },
+    {
+      "q": "Evaluate: $27^{\\tfrac{4}{3}}$.",
+      "answer": "$81$",
+      "image": ""
+    },
+    {
+      "q": "Simplify: $\\dfrac{5^{-2}+5^{-1}}{5^{-3}}$.",
+      "answer": "$30$",
+      "image": ""
+    },
+    {
+      "q": "Simplify: $\\dfrac{(x^{0}y^{-2})^{-1}}{y^{3}}$ in positive index form.",
+      "answer": "$\\dfrac{1}{y}$",
+      "image": ""
+    },
+    {
+      "q": "Solve for $x$: $2^{x+3}=64$.",
+      "answer": "$x=3$",
+      "image": ""
+    },
+    {
+      "q": "Solve for $x$: $\\left(\\dfrac{1}{2}\\right)^{x-1}=\\dfrac{1}{16}$.",
+      "answer": "$x=5$",
+      "image": ""
+    },
+    {
+      "q": "Simplify: $\\left(\\dfrac{3^{5}}{9^{-1}}\\right)^{-2}$.",
+      "answer": "$\\dfrac{1}{3^{14}}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify to a single power of $2$: $\\dfrac{2^{6}\\cdot 2^{-1}}{2^{3}}$.",
+      "answer": "$2^{2}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify in positive index form: $\\dfrac{a^{0}b^{5}}{b^{2}}$.",
+      "answer": "$b^{3}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $(x^{2}y^{-3})^{-1}$ in positive index form.",
+      "answer": "$\\dfrac{y^{3}}{x^{2}}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $(a^{-1}b^{2}c^{-2})^{-2}(a^{3}b^{-1}c)$ in positive index form.",
+      "answer": "$\\dfrac{a^{5}c^{5}}{b^{5}}$",
+      "image": ""
+    },
+    {
+      "q": "Express as a single index with the smallest base: $\\dfrac{125\\cdot 25^{2}}{5^{7}}$.",
+      "answer": "$1$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\dfrac{(x^{-2}y)^{3}}{(xy^{-1})^{-2}}$ in positive index form.",
+      "answer": "$\\dfrac{y}{x^{4}}$",
+      "image": ""
+    },
+    {
+      "q": "Simplify $\\left(\\dfrac{2x^{-3}y^{2}}{4xy^{-1}}\\right)^{-1}$ in positive index form.",
+      "answer": "$\\dfrac{2x^{4}}{y^{3}}$",
+      "image": ""
+    }
+  ]
+}

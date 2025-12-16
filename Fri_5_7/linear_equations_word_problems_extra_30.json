@@ -1,0 +1,155 @@
+{
+  "name": "Linear Equation Word Problems",
+  "problems": [
+    {
+      "q": "A courier travels 180 km. Part of the trip is by train at 90 km/h and the rest is by car at 60 km/h. The total travel time is 2.5 hours. How long was spent on the train and how long in the car?",
+      "answer": "Train time \\(=1\\) hour; Car time \\(=1.5\\) hours",
+      "image": ""
+    },
+    {
+      "q": "At a print shop, 4 posters and 7 stickers cost 33.50 dollars. At the same shop, 6 posters and 3 stickers cost 31.50 dollars. Find the cost of one poster and one sticker.",
+      "answer": "Poster \\(=4\\) dollars; Sticker \\(=2.50\\) dollars",
+      "image": ""
+    },
+    {
+      "q": "A water tank is filled to two-thirds of its capacity. After 18 liters are added, it is five-sixths full. What is the tank's capacity?",
+      "answer": "Capacity \\(=108\\) liters",
+      "image": ""
+    },
+    {
+      "q": "A jar contains only dimes and quarters. There are 64 coins worth 11.65 dollars total. How many dimes and how many quarters are there?",
+      "answer": "\\(29\\) dimes and \\(35\\) quarters",
+      "image": ""
+    },
+    {
+      "q": "To make 14 liters of a paint color, a designer mixes white paint and tint. The amount of white paint is 2 liters more than 3 times the amount of tint. How many liters of white paint and how many liters of tint are used?",
+      "answer": "White \\(=11\\) L; Tint \\(=3\\) L",
+      "image": ""
+    },
+    {
+      "q": "A phone battery starts at 100 percent. For the first 30 minutes it drops by 4 percent every 10 minutes, and after that it drops by 6 percent every 10 minutes. How long until it reaches 64 percent?",
+      "answer": "Time \\(=70\\) minutes",
+      "image": ""
+    },
+    {
+      "q": "A moving company charges a base fee plus a per-kilometer fee. A 15 km move costs 60.00 dollars and a 28 km move costs 86.00 dollars. Find the base fee and the per-kilometer fee.",
+      "answer": "Base fee \\(=30\\) dollars; per-km fee \\(=2\\) dollars",
+      "image": ""
+    },
+    {
+      "q": "A lab has 20 liters of a 15 percent acid solution. Water is added to make the solution 12 percent acid. How many liters of water were added?",
+      "answer": "Water added \\(=5\\) liters",
+      "image": ""
+    },
+    {
+      "q": "A farmer has chickens and rabbits. There are 38 animals total and 104 legs total. How many chickens and how many rabbits are there?",
+      "answer": "\\(24\\) chickens and \\(14\\) rabbits",
+      "image": ""
+    },
+    {
+      "q": "A bookstore gift card was used twice. The first purchase left 18 dollars on the card. After the second purchase, the remaining balance was one-third of what it was after the first purchase. The first purchase cost twice as much as the second purchase. What was the original value of the gift card?",
+      "answer": "Original value \\(=42\\) dollars",
+      "image": ""
+    },
+    {
+      "q": "A trail mix is made by combining peanuts at 6 dollars per kg and cashews at 10 dollars per kg. If 8 kg of mix is worth 8.50 dollars per kg, how many kilograms of each nut were used?",
+      "answer": "\\(3\\) kg peanuts and \\(5\\) kg cashews",
+      "image": ""
+    },
+    {
+      "q": "A class has some videos assigned. After watching one-quarter of the videos, a student watches 21 more videos. At that point, three-eighths of the videos are still unwatched. How many videos were assigned?",
+      "answer": "Total assigned \\(=56\\) videos",
+      "image": ""
+    },
+    {
+      "q": "A jacket is discounted by 25%, then sales tax of 20% is applied to the discounted price. The final price is 99.00 dollars. What was the original price before the discount and tax?",
+      "answer": "Original price \\(=110\\) dollars",
+      "image": ""
+    },
+    {
+      "q": "A taxi fare is a base charge plus a constant cost per kilometer. A 6 km ride costs 13.50 dollars, and a 15 km ride costs 27.00 dollars. What are the base charge and the cost per kilometer?",
+      "answer": "Base charge \\(=4.50\\) dollars; per-km charge \\(=1.50\\) dollars",
+      "image": ""
+    },
+    {
+      "q": "A print shop charges a fixed start fee plus a constant cost per page. A 90-page order costs 6.50 dollars, and a 230-page order costs 13.50 dollars. What are the start fee and the cost per page?",
+      "answer": "Start fee \\(=2.00\\) dollars; per-page cost \\(=0.05\\) dollars",
+      "image": ""
+    },
+    {
+      "q": "A pool sells child passes for 6 dollars and adult passes for 11 dollars. One day, 34 passes were sold for a total of 294 dollars. How many child passes and adult passes were sold?",
+      "answer": "\\(16\\) child passes and \\(18\\) adult passes",
+      "image": ""
+    },
+    {
+      "q": "A plumber charges a call-out fee plus a constant fee per half-hour. A 2-hour job costs 151 dollars, and a 3.5-hour job costs 217 dollars. What are the call-out fee and the fee per half-hour?",
+      "answer": "Call-out fee \\(=63\\) dollars; fee per half-hour \\(=22\\) dollars",
+      "image": ""
+    },
+    {
+      "q": "A mobile plan charges a fixed monthly fee plus a cost per minute. A month with 120 minutes costs 31.40 dollars, and a month with 200 minutes costs 45.00 dollars. Find the fixed fee and the per-minute charge.",
+      "answer": "Fixed fee \\(=11.00\\) dollars; per-minute charge \\(=0.17\\) dollars",
+      "image": ""
+    },
+    {
+      "q": "Adult tickets cost 14 dollars and child tickets cost 9 dollars. If 180 tickets were sold for a total of 2190 dollars, how many adult and child tickets were sold?",
+      "answer": "\\(114\\) adult tickets and \\(66\\) child tickets",
+      "image": ""
+    },
+    {
+      "q": "A bag of flour was used for baking. Two-fifths of the bag was used, and 1.8 kg remained. How much flour was in the full bag?",
+      "answer": "Full bag \\(=3\\) kg",
+      "image": ""
+    },
+    {
+      "q": "How many liters of a 20 percent solution and how many liters of a 50 percent solution are needed to make 30 liters of a 32 percent solution?",
+      "answer": "\\(18\\) L of 20% solution and \\(12\\) L of 50% solution",
+      "image": ""
+    },
+    {
+      "q": "A phone plan charges a fixed fee plus 3.5 dollars per gigabyte of data. One month the bill was 40 dollars after using 8 GB. What is the fixed monthly fee?",
+      "answer": "Fixed fee \\(=12\\) dollars",
+      "image": ""
+    },
+    {
+      "q": "A bike rental costs a certain amount for the first hour and a constant cost for each additional hour. A 4-hour rental costs 56 dollars, and a 7-hour rental costs 83 dollars. What is the cost for the first hour, and what is the cost for each additional hour?",
+      "answer": "First hour \\(=29\\) dollars; each additional hour \\(=9\\) dollars",
+      "image": ""
+    },
+    {
+      "q": "A stand sells small drinks for 0.75 dollars and large drinks for 1.25 dollars. In one hour, 42 drinks were sold for a total of 41.50 dollars. How many of each size were sold?",
+      "answer": "\\(22\\) small drinks and \\(20\\) large drinks",
+      "image": ""
+    },
+    {
+      "q": "A rectangle has perimeter 50 cm. Its length is 3 cm more than twice its width. Find the length and width.",
+      "answer": "Width \\(=\\tfrac{22}{3}\\) cm; Length \\(=\\tfrac{53}{3}\\) cm",
+      "image": ""
+    },
+    {
+      "q": "A club bought batteries for 1.80 dollars each and light bulbs for 2.40 dollars each. They bought 23 items total and spent 49.20 dollars. How many batteries and how many bulbs did they buy?",
+      "answer": "\\(10\\) batteries and \\(13\\) bulbs",
+      "image": ""
+    },
+    {
+      "q": "A theater sold standard tickets for 11 dollars each and student tickets for 8 dollars each. In total, 60 tickets were sold for 600 dollars. How many standard tickets and how many student tickets were sold?",
+      "answer": "\\(40\\) standard tickets and \\(20\\) student tickets",
+      "image": ""
+    },
+    {
+      "q": "A membership charges a fixed monthly fee plus a cost per visit. After 6 visits, the total paid is 33 dollars. After 18 visits, the total paid is 63 dollars. What are the fixed fee and the cost per visit?",
+      "answer": "Fixed fee \\(=18\\) dollars; per-visit charge \\(=2.50\\) dollars",
+      "image": ""
+    },
+    {
+      "q": "Five identical bags of marbles and some loose marbles make 62 marbles in total. Seven identical bags and 3 fewer loose marbles make 81 marbles in total. How many marbles are in each bag, and how many loose marbles were there in the first situation?",
+      "answer": "Each bag \\(=11\\) marbles; loose marbles \\(=7\\)",
+      "image": ""
+    },
+    {
+      "q": "A jar has red marbles and blue marbles totaling 34. If 5 red marbles are removed and 1 blue marble is added, then the number of blue marbles would be twice the number of red marbles. How many red and blue marbles were there originally?",
+      "answer": "\\(15\\) red marbles and \\(19\\) blue marbles",
+      "image": ""
+    }
+  ]
+}
