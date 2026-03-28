@@ -1,0 +1,255 @@
+{
+  "name": "Perfect Squares and Square Roots 1-25",
+  "problems": [
+    {
+      "q": "What is $1^2$?",
+      "answer": "$1$",
+      "image": ""
+    },
+    {
+      "q": "What is $2^2$?",
+      "answer": "$4$",
+      "image": ""
+    },
+    {
+      "q": "What is $3^2$?",
+      "answer": "$9$",
+      "image": ""
+    },
+    {
+      "q": "What is $4^2$?",
+      "answer": "$16$",
+      "image": ""
+    },
+    {
+      "q": "What is $5^2$?",
+      "answer": "$25$",
+      "image": ""
+    },
+    {
+      "q": "What is $6^2$?",
+      "answer": "$36$",
+      "image": ""
+    },
+    {
+      "q": "What is $7^2$?",
+      "answer": "$49$",
+      "image": ""
+    },
+    {
+      "q": "What is $8^2$?",
+      "answer": "$64$",
+      "image": ""
+    },
+    {
+      "q": "What is $9^2$?",
+      "answer": "$81$",
+      "image": ""
+    },
+    {
+      "q": "What is $10^2$?",
+      "answer": "$100$",
+      "image": ""
+    },
+    {
+      "q": "What is $11^2$?",
+      "answer": "$121$",
+      "image": ""
+    },
+    {
+      "q": "What is $12^2$?",
+      "answer": "$144$",
+      "image": ""
+    },
+    {
+      "q": "What is $13^2$?",
+      "answer": "$169$",
+      "image": ""
+    },
+    {
+      "q": "What is $14^2$?",
+      "answer": "$196$",
+      "image": ""
+    },
+    {
+      "q": "What is $15^2$?",
+      "answer": "$225$",
+      "image": ""
+    },
+    {
+      "q": "What is $16^2$?",
+      "answer": "$256$",
+      "image": ""
+    },
+    {
+      "q": "What is $17^2$?",
+      "answer": "$289$",
+      "image": ""
+    },
+    {
+      "q": "What is $18^2$?",
+      "answer": "$324$",
+      "image": ""
+    },
+    {
+      "q": "What is $19^2$?",
+      "answer": "$361$",
+      "image": ""
+    },
+    {
+      "q": "What is $20^2$?",
+      "answer": "$400$",
+      "image": ""
+    },
+    {
+      "q": "What is $21^2$?",
+      "answer": "$441$",
+      "image": ""
+    },
+    {
+      "q": "What is $22^2$?",
+      "answer": "$484$",
+      "image": ""
+    },
+    {
+      "q": "What is $23^2$?",
+      "answer": "$529$",
+      "image": ""
+    },
+    {
+      "q": "What is $24^2$?",
+      "answer": "$576$",
+      "image": ""
+    },
+    {
+      "q": "What is $25^2$?",
+      "answer": "$625$",
+      "image": ""
+    },
+    {
+      "q": "What is $\\sqrt{1}$?",
+      "answer": "$1$",
+      "image": ""
+    },
+    {
+      "q": "What is $\\sqrt{4}$?",
+      "answer": "$2$",
+      "image": ""
+    },
+    {
+      "q": "What is $\\sqrt{9}$?",
+      "answer": "$3$",
+      "image": ""
+    },
+    {
+      "q": "What is $\\sqrt{16}$?",
+      "answer": "$4$",
+      "image": ""
+    },
+    {
+      "q": "What is $\\sqrt{25}$?",
+      "answer": "$5$",
+      "image": ""
+    },
+    {
+      "q": "What is $\\sqrt{36}$?",
+      "answer": "$6$",
+      "image": ""
+    },
+    {
+      "q": "What is $\\sqrt{49}$?",
+      "answer": "$7$",
+      "image": ""
+    },
+    {
+      "q": "What is $\\sqrt{64}$?",
+      "answer": "$8$",
+      "image": ""
+    },
+    {
+      "q": "What is $\\sqrt{81}$?",
+      "answer": "$9$",
+      "image": ""
+    },
+    {
+      "q": "What is $\\sqrt{100}$?",
+      "answer": "$10$",
+      "image": ""
+    },
+    {
+      "q": "What is $\\sqrt{121}$?",
+      "answer": "$11$",
+      "image": ""
+    },
+    {
+      "q": "What is $\\sqrt{144}$?",
+      "answer": "$12$",
+      "image": ""
+    },
+    {
+      "q": "What is $\\sqrt{169}$?",
+      "answer": "$13$",
+      "image": ""
+    },
+    {
+      "q": "What is $\\sqrt{196}$?",
+      "answer": "$14$",
+      "image": ""
+    },
+    {
+      "q": "What is $\\sqrt{225}$?",
+      "answer": "$15$",
+      "image": ""
+    },
+    {
+      "q": "What is $\\sqrt{256}$?",
+      "answer": "$16$",
+      "image": ""
+    },
+    {
+      "q": "What is $\\sqrt{289}$?",
+      "answer": "$17$",
+      "image": ""
+    },
+    {
+      "q": "What is $\\sqrt{324}$?",
+      "answer": "$18$",
+      "image": ""
+    },
+    {
+      "q": "What is $\\sqrt{361}$?",
+      "answer": "$19$",
+      "image": ""
+    },
+    {
+      "q": "What is $\\sqrt{400}$?",
+      "answer": "$20$",
+      "image": ""
+    },
+    {
+      "q": "What is $\\sqrt{441}$?",
+      "answer": "$21$",
+      "image": ""
+    },
+    {
+      "q": "What is $\\sqrt{484}$?",
+      "answer": "$22$",
+      "image": ""
+    },
+    {
+      "q": "What is $\\sqrt{529}$?",
+      "answer": "$23$",
+      "image": ""
+    },
+    {
+      "q": "What is $\\sqrt{576}$?",
+      "answer": "$24$",
+      "image": ""
+    },
+    {
+      "q": "What is $\\sqrt{625}$?",
+      "answer": "$25$",
+      "image": ""
+    }
+  ]
+}
