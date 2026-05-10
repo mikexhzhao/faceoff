@@ -1,0 +1,830 @@
+{
+  "name": "Harder Arithmetic Word Problems",
+  "problems": [
+    {
+      "q": "A classroom had 126 pencils. The teacher bought 87 more, then gave away 34 pencils to students. How many pencils were left?",
+      "answer": "$179$",
+      "image": ""
+    },
+    {
+      "q": "A library had 342 mystery books. It ordered 128 more, then donated 75 older books. How many mystery books did it have afterward?",
+      "answer": "$395$",
+      "image": ""
+    },
+    {
+      "q": "A concert hall sold 486 tickets online and 139 tickets at the door. Then 58 people cancelled. How many people still had tickets?",
+      "answer": "$567$",
+      "image": ""
+    },
+    {
+      "q": "A science club collected 215 bottles in September, 178 in October, and 96 in November. How many bottles did they collect in all?",
+      "answer": "$489$",
+      "image": ""
+    },
+    {
+      "q": "A store started the day with 704 notebooks. It sold 268 notebooks and then received a delivery of 145 more. How many notebooks were in the store then?",
+      "answer": "$581$",
+      "image": ""
+    },
+    {
+      "q": "A museum counted 389 visitors before lunch and 247 visitors after lunch. If 68 visitors were on school trips, how many visitors were not on school trips?",
+      "answer": "$568$",
+      "image": ""
+    },
+    {
+      "q": "A game shop had 512 trading cards. It sold 176 cards on Monday and 94 cards on Tuesday. How many trading cards were left?",
+      "answer": "$242$",
+      "image": ""
+    },
+    {
+      "q": "A bakery baked 235 buns in the morning and 198 buns in the afternoon. After selling 317 buns, how many buns remained?",
+      "answer": "$116$",
+      "image": ""
+    },
+    {
+      "q": "A farmer picked 428 apples. He packed 156 into small bags and 189 into large bags. How many apples were not packed yet?",
+      "answer": "$83$",
+      "image": ""
+    },
+    {
+      "q": "A school printed 650 worksheets. Grade 4 used 174 worksheets and Grade 5 used 238 worksheets. How many worksheets were left?",
+      "answer": "$238$",
+      "image": ""
+    },
+    {
+      "q": "A stadium had 928 seats. There were 376 seats filled before the game started, and 289 more people arrived. How many seats were empty then?",
+      "answer": "$263$",
+      "image": ""
+    },
+    {
+      "q": "A camp had 275 water bottles. It bought 160 more and used 214 during a hike. How many water bottles were left?",
+      "answer": "$221$",
+      "image": ""
+    },
+    {
+      "q": "A chess club had 148 members. During the year, 37 members left and 64 new members joined. How many members did the club have at the end of the year?",
+      "answer": "$175$",
+      "image": ""
+    },
+    {
+      "q": "A warehouse stored 936 boxes. It shipped 428 boxes in the morning and 217 boxes in the afternoon. How many boxes remained?",
+      "answer": "$291$",
+      "image": ""
+    },
+    {
+      "q": "A school bus route had 63 students. At the first stop, 28 more students got on. At the second stop, 17 students got off for a field trip group. How many students were on the buses then?",
+      "answer": "$74$",
+      "image": ""
+    },
+    {
+      "q": "A toy drive collected 384 toys in one week and 296 toys the next week. After 125 toys were delivered to a shelter, how many toys were still waiting to be delivered?",
+      "answer": "$555$",
+      "image": ""
+    },
+    {
+      "q": "A farm stand had 540 peaches. It sold 186 peaches before noon and 219 peaches after noon. How many peaches were left?",
+      "answer": "$135$",
+      "image": ""
+    },
+    {
+      "q": "A school choir sold 275 raffle tickets. The band sold 318 raffle tickets. If 92 tickets were returned unsold, how many tickets were actually sold?",
+      "answer": "$501$",
+      "image": ""
+    },
+    {
+      "q": "A book fair unpacked 420 books on Monday, 315 books on Tuesday, and 208 books on Wednesday. Then 146 books were sold. How many books remained unpacked on display?",
+      "answer": "$797$",
+      "image": ""
+    },
+    {
+      "q": "A sports club had 840 dollars saved. It spent 295 dollars on uniforms and 168 dollars on equipment, then earned 240 dollars from a fundraiser. How many dollars did it have afterward?",
+      "answer": "$617$",
+      "image": ""
+    },
+    {
+      "q": "A teacher bought 18 boxes of crayons with 24 crayons in each box. She gave away 96 crayons. How many crayons did she have left?",
+      "answer": "$336$",
+      "image": ""
+    },
+    {
+      "q": "A garden has 14 rows of carrots with 32 carrots in each row. Rabbits ate 57 carrots. How many carrots were left?",
+      "answer": "$391$",
+      "image": ""
+    },
+    {
+      "q": "A theatre has 23 rows with 18 seats in each row. If 347 seats were filled, how many seats were empty?",
+      "answer": "$67$",
+      "image": ""
+    },
+    {
+      "q": "A school ordered 16 packs of paper with 48 sheets in each pack. After using 329 sheets, how many sheets were left?",
+      "answer": "$439$",
+      "image": ""
+    },
+    {
+      "q": "A store has 27 shelves with 14 books on each shelf. It adds 85 more books to a table display. How many books does the store have out?",
+      "answer": "$463$",
+      "image": ""
+    },
+    {
+      "q": "A bakery made 19 trays of muffins with 15 muffins on each tray. It sold 178 muffins. How many muffins were left?",
+      "answer": "$107$",
+      "image": ""
+    },
+    {
+      "q": "A coach bought 12 bags of tennis balls with 36 balls in each bag. The team used 117 balls. How many tennis balls were unused?",
+      "answer": "$315$",
+      "image": ""
+    },
+    {
+      "q": "A school has 24 classrooms with 27 desks in each classroom. If 83 desks are moved into storage, how many desks remain in classrooms?",
+      "answer": "$565$",
+      "image": ""
+    },
+    {
+      "q": "A farmer packed 22 crates with 18 oranges in each crate. He also had 49 loose oranges. How many oranges did he have altogether?",
+      "answer": "$445$",
+      "image": ""
+    },
+    {
+      "q": "A craft club made 31 bracelets with 12 beads on each bracelet. Then it used 64 beads for necklaces. How many beads were used altogether?",
+      "answer": "$436$",
+      "image": ""
+    },
+    {
+      "q": "A library has 15 shelves with 42 books on each shelf. It removes 185 books for repairs. How many books stay on the shelves?",
+      "answer": "$445$",
+      "image": ""
+    },
+    {
+      "q": "A music teacher printed 26 pages for each of 17 students. After 58 pages were recycled, how many printed pages were kept?",
+      "answer": "$384$",
+      "image": ""
+    },
+    {
+      "q": "A truck carried 18 boxes with 28 cans in each box. Another small box had 35 cans. How many cans were carried in all?",
+      "answer": "$539$",
+      "image": ""
+    },
+    {
+      "q": "A camp bought 21 packs of juice boxes with 16 juice boxes in each pack. Campers drank 142 juice boxes. How many juice boxes were left?",
+      "answer": "$194$",
+      "image": ""
+    },
+    {
+      "q": "A school hallway has 34 lockers in each of 12 sections. If 59 lockers are empty, how many lockers are being used?",
+      "answer": "$349$",
+      "image": ""
+    },
+    {
+      "q": "A florist made 28 bouquets with 13 flowers in each bouquet. There were 47 flowers left over. How many flowers did the florist start with?",
+      "answer": "$411$",
+      "image": ""
+    },
+    {
+      "q": "A restaurant set up 17 tables with 6 chairs at each table and 9 tables with 8 chairs at each table. How many chairs were set up?",
+      "answer": "$174$",
+      "image": ""
+    },
+    {
+      "q": "A print shop made 25 posters for each of 14 clubs and 96 posters for the school play. How many posters were printed?",
+      "answer": "$446$",
+      "image": ""
+    },
+    {
+      "q": "A hiking group packed 32 snack bags with 11 crackers in each bag. Then 75 extra crackers were packed separately. How many crackers were packed?",
+      "answer": "$427$",
+      "image": ""
+    },
+    {
+      "q": "A warehouse stacked 18 rows of boxes with 23 boxes in each row. After 146 boxes were shipped, how many boxes were still stacked?",
+      "answer": "$268$",
+      "image": ""
+    },
+    {
+      "q": "A bakery made 360 cookies and packed them equally into 12 boxes. How many cookies were in each box?",
+      "answer": "$30$",
+      "image": ""
+    },
+    {
+      "q": "A school bought 504 pencils and shared them equally among 18 classrooms. How many pencils did each classroom receive?",
+      "answer": "$28$",
+      "image": ""
+    },
+    {
+      "q": "A farmer picked 648 strawberries and put 24 strawberries in each basket. How many baskets could be filled?",
+      "answer": "$27$",
+      "image": ""
+    },
+    {
+      "q": "A camp has 456 campers. They are split equally into 19 cabins. How many campers are in each cabin?",
+      "answer": "$24$",
+      "image": ""
+    },
+    {
+      "q": "A teacher has 312 stickers. She gives the same number to each of 24 students. How many stickers does each student get?",
+      "answer": "$13$",
+      "image": ""
+    },
+    {
+      "q": "A school printed 585 tickets and placed 15 tickets in each envelope. How many envelopes were filled?",
+      "answer": "$39$",
+      "image": ""
+    },
+    {
+      "q": "A factory packed 728 buttons into bags of 28 buttons each. How many bags were filled?",
+      "answer": "$26$",
+      "image": ""
+    },
+    {
+      "q": "A library received 672 books and placed them equally onto 16 carts. How many books were on each cart?",
+      "answer": "$42$",
+      "image": ""
+    },
+    {
+      "q": "A club collected 756 cans and packed them into boxes of 21 cans. How many boxes were filled?",
+      "answer": "$36$",
+      "image": ""
+    },
+    {
+      "q": "A ribbon that is 432 cm long is cut into 18 equal pieces. How many centimeters long is each piece?",
+      "answer": "$24$",
+      "image": ""
+    },
+    {
+      "q": "A school has 624 students going on a field trip. Each bus holds 48 students. How many buses are needed if every bus is filled exactly?",
+      "answer": "$13$",
+      "image": ""
+    },
+    {
+      "q": "A store has 864 beads and puts 36 beads in each craft kit. How many craft kits can it make?",
+      "answer": "$24$",
+      "image": ""
+    },
+    {
+      "q": "A teacher divides 528 math cards equally among 22 groups. How many cards does each group get?",
+      "answer": "$24$",
+      "image": ""
+    },
+    {
+      "q": "A camp kitchen has 918 plates and stacks them in piles of 27. How many piles can it make?",
+      "answer": "$34$",
+      "image": ""
+    },
+    {
+      "q": "A sports league has 384 players. If each team has 16 players, how many teams can be made?",
+      "answer": "$24$",
+      "image": ""
+    },
+    {
+      "q": "A school raised 972 dollars and split the money equally among 27 classroom libraries. How many dollars did each library receive?",
+      "answer": "$36$",
+      "image": ""
+    },
+    {
+      "q": "A farmer has 704 eggs and places 32 eggs in each crate. How many crates are filled?",
+      "answer": "$22$",
+      "image": ""
+    },
+    {
+      "q": "A scout troop walks 255 km total over 15 equal hikes. How many kilometers is each hike?",
+      "answer": "$17$",
+      "image": ""
+    },
+    {
+      "q": "A restaurant has 891 napkins and places 33 napkins on each serving station. How many serving stations can be supplied?",
+      "answer": "$27$",
+      "image": ""
+    },
+    {
+      "q": "A school buys 780 erasers and gives the same number to each of 30 classes. How many erasers does each class receive?",
+      "answer": "$26$",
+      "image": ""
+    },
+    {
+      "q": "A bakery makes 18 trays of cookies with 15 cookies on each tray. The cookies are packed equally into 9 boxes. How many cookies are in each box?",
+      "answer": "$30$",
+      "image": ""
+    },
+    {
+      "q": "A teacher has 16 packs of markers with 24 markers in each pack. The markers are shared equally among 12 tables. How many markers does each table get?",
+      "answer": "$32$",
+      "image": ""
+    },
+    {
+      "q": "A school orders 20 boxes of notebooks with 18 notebooks in each box. After 72 notebooks are used, the rest are split equally among 12 classrooms. How many notebooks does each classroom receive?",
+      "answer": "$24$",
+      "image": ""
+    },
+    {
+      "q": "A farmer picks 14 baskets of peaches with 36 peaches in each basket. After selling 108 peaches, he packs the rest equally into 18 crates. How many peaches go in each crate?",
+      "answer": "$22$",
+      "image": ""
+    },
+    {
+      "q": "A store receives 27 cartons of juice with 12 bottles in each carton. After 48 bottles are sold, the rest are placed equally on 12 shelves. How many bottles go on each shelf?",
+      "answer": "$23$",
+      "image": ""
+    },
+    {
+      "q": "A camp has 22 boxes of granola bars with 18 bars in each box. If 72 bars are saved for staff and the rest are shared equally by 18 cabins, how many bars does each cabin get?",
+      "answer": "$18$",
+      "image": ""
+    },
+    {
+      "q": "A print shop makes 32 pages for each of 15 booklets. If the pages are sorted into piles of 24 pages, how many piles are made?",
+      "answer": "$20$",
+      "image": ""
+    },
+    {
+      "q": "A school buys 25 packs of pencils with 12 pencils in each pack and finds 84 more pencils in storage. The pencils are split equally among 16 classrooms. How many pencils does each classroom receive?",
+      "answer": "$24$",
+      "image": ""
+    },
+    {
+      "q": "A florist has 18 buckets with 22 flowers in each bucket. After throwing away 36 wilted flowers, she makes 20 equal bouquets. How many flowers are in each bouquet?",
+      "answer": "$18$",
+      "image": ""
+    },
+    {
+      "q": "A teacher prints 14 worksheets for each of 32 students. After 64 worksheets are kept as extras, the rest are divided equally among 12 folders. How many worksheets go in each folder?",
+      "answer": "$32$",
+      "image": ""
+    },
+    {
+      "q": "A warehouse receives 19 crates with 30 cans in each crate. After 90 cans are damaged, the rest are packed equally into 16 boxes. How many cans go in each box?",
+      "answer": "$30$",
+      "image": ""
+    },
+    {
+      "q": "A school collects 28 bags of cans with 24 cans in each bag. The cans are split equally between 21 recycling bins. How many cans go in each bin?",
+      "answer": "$32$",
+      "image": ""
+    },
+    {
+      "q": "A chef makes 15 trays of rolls with 28 rolls in each tray. After serving 84 rolls, the rest are put equally into 12 baskets. How many rolls go in each basket?",
+      "answer": "$28$",
+      "image": ""
+    },
+    {
+      "q": "A theatre sells 18 rows of 24 tickets for one show. If the money from all tickets is split equally among 12 clubs, how many tickets' worth does each club receive?",
+      "answer": "$36$",
+      "image": ""
+    },
+    {
+      "q": "A bookstore receives 21 boxes with 16 books in each box. After placing 48 books in the window display, the rest are spread equally on 12 shelves. How many books go on each shelf?",
+      "answer": "$24$",
+      "image": ""
+    },
+    {
+      "q": "A class makes 13 posters for each of 18 topics. If the posters are placed equally into 9 hallway sections, how many posters go in each section?",
+      "answer": "$26$",
+      "image": ""
+    },
+    {
+      "q": "A school packs 17 boxes of lunches with 24 lunches in each box. After 72 lunches are delivered to one building, the rest are split equally among 14 classrooms. How many lunches does each classroom get?",
+      "answer": "$24$",
+      "image": ""
+    },
+    {
+      "q": "A farm packs 26 bags with 18 potatoes in each bag. After using 90 potatoes for soup, the rest are placed equally into 18 crates. How many potatoes go in each crate?",
+      "answer": "$21$",
+      "image": ""
+    },
+    {
+      "q": "A music club buys 24 packs of strings with 6 strings in each pack. The strings are split equally among 12 instruments. How many strings does each instrument get?",
+      "answer": "$12$",
+      "image": ""
+    },
+    {
+      "q": "A school orders 36 boxes of chalk with 15 pieces in each box. After 108 pieces are used, the rest are shared equally by 18 teachers. How many pieces does each teacher get?",
+      "answer": "$24$",
+      "image": ""
+    },
+    {
+      "q": "A ribbon is 96 meters long. Maya uses $\\frac{1}{4}$ of it for a banner and 18 meters for bows. How many meters of ribbon are left?",
+      "answer": "$54$",
+      "image": ""
+    },
+    {
+      "q": "A farmer has 240 apples. He sells $\\frac{2}{5}$ of them in the morning and 58 more in the afternoon. How many apples does he have left?",
+      "answer": "$86$",
+      "image": ""
+    },
+    {
+      "q": "A school has 360 students. If $\\frac{3}{8}$ of the students join the sports day races, how many students do not join the races?",
+      "answer": "$225$",
+      "image": ""
+    },
+    {
+      "q": "A bakery made 288 cupcakes. It sold $\\frac{5}{12}$ of them before lunch. How many cupcakes were not sold before lunch?",
+      "answer": "$168$",
+      "image": ""
+    },
+    {
+      "q": "A tank holds 420 liters of water. During the day, $\\frac{3}{7}$ of the water is used. How many liters are left?",
+      "answer": "$240$",
+      "image": ""
+    },
+    {
+      "q": "A class has 144 colored tiles. The students use $\\frac{5}{8}$ of them for a mosaic. How many tiles are unused?",
+      "answer": "$54$",
+      "image": ""
+    },
+    {
+      "q": "A store has 630 stickers. It sells $\\frac{2}{9}$ of them and then gives away 75 more. How many stickers remain?",
+      "answer": "$415$",
+      "image": ""
+    },
+    {
+      "q": "A library has 540 magazines. It recycles $\\frac{1}{6}$ of them and donates 128 more. How many magazines are left?",
+      "answer": "$322$",
+      "image": ""
+    },
+    {
+      "q": "A school raised 960 dollars. It spent $\\frac{3}{10}$ of the money on books and 186 dollars on games. How many dollars remained?",
+      "answer": "$486$",
+      "image": ""
+    },
+    {
+      "q": "A baker has 384 grams of chocolate. She uses $\\frac{3}{8}$ of it in brownies and 96 grams in cookies. How many grams of chocolate are left?",
+      "answer": "$144$",
+      "image": ""
+    },
+    {
+      "q": "A garden has 180 flowers. $\\frac{2}{5}$ are tulips, and the rest are split equally into 6 rows. How many non-tulip flowers are in each row?",
+      "answer": "$18$",
+      "image": ""
+    },
+    {
+      "q": "A school has 252 chairs. $\\frac{1}{3}$ are moved to the gym, and the rest are arranged equally in 12 classrooms. How many chairs go in each classroom?",
+      "answer": "$14$",
+      "image": ""
+    },
+    {
+      "q": "A fruit stand had 336 oranges. It sold $\\frac{3}{7}$ of them and packed the rest equally into 16 bags. How many oranges went in each bag?",
+      "answer": "$12$",
+      "image": ""
+    },
+    {
+      "q": "A teacher had 216 stickers. She gave $\\frac{1}{4}$ of them to one class and split the rest equally among 9 students. How many stickers did each student receive?",
+      "answer": "$18$",
+      "image": ""
+    },
+    {
+      "q": "A camp had 480 granola bars. Campers ate $\\frac{5}{12}$ of them. The remaining bars were packed equally into 20 boxes. How many bars went in each box?",
+      "answer": "$14$",
+      "image": ""
+    },
+    {
+      "q": "A store had 728 pencils. It sold $\\frac{3}{8}$ of them and then sold 91 more. How many pencils were left?",
+      "answer": "$364$",
+      "image": ""
+    },
+    {
+      "q": "A box held 560 beads. $\\frac{2}{7}$ were blue, and the non-blue beads were divided equally into 16 craft kits. How many non-blue beads went in each kit?",
+      "answer": "$25$",
+      "image": ""
+    },
+    {
+      "q": "A school printed 840 flyers. It handed out $\\frac{5}{14}$ of them in the morning and 215 in the afternoon. How many flyers were left?",
+      "answer": "$325$",
+      "image": ""
+    },
+    {
+      "q": "A baker made 315 cookies. $\\frac{2}{9}$ were chocolate chip, and the rest were packed equally into 7 boxes. How many non-chocolate-chip cookies went in each box?",
+      "answer": "$35$",
+      "image": ""
+    },
+    {
+      "q": "A club has 288 members. $\\frac{7}{12}$ attended a meeting. How many members did not attend?",
+      "answer": "$120$",
+      "image": ""
+    },
+    {
+      "q": "A jug had 10 liters of juice. After pouring out $\\frac{3}{4}$ liter for one recipe and $1\\frac{1}{4}$ liters for another, how many liters were left?",
+      "answer": "$8$",
+      "image": ""
+    },
+    {
+      "q": "A rope is $12\\frac{1}{2}$ meters long. If $3\\frac{1}{4}$ meters are cut off and then 2 meters more are cut off, how many meters remain?",
+      "answer": "$7\\frac{1}{4}$",
+      "image": ""
+    },
+    {
+      "q": "A bottle contains $5\\frac{1}{2}$ liters of paint. Ella uses $1\\frac{3}{4}$ liters on a wall and $\\frac{3}{4}$ liter on a door. How many liters of paint remain?",
+      "answer": "$3$",
+      "image": ""
+    },
+    {
+      "q": "A recipe needs $2\\frac{1}{2}$ cups of flour. Noah makes 3 batches and then spills $1\\frac{1}{2}$ cups. How many cups of flour are actually used or spilled?",
+      "answer": "$9$",
+      "image": ""
+    },
+    {
+      "q": "A trail is $9\\frac{3}{4}$ km long. Hikers walk $4\\frac{1}{2}$ km before lunch and $2\\frac{1}{4}$ km after lunch. How many kilometers are left?",
+      "answer": "$3$",
+      "image": ""
+    },
+    {
+      "q": "Four friends share the cost of 3 games. Each game costs 48 dollars. They use a 20 dollar coupon. If they split the final cost equally, how many dollars does each friend pay?",
+      "answer": "$31$",
+      "image": ""
+    },
+    {
+      "q": "A school buys 18 calculators for 24 dollars each and 12 rulers for 3 dollars each. How many dollars does the school spend in all?",
+      "answer": "$468$",
+      "image": ""
+    },
+    {
+      "q": "A family buys 7 movie tickets for 13 dollars each and 4 popcorns for 6 dollars each. How many dollars do they spend?",
+      "answer": "$115$",
+      "image": ""
+    },
+    {
+      "q": "A class trip costs 18 dollars per student. If 27 students go and the school pays 96 dollars, how many dollars do the students pay altogether?",
+      "answer": "$390$",
+      "image": ""
+    },
+    {
+      "q": "A store sells 16 backpacks for 35 dollars each. It gives a total discount of 120 dollars. How many dollars does it collect?",
+      "answer": "$440$",
+      "image": ""
+    },
+    {
+      "q": "A team buys 24 jerseys for 28 dollars each. They have already raised 395 dollars. How many more dollars do they need?",
+      "answer": "$277$",
+      "image": ""
+    },
+    {
+      "q": "A school fair sells 126 slices of pizza for 3 dollars each and 94 drinks for 2 dollars each. How many dollars are collected?",
+      "answer": "$566$",
+      "image": ""
+    },
+    {
+      "q": "A bookstore sells 14 novels for 17 dollars each and 21 comics for 6 dollars each. How many dollars are collected?",
+      "answer": "$364$",
+      "image": ""
+    },
+    {
+      "q": "A bakery sells 48 cupcakes for 4 dollars each and 25 loaves of bread for 5 dollars each. How many dollars does it collect?",
+      "answer": "$317$",
+      "image": ""
+    },
+    {
+      "q": "A club orders 36 T-shirts for 15 dollars each. The printer gives a 72 dollar discount. How many dollars does the club pay?",
+      "answer": "$468$",
+      "image": ""
+    },
+    {
+      "q": "A train travels 84 km each hour. How far does it travel in 7 hours?",
+      "answer": "$588$",
+      "image": ""
+    },
+    {
+      "q": "A cyclist rides 28 km each day for 9 days, then rides 17 km on the last day. How many kilometers does the cyclist ride in all?",
+      "answer": "$269$",
+      "image": ""
+    },
+    {
+      "q": "A delivery truck drives 135 km on Monday, 168 km on Tuesday, and 147 km on Wednesday. If it uses 1 liter of fuel for every 15 km, how many liters of fuel does it use?",
+      "answer": "$30$",
+      "image": ""
+    },
+    {
+      "q": "A runner completes 6 laps of 750 meters and then 500 meters more. How many meters does the runner complete?",
+      "answer": "$5000$",
+      "image": ""
+    },
+    {
+      "q": "A swimming pool is filled at 45 liters per minute for 18 minutes. Then 120 liters are drained out. How many liters of water are in the pool?",
+      "answer": "$690$",
+      "image": ""
+    },
+    {
+      "q": "A printer prints 32 pages each minute for 14 minutes. After 57 pages are removed because of mistakes, how many good pages remain?",
+      "answer": "$391$",
+      "image": ""
+    },
+    {
+      "q": "A machine packs 28 boxes each hour. How many boxes does it pack in 9 hours and then 16 extra boxes?",
+      "answer": "$268$",
+      "image": ""
+    },
+    {
+      "q": "A bus travels 138 km in the morning and 96 km in the afternoon. It uses 6 liters of fuel for every 78 km traveled. How many liters of fuel does it use?",
+      "answer": "$18$",
+      "image": ""
+    },
+    {
+      "q": "A group hikes 12 km each day for 5 days, then hikes 8 km on the sixth day. If every 4 km takes about 1 hour, how many hours do they hike?",
+      "answer": "$17$",
+      "image": ""
+    },
+    {
+      "q": "A school sells 240 tickets. Adult tickets cost 8 dollars and student tickets cost 5 dollars. If 90 adult tickets are sold, how many dollars are collected in total?",
+      "answer": "$1470$",
+      "image": ""
+    },
+    {
+      "q": "A school bought 12 boxes of notebooks. Each box had 36 notebooks. The school gave $\\frac{1}{3}$ of the notebooks to Grade 4, then gave 95 notebooks to Grade 5. How many notebooks were left?",
+      "answer": "$193$",
+      "image": ""
+    },
+    {
+      "q": "A camp packed 18 crates with 24 water bottles in each crate. Campers drank $\\frac{3}{8}$ of the bottles. How many bottles were left?",
+      "answer": "$270$",
+      "image": ""
+    },
+    {
+      "q": "A florist had 15 buckets with 28 flowers in each bucket. She used $\\frac{2}{5}$ of all the flowers for large bouquets and 84 flowers for small bouquets. How many flowers remained?",
+      "answer": "$168$",
+      "image": ""
+    },
+    {
+      "q": "A teacher bought 20 packs of stickers with 36 stickers in each pack. She kept $\\frac{1}{4}$ of them and shared the rest equally among 18 students. How many stickers did each student get?",
+      "answer": "$30$",
+      "image": ""
+    },
+    {
+      "q": "A bakery made 24 trays of cookies with 18 cookies on each tray. It sold $\\frac{5}{12}$ of the cookies and packed the rest equally into 14 boxes. How many cookies went in each box?",
+      "answer": "$18$",
+      "image": ""
+    },
+    {
+      "q": "A school library received 18 boxes of books with 32 books in each box. It put 144 books in classrooms and split the rest equally onto 12 shelves. How many books went on each shelf?",
+      "answer": "$36$",
+      "image": ""
+    },
+    {
+      "q": "A farmer picked 26 baskets of berries with 15 berries in each basket. He used $\\frac{1}{3}$ of them for jam and sold 98 berries. How many berries were left?",
+      "answer": "$162$",
+      "image": ""
+    },
+    {
+      "q": "A craft store had 840 beads. It used $\\frac{2}{7}$ of them for bracelets and then packed the rest into bags of 30 beads. How many bags were filled?",
+      "answer": "$20$",
+      "image": ""
+    },
+    {
+      "q": "A school fair had 640 prizes. It gave away $\\frac{3}{8}$ of them in the morning and 175 in the afternoon. How many prizes were left?",
+      "answer": "$225$",
+      "image": ""
+    },
+    {
+      "q": "A sports club bought 16 boxes of cones with 18 cones in each box. It lost 42 cones and split the rest equally among 6 teams. How many cones did each team get?",
+      "answer": "$41$",
+      "image": ""
+    },
+    {
+      "q": "A restaurant prepared 35 tables with 4 forks at each table and 35 tables with 3 spoons at each table. After 28 utensils were dropped and replaced, how many utensils were set out in total before replacement?",
+      "answer": "$245$",
+      "image": ""
+    },
+    {
+      "q": "A zoo gift shop had 725 postcards. It sold 318 postcards and then packed the rest equally into 11 display racks. How many postcards went on each rack?",
+      "answer": "$37$",
+      "image": ""
+    },
+    {
+      "q": "A school has 27 boxes of chalk with 16 pieces in each box. After teachers use $\\frac{1}{4}$ of the chalk, how many pieces are left?",
+      "answer": "$324$",
+      "image": ""
+    },
+    {
+      "q": "A bus company has 14 buses with 48 seats on each bus. If 589 seats are filled for a trip, how many seats are empty?",
+      "answer": "$83$",
+      "image": ""
+    },
+    {
+      "q": "A student reads 18 pages each day for 12 days. Then she has 74 pages left in the book. How many pages are in the book?",
+      "answer": "$290$",
+      "image": ""
+    },
+    {
+      "q": "A school bought 9 cases of juice with 24 bottles in each case and 6 cases with 30 bottles in each case. If 126 bottles are used at lunch, how many bottles remain?",
+      "answer": "$270$",
+      "image": ""
+    },
+    {
+      "q": "A farm stand packed 18 bags with 14 potatoes in each bag and 22 bags with 16 potatoes in each bag. How many potatoes were packed altogether?",
+      "answer": "$604$",
+      "image": ""
+    },
+    {
+      "q": "A club made 480 bookmarks. It sold $\\frac{3}{5}$ of them and divided the rest equally among 12 teachers. How many bookmarks did each teacher get?",
+      "answer": "$16$",
+      "image": ""
+    },
+    {
+      "q": "A school ordered 15 boxes of glue sticks with 24 glue sticks in each box. After 96 glue sticks were used, the rest were divided equally among 11 classrooms. How many glue sticks did each classroom receive?",
+      "answer": "$24$",
+      "image": ""
+    },
+    {
+      "q": "A bakery used $2\\frac{1}{4}$ kg of flour for bread and $3\\frac{1}{2}$ kg for cakes. It started with 10 kg. How many kilograms of flour were left?",
+      "answer": "$4\\frac{1}{4}$",
+      "image": ""
+    },
+    {
+      "q": "A classroom bookshelf has 11 shelves with 29 books on each shelf. If 86 books are checked out, how many books remain on the shelves?",
+      "answer": "$233$",
+      "image": ""
+    },
+    {
+      "q": "A school garden has 18 rows of plants with 17 plants in each row. Students plant 94 more plants. How many plants are in the garden?",
+      "answer": "$400$",
+      "image": ""
+    },
+    {
+      "q": "A pet shelter has 246 cans of food. It uses 18 cans each day for 9 days. How many cans are left?",
+      "answer": "$84$",
+      "image": ""
+    },
+    {
+      "q": "A teacher has 405 math cards. She gives 7 cards to each of 38 students. How many cards remain?",
+      "answer": "$139$",
+      "image": ""
+    },
+    {
+      "q": "A school orders 13 packs of rulers with 25 rulers in each pack. If 49 rulers are broken, how many usable rulers are left?",
+      "answer": "$276$",
+      "image": ""
+    },
+    {
+      "q": "A train has 15 cars with 64 seats in each car. If 817 seats are occupied, how many seats are empty?",
+      "answer": "$143$",
+      "image": ""
+    },
+    {
+      "q": "A farmer has 19 baskets with 27 eggs in each basket. He sells 248 eggs. How many eggs remain?",
+      "answer": "$265$",
+      "image": ""
+    },
+    {
+      "q": "A class collects 672 bottle caps. They use $\\frac{5}{8}$ of them for an art project. How many bottle caps are left?",
+      "answer": "$252$",
+      "image": ""
+    },
+    {
+      "q": "A school makes 31 teams with 14 students on each team. Then 47 extra students join the activity. How many students are participating?",
+      "answer": "$481$",
+      "image": ""
+    },
+    {
+      "q": "A shop owner buys 560 balloons. She uses $\\frac{3}{10}$ of them for window decorations and sells 214. How many balloons remain?",
+      "answer": "$178$",
+      "image": ""
+    },
+    {
+      "q": "A family drives 76 km each day for 6 days and 114 km on the seventh day. How many kilometers do they drive altogether?",
+      "answer": "$570$",
+      "image": ""
+    },
+    {
+      "q": "A bakery has 27 trays with 16 cupcakes on each tray. It gives 72 cupcakes to one school and splits the rest equally among 12 boxes. How many cupcakes are in each box?",
+      "answer": "$30$",
+      "image": ""
+    },
+    {
+      "q": "A school has 504 students. $\\frac{2}{7}$ join choir and $\\frac{1}{3}$ join sports. If no student joins both groups, how many students join neither group?",
+      "answer": "$192$",
+      "image": ""
+    },
+    {
+      "q": "A store has 18 boxes of erasers with 32 erasers in each box. It sells 219 erasers and gives 75 away. How many erasers are left?",
+      "answer": "$282$",
+      "image": ""
+    },
+    {
+      "q": "A camp has 945 liters of water. It uses 35 liters each day for 18 days. How many liters are left?",
+      "answer": "$315$",
+      "image": ""
+    },
+    {
+      "q": "A school made 252 sandwiches. It served $\\frac{4}{9}$ of them at lunch and packed the rest equally into 7 coolers. How many sandwiches went in each cooler?",
+      "answer": "$20$",
+      "image": ""
+    },
+    {
+      "q": "A farmer plants 24 rows of corn with 35 plants in each row. A storm damages 186 plants. How many healthy plants remain?",
+      "answer": "$654$",
+      "image": ""
+    },
+    {
+      "q": "A bookstore has 936 books. It sells $\\frac{1}{4}$ of them and then receives 168 new books. How many books does it have then?",
+      "answer": "$870$",
+      "image": ""
+    },
+    {
+      "q": "A school art room has 30 boxes of clay with 18 blocks in each box. Students use $\\frac{2}{5}$ of the blocks. How many blocks are unused?",
+      "answer": "$324$",
+      "image": ""
+    },
+    {
+      "q": "A team practices 135 minutes on Monday, 120 minutes on Wednesday, and 165 minutes on Friday. If the total practice time is split equally into 7 drills, how many minutes is each drill?",
+      "answer": "$60$",
+      "image": ""
+    }
+  ]
+}
