@@ -1,0 +1,875 @@
+{
+  "name": "Common Fractions",
+  "problems": [
+    {
+      "q": "Convert $\\frac{1}{2}$ to a decimal.",
+      "answer": "$0.5$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{1}{3}$ to a decimal.",
+      "answer": "$0.\\overline{3}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{2}{3}$ to a decimal.",
+      "answer": "$0.\\overline{6}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{1}{4}$ to a decimal.",
+      "answer": "$0.25$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{2}{4}$ to a decimal.",
+      "answer": "$0.5$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{3}{4}$ to a decimal.",
+      "answer": "$0.75$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{1}{5}$ to a decimal.",
+      "answer": "$0.2$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{2}{5}$ to a decimal.",
+      "answer": "$0.4$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{3}{5}$ to a decimal.",
+      "answer": "$0.6$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{4}{5}$ to a decimal.",
+      "answer": "$0.8$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{1}{6}$ to a decimal.",
+      "answer": "$0.1\\overline{6}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{2}{6}$ to a decimal.",
+      "answer": "$0.\\overline{3}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{3}{6}$ to a decimal.",
+      "answer": "$0.5$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{4}{6}$ to a decimal.",
+      "answer": "$0.\\overline{6}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{5}{6}$ to a decimal.",
+      "answer": "$0.8\\overline{3}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{1}{7}$ to a decimal.",
+      "answer": "$0.\\overline{142857}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{2}{7}$ to a decimal.",
+      "answer": "$0.\\overline{285714}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{3}{7}$ to a decimal.",
+      "answer": "$0.\\overline{428571}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{4}{7}$ to a decimal.",
+      "answer": "$0.\\overline{571428}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{5}{7}$ to a decimal.",
+      "answer": "$0.\\overline{714285}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{6}{7}$ to a decimal.",
+      "answer": "$0.\\overline{857142}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{1}{8}$ to a decimal.",
+      "answer": "$0.125$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{2}{8}$ to a decimal.",
+      "answer": "$0.25$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{3}{8}$ to a decimal.",
+      "answer": "$0.375$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{4}{8}$ to a decimal.",
+      "answer": "$0.5$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{5}{8}$ to a decimal.",
+      "answer": "$0.625$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{6}{8}$ to a decimal.",
+      "answer": "$0.75$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{7}{8}$ to a decimal.",
+      "answer": "$0.875$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{1}{9}$ to a decimal.",
+      "answer": "$0.\\overline{1}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{2}{9}$ to a decimal.",
+      "answer": "$0.\\overline{2}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{3}{9}$ to a decimal.",
+      "answer": "$0.\\overline{3}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{4}{9}$ to a decimal.",
+      "answer": "$0.\\overline{4}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{5}{9}$ to a decimal.",
+      "answer": "$0.\\overline{5}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{6}{9}$ to a decimal.",
+      "answer": "$0.\\overline{6}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{7}{9}$ to a decimal.",
+      "answer": "$0.\\overline{7}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{8}{9}$ to a decimal.",
+      "answer": "$0.\\overline{8}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{1}{10}$ to a decimal.",
+      "answer": "$0.1$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{3}{10}$ to a decimal.",
+      "answer": "$0.3$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{7}{10}$ to a decimal.",
+      "answer": "$0.7$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{9}{10}$ to a decimal.",
+      "answer": "$0.9$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{1}{20}$ to a decimal.",
+      "answer": "$0.05$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{3}{20}$ to a decimal.",
+      "answer": "$0.15$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{7}{20}$ to a decimal.",
+      "answer": "$0.35$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{9}{20}$ to a decimal.",
+      "answer": "$0.45$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{11}{20}$ to a decimal.",
+      "answer": "$0.55$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{13}{20}$ to a decimal.",
+      "answer": "$0.65$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{17}{20}$ to a decimal.",
+      "answer": "$0.85$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{19}{20}$ to a decimal.",
+      "answer": "$0.95$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{1}{2}$ to a percent.",
+      "answer": "$50\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{1}{3}$ to a percent.",
+      "answer": "$33.\\overline{3}\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{2}{3}$ to a percent.",
+      "answer": "$66.\\overline{6}\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{1}{4}$ to a percent.",
+      "answer": "$25\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{2}{4}$ to a percent.",
+      "answer": "$50\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{3}{4}$ to a percent.",
+      "answer": "$75\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{1}{5}$ to a percent.",
+      "answer": "$20\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{2}{5}$ to a percent.",
+      "answer": "$40\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{3}{5}$ to a percent.",
+      "answer": "$60\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{4}{5}$ to a percent.",
+      "answer": "$80\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{1}{6}$ to a percent.",
+      "answer": "$16.\\overline{6}\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{2}{6}$ to a percent.",
+      "answer": "$33.\\overline{3}\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{3}{6}$ to a percent.",
+      "answer": "$50\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{4}{6}$ to a percent.",
+      "answer": "$66.\\overline{6}\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{5}{6}$ to a percent.",
+      "answer": "$83.\\overline{3}\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{1}{7}$ to a percent.",
+      "answer": "$14.\\overline{285714}\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{2}{7}$ to a percent.",
+      "answer": "$28.\\overline{571428}\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{3}{7}$ to a percent.",
+      "answer": "$42.\\overline{857142}\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{4}{7}$ to a percent.",
+      "answer": "$57.\\overline{142857}\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{5}{7}$ to a percent.",
+      "answer": "$71.\\overline{428571}\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{6}{7}$ to a percent.",
+      "answer": "$85.\\overline{714285}\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{1}{8}$ to a percent.",
+      "answer": "$12.5\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{2}{8}$ to a percent.",
+      "answer": "$25\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{3}{8}$ to a percent.",
+      "answer": "$37.5\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{4}{8}$ to a percent.",
+      "answer": "$50\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{5}{8}$ to a percent.",
+      "answer": "$62.5\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{6}{8}$ to a percent.",
+      "answer": "$75\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{7}{8}$ to a percent.",
+      "answer": "$87.5\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{1}{9}$ to a percent.",
+      "answer": "$11.\\overline{1}\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{2}{9}$ to a percent.",
+      "answer": "$22.\\overline{2}\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{3}{9}$ to a percent.",
+      "answer": "$33.\\overline{3}\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{4}{9}$ to a percent.",
+      "answer": "$44.\\overline{4}\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{5}{9}$ to a percent.",
+      "answer": "$55.\\overline{5}\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{6}{9}$ to a percent.",
+      "answer": "$66.\\overline{6}\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{7}{9}$ to a percent.",
+      "answer": "$77.\\overline{7}\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{8}{9}$ to a percent.",
+      "answer": "$88.\\overline{8}\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{1}{10}$ to a percent.",
+      "answer": "$10\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{3}{10}$ to a percent.",
+      "answer": "$30\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{7}{10}$ to a percent.",
+      "answer": "$70\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{9}{10}$ to a percent.",
+      "answer": "$90\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{1}{20}$ to a percent.",
+      "answer": "$5\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{3}{20}$ to a percent.",
+      "answer": "$15\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{7}{20}$ to a percent.",
+      "answer": "$35\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{9}{20}$ to a percent.",
+      "answer": "$45\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{11}{20}$ to a percent.",
+      "answer": "$55\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{13}{20}$ to a percent.",
+      "answer": "$65\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{17}{20}$ to a percent.",
+      "answer": "$85\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $\\frac{19}{20}$ to a percent.",
+      "answer": "$95\\%$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.5$ to a simplified fraction.",
+      "answer": "$\\frac{1}{2}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.\\overline{3}$ to a simplified fraction.",
+      "answer": "$\\frac{1}{3}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.\\overline{6}$ to a simplified fraction.",
+      "answer": "$\\frac{2}{3}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.25$ to a simplified fraction.",
+      "answer": "$\\frac{1}{4}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.75$ to a simplified fraction.",
+      "answer": "$\\frac{3}{4}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.2$ to a simplified fraction.",
+      "answer": "$\\frac{1}{5}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.4$ to a simplified fraction.",
+      "answer": "$\\frac{2}{5}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.6$ to a simplified fraction.",
+      "answer": "$\\frac{3}{5}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.8$ to a simplified fraction.",
+      "answer": "$\\frac{4}{5}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.1\\overline{6}$ to a simplified fraction.",
+      "answer": "$\\frac{1}{6}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.8\\overline{3}$ to a simplified fraction.",
+      "answer": "$\\frac{5}{6}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.\\overline{142857}$ to a simplified fraction.",
+      "answer": "$\\frac{1}{7}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.\\overline{285714}$ to a simplified fraction.",
+      "answer": "$\\frac{2}{7}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.\\overline{428571}$ to a simplified fraction.",
+      "answer": "$\\frac{3}{7}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.\\overline{571428}$ to a simplified fraction.",
+      "answer": "$\\frac{4}{7}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.\\overline{714285}$ to a simplified fraction.",
+      "answer": "$\\frac{5}{7}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.\\overline{857142}$ to a simplified fraction.",
+      "answer": "$\\frac{6}{7}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.125$ to a simplified fraction.",
+      "answer": "$\\frac{1}{8}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.375$ to a simplified fraction.",
+      "answer": "$\\frac{3}{8}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.625$ to a simplified fraction.",
+      "answer": "$\\frac{5}{8}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.875$ to a simplified fraction.",
+      "answer": "$\\frac{7}{8}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.\\overline{1}$ to a simplified fraction.",
+      "answer": "$\\frac{1}{9}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.\\overline{2}$ to a simplified fraction.",
+      "answer": "$\\frac{2}{9}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.\\overline{4}$ to a simplified fraction.",
+      "answer": "$\\frac{4}{9}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.\\overline{5}$ to a simplified fraction.",
+      "answer": "$\\frac{5}{9}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.\\overline{7}$ to a simplified fraction.",
+      "answer": "$\\frac{7}{9}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.\\overline{8}$ to a simplified fraction.",
+      "answer": "$\\frac{8}{9}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.1$ to a simplified fraction.",
+      "answer": "$\\frac{1}{10}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.3$ to a simplified fraction.",
+      "answer": "$\\frac{3}{10}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.7$ to a simplified fraction.",
+      "answer": "$\\frac{7}{10}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.9$ to a simplified fraction.",
+      "answer": "$\\frac{9}{10}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.05$ to a simplified fraction.",
+      "answer": "$\\frac{1}{20}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.15$ to a simplified fraction.",
+      "answer": "$\\frac{3}{20}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.35$ to a simplified fraction.",
+      "answer": "$\\frac{7}{20}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.45$ to a simplified fraction.",
+      "answer": "$\\frac{9}{20}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.55$ to a simplified fraction.",
+      "answer": "$\\frac{11}{20}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.65$ to a simplified fraction.",
+      "answer": "$\\frac{13}{20}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.85$ to a simplified fraction.",
+      "answer": "$\\frac{17}{20}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $0.95$ to a simplified fraction.",
+      "answer": "$\\frac{19}{20}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $50\\%$ to a simplified fraction.",
+      "answer": "$\\frac{1}{2}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $33.\\overline{3}\\%$ to a simplified fraction.",
+      "answer": "$\\frac{1}{3}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $66.\\overline{6}\\%$ to a simplified fraction.",
+      "answer": "$\\frac{2}{3}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $25\\%$ to a simplified fraction.",
+      "answer": "$\\frac{1}{4}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $75\\%$ to a simplified fraction.",
+      "answer": "$\\frac{3}{4}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $20\\%$ to a simplified fraction.",
+      "answer": "$\\frac{1}{5}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $40\\%$ to a simplified fraction.",
+      "answer": "$\\frac{2}{5}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $60\\%$ to a simplified fraction.",
+      "answer": "$\\frac{3}{5}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $80\\%$ to a simplified fraction.",
+      "answer": "$\\frac{4}{5}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $16.\\overline{6}\\%$ to a simplified fraction.",
+      "answer": "$\\frac{1}{6}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $83.\\overline{3}\\%$ to a simplified fraction.",
+      "answer": "$\\frac{5}{6}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $14.\\overline{285714}\\%$ to a simplified fraction.",
+      "answer": "$\\frac{1}{7}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $28.\\overline{571428}\\%$ to a simplified fraction.",
+      "answer": "$\\frac{2}{7}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $42.\\overline{857142}\\%$ to a simplified fraction.",
+      "answer": "$\\frac{3}{7}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $57.\\overline{142857}\\%$ to a simplified fraction.",
+      "answer": "$\\frac{4}{7}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $71.\\overline{428571}\\%$ to a simplified fraction.",
+      "answer": "$\\frac{5}{7}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $85.\\overline{714285}\\%$ to a simplified fraction.",
+      "answer": "$\\frac{6}{7}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $12.5\\%$ to a simplified fraction.",
+      "answer": "$\\frac{1}{8}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $37.5\\%$ to a simplified fraction.",
+      "answer": "$\\frac{3}{8}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $62.5\\%$ to a simplified fraction.",
+      "answer": "$\\frac{5}{8}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $87.5\\%$ to a simplified fraction.",
+      "answer": "$\\frac{7}{8}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $11.\\overline{1}\\%$ to a simplified fraction.",
+      "answer": "$\\frac{1}{9}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $22.\\overline{2}\\%$ to a simplified fraction.",
+      "answer": "$\\frac{2}{9}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $44.\\overline{4}\\%$ to a simplified fraction.",
+      "answer": "$\\frac{4}{9}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $55.\\overline{5}\\%$ to a simplified fraction.",
+      "answer": "$\\frac{5}{9}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $77.\\overline{7}\\%$ to a simplified fraction.",
+      "answer": "$\\frac{7}{9}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $88.\\overline{8}\\%$ to a simplified fraction.",
+      "answer": "$\\frac{8}{9}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $10\\%$ to a simplified fraction.",
+      "answer": "$\\frac{1}{10}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $30\\%$ to a simplified fraction.",
+      "answer": "$\\frac{3}{10}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $70\\%$ to a simplified fraction.",
+      "answer": "$\\frac{7}{10}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $90\\%$ to a simplified fraction.",
+      "answer": "$\\frac{9}{10}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $5\\%$ to a simplified fraction.",
+      "answer": "$\\frac{1}{20}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $15\\%$ to a simplified fraction.",
+      "answer": "$\\frac{3}{20}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $35\\%$ to a simplified fraction.",
+      "answer": "$\\frac{7}{20}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $45\\%$ to a simplified fraction.",
+      "answer": "$\\frac{9}{20}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $55\\%$ to a simplified fraction.",
+      "answer": "$\\frac{11}{20}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $65\\%$ to a simplified fraction.",
+      "answer": "$\\frac{13}{20}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $85\\%$ to a simplified fraction.",
+      "answer": "$\\frac{17}{20}$",
+      "image": ""
+    },
+    {
+      "q": "Convert $95\\%$ to a simplified fraction.",
+      "answer": "$\\frac{19}{20}$",
+      "image": ""
+    }
+  ]
+}
