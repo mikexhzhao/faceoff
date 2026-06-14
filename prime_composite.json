@@ -1,0 +1,260 @@
+{
+  "name": "Prime, Composite, Factors, and Multiples",
+  "problems": [
+    {
+      "q": "How many prime numbers are less than $10$?",
+      "answer": "$4$",
+      "image": ""
+    },
+    {
+      "q": "How many prime numbers are less than $20$?",
+      "answer": "$8$",
+      "image": ""
+    },
+    {
+      "q": "How many prime numbers are between $10$ and $30$?",
+      "answer": "$6$",
+      "image": ""
+    },
+    {
+      "q": "What is the smallest prime number greater than $30$?",
+      "answer": "$31$",
+      "image": ""
+    },
+    {
+      "q": "What is the largest prime number less than $50$?",
+      "answer": "$47$",
+      "image": ""
+    },
+    {
+      "q": "What is the smallest composite number greater than $20$?",
+      "answer": "$21$",
+      "image": ""
+    },
+    {
+      "q": "What is the largest composite number less than $30$?",
+      "answer": "$28$",
+      "image": ""
+    },
+    {
+      "q": "What is the smallest two-digit prime number?",
+      "answer": "$11$",
+      "image": ""
+    },
+    {
+      "q": "What is the smallest two-digit composite number?",
+      "answer": "$10$",
+      "image": ""
+    },
+    {
+      "q": "What is the largest one-digit prime number?",
+      "answer": "$7$",
+      "image": ""
+    },
+    {
+      "q": "What is the largest one-digit composite number?",
+      "answer": "$9$",
+      "image": ""
+    },
+    {
+      "q": "What is the smallest odd composite number?",
+      "answer": "$9$",
+      "image": ""
+    },
+    {
+      "q": "What is the $5$th prime number?",
+      "answer": "$11$",
+      "image": ""
+    },
+    {
+      "q": "What is the $10$th prime number?",
+      "answer": "$29$",
+      "image": ""
+    },
+    {
+      "q": "What is the $12$th prime number?",
+      "answer": "$37$",
+      "image": ""
+    },
+    {
+      "q": "How many factors does $12$ have?",
+      "answer": "$6$",
+      "image": ""
+    },
+    {
+      "q": "How many factors does $16$ have?",
+      "answer": "$5$",
+      "image": ""
+    },
+    {
+      "q": "How many factors does $18$ have?",
+      "answer": "$6$",
+      "image": ""
+    },
+    {
+      "q": "How many factors does $24$ have?",
+      "answer": "$8$",
+      "image": ""
+    },
+    {
+      "q": "How many factors does $36$ have?",
+      "answer": "$9$",
+      "image": ""
+    },
+    {
+      "q": "How many factors does $48$ have?",
+      "answer": "$10$",
+      "image": ""
+    },
+    {
+      "q": "How many factors does $60$ have?",
+      "answer": "$12$",
+      "image": ""
+    },
+    {
+      "q": "What is the largest proper factor of $18$?",
+      "answer": "$9$",
+      "image": ""
+    },
+    {
+      "q": "What is the largest proper factor of $24$?",
+      "answer": "$12$",
+      "image": ""
+    },
+    {
+      "q": "What is the largest proper factor of $40$?",
+      "answer": "$20$",
+      "image": ""
+    },
+    {
+      "q": "What is the smallest factor greater than $1$ of $35$?",
+      "answer": "$5$",
+      "image": ""
+    },
+    {
+      "q": "What is the smallest factor greater than $1$ of $49$?",
+      "answer": "$7$",
+      "image": ""
+    },
+    {
+      "q": "What is the smallest prime factor of $45$?",
+      "answer": "$3$",
+      "image": ""
+    },
+    {
+      "q": "What is the smallest prime factor of $91$?",
+      "answer": "$7$",
+      "image": ""
+    },
+    {
+      "q": "What is the largest prime factor of $42$?",
+      "answer": "$7$",
+      "image": ""
+    },
+    {
+      "q": "What is the largest prime factor of $60$?",
+      "answer": "$5$",
+      "image": ""
+    },
+    {
+      "q": "What is the missing factor in $6\\times \\Box=48$?",
+      "answer": "$8$",
+      "image": ""
+    },
+    {
+      "q": "What is the missing factor in $9\\times \\Box=72$?",
+      "answer": "$8$",
+      "image": ""
+    },
+    {
+      "q": "What is the missing factor in $12\\times \\Box=96$?",
+      "answer": "$8$",
+      "image": ""
+    },
+    {
+      "q": "What is the missing factor in $7\\times \\Box=84$?",
+      "answer": "$12$",
+      "image": ""
+    },
+    {
+      "q": "What is the $6$th positive multiple of $7$?",
+      "answer": "$42$",
+      "image": ""
+    },
+    {
+      "q": "What is the $8$th positive multiple of $9$?",
+      "answer": "$72$",
+      "image": ""
+    },
+    {
+      "q": "What is the $10$th positive multiple of $12$?",
+      "answer": "$120$",
+      "image": ""
+    },
+    {
+      "q": "What is the next multiple of $6$ after $42$?",
+      "answer": "$48$",
+      "image": ""
+    },
+    {
+      "q": "What is the next multiple of $8$ after $56$?",
+      "answer": "$64$",
+      "image": ""
+    },
+    {
+      "q": "What is the next multiple of $11$ after $77$?",
+      "answer": "$88$",
+      "image": ""
+    },
+    {
+      "q": "What is the smallest positive multiple of $6$ and $8$?",
+      "answer": "$24$",
+      "image": ""
+    },
+    {
+      "q": "What is the smallest positive multiple of $9$ and $12$?",
+      "answer": "$36$",
+      "image": ""
+    },
+    {
+      "q": "What is the smallest positive multiple of $10$ and $15$?",
+      "answer": "$30$",
+      "image": ""
+    },
+    {
+      "q": "What is the least common multiple of $4$ and $6$?",
+      "answer": "$12$",
+      "image": ""
+    },
+    {
+      "q": "What is the least common multiple of $6$ and $8$?",
+      "answer": "$24$",
+      "image": ""
+    },
+    {
+      "q": "What is the least common multiple of $8$ and $12$?",
+      "answer": "$24$",
+      "image": ""
+    },
+    {
+      "q": "What is the greatest common factor of $12$ and $18$?",
+      "answer": "$6$",
+      "image": ""
+    },
+    {
+      "q": "What is the greatest common factor of $16$ and $24$?",
+      "answer": "$8$",
+      "image": ""
+    },
+    {
+      "q": "What is the greatest common factor of $28$ and $42$?",
+      "answer": "$14$",
+      "image": ""
+    },
+    {
+      "q": "What is the greatest common factor of $36$ and $60$?",
+      "answer": "$12$",
+      "image": ""
+    }
+  ]
+}
