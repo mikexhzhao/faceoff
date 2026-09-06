@@ -1,0 +1,114 @@
+{
+  "id": "algebra",
+  "name": "Patterns & Unknowns",
+  "strand": "Algebra",
+  "kind": "Core",
+  "grade": "Grades 5–7",
+  "symbol": "n",
+  "lesson": [
+    "Look for a rule that explains how a pattern is built. A formula using the term number can jump straight to a distant term. Term numbers start at 1 in these questions.",
+    "An equation says two quantities are equal. Undo operations in reverse order, doing the same thing to both sides.",
+    "Drawing, trying small cases and comparing two equations can reveal an unknown without a long calculation."
+  ],
+  "problems": [
+    {
+      "id": "algebra-01",
+      "q": "A sequence starts at 4 and increases by 3 each time: $4,7,10,13,\\ldots$. What is the next term?",
+      "answer": "$16$",
+      "hint": "Add the common increase to 13.",
+      "solution": "$13+3=16$.",
+      "level": 1
+    },
+    {
+      "id": "algebra-02",
+      "q": "Term $n$ of a pattern is $5n-2$. What is term 7?",
+      "answer": "$33$",
+      "hint": "Substitute 7 for $n$.",
+      "solution": "$5\\times7-2=35-2=33$.",
+      "level": 1
+    },
+    {
+      "id": "algebra-03",
+      "q": "Solve $x+17=42$.",
+      "answer": "$x=25$",
+      "hint": "Undo the addition.",
+      "solution": "Subtract 17 from both sides: $x=42-17=25$.",
+      "level": 1
+    },
+    {
+      "id": "algebra-04",
+      "q": "Solve $3x+4=25$.",
+      "answer": "$x=7$",
+      "hint": "Subtract 4 before dividing by 3.",
+      "solution": "$3x=21$, so $x=7$.",
+      "level": 1
+    },
+    {
+      "id": "algebra-05",
+      "q": "Squares are made in a row from matchsticks. Adjacent squares share one side. How many matchsticks are needed for 10 squares?",
+      "answer": "$31$",
+      "hint": "The first square uses 4 sticks. Each extra square adds 3.",
+      "solution": "Ten squares use $4+9\\times3=31$ matchsticks.",
+      "level": 2,
+      "diagram": "matchsticks",
+      "imageAlt": "Three adjacent equal squares share vertical sides.",
+      "image": "../../assets/diagrams/matchsticks.svg"
+    },
+    {
+      "id": "algebra-06",
+      "q": "A machine doubles its input, then subtracts 3. Its output is 17. What was the input?",
+      "answer": "$10$",
+      "hint": "Undo the subtraction before undoing the doubling.",
+      "solution": "Before subtracting 3, the value was 20. Half of 20 is 10.",
+      "level": 2
+    },
+    {
+      "id": "algebra-07",
+      "q": "Term $n$ is an array with $n$ rows and $n+1$ dots in each row. How many dots are in term 6?",
+      "answer": "$42$",
+      "hint": "Count rows times dots per row.",
+      "solution": "Term 6 has 6 rows of 7 dots, giving $6\\times7=42$.",
+      "level": 2
+    },
+    {
+      "id": "algebra-08",
+      "q": "Two consecutive whole numbers have a sum of 51. What is the larger number?",
+      "answer": "$26$",
+      "hint": "They differ by 1.",
+      "solution": "Removing the extra 1 from the sum leaves 50, split into two groups of 25. The numbers are 25 and 26.",
+      "level": 2
+    },
+    {
+      "id": "algebra-09",
+      "q": "A taxi charges a fixed fee of 4 dollars plus 3 dollars per kilometre. A trip costs 25 dollars. How long is the trip?",
+      "answer": "$7\\text{ km}$",
+      "hint": "Remove the fixed fee first.",
+      "solution": "The distance charge is $25-4=21$ dollars. At 3 dollars per kilometre, the distance is $21\\div3=7$ km.",
+      "level": 3
+    },
+    {
+      "id": "algebra-10",
+      "q": "Two squares and one triangle have a total value of 19. One square and one triangle have a total value of 12. What is the value of a triangle?",
+      "answer": "$5$",
+      "hint": "Compare the two totals to find the extra square.",
+      "solution": "One square is worth $19-12=7$. Therefore one triangle is worth $12-7=5$.",
+      "level": 3
+    },
+    {
+      "id": "algebra-11",
+      "q": "Stage 1 of a pattern has 5 tiles. Each new stage adds 4 tiles. Which stage has 53 tiles?",
+      "answer": "$13$",
+      "hint": "Count the additions after stage 1.",
+      "solution": "There are $(53-5)\\div4=12$ additions. They lead from stage 1 to stage 13.",
+      "level": 3
+    },
+    {
+      "id": "algebra-12",
+      "q": "A two-digit positive integer is three times the sum of its digits. What is the integer?",
+      "answer": "$27$",
+      "hint": "Let its tens digit be $a$ and its units digit be $b$.",
+      "solution": "$10a+b=3(a+b)$ gives $7a=2b$. Since $1\\leq a\\leq9$ and $0\\leq b\\leq9$, the only possibility is $a=2,b=7$. The integer is 27.",
+      "level": 3
+    }
+  ]
+}

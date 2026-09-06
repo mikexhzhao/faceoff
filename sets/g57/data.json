@@ -1,0 +1,114 @@
+{
+  "id": "data",
+  "name": "Data & Chance",
+  "strand": "Data",
+  "kind": "Core",
+  "grade": "Grades 5–7",
+  "symbol": "◔",
+  "lesson": [
+    "The mean is the total divided by the number of values. The median is the middle value after sorting. The range is the largest value minus the smallest.",
+    "When outcomes are equally likely, probability is the number of favourable outcomes divided by the total number of outcomes.",
+    "For repeated trials, list complete outcomes rather than just their totals. When objects are drawn without replacement, the contents of the bag change after the first draw."
+  ],
+  "problems": [
+    {
+      "id": "data-01",
+      "q": "Find the median of $2,5,7,9,12$.",
+      "answer": "$7$",
+      "hint": "The values are already in order.",
+      "solution": "There are five values. The third value, 7, is in the middle.",
+      "level": 1
+    },
+    {
+      "id": "data-02",
+      "q": "Find the mean of $3,7,8$.",
+      "answer": "$6$",
+      "hint": "Add the values and divide by 3.",
+      "solution": "$(3+7+8)\\div3=18\\div3=6$.",
+      "level": 1
+    },
+    {
+      "id": "data-03",
+      "q": "Find the range of $12,15,15,19,25$.",
+      "answer": "$13$",
+      "hint": "Subtract the smallest value from the largest.",
+      "solution": "$25-12=13$.",
+      "level": 1
+    },
+    {
+      "id": "data-04",
+      "q": "A fair six-sided die has faces numbered 1 to 6. What is the probability of rolling a number greater than 4?",
+      "answer": "$\\frac{1}{3}$",
+      "hint": "Count the favourable faces.",
+      "solution": "Faces 5 and 6 qualify. The probability is $\\frac{2}{6}=\\frac{1}{3}$.",
+      "level": 1
+    },
+    {
+      "id": "data-05",
+      "q": "A bag holds 4 red, 3 green and 5 yellow counters. One counter is chosen at random. What is the probability it is red?",
+      "answer": "$\\frac{1}{3}$",
+      "hint": "Find the total number of counters.",
+      "solution": "There are $4+3+5=12$ counters. The probability is $\\frac{4}{12}=\\frac{1}{3}$.",
+      "level": 2
+    },
+    {
+      "id": "data-06",
+      "q": "A fair spinner has eight equal sectors, three of which are shaded. What is the probability it lands on a shaded sector?",
+      "answer": "$\\frac{3}{8}$",
+      "hint": "Each sector is equally likely.",
+      "solution": "Three of the eight sectors are favourable, so the probability is $\\frac{3}{8}$.",
+      "level": 2,
+      "diagram": "spinner",
+      "imageAlt": "A circular spinner divided into eight equal sectors with three shaded.",
+      "image": "../../assets/diagrams/spinner.svg"
+    },
+    {
+      "id": "data-07",
+      "q": "Four numbers have a mean of 10. Three of them are 6, 9 and 11. Find the fourth number.",
+      "answer": "$14$",
+      "hint": "Use the mean to find the total.",
+      "solution": "The total is $4\\times10=40$. The known numbers sum to 26, so the missing number is $40-26=14$.",
+      "level": 2
+    },
+    {
+      "id": "data-08",
+      "q": "The mean of five scores $4,6,8,10,x$ is 8. Find $x$.",
+      "answer": "$12$",
+      "hint": "Five scores with mean 8 have a total of 40.",
+      "solution": "The known scores sum to 28. Therefore $x=40-28=12$.",
+      "level": 2
+    },
+    {
+      "id": "data-09",
+      "q": "Two fair coins are tossed independently. What is the probability of getting exactly one head?",
+      "answer": "$\\frac{1}{2}$",
+      "hint": "List the four ordered outcomes.",
+      "solution": "The equally likely outcomes are HH, HT, TH and TT. Two have exactly one head, giving $\\frac{2}{4}=\\frac{1}{2}$.",
+      "level": 3
+    },
+    {
+      "id": "data-10",
+      "q": "A fair six-sided die is rolled twice independently. What is the probability that the two results add to 7?",
+      "answer": "$\\frac{1}{6}$",
+      "hint": "There are 36 ordered pairs.",
+      "solution": "The favourable pairs are $(1,6),(2,5),(3,4),(4,3),(5,2),(6,1)$. The probability is $\\frac{6}{36}=\\frac{1}{6}$.",
+      "level": 3
+    },
+    {
+      "id": "data-11",
+      "q": "A bag has 3 red and 2 blue counters. Two counters are drawn at random without replacement. What is the probability both are red?",
+      "answer": "$\\frac{3}{10}$",
+      "hint": "After a red counter is drawn, 2 red counters remain among 4.",
+      "solution": "The probability is $\\frac{3}{5}\\times\\frac{2}{4}=\\frac{3}{10}$.",
+      "level": 3
+    },
+    {
+      "id": "data-12",
+      "q": "Five children read for $6,6,6,6,31$ minutes. Which better describes a typical child's reading time: the mean or the median? Give its value.",
+      "answer": "Median: 6 minutes",
+      "hint": "Consider how the unusually large value affects each average.",
+      "solution": "The median is 6 minutes, matching four of the five children. The mean is $(24+31)\\div5=11$ minutes, pulled upward by the 31-minute value.",
+      "level": 3
+    }
+  ]
+}

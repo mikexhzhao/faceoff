@@ -1,0 +1,111 @@
+{
+  "id": "money",
+  "name": "Money Decisions",
+  "strand": "Number",
+  "kind": "Core",
+  "grade": "Grades 5–7",
+  "symbol": "¢",
+  "lesson": [
+    "Find a unit price by dividing total cost by quantity. Compare equal units, such as dollars per pen, before choosing a better price.",
+    "A budget keeps track of money available, money received and money spent. A fixed fee is charged once; a per-item charge depends on the quantity.",
+    "Apply percentage changes in the stated order. The questions give all tax and discount rates needed. A discount of 15 percent leaves 85 percent of the original price."
+  ],
+  "problems": [
+    {
+      "id": "money-01",
+      "q": "Three notebooks cost 2.75 dollars each. What is the total cost?",
+      "answer": "$8.25\\text{ dollars}$",
+      "hint": "Multiply the price by 3.",
+      "solution": "$3\\times2.75=8.25$ dollars.",
+      "level": 1
+    },
+    {
+      "id": "money-02",
+      "q": "A purchase costs 12.85 dollars. You pay with 20 dollars. How much change should you receive?",
+      "answer": "$7.15\\text{ dollars}$",
+      "hint": "Count up from 12.85 to 20.",
+      "solution": "$20.00-12.85=7.15$ dollars.",
+      "level": 1
+    },
+    {
+      "id": "money-03",
+      "q": "An 80-dollar jacket is discounted by $15\\%$. What is its price before tax?",
+      "answer": "$68\\text{ dollars}$",
+      "hint": "Find 10 percent and 5 percent, then subtract the discount.",
+      "solution": "The discount is $8+4=12$ dollars. The price is $80-12=68$ dollars.",
+      "level": 1
+    },
+    {
+      "id": "money-04",
+      "q": "A 45-dollar item has a $10\\%$ tax added. What is the total cost?",
+      "answer": "$49.50\\text{ dollars}$",
+      "hint": "Add one tenth of 45.",
+      "solution": "The tax is $4.50$ dollars, giving a total of $49.50$ dollars.",
+      "level": 1
+    },
+    {
+      "id": "money-05",
+      "q": "Pack A has 6 pens for 4.50 dollars. Pack B has 10 pens for 7 dollars. Which pack has the lower price per pen?",
+      "answer": "Pack B",
+      "hint": "Compare the two unit prices.",
+      "solution": "Pack A costs $4.50\\div6=0.75$ dollars per pen. Pack B costs $7\\div10=0.70$ dollars per pen, so Pack B is cheaper per pen.",
+      "level": 2
+    },
+    {
+      "id": "money-06",
+      "q": "Each week, Riya earns 18 dollars and saves $\\frac{2}{3}$ of it. How much will she save in 5 weeks?",
+      "answer": "$60\\text{ dollars}$",
+      "hint": "Find one week's savings first.",
+      "solution": "She saves $18\\times\\frac{2}{3}=12$ dollars each week. In 5 weeks she saves $5\\times12=60$ dollars.",
+      "level": 2
+    },
+    {
+      "id": "money-07",
+      "q": "A games centre charges 3 dollars to enter and 1.50 dollars per game. With 18 dollars, what is the greatest number of games you can play?",
+      "answer": "$10$",
+      "hint": "Pay the entry fee before counting games.",
+      "solution": "There are $18-3=15$ dollars left for games. That pays for $15\\div1.50=10$ games.",
+      "level": 2
+    },
+    {
+      "id": "money-08",
+      "q": "A trip budget is 120 dollars. Transport costs 48 dollars, lunch costs 27 dollars, and tickets cost 35 dollars. How much remains?",
+      "answer": "$10\\text{ dollars}$",
+      "hint": "Add the expenses before subtracting.",
+      "solution": "The expenses total $48+27+35=110$ dollars. There are 10 dollars left.",
+      "level": 2
+    },
+    {
+      "id": "money-09",
+      "q": "A 120-dollar item is discounted by $25\\%$. A $13\\%$ tax is then applied to the discounted price. What is the total cost?",
+      "answer": "$101.70\\text{ dollars}$",
+      "hint": "Apply the tax to the sale price.",
+      "solution": "The sale price is $120\\times0.75=90$ dollars. The tax is $90\\times0.13=11.70$ dollars. Total: $101.70$ dollars.",
+      "level": 3
+    },
+    {
+      "id": "money-10",
+      "q": "A price falls from 120 dollars to 96 dollars. What is the percentage decrease?",
+      "answer": "$20\\%$",
+      "hint": "Compare the decrease with the original price.",
+      "solution": "The decrease is 24 dollars, and $24\\div120=0.20=20\\%$.",
+      "level": 3
+    },
+    {
+      "id": "money-11",
+      "q": "A 60-dollar game has two offers: $20\\%$ off, or 15 dollars off. Which offer saves more, and by how much?",
+      "answer": "15 dollars off; 3 dollars more",
+      "hint": "Work out the dollar value of the percentage discount.",
+      "solution": "Twenty percent of 60 dollars is 12 dollars. The 15-dollar discount saves $15-12=3$ dollars more.",
+      "level": 3
+    },
+    {
+      "id": "money-12",
+      "q": "Sam starts with 80 dollars. Each week Sam deposits 12 dollars and spends 5 dollars. After how many complete weeks will the balance first reach at least 150 dollars?",
+      "answer": "$10$",
+      "hint": "Find the net increase in one week.",
+      "solution": "The balance grows by $12-5=7$ dollars weekly. The required increase is 70 dollars, reached after $70\\div7=10$ weeks.",
+      "level": 3
+    }
+  ]
+}

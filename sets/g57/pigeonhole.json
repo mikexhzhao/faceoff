@@ -1,0 +1,111 @@
+{
+  "id": "pigeonhole",
+  "name": "Socks, Drawers & Guarantees",
+  "strand": "Enrichment",
+  "kind": "Enrichment",
+  "grade": "Grades 5–7",
+  "symbol": "▦",
+  "lesson": [
+    "If more objects than boxes are placed into boxes, at least one box receives two objects. The boxes can represent colours, remainders, months or other categories.",
+    "A guarantee must survive the most awkward possible outcome. First find the greatest number of choices that could still avoid the desired event, then add one.",
+    "For harder questions, invent useful groups. Pairing numbers or dividing a space into regions can turn a large problem into a small counting argument."
+  ],
+  "problems": [
+    {
+      "id": "pigeonhole-01",
+      "q": "Socks come in four colours, with plenty of each colour. You draw socks without looking. How many guarantee two socks of the same colour?",
+      "answer": "$5$",
+      "hint": "You could draw one of each colour first.",
+      "solution": "Four socks might all have different colours. The fifth must match one of the four colours already drawn.",
+      "level": 1
+    },
+    {
+      "id": "pigeonhole-02",
+      "q": "How many people guarantee that at least two have birthdays in the same month?",
+      "answer": "$13$",
+      "hint": "There are 12 month categories.",
+      "solution": "Twelve people could occupy twelve different months. A thirteenth person must share a month with someone.",
+      "level": 1
+    },
+    {
+      "id": "pigeonhole-03",
+      "q": "Ten balls are placed into three boxes. What is the smallest number of balls that at least one box must contain?",
+      "answer": "$4$",
+      "hint": "Three balls in every box accounts for only 9 balls.",
+      "solution": "If each box held at most 3 balls, there would be at most 9. Thus some box has at least 4. A $4,3,3$ distribution shows 4 is the best guarantee.",
+      "level": 1
+    },
+    {
+      "id": "pigeonhole-04",
+      "q": "Badges come in five colours, with plenty of each. How many draws guarantee three badges of one colour?",
+      "answer": "$11$",
+      "hint": "You could draw two of each colour without having three alike.",
+      "solution": "Ten draws can give two of each colour. The next draw creates a group of at least three, so 11 suffice.",
+      "level": 1
+    },
+    {
+      "id": "pigeonhole-05",
+      "q": "Thirty-one books are placed on six shelves. At least one shelf must contain how many books? Give the strongest guarantee.",
+      "answer": "$6$",
+      "hint": "What if every shelf held at most five books?",
+      "solution": "Six shelves with at most five books each hold at most 30 books. Therefore some shelf has at least 6. A distribution $6,5,5,5,5,5$ shows this is sharp.",
+      "level": 2
+    },
+    {
+      "id": "pigeonhole-06",
+      "q": "Cards numbered 1 to 10 are drawn without replacement. How many draws guarantee an even number?",
+      "answer": "$6$",
+      "hint": "All the odd-numbered cards could come first.",
+      "solution": "There are five odd cards. The sixth draw must be even.",
+      "level": 2
+    },
+    {
+      "id": "pigeonhole-07",
+      "q": "Cards numbered 1 to 10 are drawn without replacement. How many draws guarantee two cards whose numbers add to 11?",
+      "answer": "$6$",
+      "hint": "Group the cards into pairs with sum 11.",
+      "solution": "The five pairs are $(1,10),(2,9),(3,8),(4,7),(5,6)$. Five draws can take one from each pair; six draws must complete a pair.",
+      "level": 2
+    },
+    {
+      "id": "pigeonhole-08",
+      "q": "A bag has four red, four green and four gold counters. How many draws without replacement guarantee at least one counter of every colour?",
+      "answer": "$9$",
+      "hint": "You might draw all the counters of two colours first.",
+      "solution": "Eight draws can still omit a colour. Only eight counters belong to the other two colours, so the ninth must supply the missing colour.",
+      "level": 2
+    },
+    {
+      "id": "pigeonhole-09",
+      "q": "Seven integers are chosen. Must two leave the same remainder when divided by 6?",
+      "answer": "Yes",
+      "hint": "Division by 6 has six possible remainders.",
+      "solution": "The remainders are $0,1,2,3,4,5$. Seven integers in six remainder categories must share a category.",
+      "level": 3
+    },
+    {
+      "id": "pigeonhole-10",
+      "q": "What is the largest number of cards you can choose from cards numbered 1 to 9 without choosing two consecutive numbers?",
+      "answer": "$5$",
+      "hint": "Group $(1,2),(3,4),(5,6),(7,8)$ and the single card 9.",
+      "solution": "At most one card can be taken from each of the four pairs, plus card 9, so at most 5. Choosing $1,3,5,7,9$ achieves 5.",
+      "level": 3
+    },
+    {
+      "id": "pigeonhole-11",
+      "q": "A drawer has five red, five green and five gold socks. How many draws guarantee two disjoint matching pairs? The pairs may have the same colour.",
+      "answer": "$6$",
+      "hint": "With at most one matching pair, how many socks could each colour contribute?",
+      "solution": "To have at most one pair, one colour can contribute at most 3 socks and the others at most 1 each: at most 5 total. Six socks therefore guarantee two pairs. The distribution $3,1,1$ shows five do not suffice.",
+      "level": 3
+    },
+    {
+      "id": "pigeonhole-12",
+      "q": "How many whole numbers guarantee two whose difference is divisible by 16?",
+      "answer": "$17$",
+      "hint": "Compare remainders on division by 16.",
+      "solution": "There are 16 possible remainders. Among 17 numbers, two share a remainder, so their difference is divisible by 16. Sixteen numbers, such as 0 through 15, need not contain such a pair.",
+      "level": 3
+    }
+  ]
+}

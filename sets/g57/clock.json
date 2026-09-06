@@ -1,0 +1,114 @@
+{
+  "id": "clock",
+  "name": "Clock Arithmetic",
+  "strand": "Enrichment",
+  "kind": "Enrichment",
+  "grade": "Grades 5–7",
+  "symbol": "↻",
+  "lesson": [
+    "Clock arithmetic keeps the remainder after division. On a 10-hour clock, moving forward 13 hours has the same effect as moving forward 3 hours.",
+    "A repeating pattern can be tracked by its cycle length. Divide the position by that length and use the remainder to locate the item. A remainder of zero lands on the last item in a cycle.",
+    "Remainders are also useful for weekdays and final digits. Try a few powers to find a cycle before working with a large exponent."
+  ],
+  "problems": [
+    {
+      "id": "clock-01",
+      "q": "It is 10 o'clock on a 12-hour clock. What time will it show 5 hours later?",
+      "answer": "3 o'clock",
+      "hint": "Move forward to 12, then continue from 1.",
+      "solution": "Two hours reach 12 and three more reach 3. Equivalently, $10+5=15$ leaves remainder 3 on division by 12.",
+      "level": 1
+    },
+    {
+      "id": "clock-02",
+      "q": "What remainder is left when 17 is divided by 5?",
+      "answer": "$2$",
+      "hint": "Find the largest multiple of 5 no greater than 17.",
+      "solution": "$17=3\\times5+2$, so the remainder is 2.",
+      "level": 1
+    },
+    {
+      "id": "clock-03",
+      "q": "Today is Wednesday. What day of the week will it be 100 days from today?",
+      "answer": "Friday",
+      "hint": "Remove complete weeks.",
+      "solution": "$100=14\\times7+2$. Fourteen weeks return to Wednesday, and two more days reach Friday.",
+      "level": 1
+    },
+    {
+      "id": "clock-04",
+      "q": "A bead pattern repeats red, green, blue, yellow, starting with red in position 1. What colour is the bead in position 38?",
+      "answer": "Green",
+      "hint": "Find the remainder when 38 is divided by 4.",
+      "solution": "$38=9\\times4+2$. Position 38 is the second position in a cycle, so it is green.",
+      "level": 1
+    },
+    {
+      "id": "clock-05",
+      "q": "What is the units digit of $7^{2}$?",
+      "answer": "$9$",
+      "hint": "Calculate the square.",
+      "solution": "$7^{2}=49$, whose units digit is 9.",
+      "level": 2
+    },
+    {
+      "id": "clock-06",
+      "q": "What is the units digit of $3^{7}$?",
+      "answer": "$7$",
+      "hint": "The units digits of successive powers repeat after four steps.",
+      "solution": "The units digits are $3,9,7,1$, then repeat. Since 7 leaves remainder 3 on division by 4, use the third digit in the cycle: 7.",
+      "level": 2
+    },
+    {
+      "id": "clock-07",
+      "q": "What is the smallest whole number greater than 20 that leaves remainder 2 when divided by 5?",
+      "answer": "$22$",
+      "hint": "Add 2 to a suitable multiple of 5.",
+      "solution": "$22=4\\times5+2$. The only smaller whole number greater than 20 is 21, which leaves remainder 1.",
+      "level": 2
+    },
+    {
+      "id": "clock-08",
+      "q": "How many integers from 1 to 30 leave remainder 1 when divided by 4?",
+      "answer": "$8$",
+      "hint": "List numbers of the form $4k+1$.",
+      "solution": "They are $1,5,9,13,17,21,25,29$, so there are 8.",
+      "level": 2
+    },
+    {
+      "id": "clock-09",
+      "q": "A 24-hour clock shows 19:00. What will it show 83 hours later?",
+      "answer": "06:00",
+      "hint": "Remove complete 24-hour cycles.",
+      "solution": "$19+83=102=4\\times24+6$, so the clock shows 06:00.",
+      "level": 3
+    },
+    {
+      "id": "clock-10",
+      "q": "What is the least positive integer that leaves remainder 2 when divided by 3 and remainder 3 when divided by 5?",
+      "answer": "$8$",
+      "hint": "Start with numbers that leave remainder 3 on division by 5.",
+      "solution": "Those numbers begin $3,8,13,18,\\ldots$. The first that also leaves remainder 2 on division by 3 is 8.",
+      "level": 3
+    },
+    {
+      "id": "clock-11",
+      "q": "What is the remainder when 2026 is divided by 9?",
+      "answer": "$1$",
+      "hint": "Subtract a nearby multiple of 9, or use the digit sum.",
+      "solution": "$2026=9\\times225+1$. The digit sum is 10, which also leaves remainder 1 on division by 9.",
+      "level": 3
+    },
+    {
+      "id": "clock-12",
+      "q": "Eight stones are arranged in a circle and numbered 0 to 7 clockwise. A frog starts on 0 and jumps 3 stones clockwise each time. After how many jumps does it first return to 0?",
+      "answer": "$8$",
+      "hint": "Record the landing numbers, wrapping around after 7.",
+      "solution": "The landings are $3,6,1,4,7,2,5,0$. The first return is after 8 jumps.",
+      "level": 3,
+      "diagram": "clock-stones",
+      "imageAlt": "Eight equally spaced stones on a circle labelled 0 through 7 clockwise.",
+      "image": "../../assets/diagrams/clock-stones.svg"
+    }
+  ]
+}

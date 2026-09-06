@@ -1,0 +1,111 @@
+{
+  "id": "ratios",
+  "name": "Decimals, Percents & Ratios",
+  "strand": "Number",
+  "kind": "Core",
+  "grade": "Grades 5–7",
+  "symbol": "%",
+  "lesson": [
+    "Percent means out of 100. For example, $35\\%=\\frac{35}{100}=0.35$. Ten percent and one percent are useful starting points for mental calculations.",
+    "A ratio of $2:3$ divides a total into 5 equal-sized parts. Find one part before finding either share.",
+    "A rate compares quantities with different units. Keep track of those units. When finding an average speed, divide total distance by total time."
+  ],
+  "problems": [
+    {
+      "id": "ratios-01",
+      "q": "Write $0.375$ as a fraction in lowest terms.",
+      "answer": "$\\frac{3}{8}$",
+      "hint": "Start with 375 thousandths.",
+      "solution": "$0.375=\\frac{375}{1000}$. Divide numerator and denominator by 125 to obtain $\\frac{3}{8}$.",
+      "level": 1
+    },
+    {
+      "id": "ratios-02",
+      "q": "Calculate $0.6+0.07+0.008$.",
+      "answer": "$0.678$",
+      "hint": "Line up the decimal points.",
+      "solution": "The sum has 6 tenths, 7 hundredths and 8 thousandths: $0.678$.",
+      "level": 1
+    },
+    {
+      "id": "ratios-03",
+      "q": "Six identical ribbons have a total length of $0.48$ m. How long is one ribbon?",
+      "answer": "$0.08\\text{ m}$",
+      "hint": "Think of 48 hundredths shared equally.",
+      "solution": "$0.48\\div6=0.08$ m, which is 8 cm.",
+      "level": 1
+    },
+    {
+      "id": "ratios-04",
+      "q": "What is $25\\%$ of 80?",
+      "answer": "$20$",
+      "hint": "Twenty-five percent is one quarter.",
+      "solution": "$80\\div4=20$.",
+      "level": 1
+    },
+    {
+      "id": "ratios-05",
+      "q": "Eighteen out of 24 students chose a puzzle. What percent of the students chose it?",
+      "answer": "$75\\%$",
+      "hint": "Reduce $\\frac{18}{24}$ first.",
+      "solution": "$\\frac{18}{24}=\\frac{3}{4}=\\frac{75}{100}=75\\%$.",
+      "level": 2
+    },
+    {
+      "id": "ratios-06",
+      "q": "Red and gold beads are in the ratio $3:5$. There are 40 beads altogether. How many are red?",
+      "answer": "$15$",
+      "hint": "The 40 beads form 8 equal parts.",
+      "solution": "One part is $40\\div8=5$ beads. Red beads occupy 3 parts, so there are $3\\times5=15$.",
+      "level": 2
+    },
+    {
+      "id": "ratios-07",
+      "q": "A cyclist travels $1.8$ km in 12 minutes at a constant speed. How far will the cyclist travel in 30 minutes?",
+      "answer": "$4.5\\text{ km}$",
+      "hint": "Find the distance travelled in one minute.",
+      "solution": "The rate is $1.8\\div12=0.15$ km per minute. In 30 minutes the distance is $0.15\\times30=4.5$ km.",
+      "level": 2
+    },
+    {
+      "id": "ratios-08",
+      "q": "Sixty percent of the marbles in a box are blue. The other 18 marbles are green. How many marbles are in the box?",
+      "answer": "$45$",
+      "hint": "The green marbles make up 40 percent.",
+      "solution": "$40\\%$ corresponds to 18 marbles. Ten percent is $18\\div4=4.5$, so 100 percent is 45 marbles.",
+      "level": 2
+    },
+    {
+      "id": "ratios-09",
+      "q": "A price of 100 dollars rises by $20\\%$, then the new price falls by $20\\%$. What is the final price?",
+      "answer": "$96\\text{ dollars}$",
+      "hint": "The two percentages are taken from different amounts.",
+      "solution": "After the increase, the price is 120 dollars. The decrease is $0.20\\times120=24$ dollars, leaving 96 dollars.",
+      "level": 3
+    },
+    {
+      "id": "ratios-10",
+      "q": "A drink uses concentrate and water in the ratio $2:7$. How many millilitres of concentrate are needed to make $1.8$ L of the drink?",
+      "answer": "$400\\text{ mL}$",
+      "hint": "Convert the total to millilitres and divide it into 9 parts.",
+      "solution": "$1.8$ L is 1800 mL. Each part is $1800\\div9=200$ mL. The concentrate occupies 2 parts, or 400 mL.",
+      "level": 3
+    },
+    {
+      "id": "ratios-11",
+      "q": "A club has 25 members, and $40\\%$ are girls. Five girls join and nobody leaves. What percent of the club members are now girls?",
+      "answer": "$50\\%$",
+      "hint": "Both the number of girls and the total membership change.",
+      "solution": "Initially there are $0.4\\times25=10$ girls. Afterwards there are 15 girls out of 30 members, so the percentage is 50.",
+      "level": 3
+    },
+    {
+      "id": "ratios-12",
+      "q": "A hiker travels 3 km uphill at 4 km/h and 3 km downhill at 6 km/h, with no stops. What is the average speed for the whole trip?",
+      "answer": "$4.8\\text{ km/h}$",
+      "hint": "Add the two travel times before dividing the total distance by the total time.",
+      "solution": "The uphill time is $\\frac{3}{4}$ h and the downhill time is $\\frac{1}{2}$ h. The total is $\\frac{5}{4}$ h for 6 km, giving $6\\div\\frac{5}{4}=4.8$ km/h.",
+      "level": 3
+    }
+  ]
+}

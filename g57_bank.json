@@ -1,0 +1,1864 @@
+{
+  "version": 1,
+  "sets": [
+    {
+      "id": "fractions",
+      "name": "Fractions & Fair Shares",
+      "strand": "Number",
+      "kind": "Core",
+      "grade": "Grades 5–7",
+      "symbol": "½",
+      "lesson": [
+        "A fraction compares a number of equal parts with the number of parts in one whole. To compare fractions, give them the same denominator or compare each with one half.",
+        "To add or subtract fractions, first express them in equal-sized parts. For example, $\\frac{1}{2}+\\frac{1}{3}=\\frac{3}{6}+\\frac{2}{6}=\\frac{5}{6}$.",
+        "To find a fraction of a quantity, divide by the denominator and multiply by the numerator. When a fraction of the whole is known, work backwards to find the whole."
+      ],
+      "problems": [
+        {
+          "id": "fractions-01",
+          "q": "What fraction of the strip is shaded?",
+          "answer": "$\\frac{3}{8}$",
+          "hint": "Count all the equal sections, then the shaded sections.",
+          "solution": "There are 8 equal sections and 3 are shaded, so the shaded fraction is $\\frac{3}{8}$.",
+          "level": 1,
+          "diagram": "fraction-strip",
+          "imageAlt": "A strip divided into eight equal rectangles; the first three are shaded."
+        },
+        {
+          "id": "fractions-02",
+          "q": "Write $\\frac{6}{9}$ in lowest terms.",
+          "answer": "$\\frac{2}{3}$",
+          "hint": "Find a number that divides both 6 and 9.",
+          "solution": "Divide both the numerator and denominator by 3: $\\frac{6}{9}=\\frac{2}{3}$.",
+          "level": 1
+        },
+        {
+          "id": "fractions-03",
+          "q": "Which is greater: $\\frac{5}{8}$ or $\\frac{7}{12}$?",
+          "answer": "$\\frac{5}{8}$",
+          "hint": "Use a denominator of 24.",
+          "solution": "$\\frac{5}{8}=\\frac{15}{24}$ and $\\frac{7}{12}=\\frac{14}{24}$. Therefore $\\frac{5}{8}$ is greater.",
+          "level": 1
+        },
+        {
+          "id": "fractions-04",
+          "q": "What is $\\frac{3}{4}$ of 28?",
+          "answer": "$21$",
+          "hint": "Find one quarter first.",
+          "solution": "One quarter is $28\\div4=7$. Three quarters is $3\\times7=21$.",
+          "level": 1
+        },
+        {
+          "id": "fractions-05",
+          "q": "Calculate $\\frac{2}{3}+\\frac{5}{6}$.",
+          "answer": "$\\frac{3}{2}$",
+          "hint": "Express both fractions in sixths.",
+          "solution": "$\\frac{4}{6}+\\frac{5}{6}=\\frac{9}{6}=\\frac{3}{2}$, or $1\\frac{1}{2}$.",
+          "level": 2
+        },
+        {
+          "id": "fractions-06",
+          "q": "Calculate $\\frac{7}{8}-\\frac{1}{3}$.",
+          "answer": "$\\frac{13}{24}$",
+          "hint": "Both denominators divide 24.",
+          "solution": "$\\frac{7}{8}-\\frac{1}{3}=\\frac{21}{24}-\\frac{8}{24}=\\frac{13}{24}$.",
+          "level": 2
+        },
+        {
+          "id": "fractions-07",
+          "q": "A jug holds $2\\frac{1}{4}$ L of juice. How many full $\\frac{3}{8}$ L cups can it fill?",
+          "answer": "$6$",
+          "hint": "Write the amount in the jug in eighths.",
+          "solution": "The jug holds $\\frac{18}{8}$ L. Each cup uses $\\frac{3}{8}$ L, so it fills $18\\div3=6$ cups.",
+          "level": 2
+        },
+        {
+          "id": "fractions-08",
+          "q": "Eighteen students are $\\frac{3}{5}$ of a class. How many students are in the class?",
+          "answer": "$30$",
+          "hint": "First find the number in one fifth.",
+          "solution": "One fifth is $18\\div3=6$ students. Five fifths is $5\\times6=30$ students.",
+          "level": 2
+        },
+        {
+          "id": "fractions-09",
+          "q": "A gardener plants $\\frac{1}{3}$ of a plot with beans and $\\frac{1}{4}$ of the same plot with carrots. The two regions do not overlap. What fraction remains?",
+          "answer": "$\\frac{5}{12}$",
+          "hint": "Subtract both planted fractions from one whole.",
+          "solution": "$1-\\frac{1}{3}-\\frac{1}{4}=\\frac{12}{12}-\\frac{4}{12}-\\frac{3}{12}=\\frac{5}{12}$.",
+          "level": 3
+        },
+        {
+          "id": "fractions-10",
+          "q": "A hiker walks $\\frac{2}{3}$ of a trail before lunch, then half of the remaining distance. What fraction of the entire trail is still left?",
+          "answer": "$\\frac{1}{6}$",
+          "hint": "After lunch, the hiker completes half of the last third.",
+          "solution": "After the morning, $\\frac{1}{3}$ remains. Half of that third is left at the end: $\\frac{1}{2}\\times\\frac{1}{3}=\\frac{1}{6}$.",
+          "level": 3
+        },
+        {
+          "id": "fractions-11",
+          "q": "Which fraction with denominator 14 lies strictly between $\\frac{3}{7}$ and $\\frac{4}{7}$?",
+          "answer": "$\\frac{7}{14}$",
+          "hint": "Express the two endpoints in fourteenths.",
+          "solution": "The endpoints are $\\frac{6}{14}$ and $\\frac{8}{14}$. The only integer numerator strictly between 6 and 8 is 7.",
+          "level": 3
+        },
+        {
+          "id": "fractions-12",
+          "q": "A tank is $\\frac{3}{4}$ full. After 18 L is removed, it is $\\frac{3}{10}$ full. What is its capacity?",
+          "answer": "$40\\text{ L}$",
+          "hint": "The removed water represents the difference between the two fractions.",
+          "solution": "The removed fraction is $\\frac{3}{4}-\\frac{3}{10}=\\frac{9}{20}$. One twentieth holds $18\\div9=2$ L, so the whole tank holds $20\\times2=40$ L.",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "id": "ratios",
+      "name": "Decimals, Percents & Ratios",
+      "strand": "Number",
+      "kind": "Core",
+      "grade": "Grades 5–7",
+      "symbol": "%",
+      "lesson": [
+        "Percent means out of 100. For example, $35\\%=\\frac{35}{100}=0.35$. Ten percent and one percent are useful starting points for mental calculations.",
+        "A ratio of $2:3$ divides a total into 5 equal-sized parts. Find one part before finding either share.",
+        "A rate compares quantities with different units. Keep track of those units. When finding an average speed, divide total distance by total time."
+      ],
+      "problems": [
+        {
+          "id": "ratios-01",
+          "q": "Write $0.375$ as a fraction in lowest terms.",
+          "answer": "$\\frac{3}{8}$",
+          "hint": "Start with 375 thousandths.",
+          "solution": "$0.375=\\frac{375}{1000}$. Divide numerator and denominator by 125 to obtain $\\frac{3}{8}$.",
+          "level": 1
+        },
+        {
+          "id": "ratios-02",
+          "q": "Calculate $0.6+0.07+0.008$.",
+          "answer": "$0.678$",
+          "hint": "Line up the decimal points.",
+          "solution": "The sum has 6 tenths, 7 hundredths and 8 thousandths: $0.678$.",
+          "level": 1
+        },
+        {
+          "id": "ratios-03",
+          "q": "Six identical ribbons have a total length of $0.48$ m. How long is one ribbon?",
+          "answer": "$0.08\\text{ m}$",
+          "hint": "Think of 48 hundredths shared equally.",
+          "solution": "$0.48\\div6=0.08$ m, which is 8 cm.",
+          "level": 1
+        },
+        {
+          "id": "ratios-04",
+          "q": "What is $25\\%$ of 80?",
+          "answer": "$20$",
+          "hint": "Twenty-five percent is one quarter.",
+          "solution": "$80\\div4=20$.",
+          "level": 1
+        },
+        {
+          "id": "ratios-05",
+          "q": "Eighteen out of 24 students chose a puzzle. What percent of the students chose it?",
+          "answer": "$75\\%$",
+          "hint": "Reduce $\\frac{18}{24}$ first.",
+          "solution": "$\\frac{18}{24}=\\frac{3}{4}=\\frac{75}{100}=75\\%$.",
+          "level": 2
+        },
+        {
+          "id": "ratios-06",
+          "q": "Red and gold beads are in the ratio $3:5$. There are 40 beads altogether. How many are red?",
+          "answer": "$15$",
+          "hint": "The 40 beads form 8 equal parts.",
+          "solution": "One part is $40\\div8=5$ beads. Red beads occupy 3 parts, so there are $3\\times5=15$.",
+          "level": 2
+        },
+        {
+          "id": "ratios-07",
+          "q": "A cyclist travels $1.8$ km in 12 minutes at a constant speed. How far will the cyclist travel in 30 minutes?",
+          "answer": "$4.5\\text{ km}$",
+          "hint": "Find the distance travelled in one minute.",
+          "solution": "The rate is $1.8\\div12=0.15$ km per minute. In 30 minutes the distance is $0.15\\times30=4.5$ km.",
+          "level": 2
+        },
+        {
+          "id": "ratios-08",
+          "q": "Sixty percent of the marbles in a box are blue. The other 18 marbles are green. How many marbles are in the box?",
+          "answer": "$45$",
+          "hint": "The green marbles make up 40 percent.",
+          "solution": "$40\\%$ corresponds to 18 marbles. Ten percent is $18\\div4=4.5$, so 100 percent is 45 marbles.",
+          "level": 2
+        },
+        {
+          "id": "ratios-09",
+          "q": "A price of 100 dollars rises by $20\\%$, then the new price falls by $20\\%$. What is the final price?",
+          "answer": "$96\\text{ dollars}$",
+          "hint": "The two percentages are taken from different amounts.",
+          "solution": "After the increase, the price is 120 dollars. The decrease is $0.20\\times120=24$ dollars, leaving 96 dollars.",
+          "level": 3
+        },
+        {
+          "id": "ratios-10",
+          "q": "A drink uses concentrate and water in the ratio $2:7$. How many millilitres of concentrate are needed to make $1.8$ L of the drink?",
+          "answer": "$400\\text{ mL}$",
+          "hint": "Convert the total to millilitres and divide it into 9 parts.",
+          "solution": "$1.8$ L is 1800 mL. Each part is $1800\\div9=200$ mL. The concentrate occupies 2 parts, or 400 mL.",
+          "level": 3
+        },
+        {
+          "id": "ratios-11",
+          "q": "A club has 25 members, and $40\\%$ are girls. Five girls join and nobody leaves. What percent of the club members are now girls?",
+          "answer": "$50\\%$",
+          "hint": "Both the number of girls and the total membership change.",
+          "solution": "Initially there are $0.4\\times25=10$ girls. Afterwards there are 15 girls out of 30 members, so the percentage is 50.",
+          "level": 3
+        },
+        {
+          "id": "ratios-12",
+          "q": "A hiker travels 3 km uphill at 4 km/h and 3 km downhill at 6 km/h, with no stops. What is the average speed for the whole trip?",
+          "answer": "$4.8\\text{ km/h}$",
+          "hint": "Add the two travel times before dividing the total distance by the total time.",
+          "solution": "The uphill time is $\\frac{3}{4}$ h and the downhill time is $\\frac{1}{2}$ h. The total is $\\frac{5}{4}$ h for 6 km, giving $6\\div\\frac{5}{4}=4.8$ km/h.",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "id": "factors",
+      "name": "Number Detectives",
+      "strand": "Number",
+      "kind": "Core",
+      "grade": "Grades 5–7",
+      "symbol": "×",
+      "lesson": [
+        "A factor divides a whole number with no remainder. A prime number has exactly two positive factors: 1 and itself. The number 1 is neither prime nor composite.",
+        "Common multiples help with repeating events. Common factors help when dividing different collections into identical groups without leftovers.",
+        "A number is divisible by 3 or 9 when its digit sum is divisible by 3 or 9. It is divisible by 4 when the number formed by its last two digits is divisible by 4."
+      ],
+      "problems": [
+        {
+          "id": "factors-01",
+          "q": "List all the prime numbers strictly between 10 and 20.",
+          "answer": "$11,13,17,19$",
+          "hint": "Exclude even numbers and multiples of 3 or 5.",
+          "solution": "The four remaining numbers are 11, 13, 17 and 19. Each has only 1 and itself as positive factors.",
+          "level": 1
+        },
+        {
+          "id": "factors-02",
+          "q": "List all the positive factors of 24.",
+          "answer": "$1,2,3,4,6,8,12,24$",
+          "hint": "Find pairs whose product is 24.",
+          "solution": "The factor pairs are $1\\times24$, $2\\times12$, $3\\times8$ and $4\\times6$.",
+          "level": 1
+        },
+        {
+          "id": "factors-03",
+          "q": "What is the least positive number divisible by both 6 and 8?",
+          "answer": "$24$",
+          "hint": "Compare the multiples of 6 with the multiples of 8.",
+          "solution": "The first common positive multiple is $24=4\\times6=3\\times8$.",
+          "level": 1
+        },
+        {
+          "id": "factors-04",
+          "q": "There are 36 red counters and 48 green counters. They are put into as many identical bags as possible, with no counters left over. How many bags are made?",
+          "answer": "$12$",
+          "hint": "The number of bags must divide both quantities.",
+          "solution": "The greatest common factor of 36 and 48 is 12. Each bag then contains 3 red and 4 green counters.",
+          "level": 1
+        },
+        {
+          "id": "factors-05",
+          "q": "Which digit makes $4\\square2$ divisible by 9?",
+          "answer": "$3$",
+          "hint": "Add the three digits.",
+          "solution": "The digit sum is $6+\\square$. The only multiple of 9 from 6 to 15 is 9, so the missing digit is 3.",
+          "level": 2
+        },
+        {
+          "id": "factors-06",
+          "q": "Write 72 as a product of prime powers.",
+          "answer": "$2^{3}\\times3^{2}$",
+          "hint": "Repeatedly divide by the smallest prime factor.",
+          "solution": "$72=2\\times36=2\\times2\\times18=2\\times2\\times2\\times9=2^{3}\\times3^{2}$.",
+          "level": 2
+        },
+        {
+          "id": "factors-07",
+          "q": "How many positive factors does 36 have?",
+          "answer": "$9$",
+          "hint": "List them in pairs, counting the square root only once.",
+          "solution": "The factors are $1,2,3,4,6,9,12,18,36$, for a total of 9.",
+          "level": 2
+        },
+        {
+          "id": "factors-08",
+          "q": "One bell rings every 8 minutes and another every 12 minutes. Both ring at 9:00. At what time will they next ring together?",
+          "answer": "9:24",
+          "hint": "Find their least common multiple.",
+          "solution": "The least common multiple of 8 and 12 is 24, so they next ring together 24 minutes after 9:00.",
+          "level": 2
+        },
+        {
+          "id": "factors-09",
+          "q": "What is the smallest whole number greater than 50 that is divisible by both 6 and 9?",
+          "answer": "$54$",
+          "hint": "Such a number must be a multiple of 18.",
+          "solution": "The common multiples are $18,36,54,72,\\ldots$. The first greater than 50 is 54.",
+          "level": 3
+        },
+        {
+          "id": "factors-10",
+          "q": "Which digits can replace the square so that $5\\square4$ is divisible by both 3 and 4?",
+          "answer": "$0\\text{ or }6$",
+          "hint": "Apply the digit-sum test and the last-two-digits test.",
+          "solution": "Divisibility by 3 allows digits $0,3,6,9$. Divisibility by 4 requires an even tens digit here. Their intersection is $0,6$.",
+          "level": 3
+        },
+        {
+          "id": "factors-11",
+          "q": "How many integers from 1 to 100 are divisible by exactly one of 2 and 5?",
+          "answer": "$50$",
+          "hint": "Numbers divisible by both must be excluded from each count.",
+          "solution": "There are 50 multiples of 2, 20 of 5 and 10 of both. Exactly one gives $(50-10)+(20-10)=50$.",
+          "level": 3
+        },
+        {
+          "id": "factors-12",
+          "q": "A rectangle has area $60\\text{ cm}^{2}$ and positive whole-number side lengths. What is its smallest possible perimeter?",
+          "answer": "$32\\text{ cm}$",
+          "hint": "Compare the factor pairs of 60.",
+          "solution": "The pairs are $(1,60),(2,30),(3,20),(4,15),(5,12),(6,10)$. The pair $(6,10)$ has the smallest sum, giving perimeter $2(6+10)=32$ cm.",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "id": "algebra",
+      "name": "Patterns & Unknowns",
+      "strand": "Algebra",
+      "kind": "Core",
+      "grade": "Grades 5–7",
+      "symbol": "n",
+      "lesson": [
+        "Look for a rule that explains how a pattern is built. A formula using the term number can jump straight to a distant term. Term numbers start at 1 in these questions.",
+        "An equation says two quantities are equal. Undo operations in reverse order, doing the same thing to both sides.",
+        "Drawing, trying small cases and comparing two equations can reveal an unknown without a long calculation."
+      ],
+      "problems": [
+        {
+          "id": "algebra-01",
+          "q": "A sequence starts at 4 and increases by 3 each time: $4,7,10,13,\\ldots$. What is the next term?",
+          "answer": "$16$",
+          "hint": "Add the common increase to 13.",
+          "solution": "$13+3=16$.",
+          "level": 1
+        },
+        {
+          "id": "algebra-02",
+          "q": "Term $n$ of a pattern is $5n-2$. What is term 7?",
+          "answer": "$33$",
+          "hint": "Substitute 7 for $n$.",
+          "solution": "$5\\times7-2=35-2=33$.",
+          "level": 1
+        },
+        {
+          "id": "algebra-03",
+          "q": "Solve $x+17=42$.",
+          "answer": "$x=25$",
+          "hint": "Undo the addition.",
+          "solution": "Subtract 17 from both sides: $x=42-17=25$.",
+          "level": 1
+        },
+        {
+          "id": "algebra-04",
+          "q": "Solve $3x+4=25$.",
+          "answer": "$x=7$",
+          "hint": "Subtract 4 before dividing by 3.",
+          "solution": "$3x=21$, so $x=7$.",
+          "level": 1
+        },
+        {
+          "id": "algebra-05",
+          "q": "Squares are made in a row from matchsticks. Adjacent squares share one side. How many matchsticks are needed for 10 squares?",
+          "answer": "$31$",
+          "hint": "The first square uses 4 sticks. Each extra square adds 3.",
+          "solution": "Ten squares use $4+9\\times3=31$ matchsticks.",
+          "level": 2,
+          "diagram": "matchsticks",
+          "imageAlt": "Three adjacent equal squares share vertical sides."
+        },
+        {
+          "id": "algebra-06",
+          "q": "A machine doubles its input, then subtracts 3. Its output is 17. What was the input?",
+          "answer": "$10$",
+          "hint": "Undo the subtraction before undoing the doubling.",
+          "solution": "Before subtracting 3, the value was 20. Half of 20 is 10.",
+          "level": 2
+        },
+        {
+          "id": "algebra-07",
+          "q": "Term $n$ is an array with $n$ rows and $n+1$ dots in each row. How many dots are in term 6?",
+          "answer": "$42$",
+          "hint": "Count rows times dots per row.",
+          "solution": "Term 6 has 6 rows of 7 dots, giving $6\\times7=42$.",
+          "level": 2
+        },
+        {
+          "id": "algebra-08",
+          "q": "Two consecutive whole numbers have a sum of 51. What is the larger number?",
+          "answer": "$26$",
+          "hint": "They differ by 1.",
+          "solution": "Removing the extra 1 from the sum leaves 50, split into two groups of 25. The numbers are 25 and 26.",
+          "level": 2
+        },
+        {
+          "id": "algebra-09",
+          "q": "A taxi charges a fixed fee of 4 dollars plus 3 dollars per kilometre. A trip costs 25 dollars. How long is the trip?",
+          "answer": "$7\\text{ km}$",
+          "hint": "Remove the fixed fee first.",
+          "solution": "The distance charge is $25-4=21$ dollars. At 3 dollars per kilometre, the distance is $21\\div3=7$ km.",
+          "level": 3
+        },
+        {
+          "id": "algebra-10",
+          "q": "Two squares and one triangle have a total value of 19. One square and one triangle have a total value of 12. What is the value of a triangle?",
+          "answer": "$5$",
+          "hint": "Compare the two totals to find the extra square.",
+          "solution": "One square is worth $19-12=7$. Therefore one triangle is worth $12-7=5$.",
+          "level": 3
+        },
+        {
+          "id": "algebra-11",
+          "q": "Stage 1 of a pattern has 5 tiles. Each new stage adds 4 tiles. Which stage has 53 tiles?",
+          "answer": "$13$",
+          "hint": "Count the additions after stage 1.",
+          "solution": "There are $(53-5)\\div4=12$ additions. They lead from stage 1 to stage 13.",
+          "level": 3
+        },
+        {
+          "id": "algebra-12",
+          "q": "A two-digit positive integer is three times the sum of its digits. What is the integer?",
+          "answer": "$27$",
+          "hint": "Let its tens digit be $a$ and its units digit be $b$.",
+          "solution": "$10a+b=3(a+b)$ gives $7a=2b$. Since $1\\leq a\\leq9$ and $0\\leq b\\leq9$, the only possibility is $a=2,b=7$. The integer is 27.",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "id": "angles",
+      "name": "Angles & Shapes",
+      "strand": "Geometry",
+      "kind": "Core",
+      "grade": "Grades 5–7",
+      "symbol": "∠",
+      "lesson": [
+        "Angles on a straight line add to $180^\\circ$, and angles around a point add to $360^\\circ$.",
+        "The interior angles of a triangle add to $180^\\circ$. An isosceles triangle has two equal angles opposite its equal sides.",
+        "A polygon can be split into triangles by drawing diagonals from one vertex. Count the triangles to find the polygon's angle sum."
+      ],
+      "problems": [
+        {
+          "id": "angles-01",
+          "q": "Two adjacent angles form a straight angle. One measures $118^\\circ$. Find $x$.",
+          "answer": "$62^\\circ$",
+          "hint": "Their sum is $180^\\circ$.",
+          "solution": "$x=180^\\circ-118^\\circ=62^\\circ$.",
+          "level": 1,
+          "diagram": "straight-angle",
+          "imageAlt": "A straight line split by a ray into an angle labelled 118 degrees and an angle labelled x."
+        },
+        {
+          "id": "angles-02",
+          "q": "A triangle has two angles measuring $48^\\circ$ and $67^\\circ$. Find its third angle.",
+          "answer": "$65^\\circ$",
+          "hint": "Use the angle sum of a triangle.",
+          "solution": "$180^\\circ-48^\\circ-67^\\circ=65^\\circ$.",
+          "level": 1,
+          "diagram": "triangle-angles",
+          "imageAlt": "Triangle with two base angles labelled 48 degrees and 67 degrees, and the third labelled x."
+        },
+        {
+          "id": "angles-03",
+          "q": "One acute angle of a right triangle measures $34^\\circ$. What is its other acute angle?",
+          "answer": "$56^\\circ$",
+          "hint": "The two acute angles add to $90^\\circ$.",
+          "solution": "$90^\\circ-34^\\circ=56^\\circ$.",
+          "level": 1
+        },
+        {
+          "id": "angles-04",
+          "q": "An isosceles triangle has a $40^\\circ$ angle between its equal sides. What is each of its other angles?",
+          "answer": "$70^\\circ$",
+          "hint": "Share the remaining angle sum equally.",
+          "solution": "The remaining sum is $180^\\circ-40^\\circ=140^\\circ$. Each equal angle is $70^\\circ$.",
+          "level": 1,
+          "diagram": "isosceles",
+          "imageAlt": "An isosceles triangle with matching ticks on its two equal sides and an apex angle labelled 40 degrees."
+        },
+        {
+          "id": "angles-05",
+          "q": "Three angles of a quadrilateral measure $90^\\circ$, $85^\\circ$ and $110^\\circ$. What is the fourth angle?",
+          "answer": "$75^\\circ$",
+          "hint": "A quadrilateral can be split into two triangles.",
+          "solution": "Its angle sum is $360^\\circ$. The fourth angle is $360^\\circ-90^\\circ-85^\\circ-110^\\circ=75^\\circ$.",
+          "level": 2
+        },
+        {
+          "id": "angles-06",
+          "q": "One side of an equilateral triangle is extended. What is the exterior angle marked $x$?",
+          "answer": "$120^\\circ$",
+          "hint": "Each interior angle is $60^\\circ$.",
+          "solution": "The interior angle and $x$ make a straight angle, so $x=180^\\circ-60^\\circ=120^\\circ$.",
+          "level": 2,
+          "diagram": "equilateral-exterior",
+          "imageAlt": "An equilateral triangle with its base extended to the right; x marks the exterior angle."
+        },
+        {
+          "id": "angles-07",
+          "q": "Three angles around a point measure $90^\\circ$, $125^\\circ$ and $x$. Find $x$.",
+          "answer": "$145^\\circ$",
+          "hint": "All three make one full turn.",
+          "solution": "$x=360^\\circ-90^\\circ-125^\\circ=145^\\circ$.",
+          "level": 2
+        },
+        {
+          "id": "angles-08",
+          "q": "A robot makes four equal turns in the same direction and completes exactly one full turn. How large is each turn?",
+          "answer": "$90^\\circ$",
+          "hint": "Divide a full turn into four parts.",
+          "solution": "$360^\\circ\\div4=90^\\circ$.",
+          "level": 2
+        },
+        {
+          "id": "angles-09",
+          "q": "A pentagon is split into three triangles by diagonals from one vertex. What is the sum of its interior angles?",
+          "answer": "$540^\\circ$",
+          "hint": "Add the angle sums of the three triangles.",
+          "solution": "$3\\times180^\\circ=540^\\circ$.",
+          "level": 3,
+          "diagram": "pentagon",
+          "imageAlt": "A convex pentagon partitioned into three triangles by two diagonals from one vertex."
+        },
+        {
+          "id": "angles-10",
+          "q": "A hexagon can be split into four triangles. All six interior angles of a regular hexagon are equal. What is each angle?",
+          "answer": "$120^\\circ$",
+          "hint": "Find the total angle sum, then divide by 6.",
+          "solution": "The sum is $4\\times180^\\circ=720^\\circ$. Each of the six equal angles is $720^\\circ\\div6=120^\\circ$.",
+          "level": 3
+        },
+        {
+          "id": "angles-11",
+          "q": "A triangle's angles are in the ratio $1:2:3$. What is the largest angle?",
+          "answer": "$90^\\circ$",
+          "hint": "There are six equal parts in the angle sum.",
+          "solution": "Each part is $180^\\circ\\div6=30^\\circ$. The largest angle has three parts, so it is $90^\\circ$.",
+          "level": 3
+        },
+        {
+          "id": "angles-12",
+          "q": "In an isosceles triangle, extend a side beyond the vertex where the equal sides meet. The exterior angle there is $112^\\circ$. What is each base angle?",
+          "answer": "$56^\\circ$",
+          "hint": "First find the interior angle at the vertex.",
+          "solution": "The vertex angle is $180^\\circ-112^\\circ=68^\\circ$. Each base angle is $(180^\\circ-68^\\circ)\\div2=56^\\circ$.",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "id": "measurement",
+      "name": "Area, Volume & Scale",
+      "strand": "Geometry",
+      "kind": "Core",
+      "grade": "Grades 5–7",
+      "symbol": "▱",
+      "lesson": [
+        "Area counts square units; volume counts cubic units. A rectangle's area is length times width, and a rectangular prism's volume is length times width times height.",
+        "A triangle's area is half of base times perpendicular height. A parallelogram's area is base times perpendicular height. The sloping side is usually a different length from the height.",
+        "Split a compound shape into familiar pieces, or subtract a missing piece from a larger shape. When all lengths double, areas multiply by 4 and volumes by 8."
+      ],
+      "problems": [
+        {
+          "id": "measurement-01",
+          "q": "A rectangle is 8 cm long and 5 cm wide. What is its area?",
+          "answer": "$40\\text{ cm}^{2}$",
+          "hint": "Count square centimetres in 5 rows of 8.",
+          "solution": "$8\\times5=40\\text{ cm}^{2}$.",
+          "level": 1,
+          "diagram": "rectangle",
+          "imageAlt": "Rectangle with length 8 cm and width 5 cm."
+        },
+        {
+          "id": "measurement-02",
+          "q": "A rectangle is 8 cm long and 5 cm wide. What is its perimeter?",
+          "answer": "$26\\text{ cm}$",
+          "hint": "Add all four side lengths.",
+          "solution": "$8+5+8+5=26$ cm.",
+          "level": 1
+        },
+        {
+          "id": "measurement-03",
+          "q": "A triangle has base 12 cm and perpendicular height 5 cm. What is its area?",
+          "answer": "$30\\text{ cm}^{2}$",
+          "hint": "Take half of base times height.",
+          "solution": "$\\frac{1}{2}\\times12\\times5=30\\text{ cm}^{2}$.",
+          "level": 1,
+          "diagram": "triangle-area",
+          "imageAlt": "Triangle with a base labelled 12 cm and a dashed perpendicular height labelled 5 cm."
+        },
+        {
+          "id": "measurement-04",
+          "q": "A parallelogram has base 9 cm and perpendicular height 4 cm. What is its area?",
+          "answer": "$36\\text{ cm}^{2}$",
+          "hint": "Use the perpendicular height, rather than a sloping side.",
+          "solution": "$9\\times4=36\\text{ cm}^{2}$.",
+          "level": 1,
+          "diagram": "parallelogram",
+          "imageAlt": "Parallelogram with base 9 cm and a dashed perpendicular height 4 cm."
+        },
+        {
+          "id": "measurement-05",
+          "q": "A rectangular prism measures 4 cm by 3 cm by 7 cm. What is its volume?",
+          "answer": "$84\\text{ cm}^{3}$",
+          "hint": "Find the area of a base, then multiply by the height.",
+          "solution": "$4\\times3\\times7=84\\text{ cm}^{3}$.",
+          "level": 2,
+          "diagram": "prism",
+          "imageAlt": "Rectangular prism with its three dimensions labelled 4 cm, 3 cm and 7 cm."
+        },
+        {
+          "id": "measurement-06",
+          "q": "How many centimetres are in $2.4$ m?",
+          "answer": "$240\\text{ cm}$",
+          "hint": "One metre is 100 centimetres.",
+          "solution": "$2.4\\times100=240$ cm.",
+          "level": 2
+        },
+        {
+          "id": "measurement-07",
+          "q": "A 4 cm by 3 cm rectangle is removed from the top-right corner of a 10 cm by 8 cm rectangle. What is the remaining area?",
+          "answer": "$68\\text{ cm}^{2}$",
+          "hint": "Subtract the small rectangle's area from the large rectangle's area.",
+          "solution": "$10\\times8-4\\times3=80-12=68\\text{ cm}^{2}$.",
+          "level": 2,
+          "diagram": "l-shape",
+          "imageAlt": "A 10 cm by 8 cm rectangle with a 4 cm by 3 cm top-right corner removed."
+        },
+        {
+          "id": "measurement-08",
+          "q": "A 4 cm by 3 cm rectangle is removed from the top-right corner of a 10 cm by 8 cm rectangle. What is the perimeter of the remaining L-shape?",
+          "answer": "$36\\text{ cm}$",
+          "hint": "The notch adds the same lengths that were removed from the outer edges.",
+          "solution": "The boundary lengths are $10,5,4,3,6,8$ cm. Their sum is 36 cm, equal to the original rectangle's perimeter.",
+          "level": 2,
+          "diagram": "l-shape",
+          "imageAlt": "A 10 cm by 8 cm rectangle with a 4 cm by 3 cm top-right corner removed."
+        },
+        {
+          "id": "measurement-09",
+          "q": "A cube's edge length doubles from 3 cm to 6 cm. By what factor does its volume increase?",
+          "answer": "$8$",
+          "hint": "Compare $6^{3}$ with $3^{3}$.",
+          "solution": "The volumes are 216 and 27 cubic centimetres. The factor is $216\\div27=8$.",
+          "level": 3
+        },
+        {
+          "id": "measurement-10",
+          "q": "On a map, 1 cm represents 250 m. A path measures $7.2$ cm on the map. How long is it in kilometres?",
+          "answer": "$1.8\\text{ km}$",
+          "hint": "Find the real length in metres first.",
+          "solution": "$7.2\\times250=1800$ m, which is $1.8$ km.",
+          "level": 3
+        },
+        {
+          "id": "measurement-11",
+          "q": "An empty rectangular tank has a base 30 cm by 20 cm. It receives $1.8$ L of water. How deep is the water? Use $1\\text{ L}=1000\\text{ cm}^{3}$.",
+          "answer": "$3\\text{ cm}$",
+          "hint": "Divide volume by base area.",
+          "solution": "The water volume is $1800\\text{ cm}^{3}$ and the base area is $600\\text{ cm}^{2}$. Its depth is $1800\\div600=3$ cm.",
+          "level": 3
+        },
+        {
+          "id": "measurement-12",
+          "q": "A rectangular garden is 12 m by 8 m. A path 1 m wide is built around the outside, including the corners. What is the area of the path?",
+          "answer": "$44\\text{ m}^{2}$",
+          "hint": "The outer length and width each increase by 2 m.",
+          "solution": "The outer rectangle is 14 m by 10 m. The path area is $14\\times10-12\\times8=140-96=44\\text{ m}^{2}$.",
+          "level": 3,
+          "diagram": "garden",
+          "imageAlt": "A 12 m by 8 m rectangle surrounded on all four sides by a 1 m wide border."
+        }
+      ]
+    },
+    {
+      "id": "coordinates",
+      "name": "Coordinates & Transformations",
+      "strand": "Geometry",
+      "kind": "Core",
+      "grade": "Grades 5–7",
+      "symbol": "↗",
+      "lesson": [
+        "In an ordered pair $(x,y)$, $x$ gives horizontal position and $y$ gives vertical position. Moving right increases $x$; moving up increases $y$.",
+        "Reflecting across the vertical axis changes $(x,y)$ to $(-x,y)$. Reflecting across the horizontal axis changes it to $(x,-y)$.",
+        "A translation moves every point by the same amounts. Follow a sequence of moves in order; reflecting before translating can give a different result from translating before reflecting."
+      ],
+      "problems": [
+        {
+          "id": "coordinates-01",
+          "q": "Point $A$ is at $(2,3)$. It moves 4 units right and 2 units up. What are its new coordinates?",
+          "answer": "$(6,5)$",
+          "hint": "Change each coordinate separately.",
+          "solution": "The new point is $(2+4,3+2)=(6,5)$.",
+          "level": 1,
+          "diagram": "coordinate-a",
+          "imageAlt": "Coordinate grid with point A at (2,3)."
+        },
+        {
+          "id": "coordinates-02",
+          "q": "What is the horizontal distance between $(-2,4)$ and $(5,4)$?",
+          "answer": "$7\\text{ units}$",
+          "hint": "Count the distance on each side of the vertical axis.",
+          "solution": "From $-2$ to 0 is 2 units, and from 0 to 5 is 5 units, giving 7 units.",
+          "level": 1
+        },
+        {
+          "id": "coordinates-03",
+          "q": "Reflect $(3,-2)$ across the vertical axis. What is the image?",
+          "answer": "$(-3,-2)$",
+          "hint": "The vertical coordinate stays the same.",
+          "solution": "The horizontal coordinate changes sign, giving $(-3,-2)$.",
+          "level": 1
+        },
+        {
+          "id": "coordinates-04",
+          "q": "Reflect $(-4,5)$ across the horizontal axis. What is the image?",
+          "answer": "$(-4,-5)$",
+          "hint": "The horizontal coordinate stays the same.",
+          "solution": "The vertical coordinate changes sign, giving $(-4,-5)$.",
+          "level": 1
+        },
+        {
+          "id": "coordinates-05",
+          "q": "What point is halfway between $(2,1)$ and $(2,9)$?",
+          "answer": "$(2,5)$",
+          "hint": "The horizontal position is fixed.",
+          "solution": "The vertical coordinate halfway between 1 and 9 is $(1+9)\\div2=5$, giving $(2,5)$.",
+          "level": 2
+        },
+        {
+          "id": "coordinates-06",
+          "q": "The vertices of a rectangle, in order, are $A(1,1)$, $B(7,1)$, $C(7,4)$ and $D$. Find $D$.",
+          "answer": "$(1,4)$",
+          "hint": "Match the horizontal coordinate of A and the vertical coordinate of C.",
+          "solution": "The missing corner is $D(1,4)$.",
+          "level": 2,
+          "diagram": "coordinate-rectangle",
+          "imageAlt": "Three labelled corners A(1,1), B(7,1), C(7,4) of an axis-aligned rectangle, with the fourth corner marked D."
+        },
+        {
+          "id": "coordinates-07",
+          "q": "A rectangle has vertices $(1,1)$, $(7,1)$, $(7,4)$ and $(1,4)$. What is its area?",
+          "answer": "$18\\text{ square units}$",
+          "hint": "Find its horizontal and vertical side lengths.",
+          "solution": "The side lengths are $7-1=6$ and $4-1=3$, so the area is $6\\times3=18$.",
+          "level": 2
+        },
+        {
+          "id": "coordinates-08",
+          "q": "A quarter-turn anticlockwise about the origin follows the rule $(x,y)\\to(-y,x)$. Where does $(3,1)$ go?",
+          "answer": "$(-1,3)$",
+          "hint": "Substitute the original coordinates into the rule.",
+          "solution": "With $x=3$ and $y=1$, the image is $(-1,3)$.",
+          "level": 2
+        },
+        {
+          "id": "coordinates-09",
+          "q": "Point $(1,2)$ moves 3 units right and 1 unit down. The new point is then reflected across the vertical axis. What is the final point?",
+          "answer": "$(-4,1)$",
+          "hint": "Complete the translation before reflecting.",
+          "solution": "Translation gives $(4,1)$. Reflecting across the vertical axis gives $(-4,1)$.",
+          "level": 3
+        },
+        {
+          "id": "coordinates-10",
+          "q": "How many lines of symmetry does a regular hexagon have?",
+          "answer": "$6$",
+          "hint": "Some pass through opposite vertices; others pass through midpoints of opposite sides.",
+          "solution": "Three lines join opposite vertices and three join midpoints of opposite sides, for a total of 6.",
+          "level": 3,
+          "diagram": "hexagon",
+          "imageAlt": "A regular hexagon with all six sides equal."
+        },
+        {
+          "id": "coordinates-11",
+          "q": "A point is reflected across the vertical axis and then moved 3 units right. Its final position is $(7,2)$. What was the original point?",
+          "answer": "$(-4,2)$",
+          "hint": "Undo the translation before undoing the reflection.",
+          "solution": "Move 3 units left to get $(4,2)$, then reflect to get $(-4,2)$.",
+          "level": 3
+        },
+        {
+          "id": "coordinates-12",
+          "q": "A robot starts at $(0,0)$. It repeats this sequence four times: move 2 units right, 1 unit up, then 1 unit left. Where does it finish?",
+          "answer": "$(4,4)$",
+          "hint": "Find the net movement of one complete sequence.",
+          "solution": "Each sequence moves it 1 unit right and 1 unit up. Four repetitions give $(4,4)$.",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "name": "Data & Chance",
+      "strand": "Data",
+      "kind": "Core",
+      "grade": "Grades 5–7",
+      "symbol": "◔",
+      "lesson": [
+        "The mean is the total divided by the number of values. The median is the middle value after sorting. The range is the largest value minus the smallest.",
+        "When outcomes are equally likely, probability is the number of favourable outcomes divided by the total number of outcomes.",
+        "For repeated trials, list complete outcomes rather than just their totals. When objects are drawn without replacement, the contents of the bag change after the first draw."
+      ],
+      "problems": [
+        {
+          "id": "data-01",
+          "q": "Find the median of $2,5,7,9,12$.",
+          "answer": "$7$",
+          "hint": "The values are already in order.",
+          "solution": "There are five values. The third value, 7, is in the middle.",
+          "level": 1
+        },
+        {
+          "id": "data-02",
+          "q": "Find the mean of $3,7,8$.",
+          "answer": "$6$",
+          "hint": "Add the values and divide by 3.",
+          "solution": "$(3+7+8)\\div3=18\\div3=6$.",
+          "level": 1
+        },
+        {
+          "id": "data-03",
+          "q": "Find the range of $12,15,15,19,25$.",
+          "answer": "$13$",
+          "hint": "Subtract the smallest value from the largest.",
+          "solution": "$25-12=13$.",
+          "level": 1
+        },
+        {
+          "id": "data-04",
+          "q": "A fair six-sided die has faces numbered 1 to 6. What is the probability of rolling a number greater than 4?",
+          "answer": "$\\frac{1}{3}$",
+          "hint": "Count the favourable faces.",
+          "solution": "Faces 5 and 6 qualify. The probability is $\\frac{2}{6}=\\frac{1}{3}$.",
+          "level": 1
+        },
+        {
+          "id": "data-05",
+          "q": "A bag holds 4 red, 3 green and 5 yellow counters. One counter is chosen at random. What is the probability it is red?",
+          "answer": "$\\frac{1}{3}$",
+          "hint": "Find the total number of counters.",
+          "solution": "There are $4+3+5=12$ counters. The probability is $\\frac{4}{12}=\\frac{1}{3}$.",
+          "level": 2
+        },
+        {
+          "id": "data-06",
+          "q": "A fair spinner has eight equal sectors, three of which are shaded. What is the probability it lands on a shaded sector?",
+          "answer": "$\\frac{3}{8}$",
+          "hint": "Each sector is equally likely.",
+          "solution": "Three of the eight sectors are favourable, so the probability is $\\frac{3}{8}$.",
+          "level": 2,
+          "diagram": "spinner",
+          "imageAlt": "A circular spinner divided into eight equal sectors with three shaded."
+        },
+        {
+          "id": "data-07",
+          "q": "Four numbers have a mean of 10. Three of them are 6, 9 and 11. Find the fourth number.",
+          "answer": "$14$",
+          "hint": "Use the mean to find the total.",
+          "solution": "The total is $4\\times10=40$. The known numbers sum to 26, so the missing number is $40-26=14$.",
+          "level": 2
+        },
+        {
+          "id": "data-08",
+          "q": "The mean of five scores $4,6,8,10,x$ is 8. Find $x$.",
+          "answer": "$12$",
+          "hint": "Five scores with mean 8 have a total of 40.",
+          "solution": "The known scores sum to 28. Therefore $x=40-28=12$.",
+          "level": 2
+        },
+        {
+          "id": "data-09",
+          "q": "Two fair coins are tossed independently. What is the probability of getting exactly one head?",
+          "answer": "$\\frac{1}{2}$",
+          "hint": "List the four ordered outcomes.",
+          "solution": "The equally likely outcomes are HH, HT, TH and TT. Two have exactly one head, giving $\\frac{2}{4}=\\frac{1}{2}$.",
+          "level": 3
+        },
+        {
+          "id": "data-10",
+          "q": "A fair six-sided die is rolled twice independently. What is the probability that the two results add to 7?",
+          "answer": "$\\frac{1}{6}$",
+          "hint": "There are 36 ordered pairs.",
+          "solution": "The favourable pairs are $(1,6),(2,5),(3,4),(4,3),(5,2),(6,1)$. The probability is $\\frac{6}{36}=\\frac{1}{6}$.",
+          "level": 3
+        },
+        {
+          "id": "data-11",
+          "q": "A bag has 3 red and 2 blue counters. Two counters are drawn at random without replacement. What is the probability both are red?",
+          "answer": "$\\frac{3}{10}$",
+          "hint": "After a red counter is drawn, 2 red counters remain among 4.",
+          "solution": "The probability is $\\frac{3}{5}\\times\\frac{2}{4}=\\frac{3}{10}$.",
+          "level": 3
+        },
+        {
+          "id": "data-12",
+          "q": "Five children read for $6,6,6,6,31$ minutes. Which better describes a typical child's reading time: the mean or the median? Give its value.",
+          "answer": "Median: 6 minutes",
+          "hint": "Consider how the unusually large value affects each average.",
+          "solution": "The median is 6 minutes, matching four of the five children. The mean is $(24+31)\\div5=11$ minutes, pulled upward by the 31-minute value.",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "name": "Money Decisions",
+      "strand": "Number",
+      "kind": "Core",
+      "grade": "Grades 5–7",
+      "symbol": "¢",
+      "lesson": [
+        "Find a unit price by dividing total cost by quantity. Compare equal units, such as dollars per pen, before choosing a better price.",
+        "A budget keeps track of money available, money received and money spent. A fixed fee is charged once; a per-item charge depends on the quantity.",
+        "Apply percentage changes in the stated order. The questions give all tax and discount rates needed. A discount of 15 percent leaves 85 percent of the original price."
+      ],
+      "problems": [
+        {
+          "id": "money-01",
+          "q": "Three notebooks cost 2.75 dollars each. What is the total cost?",
+          "answer": "$8.25\\text{ dollars}$",
+          "hint": "Multiply the price by 3.",
+          "solution": "$3\\times2.75=8.25$ dollars.",
+          "level": 1
+        },
+        {
+          "id": "money-02",
+          "q": "A purchase costs 12.85 dollars. You pay with 20 dollars. How much change should you receive?",
+          "answer": "$7.15\\text{ dollars}$",
+          "hint": "Count up from 12.85 to 20.",
+          "solution": "$20.00-12.85=7.15$ dollars.",
+          "level": 1
+        },
+        {
+          "id": "money-03",
+          "q": "An 80-dollar jacket is discounted by $15\\%$. What is its price before tax?",
+          "answer": "$68\\text{ dollars}$",
+          "hint": "Find 10 percent and 5 percent, then subtract the discount.",
+          "solution": "The discount is $8+4=12$ dollars. The price is $80-12=68$ dollars.",
+          "level": 1
+        },
+        {
+          "id": "money-04",
+          "q": "A 45-dollar item has a $10\\%$ tax added. What is the total cost?",
+          "answer": "$49.50\\text{ dollars}$",
+          "hint": "Add one tenth of 45.",
+          "solution": "The tax is $4.50$ dollars, giving a total of $49.50$ dollars.",
+          "level": 1
+        },
+        {
+          "id": "money-05",
+          "q": "Pack A has 6 pens for 4.50 dollars. Pack B has 10 pens for 7 dollars. Which pack has the lower price per pen?",
+          "answer": "Pack B",
+          "hint": "Compare the two unit prices.",
+          "solution": "Pack A costs $4.50\\div6=0.75$ dollars per pen. Pack B costs $7\\div10=0.70$ dollars per pen, so Pack B is cheaper per pen.",
+          "level": 2
+        },
+        {
+          "id": "money-06",
+          "q": "Each week, Riya earns 18 dollars and saves $\\frac{2}{3}$ of it. How much will she save in 5 weeks?",
+          "answer": "$60\\text{ dollars}$",
+          "hint": "Find one week's savings first.",
+          "solution": "She saves $18\\times\\frac{2}{3}=12$ dollars each week. In 5 weeks she saves $5\\times12=60$ dollars.",
+          "level": 2
+        },
+        {
+          "id": "money-07",
+          "q": "A games centre charges 3 dollars to enter and 1.50 dollars per game. With 18 dollars, what is the greatest number of games you can play?",
+          "answer": "$10$",
+          "hint": "Pay the entry fee before counting games.",
+          "solution": "There are $18-3=15$ dollars left for games. That pays for $15\\div1.50=10$ games.",
+          "level": 2
+        },
+        {
+          "id": "money-08",
+          "q": "A trip budget is 120 dollars. Transport costs 48 dollars, lunch costs 27 dollars, and tickets cost 35 dollars. How much remains?",
+          "answer": "$10\\text{ dollars}$",
+          "hint": "Add the expenses before subtracting.",
+          "solution": "The expenses total $48+27+35=110$ dollars. There are 10 dollars left.",
+          "level": 2
+        },
+        {
+          "id": "money-09",
+          "q": "A 120-dollar item is discounted by $25\\%$. A $13\\%$ tax is then applied to the discounted price. What is the total cost?",
+          "answer": "$101.70\\text{ dollars}$",
+          "hint": "Apply the tax to the sale price.",
+          "solution": "The sale price is $120\\times0.75=90$ dollars. The tax is $90\\times0.13=11.70$ dollars. Total: $101.70$ dollars.",
+          "level": 3
+        },
+        {
+          "id": "money-10",
+          "q": "A price falls from 120 dollars to 96 dollars. What is the percentage decrease?",
+          "answer": "$20\\%$",
+          "hint": "Compare the decrease with the original price.",
+          "solution": "The decrease is 24 dollars, and $24\\div120=0.20=20\\%$.",
+          "level": 3
+        },
+        {
+          "id": "money-11",
+          "q": "A 60-dollar game has two offers: $20\\%$ off, or 15 dollars off. Which offer saves more, and by how much?",
+          "answer": "15 dollars off; 3 dollars more",
+          "hint": "Work out the dollar value of the percentage discount.",
+          "solution": "Twenty percent of 60 dollars is 12 dollars. The 15-dollar discount saves $15-12=3$ dollars more.",
+          "level": 3
+        },
+        {
+          "id": "money-12",
+          "q": "Sam starts with 80 dollars. Each week Sam deposits 12 dollars and spends 5 dollars. After how many complete weeks will the balance first reach at least 150 dollars?",
+          "answer": "$10$",
+          "hint": "Find the net increase in one week.",
+          "solution": "The balance grows by $12-5=7$ dollars weekly. The required increase is 70 dollars, reached after $70\\div7=10$ weeks.",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "id": "clock",
+      "name": "Clock Arithmetic",
+      "strand": "Enrichment",
+      "kind": "Enrichment",
+      "grade": "Grades 5–7",
+      "symbol": "↻",
+      "lesson": [
+        "Clock arithmetic keeps the remainder after division. On a 10-hour clock, moving forward 13 hours has the same effect as moving forward 3 hours.",
+        "A repeating pattern can be tracked by its cycle length. Divide the position by that length and use the remainder to locate the item. A remainder of zero lands on the last item in a cycle.",
+        "Remainders are also useful for weekdays and final digits. Try a few powers to find a cycle before working with a large exponent."
+      ],
+      "problems": [
+        {
+          "id": "clock-01",
+          "q": "It is 10 o'clock on a 12-hour clock. What time will it show 5 hours later?",
+          "answer": "3 o'clock",
+          "hint": "Move forward to 12, then continue from 1.",
+          "solution": "Two hours reach 12 and three more reach 3. Equivalently, $10+5=15$ leaves remainder 3 on division by 12.",
+          "level": 1
+        },
+        {
+          "id": "clock-02",
+          "q": "What remainder is left when 17 is divided by 5?",
+          "answer": "$2$",
+          "hint": "Find the largest multiple of 5 no greater than 17.",
+          "solution": "$17=3\\times5+2$, so the remainder is 2.",
+          "level": 1
+        },
+        {
+          "id": "clock-03",
+          "q": "Today is Wednesday. What day of the week will it be 100 days from today?",
+          "answer": "Friday",
+          "hint": "Remove complete weeks.",
+          "solution": "$100=14\\times7+2$. Fourteen weeks return to Wednesday, and two more days reach Friday.",
+          "level": 1
+        },
+        {
+          "id": "clock-04",
+          "q": "A bead pattern repeats red, green, blue, yellow, starting with red in position 1. What colour is the bead in position 38?",
+          "answer": "Green",
+          "hint": "Find the remainder when 38 is divided by 4.",
+          "solution": "$38=9\\times4+2$. Position 38 is the second position in a cycle, so it is green.",
+          "level": 1
+        },
+        {
+          "id": "clock-05",
+          "q": "What is the units digit of $7^{2}$?",
+          "answer": "$9$",
+          "hint": "Calculate the square.",
+          "solution": "$7^{2}=49$, whose units digit is 9.",
+          "level": 2
+        },
+        {
+          "id": "clock-06",
+          "q": "What is the units digit of $3^{7}$?",
+          "answer": "$7$",
+          "hint": "The units digits of successive powers repeat after four steps.",
+          "solution": "The units digits are $3,9,7,1$, then repeat. Since 7 leaves remainder 3 on division by 4, use the third digit in the cycle: 7.",
+          "level": 2
+        },
+        {
+          "id": "clock-07",
+          "q": "What is the smallest whole number greater than 20 that leaves remainder 2 when divided by 5?",
+          "answer": "$22$",
+          "hint": "Add 2 to a suitable multiple of 5.",
+          "solution": "$22=4\\times5+2$. The only smaller whole number greater than 20 is 21, which leaves remainder 1.",
+          "level": 2
+        },
+        {
+          "id": "clock-08",
+          "q": "How many integers from 1 to 30 leave remainder 1 when divided by 4?",
+          "answer": "$8$",
+          "hint": "List numbers of the form $4k+1$.",
+          "solution": "They are $1,5,9,13,17,21,25,29$, so there are 8.",
+          "level": 2
+        },
+        {
+          "id": "clock-09",
+          "q": "A 24-hour clock shows 19:00. What will it show 83 hours later?",
+          "answer": "06:00",
+          "hint": "Remove complete 24-hour cycles.",
+          "solution": "$19+83=102=4\\times24+6$, so the clock shows 06:00.",
+          "level": 3
+        },
+        {
+          "id": "clock-10",
+          "q": "What is the least positive integer that leaves remainder 2 when divided by 3 and remainder 3 when divided by 5?",
+          "answer": "$8$",
+          "hint": "Start with numbers that leave remainder 3 on division by 5.",
+          "solution": "Those numbers begin $3,8,13,18,\\ldots$. The first that also leaves remainder 2 on division by 3 is 8.",
+          "level": 3
+        },
+        {
+          "id": "clock-11",
+          "q": "What is the remainder when 2026 is divided by 9?",
+          "answer": "$1$",
+          "hint": "Subtract a nearby multiple of 9, or use the digit sum.",
+          "solution": "$2026=9\\times225+1$. The digit sum is 10, which also leaves remainder 1 on division by 9.",
+          "level": 3
+        },
+        {
+          "id": "clock-12",
+          "q": "Eight stones are arranged in a circle and numbered 0 to 7 clockwise. A frog starts on 0 and jumps 3 stones clockwise each time. After how many jumps does it first return to 0?",
+          "answer": "$8$",
+          "hint": "Record the landing numbers, wrapping around after 7.",
+          "solution": "The landings are $3,6,1,4,7,2,5,0$. The first return is after 8 jumps.",
+          "level": 3,
+          "diagram": "clock-stones",
+          "imageAlt": "Eight equally spaced stones on a circle labelled 0 through 7 clockwise."
+        }
+      ]
+    },
+    {
+      "id": "binary",
+      "name": "Binary & Secret Messages",
+      "strand": "Enrichment",
+      "kind": "Enrichment",
+      "grade": "Grades 5–7",
+      "symbol": "01",
+      "lesson": [
+        "A binary digit is either 0 or 1. From right to left, the place values are $1,2,4,8,16,\\ldots$. A 1 includes its place value; a 0 leaves it out. For example, binary 101 is $4+1=5$.",
+        "Each extra on/off switch doubles the number of possible patterns. Four switches allow $2^{4}=16$ patterns, including the all-off pattern.",
+        "A shift cipher moves each letter the same number of places through the alphabet, wrapping around after Z. A parity bit adds a check: it can make the total number of 1s even, so some errors can be detected."
+      ],
+      "problems": [
+        {
+          "id": "binary-01",
+          "q": "A four-bit binary code uses place values 8, 4, 2, 1 from left to right. What ordinary number does 1011 represent?",
+          "answer": "$11$",
+          "hint": "Add the place values with a 1.",
+          "solution": "$1\\times8+0\\times4+1\\times2+1\\times1=11$.",
+          "level": 1,
+          "diagram": "binary-cards",
+          "imageAlt": "Four cards with weights 8, 4, 2, 1 and corresponding binary digits 1, 0, 1, 1."
+        },
+        {
+          "id": "binary-02",
+          "q": "Write 13 in four-bit binary, using place values 8, 4, 2, 1 from left to right.",
+          "answer": "1101",
+          "hint": "Build 13 from the available place values.",
+          "solution": "$13=8+4+1$, so the digits are 1, 1, 0, 1.",
+          "level": 1
+        },
+        {
+          "id": "binary-03",
+          "q": "What is binary $111+1$? Give the answer in binary.",
+          "answer": "1000",
+          "hint": "Binary 111 is one less than the next power of 2.",
+          "solution": "Binary 111 represents 7. Adding 1 gives 8, represented by 1000.",
+          "level": 1
+        },
+        {
+          "id": "binary-04",
+          "q": "What is the greatest ordinary whole number that four binary digits can represent?",
+          "answer": "$15$",
+          "hint": "Turn on every place value.",
+          "solution": "Binary 1111 represents $8+4+2+1=15$.",
+          "level": 1
+        },
+        {
+          "id": "binary-05",
+          "q": "Five switches can each be on or off. How many different patterns are possible, including all off?",
+          "answer": "$32$",
+          "hint": "Each switch doubles the number of possibilities.",
+          "solution": "There are $2\\times2\\times2\\times2\\times2=2^{5}=32$ patterns.",
+          "level": 2
+        },
+        {
+          "id": "binary-06",
+          "q": "Binary 10110 uses place values 16, 8, 4, 2, 1 from left to right. What ordinary number does it represent?",
+          "answer": "$22$",
+          "hint": "Add the weights of the three 1s.",
+          "solution": "$16+4+2=22$.",
+          "level": 2
+        },
+        {
+          "id": "binary-07",
+          "q": "A cipher replaces each letter with the letter three places later: A becomes D, B becomes E, and so on, wrapping after Z. Encode MATH.",
+          "answer": "PDWK",
+          "hint": "Shift each of the four letters separately.",
+          "solution": "M becomes P, A becomes D, T becomes W and H becomes K, giving PDWK.",
+          "level": 2
+        },
+        {
+          "id": "binary-08",
+          "q": "A cipher shifts each original letter two places forward, wrapping after Z. The encoded message is ECV. Decode it.",
+          "answer": "CAT",
+          "hint": "To decode, shift backwards by two places.",
+          "solution": "E becomes C, C becomes A and V becomes T. The original message is CAT.",
+          "level": 2
+        },
+        {
+          "id": "binary-09",
+          "q": "Append one binary digit to 10110 so that the total number of 1s is even. What digit should be appended?",
+          "answer": "$1$",
+          "hint": "Count the 1s already present.",
+          "solution": "There are three 1s, an odd number. Appending 1 makes four 1s, which is even.",
+          "level": 3
+        },
+        {
+          "id": "binary-10",
+          "q": "Seven binary digits can represent ordinary numbers from 0 up to what greatest value?",
+          "answer": "$127$",
+          "hint": "Add $1+2+4+8+16+32+64$.",
+          "solution": "The sum is 127. There are $2^{7}=128$ possible codes, representing 0 through 127.",
+          "level": 3
+        },
+        {
+          "id": "binary-11",
+          "q": "A mystery card is one of 20 distinct cards. Each yes/no question can split the remaining possibilities as evenly as possible. What is the fewest questions needed to guarantee identifying the card?",
+          "answer": "$5$",
+          "hint": "Compare 20 with powers of 2.",
+          "solution": "Four answers give at most $2^{4}=16$ patterns, which is too few. Five give $2^{5}=32$, enough when the questions split the possibilities evenly.",
+          "level": 3
+        },
+        {
+          "id": "binary-12",
+          "q": "How many six-bit binary strings contain exactly three 1s?",
+          "answer": "$20$",
+          "hint": "Choose the three positions occupied by 1s.",
+          "solution": "Choosing three distinct positions in order gives $6\\times5\\times4=120$ possibilities. Each set of positions was counted $3\\times2\\times1=6$ times, so there are $120\\div6=20$ strings.",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "id": "networks",
+      "name": "Routes & Networks",
+      "strand": "Enrichment",
+      "kind": "Enrichment",
+      "grade": "Grades 5–7",
+      "symbol": "⋈",
+      "lesson": [
+        "A network has vertices (dots) joined by edges (lines). The degree of a vertex is the number of edges meeting it. Crossings without dots are not extra vertices.",
+        "Every edge contributes 2 to the total of all degrees, one at each end. A connected network with no cycles is called a tree. A tree on $n$ vertices has $n-1$ edges.",
+        "A one-stroke walk uses every edge exactly once. In a connected network it is possible when there are exactly 0 or 2 vertices of odd degree. With 2 odd vertices, the walk starts at one and ends at the other."
+      ],
+      "problems": [
+        {
+          "id": "networks-01",
+          "q": "In the network, how many edges meet vertex A?",
+          "answer": "$3$",
+          "hint": "Count only the lines ending at A.",
+          "solution": "The edges AB, AD and AC meet A, so A has degree 3.",
+          "level": 1,
+          "diagram": "square-diagonal",
+          "imageAlt": "Four vertices A, B, C, D form a square with edges AB, BC, CD, DA and diagonal AC."
+        },
+        {
+          "id": "networks-02",
+          "q": "What is the sum of the degrees of all four vertices in the network?",
+          "answer": "$10$",
+          "hint": "Count each edge at both of its ends.",
+          "solution": "There are 5 edges. Each contributes 2 to the degree total, so the sum is 10.",
+          "level": 1,
+          "diagram": "square-diagonal",
+          "imageAlt": "Four vertices A, B, C, D form a square with edges AB, BC, CD, DA and diagonal AC."
+        },
+        {
+          "id": "networks-03",
+          "q": "Four towns each have a direct road to every other town. There is one road for each pair of towns. How many roads are there?",
+          "answer": "$6$",
+          "hint": "Count pairs of towns rather than directions of travel.",
+          "solution": "Each of 4 towns meets 3 roads, counting each road twice. There are $4\\times3\\div2=6$ roads.",
+          "level": 1
+        },
+        {
+          "id": "networks-04",
+          "q": "What is the fewest roads needed to connect five towns so that every town can be reached from every other?",
+          "answer": "$4$",
+          "hint": "A chain of towns gives one possible construction.",
+          "solution": "Starting with one town, each of the other four needs a connection. Four roads suffice, for example in a chain, and fewer cannot connect all five towns.",
+          "level": 1
+        },
+        {
+          "id": "networks-05",
+          "q": "A network has a total vertex degree of 18. How many edges does it have?",
+          "answer": "$9$",
+          "hint": "Every edge has two ends.",
+          "solution": "Each edge contributes 2 to the degree total, so there are $18\\div2=9$ edges.",
+          "level": 2
+        },
+        {
+          "id": "networks-06",
+          "q": "A one-stroke walk must use each edge exactly once. In this network, which vertices can be the starting point?",
+          "answer": "A or C",
+          "hint": "Find the vertices of odd degree.",
+          "solution": "A and C each have degree 3; B and D each have degree 2. A one-stroke walk must start at A or C and finish at the other. For example, A-B-C-D-A-C works.",
+          "level": 2,
+          "diagram": "square-diagonal",
+          "imageAlt": "Square network with one diagonal AC; degrees of A and C are odd."
+        },
+        {
+          "id": "networks-07",
+          "q": "Can this network be drawn in one stroke, using each edge exactly once? The crossing of the diagonals is not a vertex.",
+          "answer": "No",
+          "hint": "Count the odd-degree vertices.",
+          "solution": "Each of the four vertices has degree 3. A one-stroke walk can have only 0 or 2 odd-degree vertices, so this network is impossible.",
+          "level": 2,
+          "diagram": "complete-four",
+          "imageAlt": "Four corner vertices of a square joined by all six edges; the diagonal crossing has no dot."
+        },
+        {
+          "id": "networks-08",
+          "q": "The numbers on the roads are their lengths. What is the length of the shortest route from A to D?",
+          "answer": "$5$",
+          "hint": "Compare routes through B and C.",
+          "solution": "Route A-B-C-D has length $2+1+2=5$. A-C-D has length 7 and A-B-D has length 8, so 5 is shortest.",
+          "level": 2,
+          "diagram": "weighted-network",
+          "imageAlt": "Network with road lengths AB=2, AC=5, BC=1, BD=6 and CD=2."
+        },
+        {
+          "id": "networks-09",
+          "q": "Five towns each have a direct road to every other town, one road per pair. How many roads are there?",
+          "answer": "$10$",
+          "hint": "Count four connections per town, then remove double-counting.",
+          "solution": "$5\\times4\\div2=10$ roads.",
+          "level": 3
+        },
+        {
+          "id": "networks-10",
+          "q": "A network's four vertex degrees are 1, 2, 2 and 3. How many edges does it have?",
+          "answer": "$4$",
+          "hint": "Add all the degrees and divide by 2.",
+          "solution": "$(1+2+2+3)\\div2=8\\div2=4$ edges.",
+          "level": 3
+        },
+        {
+          "id": "networks-11",
+          "q": "Nine towns are connected by a tree: a connected road network containing no cycle. One road is removed. How many connected groups of towns remain?",
+          "answer": "$2$",
+          "hint": "In a tree there is exactly one route between any pair of towns.",
+          "solution": "Removing one road breaks the only route between its two sides. Each side remains connected, producing exactly two groups.",
+          "level": 3
+        },
+        {
+          "id": "networks-12",
+          "q": "Can a network have exactly three vertices of odd degree? Explain.",
+          "answer": "No",
+          "hint": "Consider whether the total of all degrees would be even or odd.",
+          "solution": "Three odd degrees add to an odd number. Adding any even degrees keeps it odd. But every edge contributes 2 to the total, which must therefore be even. This is impossible.",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "id": "counting",
+      "name": "Counting Without Listing",
+      "strand": "Enrichment",
+      "kind": "Enrichment",
+      "grade": "Grades 5–7",
+      "symbol": "!",
+      "lesson": [
+        "If one choice has 3 options and the next has 4, there are $3\\times4=12$ combined choices. A tree diagram can make the choices visible.",
+        "Ask whether order matters. Choosing two friends for a team is different from choosing a captain and a deputy. When a count lists each choice more than once, divide by the number of repeats.",
+        "A shortest grid route can be encoded as a sequence of right and up moves. Counting routes becomes a question about choosing the positions of those moves."
+      ],
+      "problems": [
+        {
+          "id": "counting-01",
+          "q": "You have 3 shirts and 2 hats. How many outfits use one shirt and one hat?",
+          "answer": "$6$",
+          "hint": "Match each shirt with each hat.",
+          "solution": "Each of the three shirts has two choices of hat, giving $3\\times2=6$ outfits.",
+          "level": 1
+        },
+        {
+          "id": "counting-02",
+          "q": "A code has three digits. Each digit is either 0 or 1, and 000 is allowed. How many codes are possible?",
+          "answer": "$8$",
+          "hint": "There are two choices in each position.",
+          "solution": "$2\\times2\\times2=8$ codes.",
+          "level": 1
+        },
+        {
+          "id": "counting-03",
+          "q": "Four different children stand in a line. How many orders are possible?",
+          "answer": "$24$",
+          "hint": "There are fewer children available at each successive position.",
+          "solution": "There are $4\\times3\\times2\\times1=24$ orders.",
+          "level": 1
+        },
+        {
+          "id": "counting-04",
+          "q": "Choose two different toppings from five available toppings. The order does not matter. How many pairs can be chosen?",
+          "answer": "$10$",
+          "hint": "Choosing first and second counts each pair twice.",
+          "solution": "There are $5\\times4=20$ ordered choices. Each pair appears in two orders, giving $20\\div2=10$ pairs.",
+          "level": 1
+        },
+        {
+          "id": "counting-05",
+          "q": "On this grid, travel from A to B using only one-edge steps right or up. How many routes are possible?",
+          "answer": "$10$",
+          "hint": "Every route has three right steps and two up steps.",
+          "solution": "Choose the two positions for up steps among five positions. There are $5\\times4\\div2=10$ choices.",
+          "level": 2,
+          "diagram": "grid-path",
+          "imageAlt": "A rectangular grid three edges wide and two edges high, with A at the bottom-left corner and B at the top-right."
+        },
+        {
+          "id": "counting-06",
+          "q": "How many two-digit numbers can be formed from 1, 2 and 3 without repeating a digit?",
+          "answer": "$6$",
+          "hint": "Choose the tens digit, then the units digit.",
+          "solution": "There are 3 choices for the tens digit and 2 remaining choices for the units digit, giving 6 numbers.",
+          "level": 2
+        },
+        {
+          "id": "counting-07",
+          "q": "How many four-digit numbers use each of the digits 0, 1, 2 and 3 exactly once?",
+          "answer": "$18$",
+          "hint": "The first digit cannot be zero.",
+          "solution": "There are 3 choices for the first digit, then 3, 2 and 1 for the remaining digits. The total is $3\\times3\\times2\\times1=18$.",
+          "level": 2
+        },
+        {
+          "id": "counting-08",
+          "q": "Six friends each shake hands with every other friend exactly once. How many handshakes occur?",
+          "answer": "$15$",
+          "hint": "Each handshake involves a pair of friends.",
+          "solution": "Counting five handshakes per person gives 30, but each handshake is counted twice. The total is $30\\div2=15$.",
+          "level": 2
+        },
+        {
+          "id": "counting-09",
+          "q": "Five different finalists compete for gold, silver and bronze. There are no ties. How many medal assignments are possible?",
+          "answer": "$60$",
+          "hint": "The medals are different roles, so order matters.",
+          "solution": "There are 5 choices for gold, 4 for silver and 3 for bronze: $5\\times4\\times3=60$.",
+          "level": 3
+        },
+        {
+          "id": "counting-10",
+          "q": "How many rectangles of all sizes are formed by the grid lines in this 2-row, 3-column grid?",
+          "answer": "$18$",
+          "hint": "A rectangle is determined by two horizontal lines and two vertical lines.",
+          "solution": "Choose two of the three horizontal lines in 3 ways and two of the four vertical lines in 6 ways. The total is $3\\times6=18$.",
+          "level": 3,
+          "diagram": "rectangle-grid",
+          "imageAlt": "Rectangular grid with two rows and three columns of equal cells."
+        },
+        {
+          "id": "counting-11",
+          "q": "A shortest grid route uses exactly four right steps and three up steps. How many different routes are there?",
+          "answer": "$35$",
+          "hint": "Choose the three positions occupied by up steps.",
+          "solution": "There are $7\\times6\\times5$ ordered choices of up-step positions. Divide by $3\\times2\\times1$ to ignore their order: $210\\div6=35$.",
+          "level": 3
+        },
+        {
+          "id": "counting-12",
+          "q": "How many integers from 1 to 100 contain the digit 7 at least once?",
+          "answer": "$19$",
+          "hint": "Count units-digit 7 and tens-digit 7, then account for the overlap.",
+          "solution": "There are 10 numbers with units digit 7 and 10 with tens digit 7. The number 77 belongs to both groups, so the total is $10+10-1=19$.",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "id": "parity",
+      "name": "Parity & Things That Stay Fixed",
+      "strand": "Enrichment",
+      "kind": "Enrichment",
+      "grade": "Grades 5–7",
+      "symbol": "±",
+      "lesson": [
+        "Parity means whether a whole number is even or odd. Adding an even number preserves parity; adding an odd number switches it.",
+        "An invariant is something that stays unchanged during a process. It might be a total, a remainder, a colour balance or whether a number is even.",
+        "To show that a task is impossible, find a property that every permitted move preserves, then check whether the target has that property."
+      ],
+      "problems": [
+        {
+          "id": "parity-01",
+          "q": "Is the sum of three odd whole numbers even or odd?",
+          "answer": "Odd",
+          "hint": "Add two of them first.",
+          "solution": "Two odd numbers add to an even number. Adding the third odd number makes the total odd.",
+          "level": 1
+        },
+        {
+          "id": "parity-02",
+          "q": "Is the product of an odd whole number and an even whole number even or odd?",
+          "answer": "Even",
+          "hint": "An even factor contains a factor of 2.",
+          "solution": "The product still has a factor of 2, so it is even.",
+          "level": 1
+        },
+        {
+          "id": "parity-03",
+          "q": "Eight coins start heads up. Each move flips exactly two different coins. Can you finish with exactly one tail?",
+          "answer": "No",
+          "hint": "Track the parity of the number of tails.",
+          "solution": "Flipping two coins changes the number of tails by 2, 0 or -2. It stays even, so it cannot become 1.",
+          "level": 1
+        },
+        {
+          "id": "parity-04",
+          "q": "A 4 by 4 checkerboard has its top-left and bottom-right squares removed. Can the remaining board be covered by 1 by 2 dominoes with no overlap?",
+          "answer": "No",
+          "hint": "Each domino covers one light square and one dark square.",
+          "solution": "The removed corners have the same colour. There are now 6 squares of that colour and 8 of the other, so equal-colour pairs cannot cover the board.",
+          "level": 1,
+          "diagram": "checkerboard-four",
+          "imageAlt": "A four-by-four checkerboard with the top-left and bottom-right squares crossed out."
+        },
+        {
+          "id": "parity-05",
+          "q": "A grasshopper starts at 0 on a number line. Each jump is either 4 units right or 6 units left. Can it land on 7?",
+          "answer": "No",
+          "hint": "Both permitted moves change the position by an even number.",
+          "solution": "The position remains even after every jump. Since 7 is odd, it cannot be reached.",
+          "level": 2
+        },
+        {
+          "id": "parity-06",
+          "q": "The numbers 1 through 10 are on a board. Repeatedly erase two numbers and replace them by their sum until one number remains. What is it?",
+          "answer": "$55$",
+          "hint": "The sum of all numbers on the board never changes.",
+          "solution": "The final number is the original total, $1+2+\\cdots+10=55$.",
+          "level": 2
+        },
+        {
+          "id": "parity-07",
+          "q": "A jar starts with 17 counters. Each move either removes 2 counters or adds 4. Can the jar ever become empty?",
+          "answer": "No",
+          "hint": "Both moves preserve the parity of the counter total.",
+          "solution": "The total stays odd, while 0 is even. The jar cannot become empty.",
+          "level": 2
+        },
+        {
+          "id": "parity-08",
+          "q": "A 3 by 3 checkerboard has five dark squares and four light squares. One square is removed, then four dominoes cover the rest. What colour must the removed square have been?",
+          "answer": "Dark",
+          "hint": "Four dominoes need four squares of each colour.",
+          "solution": "Removing a dark square leaves four dark and four light squares. Removing a light square would leave unequal colour totals.",
+          "level": 2
+        },
+        {
+          "id": "parity-09",
+          "q": "The numbers 3, 7 and 10 are on a board. A move replaces two numbers with their positive difference or zero if equal. Can the final number be 0? Give a sequence.",
+          "answer": "Yes: replace 10 and 7 by 3, then 3 and 3 by 0.",
+          "hint": "Try making the two remaining numbers equal.",
+          "solution": "First $10-7=3$ leaves 3 and 3. Their difference is 0.",
+          "level": 3
+        },
+        {
+          "id": "parity-10",
+          "q": "Twenty lamps start off. Each move toggles exactly three different lamps. After exactly 11 moves, could all 20 lamps be on?",
+          "answer": "No",
+          "hint": "Each move changes the parity of the number of lamps that are on.",
+          "solution": "Toggling three lamps changes the on-count by an odd number. After 11 moves that count is odd, whereas 20 is even.",
+          "level": 3
+        },
+        {
+          "id": "parity-11",
+          "q": "A chess knight moves 2 squares in one direction and 1 at right angles. On a checkerboard it changes colour on every move. Can it return to its starting square after exactly 15 moves?",
+          "answer": "No",
+          "hint": "Compare the starting and ending colours.",
+          "solution": "After an odd number of colour changes, the knight is on the opposite colour. Its starting square has the original colour, so a 15-move return is impossible.",
+          "level": 3
+        },
+        {
+          "id": "parity-12",
+          "q": "The numbers 1 through 9 are on a board. Each move erases two numbers $a,b$ and writes $a+b-1$. After eight moves, what is the remaining number?",
+          "answer": "$37$",
+          "hint": "Track how much the total falls on each move.",
+          "solution": "The initial sum is 45. Each move decreases the total by 1. After eight moves, one number remains and equals $45-8=37$.",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "id": "pigeonhole",
+      "name": "Socks, Drawers & Guarantees",
+      "strand": "Enrichment",
+      "kind": "Enrichment",
+      "grade": "Grades 5–7",
+      "symbol": "▦",
+      "lesson": [
+        "If more objects than boxes are placed into boxes, at least one box receives two objects. The boxes can represent colours, remainders, months or other categories.",
+        "A guarantee must survive the most awkward possible outcome. First find the greatest number of choices that could still avoid the desired event, then add one.",
+        "For harder questions, invent useful groups. Pairing numbers or dividing a space into regions can turn a large problem into a small counting argument."
+      ],
+      "problems": [
+        {
+          "id": "pigeonhole-01",
+          "q": "Socks come in four colours, with plenty of each colour. You draw socks without looking. How many guarantee two socks of the same colour?",
+          "answer": "$5$",
+          "hint": "You could draw one of each colour first.",
+          "solution": "Four socks might all have different colours. The fifth must match one of the four colours already drawn.",
+          "level": 1
+        },
+        {
+          "id": "pigeonhole-02",
+          "q": "How many people guarantee that at least two have birthdays in the same month?",
+          "answer": "$13$",
+          "hint": "There are 12 month categories.",
+          "solution": "Twelve people could occupy twelve different months. A thirteenth person must share a month with someone.",
+          "level": 1
+        },
+        {
+          "id": "pigeonhole-03",
+          "q": "Ten balls are placed into three boxes. What is the smallest number of balls that at least one box must contain?",
+          "answer": "$4$",
+          "hint": "Three balls in every box accounts for only 9 balls.",
+          "solution": "If each box held at most 3 balls, there would be at most 9. Thus some box has at least 4. A $4,3,3$ distribution shows 4 is the best guarantee.",
+          "level": 1
+        },
+        {
+          "id": "pigeonhole-04",
+          "q": "Badges come in five colours, with plenty of each. How many draws guarantee three badges of one colour?",
+          "answer": "$11$",
+          "hint": "You could draw two of each colour without having three alike.",
+          "solution": "Ten draws can give two of each colour. The next draw creates a group of at least three, so 11 suffice.",
+          "level": 1
+        },
+        {
+          "id": "pigeonhole-05",
+          "q": "Thirty-one books are placed on six shelves. At least one shelf must contain how many books? Give the strongest guarantee.",
+          "answer": "$6$",
+          "hint": "What if every shelf held at most five books?",
+          "solution": "Six shelves with at most five books each hold at most 30 books. Therefore some shelf has at least 6. A distribution $6,5,5,5,5,5$ shows this is sharp.",
+          "level": 2
+        },
+        {
+          "id": "pigeonhole-06",
+          "q": "Cards numbered 1 to 10 are drawn without replacement. How many draws guarantee an even number?",
+          "answer": "$6$",
+          "hint": "All the odd-numbered cards could come first.",
+          "solution": "There are five odd cards. The sixth draw must be even.",
+          "level": 2
+        },
+        {
+          "id": "pigeonhole-07",
+          "q": "Cards numbered 1 to 10 are drawn without replacement. How many draws guarantee two cards whose numbers add to 11?",
+          "answer": "$6$",
+          "hint": "Group the cards into pairs with sum 11.",
+          "solution": "The five pairs are $(1,10),(2,9),(3,8),(4,7),(5,6)$. Five draws can take one from each pair; six draws must complete a pair.",
+          "level": 2
+        },
+        {
+          "id": "pigeonhole-08",
+          "q": "A bag has four red, four green and four gold counters. How many draws without replacement guarantee at least one counter of every colour?",
+          "answer": "$9$",
+          "hint": "You might draw all the counters of two colours first.",
+          "solution": "Eight draws can still omit a colour. Only eight counters belong to the other two colours, so the ninth must supply the missing colour.",
+          "level": 2
+        },
+        {
+          "id": "pigeonhole-09",
+          "q": "Seven integers are chosen. Must two leave the same remainder when divided by 6?",
+          "answer": "Yes",
+          "hint": "Division by 6 has six possible remainders.",
+          "solution": "The remainders are $0,1,2,3,4,5$. Seven integers in six remainder categories must share a category.",
+          "level": 3
+        },
+        {
+          "id": "pigeonhole-10",
+          "q": "What is the largest number of cards you can choose from cards numbered 1 to 9 without choosing two consecutive numbers?",
+          "answer": "$5$",
+          "hint": "Group $(1,2),(3,4),(5,6),(7,8)$ and the single card 9.",
+          "solution": "At most one card can be taken from each of the four pairs, plus card 9, so at most 5. Choosing $1,3,5,7,9$ achieves 5.",
+          "level": 3
+        },
+        {
+          "id": "pigeonhole-11",
+          "q": "A drawer has five red, five green and five gold socks. How many draws guarantee two disjoint matching pairs? The pairs may have the same colour.",
+          "answer": "$6$",
+          "hint": "With at most one matching pair, how many socks could each colour contribute?",
+          "solution": "To have at most one pair, one colour can contribute at most 3 socks and the others at most 1 each: at most 5 total. Six socks therefore guarantee two pairs. The distribution $3,1,1$ shows five do not suffice.",
+          "level": 3
+        },
+        {
+          "id": "pigeonhole-12",
+          "q": "How many whole numbers guarantee two whose difference is divisible by 16?",
+          "answer": "$17$",
+          "hint": "Compare remainders on division by 16.",
+          "solution": "There are 16 possible remainders. Among 17 numbers, two share a remainder, so their difference is divisible by 16. Sixteen numbers, such as 0 through 15, need not contain such a pair.",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "id": "games",
+      "name": "Winning Moves",
+      "strand": "Enrichment",
+      "kind": "Enrichment",
+      "grade": "Grades 5–7",
+      "symbol": "♟",
+      "lesson": [
+        "Work backwards from a tiny position. A losing position is one where every allowed move gives the opponent a winning position, assuming both play perfectly.",
+        "When players may remove 1 through $k$ counters and taking the last wins, leaving a multiple of $k+1$ lets you answer each move with enough counters to make the pair of moves total $k+1$.",
+        "Read the winning rule carefully. Making the player who takes the last counter lose changes the useful target positions. Equal piles sometimes allow a mirror strategy: copy the opponent's move in the other pile."
+      ],
+      "problems": [
+        {
+          "id": "games-01",
+          "q": "Two players take turns removing 1 or 2 counters. Taking the last counter wins. With 4 counters, how many should the first player remove to force a win?",
+          "answer": "$1$",
+          "hint": "Leave a pile the opponent cannot finish and can only reduce to a finishable pile.",
+          "solution": "Remove 1 to leave 3. Whatever the opponent takes, take the rest. The two moves remove 3 counters in total.",
+          "level": 1
+        },
+        {
+          "id": "games-02",
+          "q": "Two players take turns removing 1 or 2 counters. Taking the last wins. With 8 counters, how many should the first player remove to force a win?",
+          "answer": "$2$",
+          "hint": "Aim to leave a multiple of 3.",
+          "solution": "Remove 2 to leave 6. Then answer a removal of 1 with 2, or 2 with 1, to take the last counter.",
+          "level": 1
+        },
+        {
+          "id": "games-03",
+          "q": "Players may remove 1, 2 or 3 counters each turn. Taking the last wins. With 10 counters, what is the winning first removal?",
+          "answer": "$2$",
+          "hint": "Aim to leave a multiple of 4.",
+          "solution": "Remove 2 to leave 8. Thereafter make each pair of moves total 4, leaving 4 and then 0 on your turns.",
+          "level": 1
+        },
+        {
+          "id": "games-04",
+          "q": "Players may remove 1, 2 or 3 counters each turn. Taking the last wins. With 12 counters, does the first player have a move that forces a win against perfect play?",
+          "answer": "No",
+          "hint": "Consider the multiples of 4.",
+          "solution": "Twelve is a multiple of 4. The second player can always complete each pair of moves to 4, so every first move loses against perfect play.",
+          "level": 1
+        },
+        {
+          "id": "games-05",
+          "q": "Players may remove 1, 2, 3 or 4 counters each turn. Taking the last wins. With 21 counters, what is the winning first removal?",
+          "answer": "$1$",
+          "hint": "Useful target piles are multiples of 5.",
+          "solution": "Remove 1 to leave 20. After each opponent move, remove enough to make the two removals total 5.",
+          "level": 2
+        },
+        {
+          "id": "games-06",
+          "q": "Start at 0. Two players take turns adding 1, 2 or 3 without going over 20. The first to reach 20 wins. Which player can force a win?",
+          "answer": "The second player",
+          "hint": "Can one player finish each pair of moves at a multiple of 4?",
+          "solution": "The second player can answer each addition with enough to make the pair total 4. The totals after that player's turns are $4,8,12,16,20$.",
+          "level": 2
+        },
+        {
+          "id": "games-07",
+          "q": "Start at 0. Players take turns adding 1, 2 or 3 without going over 21. The first to reach 21 wins. What should the first player add initially to force a win?",
+          "answer": "$1$",
+          "hint": "Work backwards from 21 in steps of 4.",
+          "solution": "Add 1 first, then keep the totals after your turns at $1,5,9,13,17,21$ by making each later pair of additions total 4.",
+          "level": 2
+        },
+        {
+          "id": "games-08",
+          "q": "Players remove 1 or 2 counters per turn. The player who takes the last counter loses. With 7 counters, can the first player force a win?",
+          "answer": "No",
+          "hint": "Work backwards from a pile of 1, which is losing for the player to move.",
+          "solution": "Piles of $1,4,7,\\ldots$ are losing positions. From 7, any removal lets the second player leave 4, then 1.",
+          "level": 2
+        },
+        {
+          "id": "games-09",
+          "q": "Players remove 1 or 2 counters per turn. Taking the last counter loses. With 8 counters, what should the first player remove to force a win?",
+          "answer": "$1$",
+          "hint": "Leave the opponent a pile one greater than a multiple of 3.",
+          "solution": "Remove 1 to leave 7. Then respond so the opponent faces 4 and finally 1, forcing that player to take the last counter.",
+          "level": 3
+        },
+        {
+          "id": "games-10",
+          "q": "Players remove either 1 or 3 counters per turn. Taking the last wins. With 10 counters, which player can force a win?",
+          "answer": "The second player",
+          "hint": "Every move removes an odd number.",
+          "solution": "A move from an even pile leaves an odd pile. From any odd pile, removing 1 leaves an even pile. Thus even piles are losing positions, and the second player wins from 10.",
+          "level": 3
+        },
+        {
+          "id": "games-11",
+          "q": "A chocolate bar has 2 rows and 4 columns of squares. Each break splits one piece into two along a grid line. Pieces cannot be stacked. How many breaks are needed to separate all 8 squares?",
+          "answer": "$7$",
+          "hint": "Each break increases the number of pieces by exactly one.",
+          "solution": "Starting with 1 piece, reaching 8 pieces takes $8-1=7$ breaks, regardless of the order.",
+          "level": 3
+        },
+        {
+          "id": "games-12",
+          "q": "There are two piles containing 3 and 5 counters. On each turn, remove any positive number from one pile. Taking the last counter wins. What first move forces a win?",
+          "answer": "Remove 2 from the pile of 5.",
+          "hint": "Try leaving two equal piles.",
+          "solution": "Leave piles of 3 and 3. Whenever the opponent removes counters from one pile, remove the same number from the other. The piles become equal again, and your matching move takes the last counter.",
+          "level": 3
+        }
+      ]
+    }
+  ],
+  "diagrams": {
+    "fraction-strip": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 160\" role=\"img\"><title>Three eighths of an equal-part strip</title><rect width=\"520\" height=\"160\" rx=\"12\" fill=\"#fffef9\"/><rect x=\"60\" y=\"45\" width=\"50\" height=\"70\" fill=\"#d5e3c6\" stroke=\"#304638\" stroke-width=\"2.5\"/><rect x=\"110\" y=\"45\" width=\"50\" height=\"70\" fill=\"#d5e3c6\" stroke=\"#304638\" stroke-width=\"2.5\"/><rect x=\"160\" y=\"45\" width=\"50\" height=\"70\" fill=\"#d5e3c6\" stroke=\"#304638\" stroke-width=\"2.5\"/><rect x=\"210\" y=\"45\" width=\"50\" height=\"70\" fill=\"#fffef9\" stroke=\"#304638\" stroke-width=\"2.5\"/><rect x=\"260\" y=\"45\" width=\"50\" height=\"70\" fill=\"#fffef9\" stroke=\"#304638\" stroke-width=\"2.5\"/><rect x=\"310\" y=\"45\" width=\"50\" height=\"70\" fill=\"#fffef9\" stroke=\"#304638\" stroke-width=\"2.5\"/><rect x=\"360\" y=\"45\" width=\"50\" height=\"70\" fill=\"#fffef9\" stroke=\"#304638\" stroke-width=\"2.5\"/><rect x=\"410\" y=\"45\" width=\"50\" height=\"70\" fill=\"#fffef9\" stroke=\"#304638\" stroke-width=\"2.5\"/></svg>",
+    "matchsticks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 225\" role=\"img\"><title>Three adjacent matchstick squares</title><rect width=\"520\" height=\"225\" rx=\"12\" fill=\"#fffef9\"/><line x1=\"140\" y1=\"75\" x2=\"140\" y2=\"155\" stroke=\"#ac432b\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"220\" y1=\"75\" x2=\"220\" y2=\"155\" stroke=\"#ac432b\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"300\" y1=\"75\" x2=\"300\" y2=\"155\" stroke=\"#ac432b\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"380\" y1=\"75\" x2=\"380\" y2=\"155\" stroke=\"#ac432b\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"140\" y1=\"75\" x2=\"220\" y2=\"75\" stroke=\"#ac432b\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"140\" y1=\"155\" x2=\"220\" y2=\"155\" stroke=\"#ac432b\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"220\" y1=\"75\" x2=\"300\" y2=\"75\" stroke=\"#ac432b\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"220\" y1=\"155\" x2=\"300\" y2=\"155\" stroke=\"#ac432b\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"300\" y1=\"75\" x2=\"380\" y2=\"75\" stroke=\"#ac432b\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"300\" y1=\"155\" x2=\"380\" y2=\"155\" stroke=\"#ac432b\" stroke-width=\"6\" stroke-linecap=\"round\"/></svg>",
+    "straight-angle": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 320\" role=\"img\"><title>Adjacent angles on a straight line</title><rect width=\"520\" height=\"320\" rx=\"12\" fill=\"#fffef9\"/><line x1=\"65\" y1=\"235\" x2=\"455\" y2=\"235\" stroke=\"#304638\" stroke-width=\"3\"/><line x1=\"260\" y1=\"235\" x2=\"335.115\" y2=\"93.728\" stroke=\"#304638\" stroke-width=\"3\"/><path d=\"M314.000,235.000 A54,54 0 0 0 285.351,187.321\" fill=\"none\" stroke=\"#ac432b\" stroke-width=\"2\"/><path d=\"M292.863,173.194 A70,70 0 0 0 190.000,235.000\" fill=\"none\" stroke=\"#ac432b\" stroke-width=\"2\"/><text x=\"211\" y=\"172\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">118°</text><text x=\"320\" y=\"211\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">x</text></svg>",
+    "triangle-angles": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 320\" role=\"img\"><title>Triangle with base angles 48 and 67 degrees</title><rect width=\"520\" height=\"320\" rx=\"12\" fill=\"#fffef9\"/><polygon points=\"110.000,270.000 370.000,270.000 286.699,73.756\" fill=\"#d5e3c6\" stroke=\"#304638\" stroke-width=\"3\" stroke-linejoin=\"round\"/><path d=\"M148.000,270.000 A38,38 0 0 0 135.427,241.760\" fill=\"none\" stroke=\"#ac432b\" stroke-width=\"2\"/><path d=\"M355.152,235.021 A38,38 0 0 0 332.000,270.000\" fill=\"none\" stroke=\"#ac432b\" stroke-width=\"2\"/><text x=\"155\" y=\"249\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"20\" font-family=\"Arial, sans-serif\">48°</text><text x=\"331\" y=\"246\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"20\" font-family=\"Arial, sans-serif\">67°</text><text x=\"282.699\" y=\"122.756\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">x</text><text x=\"92\" y=\"292\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"20\" font-family=\"Arial, sans-serif\">A</text><text x=\"390\" y=\"292\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"20\" font-family=\"Arial, sans-serif\">B</text><text x=\"286.699\" y=\"55.756\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"20\" font-family=\"Arial, sans-serif\">C</text></svg>",
+    "isosceles": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 320\" role=\"img\"><title>Isosceles triangle with a 40-degree vertex angle</title><rect width=\"520\" height=\"320\" rx=\"12\" fill=\"#fffef9\"/><polygon points=\"180.000,270.000 340.000,270.000 260.000,50.202\" fill=\"#d5e3c6\" stroke=\"#304638\" stroke-width=\"3\" stroke-linejoin=\"round\"/><line x1=\"227.518\" y1=\"162.837\" x2=\"212.482\" y2=\"157.365\" stroke=\"#ac432b\" stroke-width=\"3\"/><line x1=\"307.518\" y1=\"157.365\" x2=\"292.482\" y2=\"162.837\" stroke=\"#ac432b\" stroke-width=\"3\"/><path d=\"M243.583,95.307 A48,48 0 0 0 276.417,95.307\" fill=\"none\" stroke=\"#ac432b\" stroke-width=\"2\"/><text x=\"260\" y=\"126\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"20\" font-family=\"Arial, sans-serif\">40°</text><text x=\"210\" y=\"251\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">x</text><text x=\"310\" y=\"251\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">x</text></svg>",
+    "equilateral-exterior": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 320\" role=\"img\"><title>Exterior angle of an equilateral triangle</title><rect width=\"520\" height=\"320\" rx=\"12\" fill=\"#fffef9\"/><polygon points=\"110.000,260.000 350.000,260.000 230.000,52.154\" fill=\"#d5e3c6\" stroke=\"#304638\" stroke-width=\"3\" stroke-linejoin=\"round\"/><line x1=\"350\" y1=\"260\" x2=\"460\" y2=\"260\" stroke=\"#304638\" stroke-width=\"3\"/><line x1=\"230.0\" y1=\"268.0\" x2=\"230.0\" y2=\"252.0\" stroke=\"#ac432b\" stroke-width=\"3\"/><line x1=\"176.928\" y1=\"160.077\" x2=\"163.072\" y2=\"152.077\" stroke=\"#ac432b\" stroke-width=\"3\"/><line x1=\"296.928\" y1=\"152.077\" x2=\"283.072\" y2=\"160.077\" stroke=\"#ac432b\" stroke-width=\"3\"/><path d=\"M402.000,260.000 A52,52 0 0 0 324.000,214.967\" fill=\"none\" stroke=\"#ac432b\" stroke-width=\"2\"/><text x=\"386\" y=\"202\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">x</text></svg>",
+    "pentagon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 320\" role=\"img\"><title>Pentagon partitioned into three triangles</title><rect width=\"520\" height=\"320\" rx=\"12\" fill=\"#fffef9\"/><polygon points=\"260.000,55.000 364.616,131.008 324.656,253.992 195.344,253.992 155.384,131.008\" fill=\"#d5e3c6\" stroke=\"#304638\" stroke-width=\"3\" stroke-linejoin=\"round\"/><line x1=\"260.0\" y1=\"55.0\" x2=\"324.656\" y2=\"253.992\" stroke=\"#ac432b\" stroke-width=\"2\"/><line x1=\"260.0\" y1=\"55.0\" x2=\"195.344\" y2=\"253.992\" stroke=\"#ac432b\" stroke-width=\"2\"/></svg>",
+    "rectangle": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 320\" role=\"img\"><title>Eight-centimetre by five-centimetre rectangle</title><rect width=\"520\" height=\"320\" rx=\"12\" fill=\"#fffef9\"/><rect x=\"100\" y=\"55\" width=\"320\" height=\"200\" fill=\"#d5e3c6\" stroke=\"#304638\" stroke-width=\"2.5\"/><text x=\"260\" y=\"35\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">8 cm</text><text x=\"460\" y=\"165\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">5 cm</text></svg>",
+    "triangle-area": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 320\" role=\"img\"><title>Triangle with base twelve and perpendicular height five</title><rect width=\"520\" height=\"320\" rx=\"12\" fill=\"#fffef9\"/><polygon points=\"60.000,250.000 420.000,250.000 285.000,100.000\" fill=\"#d5e3c6\" stroke=\"#304638\" stroke-width=\"3\" stroke-linejoin=\"round\"/><line x1=\"285\" y1=\"100\" x2=\"285\" y2=\"250\" stroke=\"#ac432b\" stroke-width=\"3\" stroke-dasharray=\"7 5\"/><path d=\"M285 235 H300 V250\" fill=\"none\" stroke=\"#ac432b\" stroke-width=\"2\"/><text x=\"240\" y=\"288\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">12 cm</text><text x=\"246\" y=\"192\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">5 cm</text></svg>",
+    "parallelogram": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 320\" role=\"img\"><title>Parallelogram with perpendicular height</title><rect width=\"520\" height=\"320\" rx=\"12\" fill=\"#fffef9\"/><polygon points=\"85.000,250.000 355.000,250.000 435.000,130.000 165.000,130.000\" fill=\"#d5e3c6\" stroke=\"#304638\" stroke-width=\"3\" stroke-linejoin=\"round\"/><line x1=\"165\" y1=\"130\" x2=\"165\" y2=\"250\" stroke=\"#ac432b\" stroke-width=\"3\" stroke-dasharray=\"7 5\"/><path d=\"M165 235 H180 V250\" fill=\"none\" stroke=\"#ac432b\" stroke-width=\"2\"/><text x=\"220\" y=\"288\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">9 cm</text><text x=\"204\" y=\"199\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">4 cm</text></svg>",
+    "prism": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 320\" role=\"img\"><title>Rectangular prism with dimensions four, three and seven centimetres</title><rect width=\"520\" height=\"320\" rx=\"12\" fill=\"#fffef9\"/><polygon points=\"155.000,267.000 295.000,267.000 295.000,71.000 155.000,71.000\" fill=\"#d5e3c6\" stroke=\"#304638\" stroke-width=\"3\" stroke-linejoin=\"round\"/><polygon points=\"295.000,267.000 385.000,221.000 385.000,25.000 295.000,71.000\" fill=\"#e9ddc6\" stroke=\"#304638\" stroke-width=\"3\" stroke-linejoin=\"round\"/><polygon points=\"155.000,71.000 295.000,71.000 385.000,25.000 245.000,25.000\" fill=\"#efcfba\" stroke=\"#304638\" stroke-width=\"3\" stroke-linejoin=\"round\"/><line x1=\"155\" y1=\"267\" x2=\"245\" y2=\"221\" stroke=\"#304638\" stroke-width=\"3\" stroke-dasharray=\"6 5\"/><line x1=\"245\" y1=\"221\" x2=\"385\" y2=\"221\" stroke=\"#304638\" stroke-width=\"3\" stroke-dasharray=\"6 5\"/><line x1=\"245\" y1=\"221\" x2=\"245\" y2=\"25\" stroke=\"#304638\" stroke-width=\"3\" stroke-dasharray=\"6 5\"/><text x=\"225\" y=\"303\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">4 cm</text><text x=\"364\" y=\"268\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">3 cm</text><text x=\"116\" y=\"176\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">7 cm</text></svg>",
+    "l-shape": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 320\" role=\"img\"><title>L-shape formed by removing a four-by-three corner from a ten-by-eight rectangle</title><rect width=\"520\" height=\"320\" rx=\"12\" fill=\"#fffef9\"/><polygon points=\"130.000,65.000 274.000,65.000 274.000,137.000 370.000,137.000 370.000,257.000 130.000,257.000\" fill=\"#d5e3c6\" stroke=\"#304638\" stroke-width=\"3\" stroke-linejoin=\"round\"/><line x1=\"274\" y1=\"65\" x2=\"370\" y2=\"65\" stroke=\"#9b9b8b\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><line x1=\"370\" y1=\"65\" x2=\"370\" y2=\"137\" stroke=\"#9b9b8b\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><text x=\"250\" y=\"292\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">10 cm</text><text x=\"86\" y=\"169\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">8 cm</text><text x=\"322\" y=\"45\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">4 cm</text><text x=\"413\" y=\"110\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">3 cm</text></svg>",
+    "garden": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 320\" role=\"img\"><title>One-metre border outside a twelve-by-eight-metre garden</title><rect width=\"520\" height=\"320\" rx=\"12\" fill=\"#fffef9\"/><rect x=\"106\" y=\"48\" width=\"308\" height=\"220\" fill=\"#edd2b7\" stroke=\"#304638\" stroke-width=\"2.5\"/><rect x=\"128\" y=\"70\" width=\"264\" height=\"176\" fill=\"#d5e3c6\" stroke=\"#304638\" stroke-width=\"2.5\"/><text x=\"260\" y=\"160\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"24\" font-family=\"Arial, sans-serif\">12 m × 8 m</text><line x1=\"403\" y1=\"158\" x2=\"455\" y2=\"204\" stroke=\"#ac432b\" stroke-width=\"2\"/><circle cx=\"403\" cy=\"158\" r=\"3\" fill=\"#ac432b\"/><text x=\"455\" y=\"232\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">1 m</text></svg>",
+    "coordinate-a": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 315\" role=\"img\"><title>First-quadrant coordinate grid with point A at two, three</title><rect width=\"520\" height=\"315\" rx=\"12\" fill=\"#fffef9\"/><line x1=\"70\" y1=\"270\" x2=\"70\" y2=\"30\" stroke=\"#d0d9c6\" stroke-width=\"1\"/><text x=\"70\" y=\"293\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"15\" font-family=\"Arial, sans-serif\">0</text><line x1=\"110\" y1=\"270\" x2=\"110\" y2=\"30\" stroke=\"#d0d9c6\" stroke-width=\"1\"/><text x=\"110\" y=\"293\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"15\" font-family=\"Arial, sans-serif\">1</text><line x1=\"150\" y1=\"270\" x2=\"150\" y2=\"30\" stroke=\"#d0d9c6\" stroke-width=\"1\"/><text x=\"150\" y=\"293\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"15\" font-family=\"Arial, sans-serif\">2</text><line x1=\"190\" y1=\"270\" x2=\"190\" y2=\"30\" stroke=\"#d0d9c6\" stroke-width=\"1\"/><text x=\"190\" y=\"293\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"15\" font-family=\"Arial, sans-serif\">3</text><line x1=\"230\" y1=\"270\" x2=\"230\" y2=\"30\" stroke=\"#d0d9c6\" stroke-width=\"1\"/><text x=\"230\" y=\"293\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"15\" font-family=\"Arial, sans-serif\">4</text><line x1=\"270\" y1=\"270\" x2=\"270\" y2=\"30\" stroke=\"#d0d9c6\" stroke-width=\"1\"/><text x=\"270\" y=\"293\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"15\" font-family=\"Arial, sans-serif\">5</text><line x1=\"310\" y1=\"270\" x2=\"310\" y2=\"30\" stroke=\"#d0d9c6\" stroke-width=\"1\"/><text x=\"310\" y=\"293\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"15\" font-family=\"Arial, sans-serif\">6</text><line x1=\"350\" y1=\"270\" x2=\"350\" y2=\"30\" stroke=\"#d0d9c6\" stroke-width=\"1\"/><text x=\"350\" y=\"293\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"15\" font-family=\"Arial, sans-serif\">7</text><line x1=\"390\" y1=\"270\" x2=\"390\" y2=\"30\" stroke=\"#d0d9c6\" stroke-width=\"1\"/><text x=\"390\" y=\"293\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"15\" font-family=\"Arial, sans-serif\">8</text><line x1=\"70\" y1=\"230\" x2=\"390\" y2=\"230\" stroke=\"#d0d9c6\" stroke-width=\"1\"/><text x=\"49\" y=\"235\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"15\" font-family=\"Arial, sans-serif\">1</text><line x1=\"70\" y1=\"190\" x2=\"390\" y2=\"190\" stroke=\"#d0d9c6\" stroke-width=\"1\"/><text x=\"49\" y=\"195\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"15\" font-family=\"Arial, sans-serif\">2</text><line x1=\"70\" y1=\"150\" x2=\"390\" y2=\"150\" stroke=\"#d0d9c6\" stroke-width=\"1\"/><text x=\"49\" y=\"155\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"15\" font-family=\"Arial, sans-serif\">3</text><line x1=\"70\" y1=\"110\" x2=\"390\" y2=\"110\" stroke=\"#d0d9c6\" stroke-width=\"1\"/><text x=\"49\" y=\"115\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"15\" font-family=\"Arial, sans-serif\">4</text><line x1=\"70\" y1=\"70\" x2=\"390\" y2=\"70\" stroke=\"#d0d9c6\" stroke-width=\"1\"/><text x=\"49\" y=\"75\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"15\" font-family=\"Arial, sans-serif\">5</text><line x1=\"70\" y1=\"30\" x2=\"390\" y2=\"30\" stroke=\"#d0d9c6\" stroke-width=\"1\"/><text x=\"49\" y=\"35\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"15\" font-family=\"Arial, sans-serif\">6</text><line x1=\"70\" y1=\"270\" x2=\"415\" y2=\"270\" stroke=\"#304638\" stroke-width=\"2\"/><line x1=\"70\" y1=\"270\" x2=\"70\" y2=\"15\" stroke=\"#304638\" stroke-width=\"2\"/><text x=\"428\" y=\"277\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"18\" font-family=\"Arial, sans-serif\">x</text><text x=\"54\" y=\"22\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"18\" font-family=\"Arial, sans-serif\">y</text><circle cx=\"150\" cy=\"150\" r=\"6\" fill=\"#ac432b\"/><text x=\"169\" y=\"137\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"20\" font-family=\"Arial, sans-serif\">A</text></svg>",
+    "coordinate-rectangle": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 320\" role=\"img\"><title>Coordinate rectangle with three known corners and corner D</title><rect width=\"520\" height=\"320\" rx=\"12\" fill=\"#fffef9\"/><line x1=\"70\" y1=\"267\" x2=\"70\" y2=\"42\" stroke=\"#d0d9c6\" stroke-width=\"1\"/><text x=\"70\" y=\"290\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"15\" font-family=\"Arial, sans-serif\">0</text><line x1=\"115\" y1=\"267\" x2=\"115\" y2=\"42\" stroke=\"#d0d9c6\" stroke-width=\"1\"/><text x=\"115\" y=\"290\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"15\" font-family=\"Arial, sans-serif\">1</text><line x1=\"160\" y1=\"267\" x2=\"160\" y2=\"42\" stroke=\"#d0d9c6\" stroke-width=\"1\"/><text x=\"160\" y=\"290\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"15\" font-family=\"Arial, sans-serif\">2</text><line x1=\"205\" y1=\"267\" x2=\"205\" y2=\"42\" stroke=\"#d0d9c6\" stroke-width=\"1\"/><text x=\"205\" y=\"290\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"15\" font-family=\"Arial, sans-serif\">3</text><line x1=\"250\" y1=\"267\" x2=\"250\" y2=\"42\" stroke=\"#d0d9c6\" stroke-width=\"1\"/><text x=\"250\" y=\"290\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"15\" font-family=\"Arial, sans-serif\">4</text><line x1=\"295\" y1=\"267\" x2=\"295\" y2=\"42\" stroke=\"#d0d9c6\" stroke-width=\"1\"/><text x=\"295\" y=\"290\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"15\" font-family=\"Arial, sans-serif\">5</text><line x1=\"340\" y1=\"267\" x2=\"340\" y2=\"42\" stroke=\"#d0d9c6\" stroke-width=\"1\"/><text x=\"340\" y=\"290\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"15\" font-family=\"Arial, sans-serif\">6</text><line x1=\"385\" y1=\"267\" x2=\"385\" y2=\"42\" stroke=\"#d0d9c6\" stroke-width=\"1\"/><text x=\"385\" y=\"290\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"15\" font-family=\"Arial, sans-serif\">7</text><line x1=\"430\" y1=\"267\" x2=\"430\" y2=\"42\" stroke=\"#d0d9c6\" stroke-width=\"1\"/><text x=\"430\" y=\"290\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"15\" font-family=\"Arial, sans-serif\">8</text><line x1=\"70\" y1=\"222\" x2=\"430\" y2=\"222\" stroke=\"#d0d9c6\" stroke-width=\"1\"/><text x=\"49\" y=\"227\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"15\" font-family=\"Arial, sans-serif\">1</text><line x1=\"70\" y1=\"177\" x2=\"430\" y2=\"177\" stroke=\"#d0d9c6\" stroke-width=\"1\"/><text x=\"49\" y=\"182\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"15\" font-family=\"Arial, sans-serif\">2</text><line x1=\"70\" y1=\"132\" x2=\"430\" y2=\"132\" stroke=\"#d0d9c6\" stroke-width=\"1\"/><text x=\"49\" y=\"137\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"15\" font-family=\"Arial, sans-serif\">3</text><line x1=\"70\" y1=\"87\" x2=\"430\" y2=\"87\" stroke=\"#d0d9c6\" stroke-width=\"1\"/><text x=\"49\" y=\"92\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"15\" font-family=\"Arial, sans-serif\">4</text><line x1=\"70\" y1=\"42\" x2=\"430\" y2=\"42\" stroke=\"#d0d9c6\" stroke-width=\"1\"/><text x=\"49\" y=\"47\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"15\" font-family=\"Arial, sans-serif\">5</text><line x1=\"70\" y1=\"267\" x2=\"455\" y2=\"267\" stroke=\"#304638\" stroke-width=\"2\"/><line x1=\"70\" y1=\"267\" x2=\"70\" y2=\"27\" stroke=\"#304638\" stroke-width=\"2\"/><text x=\"468\" y=\"274\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"18\" font-family=\"Arial, sans-serif\">x</text><text x=\"54\" y=\"34\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"18\" font-family=\"Arial, sans-serif\">y</text><polygon points=\"115.000,222.000 385.000,222.000 385.000,87.000 115.000,87.000\" fill=\"none\" stroke=\"#ac432b\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"115\" cy=\"222\" r=\"5\" fill=\"#ac432b\"/><text x=\"95\" y=\"247\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"18\" font-family=\"Arial, sans-serif\">A</text><circle cx=\"385\" cy=\"222\" r=\"5\" fill=\"#ac432b\"/><text x=\"405\" y=\"247\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"18\" font-family=\"Arial, sans-serif\">B</text><circle cx=\"385\" cy=\"87\" r=\"5\" fill=\"#ac432b\"/><text x=\"405\" y=\"78\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"18\" font-family=\"Arial, sans-serif\">C</text><circle cx=\"115\" cy=\"87\" r=\"5\" fill=\"#ac432b\"/><text x=\"95\" y=\"78\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"18\" font-family=\"Arial, sans-serif\">D</text></svg>",
+    "hexagon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 320\" role=\"img\"><title>Regular hexagon</title><rect width=\"520\" height=\"320\" rx=\"12\" fill=\"#fffef9\"/><polygon points=\"368.000,165.000 314.000,258.531 206.000,258.531 152.000,165.000 206.000,71.469 314.000,71.469\" fill=\"#d5e3c6\" stroke=\"#304638\" stroke-width=\"3\" stroke-linejoin=\"round\"/></svg>",
+    "spinner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 320\" role=\"img\"><title>Eight equal sectors, three shaded</title><rect width=\"520\" height=\"320\" rx=\"12\" fill=\"#fffef9\"/><path d=\"M260,160 L260.000,52.000 A108,108 0 0 1 336.368,83.632 Z\" fill=\"#d5e3c6\" stroke=\"#304638\" stroke-width=\"2.5\"/><path d=\"M260,160 L336.368,83.632 A108,108 0 0 1 368.000,160.000 Z\" fill=\"#d5e3c6\" stroke=\"#304638\" stroke-width=\"2.5\"/><path d=\"M260,160 L368.000,160.000 A108,108 0 0 1 336.368,236.368 Z\" fill=\"#d5e3c6\" stroke=\"#304638\" stroke-width=\"2.5\"/><path d=\"M260,160 L336.368,236.368 A108,108 0 0 1 260.000,268.000 Z\" fill=\"#fffef9\" stroke=\"#304638\" stroke-width=\"2.5\"/><path d=\"M260,160 L260.000,268.000 A108,108 0 0 1 183.632,236.368 Z\" fill=\"#fffef9\" stroke=\"#304638\" stroke-width=\"2.5\"/><path d=\"M260,160 L183.632,236.368 A108,108 0 0 1 152.000,160.000 Z\" fill=\"#fffef9\" stroke=\"#304638\" stroke-width=\"2.5\"/><path d=\"M260,160 L152.000,160.000 A108,108 0 0 1 183.632,83.632 Z\" fill=\"#fffef9\" stroke=\"#304638\" stroke-width=\"2.5\"/><path d=\"M260,160 L183.632,83.632 A108,108 0 0 1 260.000,52.000 Z\" fill=\"#fffef9\" stroke=\"#304638\" stroke-width=\"2.5\"/><circle cx=\"260\" cy=\"160\" r=\"7\" fill=\"#304638\"/><line x1=\"260\" y1=\"160\" x2=\"260\" y2=\"93\" stroke=\"#ac432b\" stroke-width=\"4\"/><polygon points=\"253.000,94.000 267.000,94.000 260.000,79.000\" fill=\"#ac432b\" stroke=\"#ac432b\" stroke-width=\"3\" stroke-linejoin=\"round\"/></svg>",
+    "clock-stones": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 320\" role=\"img\"><title>Eight stones numbered zero through seven clockwise</title><rect width=\"520\" height=\"320\" rx=\"12\" fill=\"#fffef9\"/><circle cx=\"260\" cy=\"170\" r=\"104\" stroke=\"#b5c4a9\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"260.0\" cy=\"66.0\" r=\"18\" fill=\"#d5e3c6\"/><text x=\"260.0\" y=\"73.0\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"20\" font-family=\"Arial, sans-serif\">0</text><circle cx=\"333.539\" cy=\"96.461\" r=\"18\" fill=\"#d5e3c6\"/><text x=\"333.539\" y=\"103.461\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"20\" font-family=\"Arial, sans-serif\">1</text><circle cx=\"364.0\" cy=\"170.0\" r=\"18\" fill=\"#d5e3c6\"/><text x=\"364.0\" y=\"177.0\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"20\" font-family=\"Arial, sans-serif\">2</text><circle cx=\"333.539\" cy=\"243.539\" r=\"18\" fill=\"#d5e3c6\"/><text x=\"333.539\" y=\"250.539\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"20\" font-family=\"Arial, sans-serif\">3</text><circle cx=\"260.0\" cy=\"274.0\" r=\"18\" fill=\"#d5e3c6\"/><text x=\"260.0\" y=\"281.0\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"20\" font-family=\"Arial, sans-serif\">4</text><circle cx=\"186.461\" cy=\"243.539\" r=\"18\" fill=\"#d5e3c6\"/><text x=\"186.461\" y=\"250.539\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"20\" font-family=\"Arial, sans-serif\">5</text><circle cx=\"156.0\" cy=\"170.0\" r=\"18\" fill=\"#d5e3c6\"/><text x=\"156.0\" y=\"177.0\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"20\" font-family=\"Arial, sans-serif\">6</text><circle cx=\"186.461\" cy=\"96.461\" r=\"18\" fill=\"#d5e3c6\"/><text x=\"186.461\" y=\"103.461\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"20\" font-family=\"Arial, sans-serif\">7</text></svg>",
+    "binary-cards": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 260\" role=\"img\"><title>Four binary places with weights eight, four, two, one and digits one, zero, one, one</title><rect width=\"520\" height=\"260\" rx=\"12\" fill=\"#fffef9\"/><text x=\"98\" y=\"75\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">8</text><rect x=\"52\" y=\"100\" width=\"92\" height=\"100\" fill=\"#d5e3c6\" stroke=\"#304638\" stroke-width=\"2.5\" rx=\"8\"/><text x=\"98\" y=\"165\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"42\" font-family=\"Arial, sans-serif\">1</text><text x=\"206\" y=\"75\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">4</text><rect x=\"160\" y=\"100\" width=\"92\" height=\"100\" fill=\"#fffef9\" stroke=\"#304638\" stroke-width=\"2.5\" rx=\"8\"/><text x=\"206\" y=\"165\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"42\" font-family=\"Arial, sans-serif\">0</text><text x=\"314\" y=\"75\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">2</text><rect x=\"268\" y=\"100\" width=\"92\" height=\"100\" fill=\"#d5e3c6\" stroke=\"#304638\" stroke-width=\"2.5\" rx=\"8\"/><text x=\"314\" y=\"165\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"42\" font-family=\"Arial, sans-serif\">1</text><text x=\"422\" y=\"75\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">1</text><rect x=\"376\" y=\"100\" width=\"92\" height=\"100\" fill=\"#d5e3c6\" stroke=\"#304638\" stroke-width=\"2.5\" rx=\"8\"/><text x=\"422\" y=\"165\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"42\" font-family=\"Arial, sans-serif\">1</text></svg>",
+    "square-diagonal": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 320\" role=\"img\"><title>Square network with diagonal A C</title><rect width=\"520\" height=\"320\" rx=\"12\" fill=\"#fffef9\"/><line x1=\"160\" y1=\"75\" x2=\"360\" y2=\"75\" stroke=\"#304638\" stroke-width=\"3\"/><line x1=\"360\" y1=\"75\" x2=\"360\" y2=\"245\" stroke=\"#304638\" stroke-width=\"3\"/><line x1=\"360\" y1=\"245\" x2=\"160\" y2=\"245\" stroke=\"#304638\" stroke-width=\"3\"/><line x1=\"160\" y1=\"245\" x2=\"160\" y2=\"75\" stroke=\"#304638\" stroke-width=\"3\"/><line x1=\"160\" y1=\"75\" x2=\"360\" y2=\"245\" stroke=\"#304638\" stroke-width=\"3\"/><circle cx=\"160\" cy=\"75\" r=\"7\" fill=\"#304638\"/><text x=\"142\" y=\"55\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">A</text><circle cx=\"360\" cy=\"75\" r=\"7\" fill=\"#304638\"/><text x=\"378\" y=\"55\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">B</text><circle cx=\"360\" cy=\"245\" r=\"7\" fill=\"#304638\"/><text x=\"378\" y=\"277\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">C</text><circle cx=\"160\" cy=\"245\" r=\"7\" fill=\"#304638\"/><text x=\"142\" y=\"277\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">D</text></svg>",
+    "complete-four": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 320\" role=\"img\"><title>Four vertices with all six edges; diagonal crossing is not a vertex</title><rect width=\"520\" height=\"320\" rx=\"12\" fill=\"#fffef9\"/><line x1=\"160\" y1=\"75\" x2=\"360\" y2=\"75\" stroke=\"#304638\" stroke-width=\"3\"/><line x1=\"360\" y1=\"75\" x2=\"360\" y2=\"245\" stroke=\"#304638\" stroke-width=\"3\"/><line x1=\"360\" y1=\"245\" x2=\"160\" y2=\"245\" stroke=\"#304638\" stroke-width=\"3\"/><line x1=\"160\" y1=\"245\" x2=\"160\" y2=\"75\" stroke=\"#304638\" stroke-width=\"3\"/><line x1=\"160\" y1=\"75\" x2=\"360\" y2=\"245\" stroke=\"#304638\" stroke-width=\"3\"/><line x1=\"360\" y1=\"75\" x2=\"160\" y2=\"245\" stroke=\"#304638\" stroke-width=\"3\"/><circle cx=\"160\" cy=\"75\" r=\"7\" fill=\"#304638\"/><text x=\"142\" y=\"55\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">A</text><circle cx=\"360\" cy=\"75\" r=\"7\" fill=\"#304638\"/><text x=\"378\" y=\"55\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">B</text><circle cx=\"360\" cy=\"245\" r=\"7\" fill=\"#304638\"/><text x=\"378\" y=\"277\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">C</text><circle cx=\"160\" cy=\"245\" r=\"7\" fill=\"#304638\"/><text x=\"142\" y=\"277\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">D</text></svg>",
+    "weighted-network": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 320\" role=\"img\"><title>Weighted network with AB two, AC five, BC one, BD six and CD two</title><rect width=\"520\" height=\"320\" rx=\"12\" fill=\"#fffef9\"/><line x1=\"80\" y1=\"160\" x2=\"245\" y2=\"65\" stroke=\"#304638\" stroke-width=\"3\"/><line x1=\"80\" y1=\"160\" x2=\"245\" y2=\"255\" stroke=\"#304638\" stroke-width=\"3\"/><line x1=\"245\" y1=\"65\" x2=\"245\" y2=\"255\" stroke=\"#304638\" stroke-width=\"3\"/><line x1=\"245\" y1=\"65\" x2=\"440\" y2=\"160\" stroke=\"#304638\" stroke-width=\"3\"/><line x1=\"245\" y1=\"255\" x2=\"440\" y2=\"160\" stroke=\"#304638\" stroke-width=\"3\"/><text x=\"150\" y=\"93\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">2</text><text x=\"151\" y=\"240\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">5</text><text x=\"273\" y=\"168\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">1</text><text x=\"352\" y=\"93\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">6</text><text x=\"354\" y=\"240\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">2</text><circle cx=\"80\" cy=\"160\" r=\"7\" fill=\"#304638\"/><circle cx=\"245\" cy=\"65\" r=\"7\" fill=\"#304638\"/><circle cx=\"245\" cy=\"255\" r=\"7\" fill=\"#304638\"/><circle cx=\"440\" cy=\"160\" r=\"7\" fill=\"#304638\"/><text x=\"48\" y=\"168\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">A</text><text x=\"245\" y=\"36\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">B</text><text x=\"245\" y=\"294\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">C</text><text x=\"472\" y=\"168\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">D</text></svg>",
+    "rectangle-grid": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 320\" role=\"img\"><title>Two rows and three columns of square cells</title><rect width=\"520\" height=\"320\" rx=\"12\" fill=\"#fffef9\"/><line x1=\"132\" y1=\"60\" x2=\"132\" y2=\"230\" stroke=\"#304638\" stroke-width=\"3\"/><line x1=\"217\" y1=\"60\" x2=\"217\" y2=\"230\" stroke=\"#304638\" stroke-width=\"3\"/><line x1=\"302\" y1=\"60\" x2=\"302\" y2=\"230\" stroke=\"#304638\" stroke-width=\"3\"/><line x1=\"387\" y1=\"60\" x2=\"387\" y2=\"230\" stroke=\"#304638\" stroke-width=\"3\"/><line x1=\"132\" y1=\"60\" x2=\"387\" y2=\"60\" stroke=\"#304638\" stroke-width=\"3\"/><line x1=\"132\" y1=\"145\" x2=\"387\" y2=\"145\" stroke=\"#304638\" stroke-width=\"3\"/><line x1=\"132\" y1=\"230\" x2=\"387\" y2=\"230\" stroke=\"#304638\" stroke-width=\"3\"/></svg>",
+    "grid-path": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 320\" role=\"img\"><title>Grid three edges wide and two edges high, from bottom-left A to top-right B</title><rect width=\"520\" height=\"320\" rx=\"12\" fill=\"#fffef9\"/><line x1=\"132\" y1=\"60\" x2=\"132\" y2=\"230\" stroke=\"#304638\" stroke-width=\"3\"/><line x1=\"217\" y1=\"60\" x2=\"217\" y2=\"230\" stroke=\"#304638\" stroke-width=\"3\"/><line x1=\"302\" y1=\"60\" x2=\"302\" y2=\"230\" stroke=\"#304638\" stroke-width=\"3\"/><line x1=\"387\" y1=\"60\" x2=\"387\" y2=\"230\" stroke=\"#304638\" stroke-width=\"3\"/><line x1=\"132\" y1=\"60\" x2=\"387\" y2=\"60\" stroke=\"#304638\" stroke-width=\"3\"/><line x1=\"132\" y1=\"145\" x2=\"387\" y2=\"145\" stroke=\"#304638\" stroke-width=\"3\"/><line x1=\"132\" y1=\"230\" x2=\"387\" y2=\"230\" stroke=\"#304638\" stroke-width=\"3\"/><circle cx=\"132\" cy=\"60\" r=\"3\" fill=\"#304638\"/><circle cx=\"132\" cy=\"145\" r=\"3\" fill=\"#304638\"/><circle cx=\"132\" cy=\"230\" r=\"3\" fill=\"#304638\"/><circle cx=\"217\" cy=\"60\" r=\"3\" fill=\"#304638\"/><circle cx=\"217\" cy=\"145\" r=\"3\" fill=\"#304638\"/><circle cx=\"217\" cy=\"230\" r=\"3\" fill=\"#304638\"/><circle cx=\"302\" cy=\"60\" r=\"3\" fill=\"#304638\"/><circle cx=\"302\" cy=\"145\" r=\"3\" fill=\"#304638\"/><circle cx=\"302\" cy=\"230\" r=\"3\" fill=\"#304638\"/><circle cx=\"387\" cy=\"60\" r=\"3\" fill=\"#304638\"/><circle cx=\"387\" cy=\"145\" r=\"3\" fill=\"#304638\"/><circle cx=\"387\" cy=\"230\" r=\"3\" fill=\"#304638\"/><circle cx=\"132\" cy=\"230\" r=\"7\" fill=\"#ac432b\"/><circle cx=\"387\" cy=\"60\" r=\"7\" fill=\"#ac432b\"/><text x=\"109\" y=\"260\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">A</text><text x=\"411\" y=\"46\" text-anchor=\"middle\" fill=\"#304638\" font-size=\"22\" font-family=\"Arial, sans-serif\">B</text></svg>",
+    "checkerboard-four": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 290\" role=\"img\"><title>Four-by-four checkerboard with opposite same-colour corner squares removed</title><rect width=\"520\" height=\"290\" rx=\"12\" fill=\"#fffef9\"/><rect x=\"156\" y=\"40\" width=\"52\" height=\"52\" fill=\"#74915b\" stroke=\"#304638\" stroke-width=\"2.5\"/><rect x=\"158\" y=\"42\" width=\"48\" height=\"48\" fill=\"#fffef9\" stroke=\"#304638\" stroke-width=\"2.5\"/><line x1=\"166\" y1=\"50\" x2=\"198\" y2=\"82\" stroke=\"#ac432b\" stroke-width=\"4\"/><line x1=\"198\" y1=\"50\" x2=\"166\" y2=\"82\" stroke=\"#ac432b\" stroke-width=\"4\"/><rect x=\"208\" y=\"40\" width=\"52\" height=\"52\" fill=\"#f2ead2\" stroke=\"#304638\" stroke-width=\"2.5\"/><rect x=\"260\" y=\"40\" width=\"52\" height=\"52\" fill=\"#74915b\" stroke=\"#304638\" stroke-width=\"2.5\"/><rect x=\"312\" y=\"40\" width=\"52\" height=\"52\" fill=\"#f2ead2\" stroke=\"#304638\" stroke-width=\"2.5\"/><rect x=\"156\" y=\"92\" width=\"52\" height=\"52\" fill=\"#f2ead2\" stroke=\"#304638\" stroke-width=\"2.5\"/><rect x=\"208\" y=\"92\" width=\"52\" height=\"52\" fill=\"#74915b\" stroke=\"#304638\" stroke-width=\"2.5\"/><rect x=\"260\" y=\"92\" width=\"52\" height=\"52\" fill=\"#f2ead2\" stroke=\"#304638\" stroke-width=\"2.5\"/><rect x=\"312\" y=\"92\" width=\"52\" height=\"52\" fill=\"#74915b\" stroke=\"#304638\" stroke-width=\"2.5\"/><rect x=\"156\" y=\"144\" width=\"52\" height=\"52\" fill=\"#74915b\" stroke=\"#304638\" stroke-width=\"2.5\"/><rect x=\"208\" y=\"144\" width=\"52\" height=\"52\" fill=\"#f2ead2\" stroke=\"#304638\" stroke-width=\"2.5\"/><rect x=\"260\" y=\"144\" width=\"52\" height=\"52\" fill=\"#74915b\" stroke=\"#304638\" stroke-width=\"2.5\"/><rect x=\"312\" y=\"144\" width=\"52\" height=\"52\" fill=\"#f2ead2\" stroke=\"#304638\" stroke-width=\"2.5\"/><rect x=\"156\" y=\"196\" width=\"52\" height=\"52\" fill=\"#f2ead2\" stroke=\"#304638\" stroke-width=\"2.5\"/><rect x=\"208\" y=\"196\" width=\"52\" height=\"52\" fill=\"#74915b\" stroke=\"#304638\" stroke-width=\"2.5\"/><rect x=\"260\" y=\"196\" width=\"52\" height=\"52\" fill=\"#f2ead2\" stroke=\"#304638\" stroke-width=\"2.5\"/><rect x=\"312\" y=\"196\" width=\"52\" height=\"52\" fill=\"#74915b\" stroke=\"#304638\" stroke-width=\"2.5\"/><rect x=\"314\" y=\"198\" width=\"48\" height=\"48\" fill=\"#fffef9\" stroke=\"#304638\" stroke-width=\"2.5\"/><line x1=\"322\" y1=\"206\" x2=\"354\" y2=\"238\" stroke=\"#ac432b\" stroke-width=\"4\"/><line x1=\"354\" y1=\"206\" x2=\"322\" y2=\"238\" stroke=\"#ac432b\" stroke-width=\"4\"/></svg>"
+  }
+}

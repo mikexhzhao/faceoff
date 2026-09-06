@@ -1,0 +1,111 @@
+{
+  "id": "games",
+  "name": "Winning Moves",
+  "strand": "Enrichment",
+  "kind": "Enrichment",
+  "grade": "Grades 5–7",
+  "symbol": "♟",
+  "lesson": [
+    "Work backwards from a tiny position. A losing position is one where every allowed move gives the opponent a winning position, assuming both play perfectly.",
+    "When players may remove 1 through $k$ counters and taking the last wins, leaving a multiple of $k+1$ lets you answer each move with enough counters to make the pair of moves total $k+1$.",
+    "Read the winning rule carefully. Making the player who takes the last counter lose changes the useful target positions. Equal piles sometimes allow a mirror strategy: copy the opponent's move in the other pile."
+  ],
+  "problems": [
+    {
+      "id": "games-01",
+      "q": "Two players take turns removing 1 or 2 counters. Taking the last counter wins. With 4 counters, how many should the first player remove to force a win?",
+      "answer": "$1$",
+      "hint": "Leave a pile the opponent cannot finish and can only reduce to a finishable pile.",
+      "solution": "Remove 1 to leave 3. Whatever the opponent takes, take the rest. The two moves remove 3 counters in total.",
+      "level": 1
+    },
+    {
+      "id": "games-02",
+      "q": "Two players take turns removing 1 or 2 counters. Taking the last wins. With 8 counters, how many should the first player remove to force a win?",
+      "answer": "$2$",
+      "hint": "Aim to leave a multiple of 3.",
+      "solution": "Remove 2 to leave 6. Then answer a removal of 1 with 2, or 2 with 1, to take the last counter.",
+      "level": 1
+    },
+    {
+      "id": "games-03",
+      "q": "Players may remove 1, 2 or 3 counters each turn. Taking the last wins. With 10 counters, what is the winning first removal?",
+      "answer": "$2$",
+      "hint": "Aim to leave a multiple of 4.",
+      "solution": "Remove 2 to leave 8. Thereafter make each pair of moves total 4, leaving 4 and then 0 on your turns.",
+      "level": 1
+    },
+    {
+      "id": "games-04",
+      "q": "Players may remove 1, 2 or 3 counters each turn. Taking the last wins. With 12 counters, does the first player have a move that forces a win against perfect play?",
+      "answer": "No",
+      "hint": "Consider the multiples of 4.",
+      "solution": "Twelve is a multiple of 4. The second player can always complete each pair of moves to 4, so every first move loses against perfect play.",
+      "level": 1
+    },
+    {
+      "id": "games-05",
+      "q": "Players may remove 1, 2, 3 or 4 counters each turn. Taking the last wins. With 21 counters, what is the winning first removal?",
+      "answer": "$1$",
+      "hint": "Useful target piles are multiples of 5.",
+      "solution": "Remove 1 to leave 20. After each opponent move, remove enough to make the two removals total 5.",
+      "level": 2
+    },
+    {
+      "id": "games-06",
+      "q": "Start at 0. Two players take turns adding 1, 2 or 3 without going over 20. The first to reach 20 wins. Which player can force a win?",
+      "answer": "The second player",
+      "hint": "Can one player finish each pair of moves at a multiple of 4?",
+      "solution": "The second player can answer each addition with enough to make the pair total 4. The totals after that player's turns are $4,8,12,16,20$.",
+      "level": 2
+    },
+    {
+      "id": "games-07",
+      "q": "Start at 0. Players take turns adding 1, 2 or 3 without going over 21. The first to reach 21 wins. What should the first player add initially to force a win?",
+      "answer": "$1$",
+      "hint": "Work backwards from 21 in steps of 4.",
+      "solution": "Add 1 first, then keep the totals after your turns at $1,5,9,13,17,21$ by making each later pair of additions total 4.",
+      "level": 2
+    },
+    {
+      "id": "games-08",
+      "q": "Players remove 1 or 2 counters per turn. The player who takes the last counter loses. With 7 counters, can the first player force a win?",
+      "answer": "No",
+      "hint": "Work backwards from a pile of 1, which is losing for the player to move.",
+      "solution": "Piles of $1,4,7,\\ldots$ are losing positions. From 7, any removal lets the second player leave 4, then 1.",
+      "level": 2
+    },
+    {
+      "id": "games-09",
+      "q": "Players remove 1 or 2 counters per turn. Taking the last counter loses. With 8 counters, what should the first player remove to force a win?",
+      "answer": "$1$",
+      "hint": "Leave the opponent a pile one greater than a multiple of 3.",
+      "solution": "Remove 1 to leave 7. Then respond so the opponent faces 4 and finally 1, forcing that player to take the last counter.",
+      "level": 3
+    },
+    {
+      "id": "games-10",
+      "q": "Players remove either 1 or 3 counters per turn. Taking the last wins. With 10 counters, which player can force a win?",
+      "answer": "The second player",
+      "hint": "Every move removes an odd number.",
+      "solution": "A move from an even pile leaves an odd pile. From any odd pile, removing 1 leaves an even pile. Thus even piles are losing positions, and the second player wins from 10.",
+      "level": 3
+    },
+    {
+      "id": "games-11",
+      "q": "A chocolate bar has 2 rows and 4 columns of squares. Each break splits one piece into two along a grid line. Pieces cannot be stacked. How many breaks are needed to separate all 8 squares?",
+      "answer": "$7$",
+      "hint": "Each break increases the number of pieces by exactly one.",
+      "solution": "Starting with 1 piece, reaching 8 pieces takes $8-1=7$ breaks, regardless of the order.",
+      "level": 3
+    },
+    {
+      "id": "games-12",
+      "q": "There are two piles containing 3 and 5 counters. On each turn, remove any positive number from one pile. Taking the last counter wins. What first move forces a win?",
+      "answer": "Remove 2 from the pile of 5.",
+      "hint": "Try leaving two equal piles.",
+      "solution": "Leave piles of 3 and 3. Whenever the opponent removes counters from one pile, remove the same number from the other. The piles become equal again, and your matching move takes the last counter.",
+      "level": 3
+    }
+  ]
+}

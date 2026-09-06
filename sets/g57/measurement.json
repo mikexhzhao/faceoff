@@ -1,0 +1,132 @@
+{
+  "id": "measurement",
+  "name": "Area, Volume & Scale",
+  "strand": "Geometry",
+  "kind": "Core",
+  "grade": "Grades 5–7",
+  "symbol": "▱",
+  "lesson": [
+    "Area counts square units; volume counts cubic units. A rectangle's area is length times width, and a rectangular prism's volume is length times width times height.",
+    "A triangle's area is half of base times perpendicular height. A parallelogram's area is base times perpendicular height. The sloping side is usually a different length from the height.",
+    "Split a compound shape into familiar pieces, or subtract a missing piece from a larger shape. When all lengths double, areas multiply by 4 and volumes by 8."
+  ],
+  "problems": [
+    {
+      "id": "measurement-01",
+      "q": "A rectangle is 8 cm long and 5 cm wide. What is its area?",
+      "answer": "$40\\text{ cm}^{2}$",
+      "hint": "Count square centimetres in 5 rows of 8.",
+      "solution": "$8\\times5=40\\text{ cm}^{2}$.",
+      "level": 1,
+      "diagram": "rectangle",
+      "imageAlt": "Rectangle with length 8 cm and width 5 cm.",
+      "image": "../../assets/diagrams/rectangle.svg"
+    },
+    {
+      "id": "measurement-02",
+      "q": "A rectangle is 8 cm long and 5 cm wide. What is its perimeter?",
+      "answer": "$26\\text{ cm}$",
+      "hint": "Add all four side lengths.",
+      "solution": "$8+5+8+5=26$ cm.",
+      "level": 1
+    },
+    {
+      "id": "measurement-03",
+      "q": "A triangle has base 12 cm and perpendicular height 5 cm. What is its area?",
+      "answer": "$30\\text{ cm}^{2}$",
+      "hint": "Take half of base times height.",
+      "solution": "$\\frac{1}{2}\\times12\\times5=30\\text{ cm}^{2}$.",
+      "level": 1,
+      "diagram": "triangle-area",
+      "imageAlt": "Triangle with a base labelled 12 cm and a dashed perpendicular height labelled 5 cm.",
+      "image": "../../assets/diagrams/triangle-area.svg"
+    },
+    {
+      "id": "measurement-04",
+      "q": "A parallelogram has base 9 cm and perpendicular height 4 cm. What is its area?",
+      "answer": "$36\\text{ cm}^{2}$",
+      "hint": "Use the perpendicular height, rather than a sloping side.",
+      "solution": "$9\\times4=36\\text{ cm}^{2}$.",
+      "level": 1,
+      "diagram": "parallelogram",
+      "imageAlt": "Parallelogram with base 9 cm and a dashed perpendicular height 4 cm.",
+      "image": "../../assets/diagrams/parallelogram.svg"
+    },
+    {
+      "id": "measurement-05",
+      "q": "A rectangular prism measures 4 cm by 3 cm by 7 cm. What is its volume?",
+      "answer": "$84\\text{ cm}^{3}$",
+      "hint": "Find the area of a base, then multiply by the height.",
+      "solution": "$4\\times3\\times7=84\\text{ cm}^{3}$.",
+      "level": 2,
+      "diagram": "prism",
+      "imageAlt": "Rectangular prism with its three dimensions labelled 4 cm, 3 cm and 7 cm.",
+      "image": "../../assets/diagrams/prism.svg"
+    },
+    {
+      "id": "measurement-06",
+      "q": "How many centimetres are in $2.4$ m?",
+      "answer": "$240\\text{ cm}$",
+      "hint": "One metre is 100 centimetres.",
+      "solution": "$2.4\\times100=240$ cm.",
+      "level": 2
+    },
+    {
+      "id": "measurement-07",
+      "q": "A 4 cm by 3 cm rectangle is removed from the top-right corner of a 10 cm by 8 cm rectangle. What is the remaining area?",
+      "answer": "$68\\text{ cm}^{2}$",
+      "hint": "Subtract the small rectangle's area from the large rectangle's area.",
+      "solution": "$10\\times8-4\\times3=80-12=68\\text{ cm}^{2}$.",
+      "level": 2,
+      "diagram": "l-shape",
+      "imageAlt": "A 10 cm by 8 cm rectangle with a 4 cm by 3 cm top-right corner removed.",
+      "image": "../../assets/diagrams/l-shape.svg"
+    },
+    {
+      "id": "measurement-08",
+      "q": "A 4 cm by 3 cm rectangle is removed from the top-right corner of a 10 cm by 8 cm rectangle. What is the perimeter of the remaining L-shape?",
+      "answer": "$36\\text{ cm}$",
+      "hint": "The notch adds the same lengths that were removed from the outer edges.",
+      "solution": "The boundary lengths are $10,5,4,3,6,8$ cm. Their sum is 36 cm, equal to the original rectangle's perimeter.",
+      "level": 2,
+      "diagram": "l-shape",
+      "imageAlt": "A 10 cm by 8 cm rectangle with a 4 cm by 3 cm top-right corner removed.",
+      "image": "../../assets/diagrams/l-shape.svg"
+    },
+    {
+      "id": "measurement-09",
+      "q": "A cube's edge length doubles from 3 cm to 6 cm. By what factor does its volume increase?",
+      "answer": "$8$",
+      "hint": "Compare $6^{3}$ with $3^{3}$.",
+      "solution": "The volumes are 216 and 27 cubic centimetres. The factor is $216\\div27=8$.",
+      "level": 3
+    },
+    {
+      "id": "measurement-10",
+      "q": "On a map, 1 cm represents 250 m. A path measures $7.2$ cm on the map. How long is it in kilometres?",
+      "answer": "$1.8\\text{ km}$",
+      "hint": "Find the real length in metres first.",
+      "solution": "$7.2\\times250=1800$ m, which is $1.8$ km.",
+      "level": 3
+    },
+    {
+      "id": "measurement-11",
+      "q": "An empty rectangular tank has a base 30 cm by 20 cm. It receives $1.8$ L of water. How deep is the water? Use $1\\text{ L}=1000\\text{ cm}^{3}$.",
+      "answer": "$3\\text{ cm}$",
+      "hint": "Divide volume by base area.",
+      "solution": "The water volume is $1800\\text{ cm}^{3}$ and the base area is $600\\text{ cm}^{2}$. Its depth is $1800\\div600=3$ cm.",
+      "level": 3
+    },
+    {
+      "id": "measurement-12",
+      "q": "A rectangular garden is 12 m by 8 m. A path 1 m wide is built around the outside, including the corners. What is the area of the path?",
+      "answer": "$44\\text{ m}^{2}$",
+      "hint": "The outer length and width each increase by 2 m.",
+      "solution": "The outer rectangle is 14 m by 10 m. The path area is $14\\times10-12\\times8=140-96=44\\text{ m}^{2}$.",
+      "level": 3,
+      "diagram": "garden",
+      "imageAlt": "A 12 m by 8 m rectangle surrounded on all four sides by a 1 m wide border.",
+      "image": "../../assets/diagrams/garden.svg"
+    }
+  ]
+}

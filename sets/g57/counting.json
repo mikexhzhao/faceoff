@@ -1,0 +1,117 @@
+{
+  "id": "counting",
+  "name": "Counting Without Listing",
+  "strand": "Enrichment",
+  "kind": "Enrichment",
+  "grade": "Grades 5–7",
+  "symbol": "!",
+  "lesson": [
+    "If one choice has 3 options and the next has 4, there are $3\\times4=12$ combined choices. A tree diagram can make the choices visible.",
+    "Ask whether order matters. Choosing two friends for a team is different from choosing a captain and a deputy. When a count lists each choice more than once, divide by the number of repeats.",
+    "A shortest grid route can be encoded as a sequence of right and up moves. Counting routes becomes a question about choosing the positions of those moves."
+  ],
+  "problems": [
+    {
+      "id": "counting-01",
+      "q": "You have 3 shirts and 2 hats. How many outfits use one shirt and one hat?",
+      "answer": "$6$",
+      "hint": "Match each shirt with each hat.",
+      "solution": "Each of the three shirts has two choices of hat, giving $3\\times2=6$ outfits.",
+      "level": 1
+    },
+    {
+      "id": "counting-02",
+      "q": "A code has three digits. Each digit is either 0 or 1, and 000 is allowed. How many codes are possible?",
+      "answer": "$8$",
+      "hint": "There are two choices in each position.",
+      "solution": "$2\\times2\\times2=8$ codes.",
+      "level": 1
+    },
+    {
+      "id": "counting-03",
+      "q": "Four different children stand in a line. How many orders are possible?",
+      "answer": "$24$",
+      "hint": "There are fewer children available at each successive position.",
+      "solution": "There are $4\\times3\\times2\\times1=24$ orders.",
+      "level": 1
+    },
+    {
+      "id": "counting-04",
+      "q": "Choose two different toppings from five available toppings. The order does not matter. How many pairs can be chosen?",
+      "answer": "$10$",
+      "hint": "Choosing first and second counts each pair twice.",
+      "solution": "There are $5\\times4=20$ ordered choices. Each pair appears in two orders, giving $20\\div2=10$ pairs.",
+      "level": 1
+    },
+    {
+      "id": "counting-05",
+      "q": "On this grid, travel from A to B using only one-edge steps right or up. How many routes are possible?",
+      "answer": "$10$",
+      "hint": "Every route has three right steps and two up steps.",
+      "solution": "Choose the two positions for up steps among five positions. There are $5\\times4\\div2=10$ choices.",
+      "level": 2,
+      "diagram": "grid-path",
+      "imageAlt": "A rectangular grid three edges wide and two edges high, with A at the bottom-left corner and B at the top-right.",
+      "image": "../../assets/diagrams/grid-path.svg"
+    },
+    {
+      "id": "counting-06",
+      "q": "How many two-digit numbers can be formed from 1, 2 and 3 without repeating a digit?",
+      "answer": "$6$",
+      "hint": "Choose the tens digit, then the units digit.",
+      "solution": "There are 3 choices for the tens digit and 2 remaining choices for the units digit, giving 6 numbers.",
+      "level": 2
+    },
+    {
+      "id": "counting-07",
+      "q": "How many four-digit numbers use each of the digits 0, 1, 2 and 3 exactly once?",
+      "answer": "$18$",
+      "hint": "The first digit cannot be zero.",
+      "solution": "There are 3 choices for the first digit, then 3, 2 and 1 for the remaining digits. The total is $3\\times3\\times2\\times1=18$.",
+      "level": 2
+    },
+    {
+      "id": "counting-08",
+      "q": "Six friends each shake hands with every other friend exactly once. How many handshakes occur?",
+      "answer": "$15$",
+      "hint": "Each handshake involves a pair of friends.",
+      "solution": "Counting five handshakes per person gives 30, but each handshake is counted twice. The total is $30\\div2=15$.",
+      "level": 2
+    },
+    {
+      "id": "counting-09",
+      "q": "Five different finalists compete for gold, silver and bronze. There are no ties. How many medal assignments are possible?",
+      "answer": "$60$",
+      "hint": "The medals are different roles, so order matters.",
+      "solution": "There are 5 choices for gold, 4 for silver and 3 for bronze: $5\\times4\\times3=60$.",
+      "level": 3
+    },
+    {
+      "id": "counting-10",
+      "q": "How many rectangles of all sizes are formed by the grid lines in this 2-row, 3-column grid?",
+      "answer": "$18$",
+      "hint": "A rectangle is determined by two horizontal lines and two vertical lines.",
+      "solution": "Choose two of the three horizontal lines in 3 ways and two of the four vertical lines in 6 ways. The total is $3\\times6=18$.",
+      "level": 3,
+      "diagram": "rectangle-grid",
+      "imageAlt": "Rectangular grid with two rows and three columns of equal cells.",
+      "image": "../../assets/diagrams/rectangle-grid.svg"
+    },
+    {
+      "id": "counting-11",
+      "q": "A shortest grid route uses exactly four right steps and three up steps. How many different routes are there?",
+      "answer": "$35$",
+      "hint": "Choose the three positions occupied by up steps.",
+      "solution": "There are $7\\times6\\times5$ ordered choices of up-step positions. Divide by $3\\times2\\times1$ to ignore their order: $210\\div6=35$.",
+      "level": 3
+    },
+    {
+      "id": "counting-12",
+      "q": "How many integers from 1 to 100 contain the digit 7 at least once?",
+      "answer": "$19$",
+      "hint": "Count units-digit 7 and tens-digit 7, then account for the overlap.",
+      "solution": "There are 10 numbers with units digit 7 and 10 with tens digit 7. The number 77 belongs to both groups, so the total is $10+10-1=19$.",
+      "level": 3
+    }
+  ]
+}

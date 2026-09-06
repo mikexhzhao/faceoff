@@ -1,0 +1,114 @@
+{
+  "id": "fractions",
+  "name": "Fractions & Fair Shares",
+  "strand": "Number",
+  "kind": "Core",
+  "grade": "Grades 5–7",
+  "symbol": "½",
+  "lesson": [
+    "A fraction compares a number of equal parts with the number of parts in one whole. To compare fractions, give them the same denominator or compare each with one half.",
+    "To add or subtract fractions, first express them in equal-sized parts. For example, $\\frac{1}{2}+\\frac{1}{3}=\\frac{3}{6}+\\frac{2}{6}=\\frac{5}{6}$.",
+    "To find a fraction of a quantity, divide by the denominator and multiply by the numerator. When a fraction of the whole is known, work backwards to find the whole."
+  ],
+  "problems": [
+    {
+      "id": "fractions-01",
+      "q": "What fraction of the strip is shaded?",
+      "answer": "$\\frac{3}{8}$",
+      "hint": "Count all the equal sections, then the shaded sections.",
+      "solution": "There are 8 equal sections and 3 are shaded, so the shaded fraction is $\\frac{3}{8}$.",
+      "level": 1,
+      "diagram": "fraction-strip",
+      "imageAlt": "A strip divided into eight equal rectangles; the first three are shaded.",
+      "image": "../../assets/diagrams/fraction-strip.svg"
+    },
+    {
+      "id": "fractions-02",
+      "q": "Write $\\frac{6}{9}$ in lowest terms.",
+      "answer": "$\\frac{2}{3}$",
+      "hint": "Find a number that divides both 6 and 9.",
+      "solution": "Divide both the numerator and denominator by 3: $\\frac{6}{9}=\\frac{2}{3}$.",
+      "level": 1
+    },
+    {
+      "id": "fractions-03",
+      "q": "Which is greater: $\\frac{5}{8}$ or $\\frac{7}{12}$?",
+      "answer": "$\\frac{5}{8}$",
+      "hint": "Use a denominator of 24.",
+      "solution": "$\\frac{5}{8}=\\frac{15}{24}$ and $\\frac{7}{12}=\\frac{14}{24}$. Therefore $\\frac{5}{8}$ is greater.",
+      "level": 1
+    },
+    {
+      "id": "fractions-04",
+      "q": "What is $\\frac{3}{4}$ of 28?",
+      "answer": "$21$",
+      "hint": "Find one quarter first.",
+      "solution": "One quarter is $28\\div4=7$. Three quarters is $3\\times7=21$.",
+      "level": 1
+    },
+    {
+      "id": "fractions-05",
+      "q": "Calculate $\\frac{2}{3}+\\frac{5}{6}$.",
+      "answer": "$\\frac{3}{2}$",
+      "hint": "Express both fractions in sixths.",
+      "solution": "$\\frac{4}{6}+\\frac{5}{6}=\\frac{9}{6}=\\frac{3}{2}$, or $1\\frac{1}{2}$.",
+      "level": 2
+    },
+    {
+      "id": "fractions-06",
+      "q": "Calculate $\\frac{7}{8}-\\frac{1}{3}$.",
+      "answer": "$\\frac{13}{24}$",
+      "hint": "Both denominators divide 24.",
+      "solution": "$\\frac{7}{8}-\\frac{1}{3}=\\frac{21}{24}-\\frac{8}{24}=\\frac{13}{24}$.",
+      "level": 2
+    },
+    {
+      "id": "fractions-07",
+      "q": "A jug holds $2\\frac{1}{4}$ L of juice. How many full $\\frac{3}{8}$ L cups can it fill?",
+      "answer": "$6$",
+      "hint": "Write the amount in the jug in eighths.",
+      "solution": "The jug holds $\\frac{18}{8}$ L. Each cup uses $\\frac{3}{8}$ L, so it fills $18\\div3=6$ cups.",
+      "level": 2
+    },
+    {
+      "id": "fractions-08",
+      "q": "Eighteen students are $\\frac{3}{5}$ of a class. How many students are in the class?",
+      "answer": "$30$",
+      "hint": "First find the number in one fifth.",
+      "solution": "One fifth is $18\\div3=6$ students. Five fifths is $5\\times6=30$ students.",
+      "level": 2
+    },
+    {
+      "id": "fractions-09",
+      "q": "A gardener plants $\\frac{1}{3}$ of a plot with beans and $\\frac{1}{4}$ of the same plot with carrots. The two regions do not overlap. What fraction remains?",
+      "answer": "$\\frac{5}{12}$",
+      "hint": "Subtract both planted fractions from one whole.",
+      "solution": "$1-\\frac{1}{3}-\\frac{1}{4}=\\frac{12}{12}-\\frac{4}{12}-\\frac{3}{12}=\\frac{5}{12}$.",
+      "level": 3
+    },
+    {
+      "id": "fractions-10",
+      "q": "A hiker walks $\\frac{2}{3}$ of a trail before lunch, then half of the remaining distance. What fraction of the entire trail is still left?",
+      "answer": "$\\frac{1}{6}$",
+      "hint": "After lunch, the hiker completes half of the last third.",
+      "solution": "After the morning, $\\frac{1}{3}$ remains. Half of that third is left at the end: $\\frac{1}{2}\\times\\frac{1}{3}=\\frac{1}{6}$.",
+      "level": 3
+    },
+    {
+      "id": "fractions-11",
+      "q": "Which fraction with denominator 14 lies strictly between $\\frac{3}{7}$ and $\\frac{4}{7}$?",
+      "answer": "$\\frac{7}{14}$",
+      "hint": "Express the two endpoints in fourteenths.",
+      "solution": "The endpoints are $\\frac{6}{14}$ and $\\frac{8}{14}$. The only integer numerator strictly between 6 and 8 is 7.",
+      "level": 3
+    },
+    {
+      "id": "fractions-12",
+      "q": "A tank is $\\frac{3}{4}$ full. After 18 L is removed, it is $\\frac{3}{10}$ full. What is its capacity?",
+      "answer": "$40\\text{ L}$",
+      "hint": "The removed water represents the difference between the two fractions.",
+      "solution": "The removed fraction is $\\frac{3}{4}-\\frac{3}{10}=\\frac{9}{20}$. One twentieth holds $18\\div9=2$ L, so the whole tank holds $20\\times2=40$ L.",
+      "level": 3
+    }
+  ]
+}

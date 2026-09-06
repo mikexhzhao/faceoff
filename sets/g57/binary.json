@@ -1,0 +1,114 @@
+{
+  "id": "binary",
+  "name": "Binary & Secret Messages",
+  "strand": "Enrichment",
+  "kind": "Enrichment",
+  "grade": "Grades 5–7",
+  "symbol": "01",
+  "lesson": [
+    "A binary digit is either 0 or 1. From right to left, the place values are $1,2,4,8,16,\\ldots$. A 1 includes its place value; a 0 leaves it out. For example, binary 101 is $4+1=5$.",
+    "Each extra on/off switch doubles the number of possible patterns. Four switches allow $2^{4}=16$ patterns, including the all-off pattern.",
+    "A shift cipher moves each letter the same number of places through the alphabet, wrapping around after Z. A parity bit adds a check: it can make the total number of 1s even, so some errors can be detected."
+  ],
+  "problems": [
+    {
+      "id": "binary-01",
+      "q": "A four-bit binary code uses place values 8, 4, 2, 1 from left to right. What ordinary number does 1011 represent?",
+      "answer": "$11$",
+      "hint": "Add the place values with a 1.",
+      "solution": "$1\\times8+0\\times4+1\\times2+1\\times1=11$.",
+      "level": 1,
+      "diagram": "binary-cards",
+      "imageAlt": "Four cards with weights 8, 4, 2, 1 and corresponding binary digits 1, 0, 1, 1.",
+      "image": "../../assets/diagrams/binary-cards.svg"
+    },
+    {
+      "id": "binary-02",
+      "q": "Write 13 in four-bit binary, using place values 8, 4, 2, 1 from left to right.",
+      "answer": "1101",
+      "hint": "Build 13 from the available place values.",
+      "solution": "$13=8+4+1$, so the digits are 1, 1, 0, 1.",
+      "level": 1
+    },
+    {
+      "id": "binary-03",
+      "q": "What is binary $111+1$? Give the answer in binary.",
+      "answer": "1000",
+      "hint": "Binary 111 is one less than the next power of 2.",
+      "solution": "Binary 111 represents 7. Adding 1 gives 8, represented by 1000.",
+      "level": 1
+    },
+    {
+      "id": "binary-04",
+      "q": "What is the greatest ordinary whole number that four binary digits can represent?",
+      "answer": "$15$",
+      "hint": "Turn on every place value.",
+      "solution": "Binary 1111 represents $8+4+2+1=15$.",
+      "level": 1
+    },
+    {
+      "id": "binary-05",
+      "q": "Five switches can each be on or off. How many different patterns are possible, including all off?",
+      "answer": "$32$",
+      "hint": "Each switch doubles the number of possibilities.",
+      "solution": "There are $2\\times2\\times2\\times2\\times2=2^{5}=32$ patterns.",
+      "level": 2
+    },
+    {
+      "id": "binary-06",
+      "q": "Binary 10110 uses place values 16, 8, 4, 2, 1 from left to right. What ordinary number does it represent?",
+      "answer": "$22$",
+      "hint": "Add the weights of the three 1s.",
+      "solution": "$16+4+2=22$.",
+      "level": 2
+    },
+    {
+      "id": "binary-07",
+      "q": "A cipher replaces each letter with the letter three places later: A becomes D, B becomes E, and so on, wrapping after Z. Encode MATH.",
+      "answer": "PDWK",
+      "hint": "Shift each of the four letters separately.",
+      "solution": "M becomes P, A becomes D, T becomes W and H becomes K, giving PDWK.",
+      "level": 2
+    },
+    {
+      "id": "binary-08",
+      "q": "A cipher shifts each original letter two places forward, wrapping after Z. The encoded message is ECV. Decode it.",
+      "answer": "CAT",
+      "hint": "To decode, shift backwards by two places.",
+      "solution": "E becomes C, C becomes A and V becomes T. The original message is CAT.",
+      "level": 2
+    },
+    {
+      "id": "binary-09",
+      "q": "Append one binary digit to 10110 so that the total number of 1s is even. What digit should be appended?",
+      "answer": "$1$",
+      "hint": "Count the 1s already present.",
+      "solution": "There are three 1s, an odd number. Appending 1 makes four 1s, which is even.",
+      "level": 3
+    },
+    {
+      "id": "binary-10",
+      "q": "Seven binary digits can represent ordinary numbers from 0 up to what greatest value?",
+      "answer": "$127$",
+      "hint": "Add $1+2+4+8+16+32+64$.",
+      "solution": "The sum is 127. There are $2^{7}=128$ possible codes, representing 0 through 127.",
+      "level": 3
+    },
+    {
+      "id": "binary-11",
+      "q": "A mystery card is one of 20 distinct cards. Each yes/no question can split the remaining possibilities as evenly as possible. What is the fewest questions needed to guarantee identifying the card?",
+      "answer": "$5$",
+      "hint": "Compare 20 with powers of 2.",
+      "solution": "Four answers give at most $2^{4}=16$ patterns, which is too few. Five give $2^{5}=32$, enough when the questions split the possibilities evenly.",
+      "level": 3
+    },
+    {
+      "id": "binary-12",
+      "q": "How many six-bit binary strings contain exactly three 1s?",
+      "answer": "$20$",
+      "hint": "Choose the three positions occupied by 1s.",
+      "solution": "Choosing three distinct positions in order gives $6\\times5\\times4=120$ possibilities. Each set of positions was counted $3\\times2\\times1=6$ times, so there are $120\\div6=20$ strings.",
+      "level": 3
+    }
+  ]
+}
