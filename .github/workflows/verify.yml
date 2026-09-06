@@ -1,0 +1,27 @@
+name: Verify Face-Off
+on:
+  push:
+    branches: [main, faceoff-themes-g57-completion]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: JavaScript syntax
+        run: |
+          node --check app.js
+          if [ -f faceoff-next.js ]; then node --check faceoff-next.js; fi
+      - name: Validate content
+        run: |
+          if [ -f tests/validate.py ]; then python3 tests/validate.py; fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: faceoff-source
+          path: |
+            .
+            !.git/**
+          include-hidden-files: true
+          retention-days: 30
