@@ -1,0 +1,120 @@
+{
+  "id": "coordinates",
+  "name": "Coordinates & Transformations",
+  "strand": "Geometry",
+  "kind": "Core",
+  "grade": "Grades 5–7",
+  "symbol": "↗",
+  "lesson": [
+    "In an ordered pair $(x,y)$, $x$ gives horizontal position and $y$ gives vertical position. Moving right increases $x$; moving up increases $y$.",
+    "Reflecting across the vertical axis changes $(x,y)$ to $(-x,y)$. Reflecting across the horizontal axis changes it to $(x,-y)$.",
+    "A translation moves every point by the same amounts. Follow a sequence of moves in order; reflecting before translating can give a different result from translating before reflecting."
+  ],
+  "problems": [
+    {
+      "id": "coordinates-01",
+      "q": "Point $A$ is at $(2,3)$. It moves 4 units right and 2 units up. What are its new coordinates?",
+      "answer": "$(6,5)$",
+      "hint": "Change each coordinate separately.",
+      "solution": "The new point is $(2+4,3+2)=(6,5)$.",
+      "level": 1,
+      "diagram": "coordinate-a",
+      "imageAlt": "Coordinate grid with point A at (2,3).",
+      "image": "../../assets/diagrams/coordinate-a.svg"
+    },
+    {
+      "id": "coordinates-02",
+      "q": "What is the horizontal distance between $(-2,4)$ and $(5,4)$?",
+      "answer": "$7\\text{ units}$",
+      "hint": "Count the distance on each side of the vertical axis.",
+      "solution": "From $-2$ to 0 is 2 units, and from 0 to 5 is 5 units, giving 7 units.",
+      "level": 1
+    },
+    {
+      "id": "coordinates-03",
+      "q": "Reflect $(3,-2)$ across the vertical axis. What is the image?",
+      "answer": "$(-3,-2)$",
+      "hint": "The vertical coordinate stays the same.",
+      "solution": "The horizontal coordinate changes sign, giving $(-3,-2)$.",
+      "level": 1
+    },
+    {
+      "id": "coordinates-04",
+      "q": "Reflect $(-4,5)$ across the horizontal axis. What is the image?",
+      "answer": "$(-4,-5)$",
+      "hint": "The horizontal coordinate stays the same.",
+      "solution": "The vertical coordinate changes sign, giving $(-4,-5)$.",
+      "level": 1
+    },
+    {
+      "id": "coordinates-05",
+      "q": "What point is halfway between $(2,1)$ and $(2,9)$?",
+      "answer": "$(2,5)$",
+      "hint": "The horizontal position is fixed.",
+      "solution": "The vertical coordinate halfway between 1 and 9 is $(1+9)\\div2=5$, giving $(2,5)$.",
+      "level": 2
+    },
+    {
+      "id": "coordinates-06",
+      "q": "The vertices of a rectangle, in order, are $A(1,1)$, $B(7,1)$, $C(7,4)$ and $D$. Find $D$.",
+      "answer": "$(1,4)$",
+      "hint": "Match the horizontal coordinate of A and the vertical coordinate of C.",
+      "solution": "The missing corner is $D(1,4)$.",
+      "level": 2,
+      "diagram": "coordinate-rectangle",
+      "imageAlt": "Three labelled corners A(1,1), B(7,1), C(7,4) of an axis-aligned rectangle, with the fourth corner marked D.",
+      "image": "../../assets/diagrams/coordinate-rectangle.svg"
+    },
+    {
+      "id": "coordinates-07",
+      "q": "A rectangle has vertices $(1,1)$, $(7,1)$, $(7,4)$ and $(1,4)$. What is its area?",
+      "answer": "$18\\text{ square units}$",
+      "hint": "Find its horizontal and vertical side lengths.",
+      "solution": "The side lengths are $7-1=6$ and $4-1=3$, so the area is $6\\times3=18$.",
+      "level": 2
+    },
+    {
+      "id": "coordinates-08",
+      "q": "A quarter-turn anticlockwise about the origin follows the rule $(x,y)\\to(-y,x)$. Where does $(3,1)$ go?",
+      "answer": "$(-1,3)$",
+      "hint": "Substitute the original coordinates into the rule.",
+      "solution": "With $x=3$ and $y=1$, the image is $(-1,3)$.",
+      "level": 2
+    },
+    {
+      "id": "coordinates-09",
+      "q": "Point $(1,2)$ moves 3 units right and 1 unit down. The new point is then reflected across the vertical axis. What is the final point?",
+      "answer": "$(-4,1)$",
+      "hint": "Complete the translation before reflecting.",
+      "solution": "Translation gives $(4,1)$. Reflecting across the vertical axis gives $(-4,1)$.",
+      "level": 3
+    },
+    {
+      "id": "coordinates-10",
+      "q": "How many lines of symmetry does a regular hexagon have?",
+      "answer": "$6$",
+      "hint": "Some pass through opposite vertices; others pass through midpoints of opposite sides.",
+      "solution": "Three lines join opposite vertices and three join midpoints of opposite sides, for a total of 6.",
+      "level": 3,
+      "diagram": "hexagon",
+      "imageAlt": "A regular hexagon with all six sides equal.",
+      "image": "../../assets/diagrams/hexagon.svg"
+    },
+    {
+      "id": "coordinates-11",
+      "q": "A point is reflected across the vertical axis and then moved 3 units right. Its final position is $(7,2)$. What was the original point?",
+      "answer": "$(-4,2)$",
+      "hint": "Undo the translation before undoing the reflection.",
+      "solution": "Move 3 units left to get $(4,2)$, then reflect to get $(-4,2)$.",
+      "level": 3
+    },
+    {
+      "id": "coordinates-12",
+      "q": "A robot starts at $(0,0)$. It repeats this sequence four times: move 2 units right, 1 unit up, then 1 unit left. Where does it finish?",
+      "answer": "$(4,4)$",
+      "hint": "Find the net movement of one complete sequence.",
+      "solution": "Each sequence moves it 1 unit right and 1 unit up. Four repetitions give $(4,4)$.",
+      "level": 3
+    }
+  ]
+}

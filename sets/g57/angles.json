@@ -1,0 +1,126 @@
+{
+  "id": "angles",
+  "name": "Angles & Shapes",
+  "strand": "Geometry",
+  "kind": "Core",
+  "grade": "Grades 5–7",
+  "symbol": "∠",
+  "lesson": [
+    "Angles on a straight line add to $180^\\circ$, and angles around a point add to $360^\\circ$.",
+    "The interior angles of a triangle add to $180^\\circ$. An isosceles triangle has two equal angles opposite its equal sides.",
+    "A polygon can be split into triangles by drawing diagonals from one vertex. Count the triangles to find the polygon's angle sum."
+  ],
+  "problems": [
+    {
+      "id": "angles-01",
+      "q": "Two adjacent angles form a straight angle. One measures $118^\\circ$. Find $x$.",
+      "answer": "$62^\\circ$",
+      "hint": "Their sum is $180^\\circ$.",
+      "solution": "$x=180^\\circ-118^\\circ=62^\\circ$.",
+      "level": 1,
+      "diagram": "straight-angle",
+      "imageAlt": "A straight line split by a ray into an angle labelled 118 degrees and an angle labelled x.",
+      "image": "../../assets/diagrams/straight-angle.svg"
+    },
+    {
+      "id": "angles-02",
+      "q": "A triangle has two angles measuring $48^\\circ$ and $67^\\circ$. Find its third angle.",
+      "answer": "$65^\\circ$",
+      "hint": "Use the angle sum of a triangle.",
+      "solution": "$180^\\circ-48^\\circ-67^\\circ=65^\\circ$.",
+      "level": 1,
+      "diagram": "triangle-angles",
+      "imageAlt": "Triangle with two base angles labelled 48 degrees and 67 degrees, and the third labelled x.",
+      "image": "../../assets/diagrams/triangle-angles.svg"
+    },
+    {
+      "id": "angles-03",
+      "q": "One acute angle of a right triangle measures $34^\\circ$. What is its other acute angle?",
+      "answer": "$56^\\circ$",
+      "hint": "The two acute angles add to $90^\\circ$.",
+      "solution": "$90^\\circ-34^\\circ=56^\\circ$.",
+      "level": 1
+    },
+    {
+      "id": "angles-04",
+      "q": "An isosceles triangle has a $40^\\circ$ angle between its equal sides. What is each of its other angles?",
+      "answer": "$70^\\circ$",
+      "hint": "Share the remaining angle sum equally.",
+      "solution": "The remaining sum is $180^\\circ-40^\\circ=140^\\circ$. Each equal angle is $70^\\circ$.",
+      "level": 1,
+      "diagram": "isosceles",
+      "imageAlt": "An isosceles triangle with matching ticks on its two equal sides and an apex angle labelled 40 degrees.",
+      "image": "../../assets/diagrams/isosceles.svg"
+    },
+    {
+      "id": "angles-05",
+      "q": "Three angles of a quadrilateral measure $90^\\circ$, $85^\\circ$ and $110^\\circ$. What is the fourth angle?",
+      "answer": "$75^\\circ$",
+      "hint": "A quadrilateral can be split into two triangles.",
+      "solution": "Its angle sum is $360^\\circ$. The fourth angle is $360^\\circ-90^\\circ-85^\\circ-110^\\circ=75^\\circ$.",
+      "level": 2
+    },
+    {
+      "id": "angles-06",
+      "q": "One side of an equilateral triangle is extended. What is the exterior angle marked $x$?",
+      "answer": "$120^\\circ$",
+      "hint": "Each interior angle is $60^\\circ$.",
+      "solution": "The interior angle and $x$ make a straight angle, so $x=180^\\circ-60^\\circ=120^\\circ$.",
+      "level": 2,
+      "diagram": "equilateral-exterior",
+      "imageAlt": "An equilateral triangle with its base extended to the right; x marks the exterior angle.",
+      "image": "../../assets/diagrams/equilateral-exterior.svg"
+    },
+    {
+      "id": "angles-07",
+      "q": "Three angles around a point measure $90^\\circ$, $125^\\circ$ and $x$. Find $x$.",
+      "answer": "$145^\\circ$",
+      "hint": "All three make one full turn.",
+      "solution": "$x=360^\\circ-90^\\circ-125^\\circ=145^\\circ$.",
+      "level": 2
+    },
+    {
+      "id": "angles-08",
+      "q": "A robot makes four equal turns in the same direction and completes exactly one full turn. How large is each turn?",
+      "answer": "$90^\\circ$",
+      "hint": "Divide a full turn into four parts.",
+      "solution": "$360^\\circ\\div4=90^\\circ$.",
+      "level": 2
+    },
+    {
+      "id": "angles-09",
+      "q": "A pentagon is split into three triangles by diagonals from one vertex. What is the sum of its interior angles?",
+      "answer": "$540^\\circ$",
+      "hint": "Add the angle sums of the three triangles.",
+      "solution": "$3\\times180^\\circ=540^\\circ$.",
+      "level": 3,
+      "diagram": "pentagon",
+      "imageAlt": "A convex pentagon partitioned into three triangles by two diagonals from one vertex.",
+      "image": "../../assets/diagrams/pentagon.svg"
+    },
+    {
+      "id": "angles-10",
+      "q": "A hexagon can be split into four triangles. All six interior angles of a regular hexagon are equal. What is each angle?",
+      "answer": "$120^\\circ$",
+      "hint": "Find the total angle sum, then divide by 6.",
+      "solution": "The sum is $4\\times180^\\circ=720^\\circ$. Each of the six equal angles is $720^\\circ\\div6=120^\\circ$.",
+      "level": 3
+    },
+    {
+      "id": "angles-11",
+      "q": "A triangle's angles are in the ratio $1:2:3$. What is the largest angle?",
+      "answer": "$90^\\circ$",
+      "hint": "There are six equal parts in the angle sum.",
+      "solution": "Each part is $180^\\circ\\div6=30^\\circ$. The largest angle has three parts, so it is $90^\\circ$.",
+      "level": 3
+    },
+    {
+      "id": "angles-12",
+      "q": "In an isosceles triangle, extend a side beyond the vertex where the equal sides meet. The exterior angle there is $112^\\circ$. What is each base angle?",
+      "answer": "$56^\\circ$",
+      "hint": "First find the interior angle at the vertex.",
+      "solution": "The vertex angle is $180^\\circ-112^\\circ=68^\\circ$. Each base angle is $(180^\\circ-68^\\circ)\\div2=56^\\circ$.",
+      "level": 3
+    }
+  ]
+}

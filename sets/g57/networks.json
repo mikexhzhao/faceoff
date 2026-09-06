@@ -1,0 +1,126 @@
+{
+  "id": "networks",
+  "name": "Routes & Networks",
+  "strand": "Enrichment",
+  "kind": "Enrichment",
+  "grade": "Grades 5–7",
+  "symbol": "⋈",
+  "lesson": [
+    "A network has vertices (dots) joined by edges (lines). The degree of a vertex is the number of edges meeting it. Crossings without dots are not extra vertices.",
+    "Every edge contributes 2 to the total of all degrees, one at each end. A connected network with no cycles is called a tree. A tree on $n$ vertices has $n-1$ edges.",
+    "A one-stroke walk uses every edge exactly once. In a connected network it is possible when there are exactly 0 or 2 vertices of odd degree. With 2 odd vertices, the walk starts at one and ends at the other."
+  ],
+  "problems": [
+    {
+      "id": "networks-01",
+      "q": "In the network, how many edges meet vertex A?",
+      "answer": "$3$",
+      "hint": "Count only the lines ending at A.",
+      "solution": "The edges AB, AD and AC meet A, so A has degree 3.",
+      "level": 1,
+      "diagram": "square-diagonal",
+      "imageAlt": "Four vertices A, B, C, D form a square with edges AB, BC, CD, DA and diagonal AC.",
+      "image": "../../assets/diagrams/square-diagonal.svg"
+    },
+    {
+      "id": "networks-02",
+      "q": "What is the sum of the degrees of all four vertices in the network?",
+      "answer": "$10$",
+      "hint": "Count each edge at both of its ends.",
+      "solution": "There are 5 edges. Each contributes 2 to the degree total, so the sum is 10.",
+      "level": 1,
+      "diagram": "square-diagonal",
+      "imageAlt": "Four vertices A, B, C, D form a square with edges AB, BC, CD, DA and diagonal AC.",
+      "image": "../../assets/diagrams/square-diagonal.svg"
+    },
+    {
+      "id": "networks-03",
+      "q": "Four towns each have a direct road to every other town. There is one road for each pair of towns. How many roads are there?",
+      "answer": "$6$",
+      "hint": "Count pairs of towns rather than directions of travel.",
+      "solution": "Each of 4 towns meets 3 roads, counting each road twice. There are $4\\times3\\div2=6$ roads.",
+      "level": 1
+    },
+    {
+      "id": "networks-04",
+      "q": "What is the fewest roads needed to connect five towns so that every town can be reached from every other?",
+      "answer": "$4$",
+      "hint": "A chain of towns gives one possible construction.",
+      "solution": "Starting with one town, each of the other four needs a connection. Four roads suffice, for example in a chain, and fewer cannot connect all five towns.",
+      "level": 1
+    },
+    {
+      "id": "networks-05",
+      "q": "A network has a total vertex degree of 18. How many edges does it have?",
+      "answer": "$9$",
+      "hint": "Every edge has two ends.",
+      "solution": "Each edge contributes 2 to the degree total, so there are $18\\div2=9$ edges.",
+      "level": 2
+    },
+    {
+      "id": "networks-06",
+      "q": "A one-stroke walk must use each edge exactly once. In this network, which vertices can be the starting point?",
+      "answer": "A or C",
+      "hint": "Find the vertices of odd degree.",
+      "solution": "A and C each have degree 3; B and D each have degree 2. A one-stroke walk must start at A or C and finish at the other. For example, A-B-C-D-A-C works.",
+      "level": 2,
+      "diagram": "square-diagonal",
+      "imageAlt": "Square network with one diagonal AC; degrees of A and C are odd.",
+      "image": "../../assets/diagrams/square-diagonal.svg"
+    },
+    {
+      "id": "networks-07",
+      "q": "Can this network be drawn in one stroke, using each edge exactly once? The crossing of the diagonals is not a vertex.",
+      "answer": "No",
+      "hint": "Count the odd-degree vertices.",
+      "solution": "Each of the four vertices has degree 3. A one-stroke walk can have only 0 or 2 odd-degree vertices, so this network is impossible.",
+      "level": 2,
+      "diagram": "complete-four",
+      "imageAlt": "Four corner vertices of a square joined by all six edges; the diagonal crossing has no dot.",
+      "image": "../../assets/diagrams/complete-four.svg"
+    },
+    {
+      "id": "networks-08",
+      "q": "The numbers on the roads are their lengths. What is the length of the shortest route from A to D?",
+      "answer": "$5$",
+      "hint": "Compare routes through B and C.",
+      "solution": "Route A-B-C-D has length $2+1+2=5$. A-C-D has length 7 and A-B-D has length 8, so 5 is shortest.",
+      "level": 2,
+      "diagram": "weighted-network",
+      "imageAlt": "Network with road lengths AB=2, AC=5, BC=1, BD=6 and CD=2.",
+      "image": "../../assets/diagrams/weighted-network.svg"
+    },
+    {
+      "id": "networks-09",
+      "q": "Five towns each have a direct road to every other town, one road per pair. How many roads are there?",
+      "answer": "$10$",
+      "hint": "Count four connections per town, then remove double-counting.",
+      "solution": "$5\\times4\\div2=10$ roads.",
+      "level": 3
+    },
+    {
+      "id": "networks-10",
+      "q": "A network's four vertex degrees are 1, 2, 2 and 3. How many edges does it have?",
+      "answer": "$4$",
+      "hint": "Add all the degrees and divide by 2.",
+      "solution": "$(1+2+2+3)\\div2=8\\div2=4$ edges.",
+      "level": 3
+    },
+    {
+      "id": "networks-11",
+      "q": "Nine towns are connected by a tree: a connected road network containing no cycle. One road is removed. How many connected groups of towns remain?",
+      "answer": "$2$",
+      "hint": "In a tree there is exactly one route between any pair of towns.",
+      "solution": "Removing one road breaks the only route between its two sides. Each side remains connected, producing exactly two groups.",
+      "level": 3
+    },
+    {
+      "id": "networks-12",
+      "q": "Can a network have exactly three vertices of odd degree? Explain.",
+      "answer": "No",
+      "hint": "Consider whether the total of all degrees would be even or odd.",
+      "solution": "Three odd degrees add to an odd number. Adding any even degrees keeps it odd. But every edge contributes 2 to the total, which must therefore be even. This is impossible.",
+      "level": 3
+    }
+  ]
+}

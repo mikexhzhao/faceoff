@@ -1,0 +1,114 @@
+{
+  "id": "parity",
+  "name": "Parity & Things That Stay Fixed",
+  "strand": "Enrichment",
+  "kind": "Enrichment",
+  "grade": "Grades 5–7",
+  "symbol": "±",
+  "lesson": [
+    "Parity means whether a whole number is even or odd. Adding an even number preserves parity; adding an odd number switches it.",
+    "An invariant is something that stays unchanged during a process. It might be a total, a remainder, a colour balance or whether a number is even.",
+    "To show that a task is impossible, find a property that every permitted move preserves, then check whether the target has that property."
+  ],
+  "problems": [
+    {
+      "id": "parity-01",
+      "q": "Is the sum of three odd whole numbers even or odd?",
+      "answer": "Odd",
+      "hint": "Add two of them first.",
+      "solution": "Two odd numbers add to an even number. Adding the third odd number makes the total odd.",
+      "level": 1
+    },
+    {
+      "id": "parity-02",
+      "q": "Is the product of an odd whole number and an even whole number even or odd?",
+      "answer": "Even",
+      "hint": "An even factor contains a factor of 2.",
+      "solution": "The product still has a factor of 2, so it is even.",
+      "level": 1
+    },
+    {
+      "id": "parity-03",
+      "q": "Eight coins start heads up. Each move flips exactly two different coins. Can you finish with exactly one tail?",
+      "answer": "No",
+      "hint": "Track the parity of the number of tails.",
+      "solution": "Flipping two coins changes the number of tails by 2, 0 or -2. It stays even, so it cannot become 1.",
+      "level": 1
+    },
+    {
+      "id": "parity-04",
+      "q": "A 4 by 4 checkerboard has its top-left and bottom-right squares removed. Can the remaining board be covered by 1 by 2 dominoes with no overlap?",
+      "answer": "No",
+      "hint": "Each domino covers one light square and one dark square.",
+      "solution": "The removed corners have the same colour. There are now 6 squares of that colour and 8 of the other, so equal-colour pairs cannot cover the board.",
+      "level": 1,
+      "diagram": "checkerboard-four",
+      "imageAlt": "A four-by-four checkerboard with the top-left and bottom-right squares crossed out.",
+      "image": "../../assets/diagrams/checkerboard-four.svg"
+    },
+    {
+      "id": "parity-05",
+      "q": "A grasshopper starts at 0 on a number line. Each jump is either 4 units right or 6 units left. Can it land on 7?",
+      "answer": "No",
+      "hint": "Both permitted moves change the position by an even number.",
+      "solution": "The position remains even after every jump. Since 7 is odd, it cannot be reached.",
+      "level": 2
+    },
+    {
+      "id": "parity-06",
+      "q": "The numbers 1 through 10 are on a board. Repeatedly erase two numbers and replace them by their sum until one number remains. What is it?",
+      "answer": "$55$",
+      "hint": "The sum of all numbers on the board never changes.",
+      "solution": "The final number is the original total, $1+2+\\cdots+10=55$.",
+      "level": 2
+    },
+    {
+      "id": "parity-07",
+      "q": "A jar starts with 17 counters. Each move either removes 2 counters or adds 4. Can the jar ever become empty?",
+      "answer": "No",
+      "hint": "Both moves preserve the parity of the counter total.",
+      "solution": "The total stays odd, while 0 is even. The jar cannot become empty.",
+      "level": 2
+    },
+    {
+      "id": "parity-08",
+      "q": "A 3 by 3 checkerboard has five dark squares and four light squares. One square is removed, then four dominoes cover the rest. What colour must the removed square have been?",
+      "answer": "Dark",
+      "hint": "Four dominoes need four squares of each colour.",
+      "solution": "Removing a dark square leaves four dark and four light squares. Removing a light square would leave unequal colour totals.",
+      "level": 2
+    },
+    {
+      "id": "parity-09",
+      "q": "The numbers 3, 7 and 10 are on a board. A move replaces two numbers with their positive difference or zero if equal. Can the final number be 0? Give a sequence.",
+      "answer": "Yes: replace 10 and 7 by 3, then 3 and 3 by 0.",
+      "hint": "Try making the two remaining numbers equal.",
+      "solution": "First $10-7=3$ leaves 3 and 3. Their difference is 0.",
+      "level": 3
+    },
+    {
+      "id": "parity-10",
+      "q": "Twenty lamps start off. Each move toggles exactly three different lamps. After exactly 11 moves, could all 20 lamps be on?",
+      "answer": "No",
+      "hint": "Each move changes the parity of the number of lamps that are on.",
+      "solution": "Toggling three lamps changes the on-count by an odd number. After 11 moves that count is odd, whereas 20 is even.",
+      "level": 3
+    },
+    {
+      "id": "parity-11",
+      "q": "A chess knight moves 2 squares in one direction and 1 at right angles. On a checkerboard it changes colour on every move. Can it return to its starting square after exactly 15 moves?",
+      "answer": "No",
+      "hint": "Compare the starting and ending colours.",
+      "solution": "After an odd number of colour changes, the knight is on the opposite colour. Its starting square has the original colour, so a 15-move return is impossible.",
+      "level": 3
+    },
+    {
+      "id": "parity-12",
+      "q": "The numbers 1 through 9 are on a board. Each move erases two numbers $a,b$ and writes $a+b-1$. After eight moves, what is the remaining number?",
+      "answer": "$37$",
+      "hint": "Track how much the total falls on each move.",
+      "solution": "The initial sum is 45. Each move decreases the total by 1. After eight moves, one number remains and equals $45-8=37$.",
+      "level": 3
+    }
+  ]
+}

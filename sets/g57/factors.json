@@ -1,0 +1,111 @@
+{
+  "id": "factors",
+  "name": "Number Detectives",
+  "strand": "Number",
+  "kind": "Core",
+  "grade": "Grades 5–7",
+  "symbol": "×",
+  "lesson": [
+    "A factor divides a whole number with no remainder. A prime number has exactly two positive factors: 1 and itself. The number 1 is neither prime nor composite.",
+    "Common multiples help with repeating events. Common factors help when dividing different collections into identical groups without leftovers.",
+    "A number is divisible by 3 or 9 when its digit sum is divisible by 3 or 9. It is divisible by 4 when the number formed by its last two digits is divisible by 4."
+  ],
+  "problems": [
+    {
+      "id": "factors-01",
+      "q": "List all the prime numbers strictly between 10 and 20.",
+      "answer": "$11,13,17,19$",
+      "hint": "Exclude even numbers and multiples of 3 or 5.",
+      "solution": "The four remaining numbers are 11, 13, 17 and 19. Each has only 1 and itself as positive factors.",
+      "level": 1
+    },
+    {
+      "id": "factors-02",
+      "q": "List all the positive factors of 24.",
+      "answer": "$1,2,3,4,6,8,12,24$",
+      "hint": "Find pairs whose product is 24.",
+      "solution": "The factor pairs are $1\\times24$, $2\\times12$, $3\\times8$ and $4\\times6$.",
+      "level": 1
+    },
+    {
+      "id": "factors-03",
+      "q": "What is the least positive number divisible by both 6 and 8?",
+      "answer": "$24$",
+      "hint": "Compare the multiples of 6 with the multiples of 8.",
+      "solution": "The first common positive multiple is $24=4\\times6=3\\times8$.",
+      "level": 1
+    },
+    {
+      "id": "factors-04",
+      "q": "There are 36 red counters and 48 green counters. They are put into as many identical bags as possible, with no counters left over. How many bags are made?",
+      "answer": "$12$",
+      "hint": "The number of bags must divide both quantities.",
+      "solution": "The greatest common factor of 36 and 48 is 12. Each bag then contains 3 red and 4 green counters.",
+      "level": 1
+    },
+    {
+      "id": "factors-05",
+      "q": "Which digit makes $4\\square2$ divisible by 9?",
+      "answer": "$3$",
+      "hint": "Add the three digits.",
+      "solution": "The digit sum is $6+\\square$. The only multiple of 9 from 6 to 15 is 9, so the missing digit is 3.",
+      "level": 2
+    },
+    {
+      "id": "factors-06",
+      "q": "Write 72 as a product of prime powers.",
+      "answer": "$2^{3}\\times3^{2}$",
+      "hint": "Repeatedly divide by the smallest prime factor.",
+      "solution": "$72=2\\times36=2\\times2\\times18=2\\times2\\times2\\times9=2^{3}\\times3^{2}$.",
+      "level": 2
+    },
+    {
+      "id": "factors-07",
+      "q": "How many positive factors does 36 have?",
+      "answer": "$9$",
+      "hint": "List them in pairs, counting the square root only once.",
+      "solution": "The factors are $1,2,3,4,6,9,12,18,36$, for a total of 9.",
+      "level": 2
+    },
+    {
+      "id": "factors-08",
+      "q": "One bell rings every 8 minutes and another every 12 minutes. Both ring at 9:00. At what time will they next ring together?",
+      "answer": "9:24",
+      "hint": "Find their least common multiple.",
+      "solution": "The least common multiple of 8 and 12 is 24, so they next ring together 24 minutes after 9:00.",
+      "level": 2
+    },
+    {
+      "id": "factors-09",
+      "q": "What is the smallest whole number greater than 50 that is divisible by both 6 and 9?",
+      "answer": "$54$",
+      "hint": "Such a number must be a multiple of 18.",
+      "solution": "The common multiples are $18,36,54,72,\\ldots$. The first greater than 50 is 54.",
+      "level": 3
+    },
+    {
+      "id": "factors-10",
+      "q": "Which digits can replace the square so that $5\\square4$ is divisible by both 3 and 4?",
+      "answer": "$0\\text{ or }6$",
+      "hint": "Apply the digit-sum test and the last-two-digits test.",
+      "solution": "Divisibility by 3 allows digits $0,3,6,9$. Divisibility by 4 requires an even tens digit here. Their intersection is $0,6$.",
+      "level": 3
+    },
+    {
+      "id": "factors-11",
+      "q": "How many integers from 1 to 100 are divisible by exactly one of 2 and 5?",
+      "answer": "$50$",
+      "hint": "Numbers divisible by both must be excluded from each count.",
+      "solution": "There are 50 multiples of 2, 20 of 5 and 10 of both. Exactly one gives $(50-10)+(20-10)=50$.",
+      "level": 3
+    },
+    {
+      "id": "factors-12",
+      "q": "A rectangle has area $60\\text{ cm}^{2}$ and positive whole-number side lengths. What is its smallest possible perimeter?",
+      "answer": "$32\\text{ cm}$",
+      "hint": "Compare the factor pairs of 60.",
+      "solution": "The pairs are $(1,60),(2,30),(3,20),(4,15),(5,12),(6,10)$. The pair $(6,10)$ has the smallest sum, giving perimeter $2(6+10)=32$ cm.",
+      "level": 3
+    }
+  ]
+}
