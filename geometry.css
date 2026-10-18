@@ -1,0 +1,7 @@
+/* Scoped to the new diagrams; the original bank retains its existing sizing. */
+.geometry-figure{display:block;width:min(100%,clamp(440px,60vh,720px));margin:22px auto 0;padding:0;border:0;border-radius:12px;background:#fffef9;line-height:0;cursor:zoom-in}
+.geometry-figure:hover,.geometry-figure:active{transform:none;filter:none}
+.geometry-figure .diagram{display:block;width:100%;height:auto;max-width:100%;max-height:none;margin:0}
+dialog.diagram-dialog{width:min(1100px,calc(100% - 30px))}
+.geometry-zoom{overflow:auto;background:#fffef9;border-radius:12px}
+.geometry-zoom .diagram{display:block;width:100%;min-width:640px;height:auto;max-width:none;max-height:none;margin:0}

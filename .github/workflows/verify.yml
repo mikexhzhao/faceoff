@@ -19,6 +19,8 @@ jobs:
         run: |
           node --check app.js
           node --check faceoff-next.js
+          node --check geometry.js
+          python tests/geometry.py
           python tests/validate.py
           python tests/verify_answers.py
       - name: Install browser test dependencies
@@ -26,7 +28,9 @@ jobs:
           pip install -r tests/requirements.txt
           python -m playwright install --with-deps chromium
       - name: Browser regression suite
-        run: python tests/browser.py
+        run: |
+          python tests/browser.py
+          python tests/geometry_browser.py
       - uses: actions/upload-artifact@v4
         if: always()
         with:

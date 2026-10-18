@@ -17,11 +17,13 @@ def mount(page, embedded, base):
         source=source.replace('<head>','<head><base href="https://faceoff.test/">')
         page.set_content(source)
         page.add_style_tag(content=ROOT.joinpath('faceoff-next.css').read_text())
+        page.add_style_tag(content=ROOT.joinpath('geometry.css').read_text())
         files={str(p.relative_to(ROOT)):json.loads(p.read_text()) for p in ROOT.rglob('*.json')}
         page.evaluate('''files=>{window.__files=files;window.fetch=async url=>{const path=decodeURIComponent(new URL(url,document.baseURI).pathname.slice(1));return new Response(JSON.stringify(files[path]||{}),{status:files[path]?200:404});}}''',files)
+        page.add_script_tag(content=ROOT.joinpath('geometry.js').read_text())
         page.add_script_tag(content=ROOT.joinpath('faceoff-next.js').read_text())
     page.wait_for_selector('.set-card')
-    page.wait_for_function("document.querySelectorAll('.set-card').length===39")
+    page.wait_for_function("document.querySelectorAll('.set-card').length===40")
 
 def act(page, action):page.locator(f'[data-action="{action}"]').first.click()
 def fast(page,action):page.evaluate('(a)=>document.querySelector(`[data-action="${a}"]`).click()',action)
@@ -49,10 +51,10 @@ def run(embedded=False, executable=None):
         context.route(re.compile(r'^https://'),lambda route:route.abort())
         page=context.new_page();page.on('pageerror',lambda e:errors.append(str(e)))
         mount(page,embedded,base)
-        ok('39 sets including all 23 originals',page.locator('.set-card').count()==39)
+        ok('40 sets including all 23 originals',page.locator('.set-card').count()==40)
         ok('No partial-bank warning',page.locator('.error').count()==0)
         page.screenshot(path=str(out/'studio-library.png'),full_page=True)
-        page.locator('[data-filter="Grade 5–7"]').click();ok('Nine core sets',page.locator('.set-card').count()==9)
+        page.locator('[data-filter="Grade 5–7"]').click();ok('Ten core sets',page.locator('.set-card').count()==10)
         page.locator('[data-filter="Enrichment"]').click();ok('Seven enrichment sets',page.locator('.set-card').count()==7)
         page.locator('[data-filter="Originals"]').click();ok('23 originals',page.locator('.set-card').count()==23)
         page.locator('[data-filter="All"]').click()
@@ -105,32 +107,32 @@ def run(embedded=False, executable=None):
         act(page,'next');ok('Review remains paused on navigation',page.locator('#pause-button').inner_text()=='Resume')
         act(page,'home');act(page,'confirm-home')
         # Exercise every new question, answer, hint, solution and diagram.
-        bank=json.loads((ROOT/'g57_bank.json').read_text());seen=0;seen_images=0
-        for i,s in enumerate(bank['sets']):
+        bank=json.loads((ROOT/'g57_bank.json').read_text());geometry=json.loads((ROOT/'content/geometry.json').read_text());all_sets=bank['sets']+[geometry];seen=0;seen_images=0
+        for i,s in enumerate(all_sets):
             print('Checking set',s['id'],flush=True)
             select(page,i)
             if s['kind']=='Enrichment':ok('Enrichment defaults to untimed '+s['id'],page.locator('[data-setting="duration"]').input_value()=='0')
-            fast(page,'lesson');ok('Three lesson paragraphs',page.locator('.lesson-paragraph').count()==3);fast(page,'close-dialog')
+            fast(page,'lesson');ok('All lesson paragraphs',page.locator('.lesson-paragraph').count()==len(s['lesson']));fast(page,'close-dialog')
             fast(page,'start')
             for q in s['problems']:
                 ok(q['id']+' prompt',page.locator('.question-text').get_attribute('data-source')==q['q'])
                 fast(page,'hint');fast(page,'answer');fast(page,'solution')
                 ok(q['id']+' answer and solution',page.locator('.answer-box .math').get_attribute('data-source')==q['answer'] and page.locator('.solution-box .math').get_attribute('data-source')==q['solution'])
                 ok(q['id']+' math fallback',page.locator('.math').evaluate_all('(els)=>els.every(e=>!e.textContent.includes("$"))'))
-                if 'diagram' in q:
+                if 'diagram' in q or 'diagramSpec' in q:
                     page.wait_for_function('document.querySelector(".diagram").complete && document.querySelector(".diagram").naturalWidth>0');seen_images+=1
                 seen+=1;fast(page,'next')
             fast(page,'home')
-        ok('All new questions traversed',seen==192)
-        ok('Diagrams loaded',seen_images>=25)
+        ok('All new questions traversed',seen==242)
+        ok('Diagrams loaded',seen_images>=75)
         # Failed fetch is visible and recoverable rather than dropping sets silently.
         if embedded:
             page.evaluate("delete window.__files['g57_bank.json']")
             page.evaluate("document.querySelector('#app').insertAdjacentHTML('beforeend','<button data-action=retry id=test-retry>Retry</button>')")
             page.locator('#test-retry').click();page.wait_for_selector('.error')
-            ok('Partial load warning displayed',page.locator('.set-card').count()==23)
+            ok('Partial load warning displayed',page.locator('.set-card').count()==24)
             page.evaluate('(bank)=>window.__files["g57_bank.json"]=bank',bank)
-            act(page,'retry');page.wait_for_function("document.querySelectorAll('.set-card').length===39")
+            act(page,'retry');page.wait_for_function("document.querySelectorAll('.set-card').length===40")
             ok('Retry restores missing bank',page.locator('.error').count()==0)
         if not embedded:
             context.route(re.compile(r'/classic\.html$'),lambda r:r.fulfill(status=200,content_type='text/html',body='<html><body></body></html>'))
@@ -151,7 +153,7 @@ def run(embedded=False, executable=None):
             select(live,0);act(live,'start');act(live,'answer')
             ok('KaTeX CDN renders formulas',live.locator('.katex').count()>0)
             tex=[]
-            for group in bank['sets']:
+            for group in all_sets:
                 texts=group['lesson']+[p[k] for p in group['problems'] for k in ['q','answer','hint','solution']]
                 for text in texts:tex.extend(re.findall(r'\$([^$]+)\$',text))
             failures=live.evaluate("xs=>xs.flatMap(t=>{try{katex.renderToString(t,{throwOnError:true});return [];}catch(e){return [t+': '+e.message];}})",tex)

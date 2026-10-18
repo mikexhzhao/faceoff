@@ -14,11 +14,13 @@ Studio is the understated default. The more animated modes have moving scenery, 
 
 ## Questions
 
-The library has all 23 original sets plus 16 new sets, each with 12 questions. The 192 new questions have separate hints, answers and worked solutions. Each set also has a short introduction under **Explore the idea**. The questions progress through three difficulty levels; their level is shown as one, two or three filled dots.
+The library has all 23 original sets, 16 curated sets with 12 questions each, and **Area & Perimeter: 50 Problems**. The 242 authored questions have separate hints, answers and worked solutions. Each authored set has a short introduction under **Explore the idea**. The twelve-question sets use three difficulty levels; the geometry bank uses five.
 
-There are nine core practice sets and seven enrichment sets. Core sets cover number, fractions, decimals, percents, ratios, patterns, equations, spatial reasoning, measurement, data, probability and money decisions. Enrichment covers clock arithmetic, binary and ciphers, networks, counting, invariants, the pigeonhole principle and winning strategies. See `docs/teaching-notes.md` for prerequisites and the curriculum scope.
+There are ten core practice sets and seven enrichment sets. Core sets cover number, fractions, decimals, percents, ratios, patterns, equations, spatial reasoning, measurement, data, probability and money decisions. Enrichment covers clock arithmetic, binary and ciphers, networks, counting, invariants, the pigeonhole principle and winning strategies. See `docs/teaching-notes.md` for prerequisites and the curriculum scope.
 
 Enrichment rounds default to untimed and in order. A teacher can change time, length and order before starting any round. Scoring is manual; the app does not collect or automatically mark student responses. The original sets have been preserved rather than re-edited or re-audited.
+
+The 50-question geometry bank contains ten questions per shape: squares, rectangles, parallelograms, triangles and trapezoids. It defaults to all 50 questions in order. Choose **Shapes** to practise one shape, or change the round length. Mixed shuffled rounds sample the shapes as evenly as possible without repeating questions. Click a geometry diagram to enlarge it; the timer pauses while the diagram is open.
 
 ## Controls
 
@@ -28,11 +30,13 @@ Settings control text size, motion, sound and local music. Player names, scores 
 
 ## Mathematical content
 
-The new app renders LaTeX formulas through KaTeX when its CDN is available. A built-in MathML fallback supports the notation used by the new bank without the CDN. Geometry uses 25 SVG diagrams with descriptive alternative text. This is formula and SVG support, not a browser TikZ compiler.
+The new app renders LaTeX formulas through KaTeX when its CDN is available. A built-in MathML fallback supports the notation used by the new bank without the CDN. Geometry uses the original 25 SVG assets plus 50 deterministic SVG diagrams in the area/perimeter bank. All have descriptive alternative text. This is formula and SVG support, not a browser TikZ compiler.
 
 The modern bank is `g57_bank.json`. Its SVGs are embedded to avoid separate image requests. Matching SVG files are in `assets/diagrams/`. Individual JSON sets, using the existing `name` / `problems` / `q` / `answer` / `image` structure, are in `sets/g57/`; optional hints, solutions and lesson metadata extend that structure. The original `question_bank.json` is unchanged and is loaded separately.
 
-Edit `content/sets.txt`, then run `python tools/build_bank.py`. A header starts with `@`; a lesson paragraph starts with `!`; a question uses `question || answer || hint || solution`, with optional `|| diagram-key || alt-text`. Mathematical expressions use dollar delimiters. Use a currency word in prose rather than an unpaired dollar sign. The builder writes the bundle, standalone sets and SVG assets deterministically.
+For the sixteen twelve-question sets, edit `content/sets.txt`, then run `python tools/build_bank.py`. A header starts with `@`; a lesson paragraph starts with `!`; a question uses `question || answer || hint || solution`, with optional `|| diagram-key || alt-text`. Mathematical expressions use dollar delimiters. Use a currency word in prose rather than an unpaired dollar sign. The builder writes the bundle, standalone sets and SVG assets deterministically.
+
+The separate geometry source is `content/geometry.json`. `geometry.js` renders its shape specifications directly into SVG, using only explicitly supplied labels and givens. No build step or external image service is needed for this bank. Unknown measurements and computed results stay out of the diagrams and their alternative text. See `docs/geometry-bank.md` for the authoring rules.
 
 ## Checks
 
@@ -41,14 +45,19 @@ python tools/build_bank.py
 python tests/validate.py
 python tests/verify_answers.py
 node --check faceoff-next.js
+node --check geometry.js
+python tests/geometry.py
 pip install -r tests/requirements.txt
 python -m playwright install chromium
 python tests/browser.py
+python tests/geometry_browser.py
 ```
 
 The browser test starts its own local server. It tests every new question, theme changes, desktop and phone layouts, scoring, timer behaviour, persistence, offline formula fallback, KaTeX and Classic. `--embedded --executable /usr/bin/chromium` runs the restricted-environment renderer without opening a localhost URL. Screenshots and results go into `test-results/`.
 
-`tests/verify_answers.py` independently recomputes all 192 answers, including exhaustive counting, parity reachability, shortest paths and game-strategy checks. `tests/validate.py` checks schema, SVG safety, generated-file consistency and the preservation hashes for the original app.
+`tests/geometry.py` independently checks the 50 geometry answers, dimensions, SVG safety and given-only labels. `tests/geometry_browser.py` checks label bounds, overlapping labels, hidden answers, shape selection, balanced shuffling, review, zoom and theme layouts. Both browser suites accept `--embedded --executable /usr/bin/chromium`.
+
+`tests/verify_answers.py` independently recomputes the original 192 authored answers, including exhaustive counting, parity reachability, shortest paths and game-strategy checks. `tests/validate.py` checks schema, SVG safety, generated-file consistency and the preservation hashes for the original app.
 
 ## Classic preservation
 
